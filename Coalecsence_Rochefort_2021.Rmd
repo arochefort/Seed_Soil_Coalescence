@@ -1,0 +1,1305 @@
+---
+title: "Script_Coalescence_Rochefort"
+author: "A. Rochefort & M. Barret"
+date: "20-11-13"
+output:
+  html_document:
+    toc: yes
+    toc_float: yes
+  word_document:
+    toc: yes
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Data information
+**Experiment:** Microbiota transmission from the seed to the root
+**Factors:** 
+* 2 genotypes (Boston, Major)
+* 2 years (Y1, Y2)
+* 2 soil diversities : high diversity (D0) and low diversity (D6)
+* 2 compartments (Root, Stem)
+* 2 stages (d07 (just for Root), d14 (Root and Stem))
+* 3 independant biological replicates (A, B, C)
+* 4 sequencing runs : seed year 1 (run1), seed year 2 (run2), plant (run3), soil (run4)
+
+# Sequence filtering
+## Remove primers with cutadapt v1.15
+```
+for i in `cat group`; do cutadapt --discard-untrimmed -o $i.gyrB.R1.fq -p $i.gyrB.R2.fq -g MGNCCNGSNATGTAYATHGG -G ACNCCRTGNARDCCDCCNGA -e 0.1  -O 20 $i*L001_R1_001.fastq.gz $i*_L001_R2_001.fastq.gz; done
+
+for i in `cat group`; do cutadapt --discard-untrimmed -o $i.16S.R1.fq -p $i.16S.R2.fq -g GTGCCAGCMGCCGCGGTAA -G GGACTACHVGGGTWTCTAAT -e 0 -O 19 $i*_L001_R1_001.fastq.gz $i*_L001_R2_001.fastq.gz; done
+```
+
+## Convert fastq to ASV table (dada2)
+This is not included in this document in order to save calculation time. 
+
+In we employed dada2 v1.12.1 
+
+For **gyrB** the procedure described in https://benjjneb.github.io/dada2/tutorial.html was employed with the following parameters.
+* read1  170 bases (run1) - 190 (run2) -  190 (run3) - 190 (run4)
+* read2  150 bases (run1) - 160 (run2) -  160 (run3) - 160 (run4)
+filterAndTrim(fnFs, filtFs, fnRs, filtRs, truncLen=c(read1, read2), maxN=0, maxEE=c(1,1), truncQ=5, rm.phix=TRUE, compress=TRUE, multithread=TRUE)
+Taxonomic affiliations were performed with an in-house gyrB database : train_set_gyrB_v4.fa.gz using the default paramaters of assignTaxonomy.
+
+For ITS1 we employed the procedure described in https://benjjneb.github.io/dada2/ITS_workflow.html with the following parameters
+filterAndTrim(fnFs, filtFs, fnRs, filtRs, maxN = 0, maxEE = c(1, 1), truncQ = 2, minLen = 50, rm.phix = TRUE, compress = TRUE, multithread = TRUE)
+Sequence were classified with UNITE (train_set_ITS1.fa.gz) using the default paramaters of assignTaxonomy.
+
+# Investigate soil and seed datasets
+
+## Load PS objects
+```{r echo=TRUE, message=FALSE, warning=FALSE, paged.print=FALSE}
+library(phyloseq)
+library(ggplot2)
+dITS <- readRDS("PS_ITS1.rds")
+dgyrB <- readRDS("PS_gyrB.rds")
+```
+
+## Subset by soil and seed
+```{r echo=TRUE, message=FALSE, warning=FALSE, paged.print=FALSE}
+soilgyrB <- subset_samples(dgyrB, Compartment== "Soil")
+soilgyrB <- filter_taxa(soilgyrB, function(x) sum(x) > 0, TRUE)
+soilITS <- subset_samples(dITS, Compartment== "Soil")
+soilITS <- filter_taxa(soilITS, function(x) sum(x) > 0, TRUE)
+seedgyrB <- subset_samples(dgyrB, Compartment== "Seed")
+seedgyrB <- filter_taxa(seedgyrB, function(x) sum(x) > 0, TRUE)
+seedITS <- subset_samples(dITS, Compartment== "Seed")
+seedITS <- filter_taxa(seedITS, function(x) sum(x) > 0, TRUE)
+```
+
+## Assess sequencing depth
+We first assess the number of sequences per sample
+```{r, echo=FALSE, message=FALSE}
+library(data.table)
+sdtsoilgyrB <- data.table(as(sample_data(soilgyrB), "data.frame"),
+                      TotalReads = sample_sums(soilgyrB), keep.rownames = TRUE)
+sdtseedgyrB <- data.table(as(sample_data(seedgyrB), "data.frame"),
+                      TotalReads = sample_sums(seedgyrB), keep.rownames = TRUE)
+sdtsoilITS <- data.table(as(sample_data(soilITS), "data.frame"),
+                      TotalReads = sample_sums(soilITS), keep.rownames = TRUE)
+sdtseedITS <- data.table(as(sample_data(seedITS), "data.frame"),
+                      TotalReads = sample_sums(seedITS), keep.rownames = TRUE)
+```
+
+We next perform rarefaction curves 
+```{r, echo=FALSE, message=FALSE, results="hide", fig.show='hide'}
+library("vegan")
+source("richness.R")
+library(ggplot2)
+rcurveITS_soil <- ggrare(soilITS , 
+                    step = 100, 
+                    color = "Soil", 
+                    se = FALSE)  + labs (title = "B - ITS.soil") + geom_vline(xintercept=25000)
+rcurvegyrB_soil <- ggrare(soilgyrB, 
+                     step = 100, 
+                     color = "Soil", 
+                     se = FALSE)   + labs (title = "A - gyrB.soil") + geom_vline(xintercept=25000)
+rcurveITS_seed <- ggrare(seedITS , 
+                    step = 100, 
+                    color = "Genotype", 
+                    se = FALSE)  + labs (title = "D - ITS.seed") + geom_vline(xintercept=7500)
+rcurvegyrB_seed <- ggrare(seedgyrB, 
+                     step = 100, 
+                     color = "Genotype", 
+                     se = FALSE)   + labs (title = "C- gyrB.seed") + geom_vline(xintercept=1100)
+```
+
+```{r, echo=FALSE, message=FALSE, results="hide", fig.width=10, fig.height=8}
+library(gridExtra)
+rarefact.plot <- grid.arrange(
+  rcurvegyrB_soil,
+  rcurveITS_soil,
+  rcurvegyrB_seed,
+  rcurveITS_seed,
+  nrow=2,
+  ncol=2)
+```
+
+## Alpha diversity analyses
+We rarefy the datasets 
+* **gyrB** soil : 25,000
+* ITS1 soil : 25,000
+* **gyrB** seed : 1,100
+* ITS1 seed : 7,500
+```{r echo=TRUE, fig.show='hide', message=FALSE, results="hide"}
+rgyrBsoil <- rarefy_even_depth(soilgyrB, sample.size = 25000, rngseed = 400) 
+rITSsoil <- rarefy_even_depth(soilITS, sample.size = 25000, rngseed = 400)
+rgyrBseed <- rarefy_even_depth(seedgyrB, sample.size = 1100, rngseed = 400) 
+rITSseed <- rarefy_even_depth(seedITS, sample.size = 7500, rngseed = 400)
+table_rgyrB_soil <- estimate_richness(rgyrBsoil, split = TRUE, measures = c("Observed", "InvSimpson", "Shannon", "Chao1"))
+table_rITS_soil <- estimate_richness(rITSsoil, split = TRUE, measures = c("Observed", "InvSimpson", "Shannon", "Chao1"))
+table_rgyrB_seed <- estimate_richness(rgyrBseed, split = TRUE, measures = c("Observed", "InvSimpson", "Shannon", "Chao1"))
+table_rITS_seed <- estimate_richness(rITSseed, split = TRUE, measures = c("Observed", "InvSimpson", "Shannon", "Chao1"))
+#Bind sampledata + table of alpha_div
+datargyrB_soil <- cbind(sample_data(rgyrBsoil), table_rgyrB_soil) 
+datarITS_soil <- cbind(sample_data(rITSsoil), table_rITS_soil) 
+datargyrB_seed <- cbind(sample_data(rgyrBseed), table_rgyrB_seed) 
+datarITS_seed <- cbind(sample_data(rITSseed), table_rITS_seed)
+#Add Faith PD
+library(picante)
+rgyrBPD_soil <- as.data.frame.matrix(otu_table(rgyrBsoil))
+rgyrBPD_seed <- as.data.frame.matrix(otu_table(rgyrBseed))
+FaithPDgyrB_soil <- pd(samp = (rgyrBPD_soil),tree = phy_tree(rgyrBsoil), include.root = F)
+FaithPDgyrB_seed <- pd(samp = (rgyrBPD_seed),tree = phy_tree(rgyrBseed), include.root = F)
+datargyrB_soil <- merge(datargyrB_soil, FaithPDgyrB_soil, by="row.names", all=TRUE)
+datargyrB_seed <- merge(datargyrB_seed, FaithPDgyrB_seed, by="row.names", all=TRUE)
+# Add PD fro ITS1 (results from Ghostree)
+FaithPDITS1_seed <- read.csv("ITS1_PD_seed.csv", sep = "\t",  check.names=FALSE, row.names=1)
+FaithPDITS1_soil <- read.csv("ITS1_PD_soil.csv", sep = "\t",  check.names=FALSE, row.names=1)
+datarITS_soil <- merge(datarITS_soil, FaithPDITS1_soil, by="row.names", all=TRUE)
+datarITS_seed <- merge(datarITS_seed, FaithPDITS1_seed, by="row.names", all=TRUE)
+```
+
+>Because of the low number of replicates per soil samples (3 replicates), we can't use any parametric tests. We used kruskal-wallis rank sum test.
+
+```{r echo=TRUE, fig.show='hide', message=FALSE, results="hide"}
+#Start with soil first
+library(FSA)
+library(rcompanion)
+kruskal.test(Chao1 ~Soil, datargyrB_soil)
+kruskal.test(PD ~Soil, datargyrB_soil)
+kruskal.test(Chao1 ~Soil, datarITS_soil)
+kruskal.test(PD ~Soil, datargyrB_soil)
+#Continue with seeds
+kruskal.test(Chao1 ~ Year, datargyrB_seed)
+kruskal.test(PD ~ Year, datargyrB_seed)
+kruskal.test(Chao1 ~ Year, datarITS_seed)
+kruskal.test(PD ~ Year, datargyrB_seed)
+```
+
+```{r echo=TRUE, fig.show='hide', message=FALSE, results="hide"}
+#Plot alpha diversity index
+gyrB_soil_chao1 <- ggplot(data=datargyrB_soil, 
+                          aes_string(x='Soil',y='Chao1')) + 
+  geom_dotplot(binaxis='y', dotsize = 1.5, stackdir = "center", position=position_dodge(0.8)) +
+  ylim(10,1000) +
+  ggtitle("Bacterial richness") +
+  annotate("text", x ="HD", label="a", size=7, y=1000) +
+  annotate("text", x ="LD", label="b", size=7, y=1000) +
+  theme(
+    axis.title.x=element_blank(), axis.text.x=element_text(size=14),
+    axis.title.y=element_blank(), axis.text.y=element_text(size=14),
+    plot.title = element_text(size=15)) 
+
+gyrB_soil_PD <- ggplot(data=datargyrB_soil, 
+                       aes_string(x='Soil',y='PD')) + 
+  ylim(1,100) +
+  geom_dotplot(binaxis='y', dotsize = 1.5, stackdir = "center", position=position_dodge(0.8)) +
+  ggtitle("Bacterial PD") +
+  annotate("text", x ="HD", label="a", size=7, y=100) +
+  annotate("text", x ="LD", label="b", size=7, y=100) +
+  theme(
+    axis.title.x=element_blank(), axis.text.x=element_text(size=14),
+    axis.title.y=element_blank(), axis.text.y=element_text(size=14),
+    plot.title = element_text(size=15)) 
+
+ITS_soil_chao1 <- ggplot(data=datarITS_soil, 
+                         aes_string(x='Soil',y='Chao1')) + 
+  geom_dotplot(binaxis='y', dotsize = 1.5, stackdir = "center", position=position_dodge(0.8)) +
+  ylim(10,100) +
+  ggtitle("Fungal richness") +
+  annotate("text", x ="HD", label="a", size=7, y=100) +
+  annotate("text", x ="LD", label="a", size=7, y=100) +
+  theme(
+    axis.title.x=element_blank(), axis.text.x=element_text(size=14),
+    axis.title.y=element_blank(), axis.text.y=element_text(size=14),
+    plot.title = element_text(size=15)) 
+
+ITS_soil_PD <- ggplot(data=datarITS_soil, 
+                      aes_string(x='Soil',y='PD')) + 
+  geom_dotplot(binaxis='y', dotsize = 1.5, stackdir = "center", position=position_dodge(0.8)) +
+  ylim(1,10) +
+  ggtitle("Fungal PD") +
+  annotate("text", x ="HD", label="a", size=7, y=10) +
+  annotate("text", x ="LD", label="b", size=7, y=10) +
+  theme(
+    axis.title.x=element_blank(), axis.text.x=element_text(size=14),
+    axis.title.y=element_blank(), axis.text.y=element_text(size=14),
+    plot.title = element_text(size=15)) 
+library('grid')
+alpha.plot.soil <- grid.arrange(
+  gyrB_soil_chao1,
+  gyrB_soil_PD,
+  ITS_soil_chao1,
+  ITS_soil_PD,
+  left = textGrob("A",gp=gpar(fontsize=18, fontface="bold")),
+  ncol=4,
+  nrow=1)
+
+gyrB_seed_chao1 <- ggplot(data=datargyrB_seed, 
+                          aes_string(x='Year',y='Chao1')) + 
+  geom_dotplot(binaxis='y', dotsize = 1.5, stackdir = "center", position=position_dodge(0.8)) +
+  ylim(10,1000) +
+  annotate("text", x ="Y1", label="a", size=7, y=1000) +
+  annotate("text", x ="Y2", label="b", size=7, y=1000) +
+  ggtitle("Bacterial richness") +
+  theme(
+    axis.title.x=element_blank(), axis.text.x=element_text(size=14),
+    axis.title.y=element_blank(), axis.text.y=element_text(size=14),
+    plot.title = element_text(size=15)) 
+
+gyrB_seed_PD <- ggplot(data=datargyrB_seed, 
+                       aes_string(x='Year',y='PD')) + 
+  ylim(1,100) +
+  annotate("text", x ="Y1", label="a", size=7, y=100) +
+  annotate("text", x ="Y2", label="b", size=7, y=100) +
+  geom_dotplot(binaxis='y', dotsize = 1.5, stackdir = "center", position=position_dodge(0.8)) +
+  ggtitle("Bacterial PD") +
+  theme(
+    axis.title.x=element_blank(), axis.text.x=element_text(size=14),
+    axis.title.y=element_blank(), axis.text.y=element_text(size=14),
+    plot.title = element_text(size=15)) 
+
+ITS_seed_chao1 <- ggplot(data=datarITS_seed, 
+                         aes_string(x='Year',y='Chao1')) + 
+  annotate("text", x ="Y1", label="a", size=7, y=100) +
+  annotate("text", x ="Y2", label="b", size=7, y=100) +
+  geom_dotplot(binaxis='y', dotsize = 1.5, stackdir = "center", position=position_dodge(0.8)) +
+  ylim(10,100) +
+  ggtitle("Fungal richness") +
+  theme(
+    axis.title.x=element_blank(), axis.text.x=element_text(size=14),
+    axis.title.y=element_blank(), axis.text.y=element_text(size=14),
+    plot.title = element_text(size=15)) 
+
+ITS_seed_PD <- ggplot(data=datarITS_seed, 
+                      aes_string(x='Year',y='PD')) + 
+  annotate("text", x ="Y1", label="a", size=7, y=10) +
+  annotate("text", x ="Y2", label="b", size=7, y=10) +
+  geom_dotplot(binaxis='y', dotsize = 1.5, stackdir = "center", position=position_dodge(0.8)) +
+  ylim(1,10) +
+  ggtitle("Fungal PD") +
+  theme(
+    axis.title.x=element_blank(), axis.text.x=element_text(size=14),
+    axis.title.y=element_blank(), axis.text.y=element_text(size=14),
+    plot.title = element_text(size=15)) 
+
+alpha.plot.seed <- grid.arrange(
+  gyrB_seed_chao1,
+  gyrB_seed_PD,
+  ITS_seed_chao1,
+  ITS_seed_PD,
+  left = textGrob("B",gp=gpar(fontsize=18, fontface="bold")),
+  ncol=4,
+  nrow=1)
+```
+
+```{r echo=TRUE, fig.height=7, fig.width=12, message=FALSE, results="hide"}
+alpha.total <- grid.arrange(
+  alpha.plot.soil,
+  alpha.plot.seed,
+  nrow=2)
+```
+
+## Beta diversity analyses
+We don't use rarefaction, instead we performed a log(1+x) transformation.
+```{r echo=TRUE, message=FALSE, results="hide"}
+soil_log_gyrB <- transform_sample_counts(soilgyrB, function(x) log(1 + x))
+soil_log_ITS1 <-  transform_sample_counts(soilITS, function(x) log(1 + x))
+seed_log_gyrB <- transform_sample_counts(seedgyrB, function(x) log(1 + x))
+seed_log_ITS1 <-  transform_sample_counts(seedITS, function(x) log(1 + x))
+```
+
+Assessing the disperion to centroid. 
+```{r echo=TRUE, fig.show='hide', message=FALSE, results="hide"}
+library(vegan)
+dist.gyrB.soil <- distance(physeq = soil_log_gyrB, method="wunifrac", type="samples")
+var.gyrB.soil <- sample_data(soil_log_gyrB)
+stage.gyrB.soil <- as.character(var.gyrB.soil$Soil)
+bd.gyrB.soil <- betadisper(dist.gyrB.soil, group=stage.gyrB.soil, type="centroid")
+permutest(bd.gyrB.soil)
+var.gyrB.soil$dispersion <- bd.gyrB.soil$distances
+
+dist.gyrB.seed <- distance(physeq = seed_log_gyrB, method="wunifrac", type="samples")
+var.gyrB.seed <- sample_data(seed_log_gyrB)
+stage.gyrB.seed <- as.character(var.gyrB.seed$Year)
+bd.gyrB.seed <- betadisper(dist.gyrB.seed, group=stage.gyrB.seed, type="centroid")
+permutest(bd.gyrB.seed)
+var.gyrB.seed$dispersion <- bd.gyrB.seed$distances
+
+dist.ITS1.soil <- distance(physeq = soil_log_ITS1, method="bray", type="samples")
+var.ITS1.soil <- sample_data(soil_log_ITS1)
+stage.ITS1.soil <- as.character(var.ITS1.soil$Soil)
+bd.ITS1.soil <- betadisper(dist.ITS1.soil, group=stage.ITS1.soil, type="centroid")
+permutest(bd.ITS1.soil)
+var.ITS1.soil$dispersion <- bd.ITS1.soil$distances
+
+dist.ITS1.seed <- distance(physeq = seed_log_ITS1, method="bray", type="samples")
+var.ITS1.seed <- sample_data(seed_log_ITS1)
+stage.ITS1.seed <- as.character(var.ITS1.seed$Year)
+bd.ITS1.seed <- betadisper(dist.ITS1.seed, group=stage.ITS1.seed, type="centroid")
+permutest(bd.ITS1.seed)
+var.ITS1.seed$dispersion <- bd.ITS1.seed$distances
+
+#Plot
+library(ggplot2)
+library(gridExtra)
+disp.gyrB.soil <- ggplot(data=var.gyrB.soil, 
+                         aes_string(x='Soil',y='dispersion')) + 
+  geom_dotplot(binaxis='y', dotsize = 1.5, stackdir = "center", position=position_dodge(0.8)) +
+  ylim (0.05, 0.6) +
+  annotate("text", x ="HD", label="a", size=7, y=0.6) +
+  annotate("text", x ="LD", label="a", size=7, y=0.6) +
+  ggtitle("Soil bacterial dispersion") +
+  theme(
+    axis.title.x=element_blank(), axis.text.x=element_text(size=14),
+    axis.title.y=element_blank(), axis.text.y=element_text(size=14),
+    plot.title = element_text(size=15)) 
+
+disp.gyrB.seed <- ggplot(data=var.gyrB.seed, 
+                         aes_string(x='Year',y='dispersion')) + 
+  geom_dotplot(binaxis='y', dotsize = 1.5, stackdir = "center", position=position_dodge(0.8)) +
+  ylim (0.05, 0.6) +
+  annotate("text", x ="Y1", label="a", size=7, y=0.6) +
+  annotate("text", x ="Y2", label="b", size=7, y=0.6) +
+  ggtitle("Seed bacterial dispersion") +
+  theme(
+    axis.title.x=element_blank(), axis.text.x=element_text(size=14),
+    axis.title.y=element_blank(), axis.text.y=element_text(size=14),
+    plot.title = element_text(size=15)) 
+
+disp.ITS1.soil <- ggplot(data=var.ITS1.soil, 
+                         aes_string(x='Soil',y='dispersion')) + 
+  geom_dotplot(binaxis='y', dotsize = 1.5, stackdir = "center", position=position_dodge(0.8)) +
+  ylim (0.05, 0.6) +
+  annotate("text", x ="HD", label="a", size=7, y=0.6) +
+  annotate("text", x ="LD", label="b", size=7, y=0.6) +
+  ggtitle("Soil fungal dispersion") +
+  theme(
+    axis.title.x=element_blank(), axis.text.x=element_text(size=14),
+    axis.title.y=element_blank(), axis.text.y=element_text(size=14),
+    plot.title = element_text(size=15)) 
+
+disp.ITS1.seed <- ggplot(data=var.ITS1.seed, 
+                         aes_string(x='Year',y='dispersion')) + 
+  geom_dotplot(binaxis='y', dotsize = 1.5, stackdir = "center", position=position_dodge(0.8)) +
+  ylim (0.05, 0.6) +
+  annotate("text", x ="Y1", label="a", size=7, y=0.6) +
+  annotate("text", x ="Y2", label="a", size=7, y=0.6) +
+  ggtitle("Seed fungal dispersion") +
+  theme(
+    axis.title.x=element_blank(), axis.text.x=element_text(size=14),
+    axis.title.y=element_blank(), axis.text.y=element_text(size=14),
+    plot.title = element_text(size=15)) 
+```
+
+```{r, echo=FALSE, message=FALSE, results="hide", fig.width=12, fig.height=7}
+Fig_bdispersion <- grid.arrange(
+  disp.gyrB.soil,
+  disp.gyrB.seed,
+  disp.ITS1.soil,
+  disp.ITS1.seed,
+  left = textGrob("C",gp=gpar(fontsize=18, fontface="bold")),
+  ncol=4,
+  nrow=1)  
+```
+
+```{r echo=TRUE, fig.show='hide', message=FALSE, warning=FALSE, results="hide"}
+#Calculate weighted UniFrac distance
+wUF.gyrB_soil <- ordinate(soil_log_gyrB, "PCoA", "wunifrac")
+bc.ITS_soil <- ordinate(soil_log_ITS1, "PCoA", "bray")
+wUF.gyrB_seed <- ordinate(seed_log_gyrB, "PCoA", "wunifrac")
+bc.ITS_seed <- ordinate(seed_log_ITS1, "PCoA", "bray")
+#PCoA
+i.wUF.pcoa.gyrB_soil <- plot_ordination(soil_log_gyrB, wUF.gyrB_soil, type="samples", color="Soil") + 
+  geom_point(size=7) + 
+  ggtitle("Soil bacterial communities") + 
+  theme(
+    legend.position = c(.95, .90),
+    legend.justification = c("right", "top"),
+    legend.box.just = "right",
+    legend.margin = margin(6, 6, 6, 6),
+    axis.title.x=element_text(size=14), axis.text.x=element_blank(), axis.ticks.x=element_blank(),
+    axis.title.y=element_text(size=14), axis.text.y=element_blank(), axis.ticks.y=element_blank(),
+    plot.title = element_text(size=15)) + 
+  scale_color_manual(values=c("#808080", "#000000"))
+i.wUF.pcoa.gyrB_seed <- plot_ordination(seed_log_gyrB, wUF.gyrB_seed, type="samples", color="Year") + 
+  geom_point(size=7) + 
+  ggtitle("Seed bacterial communities") + 
+    theme(
+    legend.position = c(.95, .90),
+    legend.justification = c("right", "top"),
+    legend.box.just = "right",
+    legend.margin = margin(6, 6, 6, 6),
+    axis.title.x=element_text(size=14), axis.text.x=element_blank(), axis.ticks.x=element_blank(),
+    axis.title.y=element_text(size=14), axis.text.y=element_blank(), axis.ticks.y=element_blank(),
+    plot.title = element_text(size=15)) + 
+  scale_color_manual(values=c("#808080", "#000000")) 
+i.bc.pcoa.ITS_soil <- plot_ordination(soil_log_ITS1, bc.ITS_soil, type="samples", color="Soil") + 
+  geom_point(size=7) + 
+  ggtitle("Soil fungal communities") + 
+    theme(
+    legend.position = c(.95, .90),
+    legend.justification = c("right", "top"),
+    legend.box.just = "right",
+    legend.margin = margin(6, 6, 6, 6),
+    axis.title.x=element_text(size=14), axis.text.x=element_blank(), axis.ticks.x=element_blank(),
+    axis.title.y=element_text(size=14), axis.text.y=element_blank(), axis.ticks.y=element_blank(),
+    plot.title = element_text(size=15)) + 
+  scale_color_manual(values=c("#808080", "#000000"))
+i.bc.pcoa.ITS_seed <- plot_ordination(seed_log_ITS1, bc.ITS_seed, type="samples", color="Year") + 
+  geom_point(size=7) + 
+  ggtitle("Seed fungal communities") + 
+    theme(
+    legend.position = c(.95, .90),
+    legend.justification = c("right", "top"),
+    legend.box.just = "right",
+    legend.margin = margin(6, 6, 6, 6),
+    axis.title.x=element_text(size=14), axis.text.x=element_blank(), axis.ticks.x=element_blank(),
+    axis.title.y=element_text(size=14), axis.text.y=element_blank(), axis.ticks.y=element_blank(),
+    plot.title = element_text(size=15)) + 
+  scale_color_manual(values=c("#808080", "#000000"))
+```
+
+```{r, echo=FALSE, message=FALSE, results="hide", fig.width=12, fig.height=7}
+Fig_bdiv <- grid.arrange(
+  i.wUF.pcoa.gyrB_soil,
+  i.wUF.pcoa.gyrB_seed,
+  i.bc.pcoa.ITS_soil,
+  i.bc.pcoa.ITS_seed,
+  left = textGrob("D",gp=gpar(fontsize=18, fontface="bold")),
+  ncol=4,
+  nrow=1)
+```
+
+```{r echo=TRUE, message=FALSE, warning=FALSE}
+#PERMANOVA (adonis)
+metadata.gyrB.soil <- as(sample_data(soil_log_gyrB), "data.frame")
+dist.wUF.gyrB.soil <- phyloseq::distance(soil_log_gyrB, method = "wunifrac")
+ad.wUF.gyrB.soil <- adonis2(dist.wUF.gyrB.soil ~ Soil + Repetition,
+                               data = metadata.gyrB.soil)
+print(ad.wUF.gyrB.soil)
+
+metadata.ITS.soil <- as(sample_data(soil_log_ITS1), "data.frame")
+dist.BC.ITS.soil <- phyloseq::distance(soil_log_ITS1, method = "bray")
+ad.BC.ITS.soil <- adonis2(dist.BC.ITS.soil ~ Soil + Repetition,
+                               data = metadata.ITS.soil)
+print(ad.BC.ITS.soil)
+
+metadata.gyrB.seed <- as(sample_data(seed_log_gyrB), "data.frame")
+dist.wUF.gyrB.seed <- phyloseq::distance(seed_log_gyrB, method = "wunifrac")
+ad.wUF.gyrB.seed <- adonis2(dist.wUF.gyrB.seed ~ Year * Genotype,
+                               data = metadata.gyrB.seed)
+print(ad.wUF.gyrB.seed)
+metadata.ITS.seed <- as(sample_data(seed_log_ITS1), "data.frame")
+dist.BC.ITS.seed <- phyloseq::distance(seed_log_ITS1, method = "bray")
+ad.BC.ITS.seed <- adonis2(dist.BC.ITS.seed ~ Year * Genotype,
+                               data = metadata.ITS.seed)
+print(ad.BC.ITS.seed)
+```
+
+## FIGURE 1
+```{r echo=TRUE, fig.height=20, fig.width=20, message=FALSE, results="hide"}
+Fig_1 <- grid.arrange(
+  alpha.plot.soil,
+  alpha.plot.seed,
+  Fig_bdispersion,
+  Fig_bdiv,
+  ncol=1,
+  nrow=4)
+```
+
+
+# Investigate plant datasets
+
+## Remove soil and seed samples
+```{r message=FALSE, warning=FALSE, include=FALSE, paged.print=FALSE, results='hide'}
+plantgyrB <- subset_samples(dgyrB, Compartment != "Seed" & Compartment != "Soil")
+plantgyrB <- prune_taxa(taxa_sums(plantgyrB) > 0, plantgyrB)
+plantgyrB
+plantITS <- subset_samples(dITS, Compartment != "Seed" & Compartment != "Soil")
+plantITS <- prune_taxa(taxa_sums(plantITS) > 0, plantITS)
+plantITS
+```
+
+## Assess sequencing depth
+We first assess the number of sequences per sample
+
+```{r message=FALSE, warning=FALSE, include=FALSE, results='hide'}
+library(data.table)
+sdtplantITS <- data.table(as(sample_data(plantITS), "data.frame"),
+                     TotalReads = sample_sums(plantITS), keep.rownames = TRUE)
+sdtplantgyrB <- data.table(as(sample_data(plantgyrB), "data.frame"),
+                      TotalReads = sample_sums(plantgyrB), keep.rownames = TRUE)
+```
+
+We next perform rarefaction curves
+##FIGURE S1
+```{r, echo=FALSE, message=FALSE, results="hide", fig.show='hide'}
+library("vegan")
+source("richness.R")
+library(ggplot2)
+rcurveITS <- ggrare(plantITS, 
+                    step = 100, 
+                    color = "Compartment", 
+                    se = FALSE)  + labs (title = "B - ITS1") + geom_vline(xintercept=1080)
+rcurvegyrB <- ggrare(plantgyrB, 
+                     step = 100, 
+                     color = "Compartment", 
+                     se = FALSE)   + labs (title = "A - gyrB") + geom_vline(xintercept=1150)
+```
+
+```{r, echo=FALSE, message=FALSE, results="hide", fig.width=10, fig.height=8}
+library(gridExtra)
+rarefact.plot <- grid.arrange(
+  rcurvegyrB,
+  rcurveITS,
+  nrow=1,
+  ncol=2)
+```
+
+## Alpha diversity analyses
+We rarefy the datasets 
+* **gyrB** : 1,150
+* ITS1 soil : 1,080
+
+```{r, echo=FALSE, message=FALSE, results="hide", fig.show='hide'}
+rgyrB <- rarefy_even_depth(plantgyrB, sample.size = 1150, rngseed = 400) 
+rITS <- rarefy_even_depth(plantITS, sample.size = 1080, rngseed = 700) 
+table_rgyrB <- estimate_richness(rgyrB, split = TRUE, measures = c("Observed", "InvSimpson", "Shannon", "Chao1"))
+table_rITS <- estimate_richness(rITS, split = TRUE, measures=c("Observed", "InvSimpson", "Shannon", "Chao1"))
+#Bind sampledata + table of alpha_div
+datargyrB <- cbind(sample_data(rgyrB), table_rgyrB)
+datarITS <- cbind(sample_data(rITS), table_rITS)
+#Add Faith PD
+library(picante)
+rgyrBPD <- as.data.frame.matrix(otu_table(rgyrB))
+FaithPDgyrB <- pd(samp = (rgyrBPD),tree = phy_tree(rgyrB), include.root = F)
+datargyrB <- merge(datargyrB, FaithPDgyrB, by="row.names", all=TRUE)
+# Add PD fro ITS1 (results from Ghostree). Some samples are missings (8 samples).
+FaithPDITS1 <- read.csv("ITS1_PD_plant.csv", sep = "\t",  check.names=FALSE, row.names=1)
+datarITS <- merge(datarITS, FaithPDITS1, by="row.names", all=TRUE)
+```
+
+Statistical analyses on alpha-diversity metrics.
+* Linear models
+```{r echo=TRUE, message=FALSE, warning=FALSE}
+mod_gyrB_Chao1 <- lm(Chao1 ~ (Soil + Compartment + Stage + Combined )^2, data = datargyrB)
+mod_gyrB_PD <- lm(PD ~ (Soil + Compartment + Stage + Combined)^2, data = datargyrB)
+mod_ITS_Chao1 <- lm(Chao1 ~ (Soil + Compartment + Stage + Combined)^2, data = datarITS)
+mod_ITS_PD <- lm(PD ~ (Soil + Compartment + Stage + Combined)^2, data = datarITS)
+```
+
+* Normality check
+```{r fig.height=5, fig.width=7.5, message=FALSE, warning=FALSE, include=FALSE, paged.print=FALSE}
+library(RVAideMemoire)
+norm1 <- plotresid(mod_gyrB_Chao1, shapiro = T)
+norm2 <- plotresid(mod_gyrB_PD, shapiro = T)
+norm3 <- plotresid(mod_ITS_Chao1, shapiro = T)
+norm4 <- plotresid(mod_ITS_PD, shapiro = T)
+```
+
+* Parametric test: Anova 
+```{r echo=TRUE, message=FALSE, warning=FALSE}
+library(car)
+Anova(mod_gyrB_Chao1)
+Anova(mod_gyrB_PD)
+Anova(mod_ITS_Chao1)
+Anova(mod_ITS_PD)
+```
+
+> **No impact of plant genotype and harvesting year on estimate bacterial richness (Chao1), bacterial phylogenetic diversity (PD) and estimate fungal richness (Chao1)**
+
+* Pairwise comparisons 
+
+```{r echo=TRUE, message=FALSE, warning=FALSE}
+library(emmeans)
+mod_gyrB_Chao1_lsm <- emmeans(mod_gyrB_Chao1, pairwise ~ Combined|Stage|Soil|Compartment)$contrast
+mod_gyrB_Chao1_lsm
+```
+> **No impact of plant genotype and harvesting year on estimate bacterial richness (Chao1)**
+
+```{r echo=TRUE, message=FALSE, warning=FALSE}
+mod_gyrB_PD_lsm <- emmeans(mod_gyrB_PD, pairwise ~ Combined|Stage|Soil|Compartment)$contrast
+mod_gyrB_PD_lsm
+```
+> **No impact of plant genotype and harvesting year on bacterial phylogenetic diversity**
+
+```{r echo=TRUE, message=FALSE, warning=FALSE}
+mod_ITS_Chao1_lsm <- emmeans(mod_ITS_Chao1, pairwise ~ Combined|Stage|Soil|Compartment)$contrast
+mod_ITS_Chao1_lsm
+```
+> **No impact of plant genotype and harvesting year on estimate fungal richness (Chao1)**
+
+```{r echo=TRUE, message=FALSE, warning=FALSE}
+mod_ITS_PD_lsm <- emmeans(mod_ITS_PD, pairwise ~ Combined|Stage|Soil|Compartment)$contrast
+mod_ITS_PD_lsm
+```
+> **Pas d'effet sur la diversité fongique.**
+
+> **Since no significant effect of plant genotype and harvesting we combined all these samples per sampling stage and compartments.**
+
+* Linear models
+```{r echo=TRUE, message=FALSE, warning=FALSE}
+mod_gyrB_Chao1 <- lm(Chao1 ~ (Soil + Compartment + Stage)^2, data = datargyrB)
+mod_gyrB_PD <- lm(PD ~ (Soil + Compartment + Stage)^2, data = datargyrB)
+mod_ITS_Chao1 <- lm(Chao1 ~ (Soil + Compartment + Stage)^2, data = datarITS)
+mod_ITS_PD <- lm(PD ~ (Soil + Compartment + Stage)^2, data = datarITS)
+```
+* Parametric test: Anova 
+```{r echo=TRUE, message=FALSE, warning=FALSE}
+Anova(mod_gyrB_Chao1)
+Anova(mod_gyrB_PD)
+Anova(mod_ITS_Chao1)
+Anova(mod_ITS_PD)
+```
+* * Pairwise comparisons (soil diversity)
+
+```{r echo=TRUE, message=FALSE, warning=FALSE}
+mod_gyrB_Chao1_lsm <- emmeans(mod_gyrB_Chao1, pairwise ~ Soil|Compartment|Stage)$contrast
+mod_gyrB_Chao1_lsm
+```
+> **Significant impact of soil diversity on estimate bacterial richness in stem at D07 and D14.**
+
+```{r echo=TRUE, message=FALSE, warning=FALSE}
+mod_gyrB_PD_lsm <- emmeans(mod_gyrB_PD, pairwise ~ Soil|Compartment|Stage)$contrast
+mod_gyrB_PD_lsm
+```
+> **Significant impact of soil diversity on bacterial phylogenetic diversity in stem at D07 and D14.**
+
+```{r echo=TRUE, message=FALSE, warning=FALSE}
+mod_ITS_Chao1_lsm <- emmeans(mod_ITS_Chao1, pairwise ~ Soil|Compartment|Stage)$contrast
+mod_ITS_Chao1_lsm
+```
+> **Significant impact of soil diversity on estimate fungal diversity in root & stem at D07 and D14.**
+
+```{r echo=TRUE, message=FALSE, warning=FALSE}
+mod_ITS_PD_lsm <- emmeans(mod_ITS_PD, pairwise ~ Soil|Compartment|Stage)$contrast
+mod_ITS_PD_lsm
+```
+> **Significant impact of soil diversity on fungal phylogenetic diversity in root & stem at D07 and D14.**
+
+* * Pairwise comparisons (Stage diversity)
+
+```{r echo=TRUE, message=FALSE, warning=FALSE}
+mod_gyrB_Chao1_lsm <- emmeans(mod_gyrB_Chao1, pairwise ~ Stage|Soil|Compartment)$contrast
+mod_gyrB_Chao1_lsm
+```
+> **Impact of stage on estimate bacterial richness in stem**
+
+```{r echo=TRUE, message=FALSE, warning=FALSE}
+mod_gyrB_PD_lsm <- emmeans(mod_gyrB_PD, pairwise ~ Stage|Soil|Compartment)$contrast
+mod_gyrB_PD_lsm
+```
+> **Impact of stage on bacterial phylogenetic diversity in stem**
+
+```{r echo=TRUE, message=FALSE, warning=FALSE}
+mod_ITS_Chao1_lsm <- emmeans(mod_ITS_Chao1, pairwise ~ Stage|Soil|Compartment)$contrast
+mod_ITS_Chao1_lsm
+```
+> **No significant impact of plant stage on estimate fungal richness**
+
+```{r echo=TRUE, message=FALSE, warning=FALSE}
+mod_ITS_PD_lsm <- emmeans(mod_ITS_PD, pairwise ~ Stage|Soil|Compartment)$contrast
+mod_ITS_PD_lsm
+```
+> **No significant impact of plant stage on fungal phylogenetic diversity**
+
+Plot alpha diversity
+
+```{r echo=FALSE, message=FALSE, warning=FALSE, fig.show='hide'}
+datargyrB$Compartment <- factor(datargyrB$Compartment, levels=c("Stem", "Root"))
+datarITS$Compartment <- factor(datarITS$Compartment, levels=c("Stem", "Root"))
+
+gyrB_Chao1 <- ggplot(data=datargyrB, 
+                     aes_string(x='Soil',y='Chao1', fill='Year', shape='Genotype')) + 
+  geom_point(aes(colour=Year, size=3)) + 
+  ylim(10,500) +
+  scale_color_manual(values = c("Y1" = "#DDAA33", "Y2" = "#004488")) +
+  facet_grid(cols = vars(Stage), rows = vars (Compartment), scales = "free") +
+  ggtitle("A - Estimate bacterial richness") +
+  theme(
+  strip.text.x = element_text(size = 12), 
+  strip.text.y = element_text(size = 12),
+  axis.title.x=element_blank(), axis.text.x=element_text(size=11),
+  axis.title.y=element_blank(), axis.text.y=element_text(size=11),
+  plot.title = element_text(size=16)) +
+  guides(size = FALSE)
+
+ITS_Chao1 <- ggplot(data=datarITS, 
+                     aes_string(x='Soil',y='Chao1', fill='Year', shape='Genotype')) + 
+  geom_point(aes(colour=Year, size=3)) + 
+  ylim(1,40) +
+  scale_color_manual(values = c("Y1" = "#DDAA33", "Y2" = "#004488")) +
+  facet_grid(cols = vars(Stage), rows = vars (Compartment), scales = "free") +
+  ggtitle("B - Estimate fungal richness") +
+  theme(
+  strip.text.x = element_text(size = 12), 
+  strip.text.y = element_text(size = 12),
+  axis.title.x=element_blank(), axis.text.x=element_text(size=11),
+  axis.title.y=element_blank(), axis.text.y=element_text(size=11),
+  plot.title = element_text(size=16)) +
+  guides(size = FALSE) 
+
+gyrB_PD <- ggplot(data=datargyrB, 
+                     aes_string(x='Soil',y='PD', fill='Year', shape='Genotype')) + 
+  geom_point(aes(colour=Year, size=3)) + 
+  ylim(1,40) +
+  scale_color_manual(values = c("Y1" = "#DDAA33", "Y2" = "#004488")) +
+  facet_grid(cols = vars(Stage), rows = vars (Compartment), scales = "free") +
+  ggtitle("C - Bacterial phylogenetic diversity") +
+  theme(
+  strip.text.x = element_text(size = 12), 
+  strip.text.y = element_text(size = 12),
+  axis.title.x=element_blank(), axis.text.x=element_text(size=11),
+  axis.title.y=element_blank(), axis.text.y=element_text(size=11),
+  plot.title = element_text(size=16)) +
+  guides(size = FALSE)
+
+ITS_PD <- ggplot(data=datarITS, 
+                     aes_string(x='Soil',y='PD', fill='Year', shape='Genotype')) + 
+  geom_point(aes(colour=Year, size=3)) + 
+  scale_color_manual(values = c("Y1" = "#DDAA33", "Y2" = "#004488")) +
+  facet_grid(cols = vars(Stage), rows = vars (Compartment), scales = "free") +
+  ggtitle("D - Fungal phylogenetic diversity") +
+  ylim(1,5) +
+  theme(
+  strip.text.x = element_text(size = 12), 
+  strip.text.y = element_text(size = 12),
+  axis.title.x=element_blank(), axis.text.x=element_text(size=11),
+  axis.title.y=element_blank(), axis.text.y=element_text(size=11),
+  plot.title = element_text(size=16)) +
+  guides(size = FALSE)
+```
+
+```{r, echo=FALSE, message=FALSE, results="hide", fig.width=16, fig.height=5}
+plant.alpha <- grid.arrange(
+  gyrB_Chao1,
+  ITS_Chao1,
+  gyrB_PD,
+  ITS_PD,
+  ncol=4,
+  nrow=1)
+```
+
+## Beta-Diversity analysis
+We don't use rarefaction, instead we performed a log(1+x) transformation.
+```{r, echo=FALSE, message=FALSE, results="hide"}
+plant_log_gyrB <- transform_sample_counts(plantgyrB, function(x) log(1 + x))
+plant_log_ITS1 <-  transform_sample_counts(plantITS, function(x) log(1 + x))
+```
+
+Calculate weighted UniFrac distance (gyrB) and Bray-Curtis (ITS1)
+```{r, echo=FALSE, message=FALSE, results="hide"}
+wUF.gyrB <- ordinate(plant_log_gyrB, "PCoA", "wunifrac")
+bc.ITS <- ordinate(plant_log_ITS1, "PCoA", "bray")
+```
+
+Global stats 
+```{r, echo=FALSE, message=FALSE}
+metadata.plant.gyrB <- as(sample_data(plant_log_gyrB), "data.frame") #Convert sample_data to data.frame
+dist.wUF.plant.gyrB <- phyloseq::distance(plant_log_gyrB, method = "wunifrac")
+adonis.wUF.plant.gyrB <- adonis2(dist.wUF.plant.gyrB ~ Soil + Compartment + Combined + Stage + Soil:Combined,
+                                data = metadata.plant.gyrB, perm = 999) 
+print(adonis.wUF.plant.gyrB)
+
+metadata.plant.ITS <- as(sample_data(plant_log_ITS1), "data.frame") #Convert sample_data to data.frame
+dist.bc.plant.ITS <- phyloseq::distance(plant_log_ITS1, method = "bray")
+adonis.BC.plant.ITS <- adonis2(dist.bc.plant.ITS ~ Soil + Compartment + Combined + Stage + Soil:Combined,
+                                data = metadata.plant.ITS, perm = 999)
+print(adonis.BC.plant.ITS)
+```
+
+Subset by plant compartments
+```{r, echo=FALSE, message=FALSE}
+rootgyrB <- subset_samples(plantgyrB, Compartment== "Root")
+rootgyrB <- filter_taxa(rootgyrB, function(x) sum(x) > 0, TRUE)
+stemgyrB <- subset_samples(plantgyrB, Compartment== "Stem")
+stemgyrB <- filter_taxa(stemgyrB, function(x) sum(x) > 0, TRUE)
+rootITS <- subset_samples(plantITS, Compartment== "Root")
+rootITS <- filter_taxa(rootITS, function(x) sum(x) > 0, TRUE)
+stemITS <- subset_samples(plantITS, Compartment== "Stem")
+stemITS <- filter_taxa(stemITS, function(x) sum(x) > 0, TRUE)
+root_log_gyrB <- transform_sample_counts(rootgyrB, function(x) log(1 + x))
+stem_log_gyrB <- transform_sample_counts(stemgyrB, function(x) log(1 + x))
+root_log_ITS1 <-  transform_sample_counts(rootITS, function(x) log(1 + x))
+stem_log_ITS1 <-  transform_sample_counts(stemITS, function(x) log(1 + x))
+root.wUF.gyrB <- ordinate(root_log_gyrB, "PCoA", "wunifrac")
+stem.wUF.gyrB <- ordinate(stem_log_gyrB, "PCoA", "wunifrac")
+root.bc.ITS <- ordinate(root_log_ITS1, "PCoA", "bray")
+stem.bc.ITS <- ordinate(stem_log_ITS1, "PCoA", "bray")
+```
+
+Stat by habitat 
+```{r, echo=FALSE, message=FALSE}
+metadata.stem.gyrB <- as(sample_data(stem_log_gyrB), "data.frame") #Convert sample_data to data.frame
+dist.wUF.stem.gyrB <- phyloseq::distance(stem_log_gyrB, method = "wunifrac")
+adonis.wUF.stem.gyrB <- adonis2(dist.wUF.stem.gyrB ~ Soil + Combined + Stage + Soil:Combined,
+                                data = metadata.stem.gyrB, perm = 999) 
+print(adonis.wUF.stem.gyrB)
+metadata.root.gyrB <- as(sample_data(root_log_gyrB), "data.frame") #Convert sample_data to data.frame
+dist.wUF.root.gyrB <- phyloseq::distance(root_log_gyrB, method = "wunifrac")
+adonis.wUF.root.gyrB <- adonis2(dist.wUF.root.gyrB ~ Soil + Combined + Stage + Soil:Combined,
+                                data = metadata.root.gyrB, perm = 999) 
+print(adonis.wUF.root.gyrB)
+
+metadata.stem.ITS <- as(sample_data(stem_log_ITS1), "data.frame") #Convert sample_data to data.frame
+dist.bc.stem.ITS <- phyloseq::distance(stem_log_ITS1, method = "bray")
+adonis.BC.stem.ITS <- adonis2(dist.bc.stem.ITS ~ Soil + Combined + Stage + Soil:Combined,
+                                data = metadata.stem.ITS, perm = 999)
+print(adonis.BC.stem.ITS)
+
+metadata.root.ITS <- as(sample_data(root_log_ITS1), "data.frame") #Convert sample_data to data.frame
+dist.bc.root.ITS <- phyloseq::distance(root_log_ITS1, method = "bray")
+adonis.BC.root.ITS <- adonis2(dist.bc.root.ITS ~ Soil + Combined + Stage + Soil:Combined,
+                                data = metadata.root.ITS, perm = 999)
+print(adonis.BC.root.ITS)
+```
+
+Ordination
+```{r echo=FALSE, message=FALSE, warning=FALSE, fig.show='hide'}
+pcoa.stem.wUF.gyrB <- plot_ordination(stem_log_gyrB, stem.wUF.gyrB, shape="Genotype", type="samples", color="Year") + 
+  geom_point(size=3) +
+  ggtitle("E - Stem bacterial phylogenetic composition (wUF)") +
+  facet_grid(cols = vars(Stage), rows = vars (Soil), scales = "free") + 
+  scale_color_manual(values = c("Y1" = "#DDAA33", "Y2" = "#004488")) +
+  theme(strip.text.x = element_text(size = 12), 
+  strip.text.y = element_text(size = 12),
+  axis.title.x=element_text(size=14), axis.text.x=element_blank(), axis.ticks.x=element_blank(),
+  axis.title.y=element_text(size=14), axis.text.y=element_blank(), axis.ticks.y=element_blank(),
+  plot.title = element_text(size=16)) +
+  guides(size = FALSE)
+
+pcoa.root.wUF.gyrB <- plot_ordination(root_log_gyrB, root.wUF.gyrB, shape="Genotype", type="samples", color="Year") + 
+  geom_point(size=3) +
+  ggtitle("F - Root bacterial phylogenetic composition (wUF)") +
+  facet_grid(cols = vars(Stage), rows = vars (Soil), scales = "free") + 
+  scale_color_manual(values = c("Y1" = "#DDAA33", "Y2" = "#004488")) +
+  theme(strip.text.x = element_text(size = 12), 
+  strip.text.y = element_text(size = 12),
+  axis.title.x=element_text(size=14), axis.text.x=element_blank(), axis.ticks.x=element_blank(),
+  axis.title.y=element_text(size=14), axis.text.y=element_blank(), axis.ticks.y=element_blank(),
+  plot.title = element_text(size=16)) +
+  guides(size = FALSE)
+
+pcoa.stem.BC.ITS <- plot_ordination(stem_log_ITS1, stem.bc.ITS, shape="Genotype", type="samples", color="Year") + 
+  geom_point(size=3) +
+  ggtitle("G - Stem fungal community composition (BC)") +
+  facet_grid(cols = vars(Stage), rows = vars (Soil), scales = "free") + 
+  scale_color_manual(values = c("Y1" = "#DDAA33", "Y2" = "#004488")) +
+  theme(strip.text.x = element_text(size = 12), 
+  strip.text.y = element_text(size = 12),
+  axis.title.x=element_text(size=14), axis.text.x=element_blank(), axis.ticks.x=element_blank(),
+  axis.title.y=element_text(size=14), axis.text.y=element_blank(), axis.ticks.y=element_blank(),
+  plot.title = element_text(size=16)) +
+  guides(size = FALSE)
+
+pcoa.root.BC.ITS <- plot_ordination(root_log_ITS1, root.bc.ITS, shape="Genotype", type="samples", color="Year") + 
+  geom_point(size=3) +
+  ggtitle("H - Root fungal community composition (BC)") +
+  facet_grid(cols = vars(Stage), rows = vars (Soil), scales = "free") + 
+  scale_color_manual(values = c("Y1" = "#DDAA33", "Y2" = "#004488")) +
+  theme(strip.text.x = element_text(size = 12), 
+  strip.text.y = element_text(size = 12),
+  axis.title.x=element_text(size=14), axis.text.x=element_blank(), axis.ticks.x=element_blank(),
+  axis.title.y=element_text(size=14), axis.text.y=element_blank(), axis.ticks.y=element_blank(),
+  plot.title = element_text(size=16)) +
+  guides(size = FALSE)
+```
+```{r, echo=FALSE, message=FALSE, results="hide", fig.width=16, fig.height=5}
+plant.beta <- grid.arrange(
+  pcoa.stem.wUF.gyrB,
+  pcoa.root.wUF.gyrB,
+  pcoa.stem.BC.ITS,
+  pcoa.root.BC.ITS,
+  ncol=4,
+  nrow=1)
+```
+
+## FIGURE 2
+```{r, echo=FALSE, message=FALSE, results="hide", fig.width=16, fig.height=5}
+plant.div <- grid.arrange(
+  plant.alpha,
+  plant.beta,
+  ncol=1,
+  nrow=2)
+```
+
+## FIGURE 3
+### Transform count tables into binary-matrix on non-rarefied data (example for gyrB_d7_High)
+```{r, echo=FALSE, message=FALSE, results="hide", fig.width=16, fig.height=5}
+#Separate by Stage
+dgyrB.07 <- subset_samples(dgyrB, Stage!="d14")
+#Separate by Soil diversity
+dgyrB.07.sh <- subset_samples(dgyrB.07, Soil_div!="Low")
+#Remove empty ASV
+dgyrB.07.sh <- filter_taxa(dgyrB.07.sh, function(x) sum(x) > 0, TRUE)
+#Merge by habitat
+merged_dgyrB.07.sh <- merge_samples(dgyrB.07.sh, "Compartment")
+#Extract count datasets from phyloseq
+count_dgyrB.07.sh <- t(otu_table(merged_dgyrB.07.sh))
+#Transform in binary matrix
+count_dgyrB.07.sh[count_dgyrB.07.sh> 0] <- 1
+#Convert to dataframe
+df_gyrB_07_sh <- as.data.frame(count_dgyrB.07.sh)
+```
+
+### Perform UpSet plots for each soil diversity and each development stage (df provided) 
+
+```{r echo=FALSE, fig.height=7.5, fig.width=12.5, message=FALSE, warning=FALSE, paged.print=TRUE}
+library(UpSetR)
+upset_gyrB_07_sh <- upset(df_gyrB_07_sh, 
+      queries = list(list(query = intersects, params = list("Seed", "Root", "Stem"), active = F, color = "#0072B2"),
+      list(query = intersects, params = list("Seed", "Root"), active = F, color = "#0072B2"),
+      list(query = intersects, params = list("Seed", "Stem"), active = F, color = "#0072B2"),
+      list(query = intersects, params = list("Soil", "Root", "Stem"), active = F, color = "#009E73"), 
+      list(query = intersects, params = list("Soil", "Root"), active = F, color = "#009E73"),
+      list(query = intersects, params = list("Soil", "Stem"), active = F, color = "#009E73"),
+      list(query = intersects, params = list("Soil", "Seed"), active = F, color = "#ff0055"),
+      list(query = intersects, params = list("Root", "Stem"), active = F, color = "#000000"),
+      list(query = intersects, params = list("Soil", "Seed","Stem"), active = F, color = "#ff0055"),
+      list(query = intersects, params = list("Soil", "Seed","Root"), active = F, color = "#ff0055"),
+      list(query = intersects, params = list("Soil", "Seed", "Stem", "Root"), active = F, color = "#ff0055")),
+      intersections = list(list("Seed", "Root"), list("Seed", "Stem"), list("Seed", "Root", "Stem"), list("Seed", "Soil", "Root"),  list("Seed", "Soil", "Stem"), list("Seed", "Soil", "Root", "Stem"), list("Soil", "Seed"), list("Soil", "Root"), list("Soil", "Stem"), list("Soil", "Stem", "Root"), list("Root"), list("Stem"), list("Root", "Stem")),
+      keep.order = TRUE,
+      sets=c("Stem", "Root", "Seed", "Soil"),
+      nintersects = 50, 
+      #order.by = "freq", 
+      #decreasing ="TRUE",
+      mainbar.y.label = "Nb of gyrB ASVs for T7 SH",
+     # mainbar.y.max = 3,
+            sets.x.label = "Total ASVs",
+            text.scale=2,
+      point.size=4)
+
+upset_ITS_07_sh <- upset(df_ITS_07_sh, 
+      queries = list(#list(query = intersects, params = list("Seed", "Root", "Stem"), active = F, color = "#0072B2"),
+      list(query = intersects, params = list("Seed", "Root"), active = F, color = "#0072B2"),
+      list(query = intersects, params = list("Seed", "Stem"), active = F, color = "#0072B2"),
+      list(query = intersects, params = list("Soil", "Root", "Stem"), active = F, color = "#009E73"), 
+      list(query = intersects, params = list("Soil", "Root"), active = F, color = "#009E73"),
+      #list(query = intersects, params = list("Soil", "Stem"), active = F, color = "#009E73"),
+      list(query = intersects, params = list("Soil", "Seed"), active = F, color = "#ff0055"),
+      list(query = intersects, params = list("Root", "Stem"), active = F, color = "#000000"),
+      list(query = intersects, params = list("Soil", "Seed","Stem"), active = F, color = "#ff0055"),
+      #list(query = intersects, params = list("Soil", "Seed","Root"), active = F, color = "#ff0055"),
+      list(query = intersects, params = list("Soil", "Seed", "Stem", "Root"), active = F, color = "#ff0055")),
+      intersections = list(list("Seed", "Root"), list("Seed", "Stem"), list("Seed", "Soil", "Stem"), list("Seed", "Soil", "Root", "Stem"), list("Soil", "Seed"), list("Soil", "Root"), list("Soil", "Stem", "Root"), list("Root"), list("Stem"), list("Root", "Stem")),
+      keep.order = TRUE,
+      sets=c("Stem", "Root", "Seed", "Soil"),
+      nintersects = 50, 
+      #order.by = "freq", 
+      #decreasing ="TRUE",
+      mainbar.y.label = "Nb of ITS ASVs for T7 SH",
+     # mainbar.y.max = 3,
+            sets.x.label = "Total ASVs",
+            text.scale=2,
+      point.size=4)
+
+upset_gyrB_14_sh <- upset(df_gyrB_14_sh, 
+      queries = list(list(query = intersects, params = list("Seed", "Root", "Stem"), active = F, color = "#0072B2"),
+      list(query = intersects, params = list("Seed", "Root"), active = F, color = "#0072B2"),
+      list(query = intersects, params = list("Seed", "Stem"), active = F, color = "#0072B2"),
+      list(query = intersects, params = list("Soil", "Root", "Stem"), active = F, color = "#009E73"), 
+      list(query = intersects, params = list("Soil", "Root"), active = F, color = "#009E73"),
+      list(query = intersects, params = list("Soil", "Stem"), active = F, color = "#009E73"),
+      list(query = intersects, params = list("Soil", "Seed"), active = F, color = "#ff0055"),
+      list(query = intersects, params = list("Root", "Stem"), active = F, color = "#000000"),
+      list(query = intersects, params = list("Soil", "Seed","Stem"), active = F, color = "#ff0055"),
+      list(query = intersects, params = list("Soil", "Seed", "Stem", "Root"), active = F, color = "#ff0055")),
+      intersections = list(list("Seed", "Root"), list("Seed", "Stem"), list("Seed", "Root", "Stem"), list("Seed", "Soil", "Stem"), list("Seed", "Soil", "Root", "Stem"), list("Soil", "Seed"), list("Soil", "Root"), list("Soil", "Stem"), list("Soil", "Stem", "Root"), list("Root"), list("Stem"), list("Root", "Stem")),
+      keep.order = TRUE,
+      sets=c("Stem", "Root", "Seed", "Soil"),
+      nintersects = 50, 
+      #order.by = "freq", 
+      #decreasing ="TRUE",
+      mainbar.y.label = "Nb of gyrB ASVs for T14 SH",
+     # mainbar.y.max = 3,
+            sets.x.label = "Total ASVs",
+            text.scale=2,
+      point.size=4)
+
+upset_ITS_14_sh <- upset(df_ITS_14_sh, 
+      queries = list(#list(query = intersects, params = list("Seed", "Root", "Stem"), active = F, color = "#0072B2")),
+      list(query = intersects, params = list("Seed", "Root"), active = F, color = "#0072B2"),
+      list(query = intersects, params = list("Seed", "Stem"), active = F, color = "#0072B2"),
+      list(query = intersects, params = list("Soil", "Root", "Stem"), active = F, color = "#009E73"), 
+      list(query = intersects, params = list("Soil", "Root"), active = F, color = "#009E73"),
+      list(query = intersects, params = list("Soil", "Stem"), active = F, color = "#009E73"),
+      list(query = intersects, params = list("Soil", "Seed"), active = F, color = "#ff0055"),
+      list(query = intersects, params = list("Root", "Stem"), active = F, color = "#000000"),
+      #list(query = intersects, params = list("Soil", "Seed","Stem"), active = F, color = "#ff0055"),
+      list(query = intersects, params = list("Soil", "Seed","Root"), active = F, color = "#ff0055"),
+      list(query = intersects, params = list("Soil", "Seed", "Stem", "Root"), active = F, color = "#ff0055")),
+      intersections = list(list("Seed", "Root"), list("Seed", "Stem"), list("Soil", "Seed", "Root"), list("Seed", "Soil", "Root", "Stem"), list("Soil", "Seed"), list("Soil", "Root"), list("Soil", "Stem"), list("Soil", "Stem", "Root"), list("Root"), list("Stem"), list("Root", "Stem")),
+      keep.order = TRUE,
+      sets=c("Stem", "Root", "Seed", "Soil"),
+      nintersects = 50, 
+      #order.by = "freq", 
+      #decreasing ="TRUE",
+      mainbar.y.label = "Nb of ITS ASVs for T14 SH",
+     # mainbar.y.max = 3,
+            sets.x.label = "Total ASVs",
+            text.scale=2,
+      point.size=4)
+
+
+upset_gyrB_07_sl <- upset(df_gyrB_07_sl, 
+      queries = list(list(query = intersects, params = list("Seed", "Root", "Stem"), active = F, color = "#0072B2"),
+      list(query = intersects, params = list("Seed", "Root"), active = F, color = "#0072B2"),
+      list(query = intersects, params = list("Seed", "Stem"), active = F, color = "#0072B2"),
+      list(query = intersects, params = list("Soil", "Root", "Stem"), active = F, color = "#009E73"), 
+      list(query = intersects, params = list("Soil", "Root"), active = F, color = "#009E73"),
+      list(query = intersects, params = list("Soil", "Stem"), active = F, color = "#009E73"),
+      list(query = intersects, params = list("Soil", "Seed"), active = F, color = "#ff0055"),
+      list(query = intersects, params = list("Root", "Stem"), active = F, color = "#000000"),
+      #list(query = intersects, params = list("Soil", "Seed","Stem"), active = F, color = "#ff0055"),
+      list(query = intersects, params = list("Soil", "Seed","Root"), active = F, color = "#ff0055"),
+      list(query = intersects, params = list("Soil", "Seed", "Stem", "Root"), active = F, color = "#ff0055")),
+      intersections = list(list("Seed", "Root"), list("Seed", "Stem"), list("Seed", "Root", "Stem"), list("Soil", "Seed", "Root"), list("Seed", "Soil", "Root", "Stem"), list("Soil", "Seed"), list("Soil", "Root"), list("Soil", "Stem"), list("Soil", "Stem", "Root"), list("Root"), list("Stem"), list("Root", "Stem")),
+      keep.order = TRUE,
+      sets=c("Stem", "Root", "Seed", "Soil"),
+      nintersects = 50, 
+      #order.by = "freq", 
+      #decreasing ="TRUE",
+      mainbar.y.label = "Nb of gyrB ASVs for T7 SL",
+     # mainbar.y.max = 3,
+            sets.x.label = "Total ASVs",
+            text.scale=2,
+      point.size=4)
+
+upset_ITS_07_sl <- upset(df_ITS_07_sl, 
+      queries = list(#list(query = intersects, params = list("Seed", "Root", "Stem"), active = F, color = "#0072B2"),
+      list(query = intersects, params = list("Seed", "Root"), active = F, color = "#0072B2"),
+      list(query = intersects, params = list("Seed", "Stem"), active = F, color = "#0072B2"),
+      list(query = intersects, params = list("Soil", "Root", "Stem"), active = F, color = "#009E73"), 
+      list(query = intersects, params = list("Soil", "Root"), active = F, color = "#009E73"),
+      #list(query = intersects, params = list("Soil", "Stem"), active = F, color = "#009E73"),
+      list(query = intersects, params = list("Soil", "Seed"), active = F, color = "#ff0055"),
+      list(query = intersects, params = list("Root", "Stem"), active = F, color = "#000000"),
+      list(query = intersects, params = list("Soil", "Seed","Stem"), active = F, color = "#ff0055"),
+      list(query = intersects, params = list("Soil", "Seed","Root"), active = F, color = "#ff0055")),
+     # list(query = intersects, params = list("Soil", "Seed", "Stem", "Root"), active = F, color = "#ff0055")),
+     intersections = list(list("Seed", "Root"), list("Seed", "Stem"), list("Soil", "Seed", "Root"), list("Seed", "Soil", "Stem"), list("Soil", "Seed"), list("Soil", "Root"), list("Soil", "Stem", "Root"), list("Root"), list("Stem"), list("Root", "Stem")),
+      sets=c("Stem", "Root", "Seed", "Soil"),
+      keep.order = TRUE,
+      nintersects = 50, 
+      #order.by = "freq", 
+      #decreasing ="TRUE",
+      mainbar.y.label = "Nb of ITS ASVs for T7 SL",
+     # mainbar.y.max = 3,
+            sets.x.label = "Total ASVs",
+            text.scale=2,
+      point.size=4)
+
+upset_gyrB_14_sl <- upset(df_gyrB_14_sl, 
+      queries = list(#list(query = intersects, params = list("Seed", "Root", "Stem"), active = F, color = "#0072B2"),
+      list(query = intersects, params = list("Seed", "Root"), active = F, color = "#0072B2"),
+      list(query = intersects, params = list("Seed", "Stem"), active = F, color = "#0072B2"),
+      list(query = intersects, params = list("Soil", "Root", "Stem"), active = F, color = "#009E73"), 
+      list(query = intersects, params = list("Soil", "Root"), active = F, color = "#009E73"),
+      list(query = intersects, params = list("Soil", "Stem"), active = F, color = "#009E73"),
+      list(query = intersects, params = list("Soil", "Seed"), active = F, color = "#ff0055"),
+      list(query = intersects, params = list("Root", "Stem"), active = F, color = "#000000"),
+      list(query = intersects, params = list("Soil", "Seed","Root"), active = F, color = "#ff0055"),
+      list(query = intersects, params = list("Soil", "Seed","Stem"), active = F, color = "#ff0055"),
+      list(query = intersects, params = list("Soil", "Seed", "Stem", "Root"), active = F, color = "#ff0055")),
+      intersections = list(list("Seed", "Root"), list("Seed", "Stem"), list("Soil", "Seed", "Root"), list("Seed", "Soil", "Stem"), list("Seed", "Soil", "Root", "Stem"), list("Soil", "Seed"), list("Soil", "Root"), list("Soil", "Stem"), list("Soil", "Stem", "Root"), list("Root"), list("Stem"), list("Root", "Stem")),
+      keep.order = TRUE,
+      sets=c("Stem", "Root", "Seed", "Soil"),
+      nintersects = 50, 
+      #order.by = "freq", 
+      #decreasing ="TRUE",
+      mainbar.y.label = "Nb of gyrB ASVs for T14 SL",
+     # mainbar.y.max = 3,
+            sets.x.label = "Total ASVs",
+            text.scale=2,
+      point.size=4)
+
+upset_ITS_14_sl <- upset(df_ITS_14_sl, 
+      queries = list(list(query = intersects, params = list("Seed", "Root", "Stem"), active = F, color = "#0072B2"),
+      #list(query = intersects, params = list("Seed", "Root"), active = F, color = "#0072B2"),
+      list(query = intersects, params = list("Seed", "Stem"), active = F, color = "#0072B2"),
+      list(query = intersects, params = list("Soil", "Root", "Stem"), active = F, color = "#009E73"), 
+      list(query = intersects, params = list("Soil", "Root"), active = F, color = "#009E73"),
+      list(query = intersects, params = list("Soil", "Stem"), active = F, color = "#009E73"),
+      list(query = intersects, params = list("Soil", "Seed"), active = F, color = "#ff0055"),
+      #list(query = intersects, params = list("Root", "Stem"), active = F, color = "#000000"),
+      list(query = intersects, params = list("Soil", "Seed","Stem"), active = F, color = "#ff0055"),
+      #list(query = intersects, params = list("Soil", "Seed","Root"), active = F, color = "#ff0055"),
+      list(query = intersects, params = list("Soil", "Seed", "Stem", "Root"), active = F, color = "#ff0055")),
+      intersections = list(list("Seed", "Root", "Stem"), list("Seed", "Stem"), list("Seed", "Soil", "Stem"), list("Seed", "Soil", "Root", "Stem"), list("Soil", "Seed"), list("Soil", "Root"), list("Soil", "Stem"), list("Soil", "Stem", "Root"), list("Root"), list("Stem")),
+      sets=c("Stem", "Root", "Seed", "Soil"),
+      keep.order = TRUE,
+      nintersects = 50, 
+      #order.by = "freq", 
+      #decreasing ="TRUE",
+      mainbar.y.label = "Nb of ITS ASVs for T14 SL",
+     # mainbar.y.max = 3,
+            sets.x.label = "Total ASVs",
+            text.scale=2,
+      point.size=4)
+
+
+upset_gyrB_07_sh
+upset_gyrB_14_sh
+upset_gyrB_07_sl
+upset_gyrB_14_sl
+
+upset_ITS_07_sh
+upset_ITS_14_sh
+upset_ITS_07_sl
+upset_ITS_14_sl
+```
+
+## FIGURE 5 and S4
+```{r, echo=FALSE, message=FALSE, results="hide", fig.width=16, fig.height=5}
+data_gyrB <- read.csv("gyrB_perASV.txt", sep = "\t", row.names =1)
+data_ITS <- read.csv("ITS_perASV.txt", sep = "\t", row.names =1)
+
+#Figure 5
+a <- ggplot(data=data_gyrB, aes_string(x="ASV_pool", y="ASV_transmitted", 
+                                       color ="Pool",
+                           shape = "Soil_div", fill = "Seedling_compartment")) + 
+  geom_point(size=4, position="jitter") + theme(legend.position ="none") + 
+  scale_shape_manual(values=c(21, 24)) + scale_color_manual(values=c("black", "white")) +
+  theme_bw() + ggtitle("Bacteria") 
+
+
+b <- ggplot(data=data_ITS, aes_string(x="ASV_pool", y="ASV_transmitted", 
+                                       color ="Pool",
+                                       shape = "Soil_div", fill = "Seedling_compartment")) + 
+  geom_point(size= 4, position="jitter") + theme(legend.position ="right") + 
+  scale_shape_manual(values=c(21, 24)) + scale_color_manual(values=c("black", "white")) +
+  theme_bw() + ggtitle("Fungi")
+
+grid.arrange(a,b, ncol = 2, nrow = 1)
+
+#Figure S4
+c <- ggplot(data=data_gyrB, aes_string(x="ASV_pool", y="per_unkn", 
+                                       color ="Pool",
+                                       shape = "Soil_div", fill = "Seedling_compartment")) + 
+  geom_point(size= 4, position="jitter") + theme(legend.position ="none") + 
+  scale_shape_manual(values=c(21, 24)) + scale_color_manual(values=c("black", "white")) +
+  theme_bw() + ggtitle("Bacteria") 
+
+
+d <- ggplot(data=data_ITS, aes_string(x="ASV_pool", y="per_unkn", 
+                                      color ="Pool",
+                                      shape = "Soil_div", fill = "Seedling_compartment")) + 
+  geom_point(size= 4, position="jitter") + theme(legend.position ="right") + 
+  scale_shape_manual(values=c(21, 24)) + scale_color_manual(values=c("black", "white")) +
+  theme_bw() + ggtitle("Fungi")
+
+grid.arrange(c,d, ncol = 2, nrow = 1)
+```
+
+## FIGURE S2
+###Import ASV table with only the most prevalent bacterial taxa 
+```{r}
+Top5_gyrB <- read.table("Top5_Most_Prevalent_gyrB_4cat.txt", header=TRUE, check.names = FALSE, sep = "\t")
+Top5_ITS <- read.table("Top5_Most_Prevalent_ITS_4cat.txt", header=TRUE, check.names = FALSE, sep = "\t")
+```
+
+```{r}
+Top5_gyrB$Prevalence_Compartment<-ordered(Top5_gyrB$Prevalence_Compartment, levels=c("Seed", "Soil",  "Root & Stem","Root", "Stem"))
+Top5_gyrB$Compartment<-ordered(Top5_gyrB$Compartment, levels=c("Seed", "Soil", "Root","Stem"))
+
+library(ggridges)
+plot_ridge_gyrB <- ggplot(Top5_gyrB, aes(x=Sample, y=Species, group=Species, height=Relative_abundance, color=Prevalence_Compartment, fill=Prevalence_Compartment)) +geom_density_ridges2(stat = "identity", scale=0.9,size=0.7) +facet_grid(Prevalence_Compartment~Compartment+Soil_div, scales="free", space = "free", switch="both",labeller=label_wrap_gen(multi_line = TRUE))+
+theme(legend.position="bottom") + theme_classic()+ theme(axis.title.y = element_text(color="black", size=13, face="bold"))+ theme(axis.title.x = element_text(color="black", size=13, face="bold"))+ theme(axis.text.y = element_text(color="black", size=10, face="bold"))+ theme(legend.text = element_text(color="black", size=10, face="bold"))+ theme(legend.title = element_text(color="black", size=12, face="bold")) + theme(strip.background = element_rect(fill = "#f0eeec"),strip.text = element_text(colour = "black", face = "bold"))+ggtitle("A - Bacteria")+theme(plot.title = element_text(face="bold"))+theme(strip.text.x = element_text(size=12, face = "bold")) +theme(strip.text.y = element_text(size=9, angle=0, face = "bold")) +xlab("Samples")+ylab("Top 5 Most Prevalent ASVs by Compartment")+theme(legend.position = "bottom") + theme( axis.text.x=element_blank(), axis.ticks.x=element_blank())+ theme(panel.background = element_rect(fill = "white",colour = "white",size = 0.05, linetype="solid"))+ theme(panel.spacing = unit(0.1, "lines"))+scale_y_discrete(position = "right")+
+  theme(strip.text.y = element_text(angle = 180))
+plot_ridge_gyrB
+
+Top5_ITS$Prevalence_Compartment<-ordered(Top5_ITS$Prevalence_Compartment, levels=c("Seed", "Soil", "Soil & Root", "Root & Stem","Root",  "Stem"))
+Top5_ITS$Compartment<-ordered(Top5_ITS$Compartment, levels=c("Seed", "Soil", "Root","Stem"))
+
+library(ggplot2)
+library(ggridges)
+plot_ridge_ITS <- ggplot(Top5_ITS, aes(x=Sample, y=Species, group=Species, height=Relative_abundance, color=Prevalence_Compartment, fill=Prevalence_Compartment)) +geom_density_ridges2(stat = "identity", scale=0.9,size=0.7) +facet_grid(Prevalence_Compartment~Compartment+Soil_div, scales="free", space = "free", switch="both",labeller=label_wrap_gen(multi_line = TRUE))+
+theme(legend.position="bottom") + theme_classic()+ theme(axis.title.y = element_text(color="black", size=13, face="bold"))+ theme(axis.title.x = element_text(color="black", size=13, face="bold"))+ theme(axis.text.y = element_text(color="black", size=10, face="bold"))+ theme(legend.text = element_text(color="black", size=10, face="bold"))+ theme(legend.title = element_text(color="black", size=12, face="bold")) + theme(strip.background = element_rect(fill = "#f0eeec"),strip.text = element_text(colour = "black", face = "bold"))+ggtitle("B - Fungi")+theme(plot.title = element_text(face="bold"))+theme(strip.text.x = element_text(size=12, face = "bold")) +theme(strip.text.y = element_text(size=9, angle=0, face = "bold")) +xlab("Samples")+ylab("Top 5 Most Prevalent ASVs by Compartment")+theme(legend.position = "bottom") + theme( axis.text.x=element_blank(), axis.ticks.x=element_blank())+ theme(panel.background = element_rect(fill = "white",colour = "white",size = 0.05, linetype="solid"))+ theme(panel.spacing = unit(0.1, "lines"))+scale_y_discrete(position = "right")+
+  theme(strip.text.y = element_text(angle = 180))
+plot_ridge_ITS
+```
+
+## FIGURE 6
+###relation between ASV relative abundance in source (Seed or Soil) and seedlings 
+
+```{r} 
+gyrB_cor_Seed <- read.table("gyrB_SV_rel_abund_Seed.txt", header=TRUE, check.names = FALSE, sep = "\t")
+gyrB_cor_Root <- read.table("gyrB_SV_rel_abund_Root.txt", header=TRUE, check.names = FALSE, sep = "\t")
+gyrB_cor_Soil <- read.table("gyrB_SV_rel_abund_Soil.txt", header=TRUE, check.names = FALSE, sep = "\t")
+gyrB_cor_Stem <- read.table("gyrB_SV_rel_abund_Stem.txt", header=TRUE, check.names = FALSE, sep = "\t")
+
+ITS_cor_Seed <- read.table("ITS_SV_rel_abund_Seed.txt", header=TRUE, check.names = FALSE, sep = "\t")
+ITS_cor_Root <- read.table("ITS_SV_rel_abund_Root.txt", header=TRUE, check.names = FALSE, sep = "\t")
+ITS_cor_Soil <- read.table("ITS_SV_rel_abund_Soil.txt", header=TRUE, check.names = FALSE, sep = "\t")
+ITS_cor_Stem <- read.table("ITS_SV_rel_abund_Stem.txt", header=TRUE, check.names = FALSE, sep = "\t")
+```
+
+```{r}
+library(dplyr)
+#Seed and Root
+gyrB_cor_Root_Seed=merge(gyrB_cor_Root,gyrB_cor_Seed,by="Combined")
+gyrB_cor_Root_Seed2=filter(gyrB_cor_Root_Seed, Rel_abund_Seed > 0)
+
+ITS_cor_Root_Seed=merge(ITS_cor_Root,ITS_cor_Seed,by="Combined")
+ITS_cor_Root_Seed2=filter(ITS_cor_Root_Seed, Rel_abund_Seed > 0)
+
+#Soil and Root
+gyrB_cor_Root_Soil=merge(gyrB_cor_Root,gyrB_cor_Soil,by="Combined2")
+gyrB_cor_Root_Soil2=filter(gyrB_cor_Root_Soil, Rel_abund_Soil > 0)
+
+ITS_cor_Root_Soil=merge(ITS_cor_Root,ITS_cor_Soil,by="Combined2")
+ITS_cor_Root_Soil2=filter(ITS_cor_Root_Soil, Rel_abund_Soil > 0)
+
+#Seed and Stem
+gyrB_cor_Stem_Seed=merge(gyrB_cor_Stem,gyrB_cor_Seed,by="Combined")
+gyrB_cor_Stem_Seed2=filter(gyrB_cor_Stem_Seed, Rel_abund_Seed > 0)
+
+ITS_cor_Stem_Seed=merge(ITS_cor_Stem,ITS_cor_Seed,by="Combined")
+ITS_cor_Stem_Seed2=filter(ITS_cor_Stem_Seed, Rel_abund_Seed > 0)
+
+#Soil and Stem
+gyrB_cor_Stem_Soil=merge(gyrB_cor_Stem,gyrB_cor_Soil,by="Combined2")
+gyrB_cor_Stem_Soil2=filter(gyrB_cor_Stem_Soil, Rel_abund_Soil > 0)
+
+ITS_cor_Stem_Soil=merge(ITS_cor_Stem,ITS_cor_Soil,by="Combined2")
+ITS_cor_Stem_Soil2=filter(ITS_cor_Stem_Soil, Rel_abund_Soil > 0)
+```
+
+```{r warning=FALSE}
+library(vegan)
+library(ggplot2)
+gyrB_cor_Root_Seed2$Type<-ordered(gyrB_cor_Root_Seed2$Type, levels=c("< 0.01%: Rare", "0.01<x<1%: Intermediate", "> 1%: Dominant"))
+color= c("red",  "#ffb13e", "#665191")
+p1=ggplot(data=gyrB_cor_Root_Seed2, aes(x=Rel_abund_Seed, y=Rel_abund_Root,shape=Soil_div.x, color=Type))+geom_point( size=2, alpha=0.7)+theme_classic(base_size = 15)+xlab("Average ASV Relative abundance in Seed (%)")+ylab("Average ASV Relative abundance \nin Seedling Root (%)")+scale_color_manual(values=color)+ theme(axis.title = element_text(color="black", size=12, face="bold"))+ theme(axis.text = element_text(color="black", size=10, face="bold"))+ theme(legend.text = element_text(colour="black", size = 11, face = "bold"))+ theme(legend.title = element_text(colour="black", size=12, face="bold"))+ labs(shape = "Soil Diversity", color = "ASV Relative Abundance in Source")+ theme(legend.position = "none")+ guides(color=guide_legend(title="ASV Relative Abundance\nin Source")) 
+
+gyrB_cor_Root_Soil2$Type<-ordered(gyrB_cor_Root_Soil2$Type, levels=c("< 0.01%: Rare", "0.01<x<1%: Intermediate", "> 1%: Dominant"))
+color= c("red",  "#ffb13e", "#665191")
+p2=ggplot(data=gyrB_cor_Root_Soil2, aes(x=Rel_abund_Soil, y=Rel_abund_Root,shape=Soil_div.x, color=Type))+geom_point( size=2, alpha=0.7)+theme_classic(base_size = 15)+xlab("Average ASV Relative abundance in Soil (%)")+ylab("Average ASV Relative abundance \nin Seedling Root (%)")+scale_color_manual(values=color)+ theme(axis.title = element_text(color="black", size=12, face="bold"))+ theme(axis.text = element_text(color="black", size=10, face="bold"))+ theme(legend.text = element_text(colour="black", size = 12, face = "bold"))+ theme(legend.title = element_text(colour="black", size=14, face="bold"))+ geom_abline(intercept = 0)+ labs(shape = "Soil Diversity", color = "ASV Relative Abundance in Source")+theme(legend.position = "none")
+
+gyrB_cor_Stem_Seed2$Type<-ordered(gyrB_cor_Stem_Seed2$Type, levels=c("< 0.01%: Rare", "0.01<x<1%: Intermediate", "> 1%: Dominant"))
+color= c("red",  "#ffb13e", "#665191")
+p3=ggplot(data=gyrB_cor_Stem_Seed2, aes(x=Rel_abund_Seed, y=Rel_abund_Stem,shape=Soil_div.x, color=Type))+geom_point( size=2, alpha=0.7)+theme_classic(base_size = 15)+xlab("Average ASV Relative abundance in Seed (%)")+ylab("Average ASV Relative abundance \nin Seedling Stem (%)")+scale_color_manual(values=color)+ theme(axis.title = element_text(color="black", size=12, face="bold"))+ theme(axis.text = element_text(color="black", size=10, face="bold"))+ theme(legend.text = element_text(colour="black", size = 12, face = "bold"))+ theme(legend.title = element_text(colour="black", size=14, face="bold"))+theme(legend.position = "none")
+
+gyrB_cor_Stem_Soil2$Type<-ordered(gyrB_cor_Stem_Soil2$Type, levels=c("< 0.01%: Rare", "0.01<x<1%: Intermediate", "> 1%: Dominant"))
+color= c("red",  "#ffb13e", "#665191")
+p4=ggplot(data=gyrB_cor_Stem_Soil2, aes(x=Rel_abund_Soil, y=Rel_abund_Stem,shape=Soil_div.x, color=Type))+geom_point( size=2, alpha=0.7)+theme_classic(base_size = 15)+xlab("Average ASV Relative abundance in Soil (%)")+ylab("Average ASV Relative abundance \nin Seedling Stem (%)")+scale_color_manual(values=color)+ theme(axis.title = element_text(color="black", size=12, face="bold"))+ theme(axis.text = element_text(color="black", size=10, face="bold"))+ theme(legend.text = element_text(colour="black", size = 12, face = "bold"))+ theme(legend.title = element_text(colour="black", size=14, face="bold"))+ geom_abline(intercept = 0)+theme(legend.position = "none")
+
+ITS_cor_Root_Seed2$Type<-ordered(ITS_cor_Root_Seed2$Type, levels=c("< 0.01%: Rare", "0.01<x<1%: Intermediate", "> 1%: Dominant"))
+color= c("red",  "#ffb13e", "#665191")
+p5=ggplot(data=ITS_cor_Root_Seed2, aes(x=Rel_abund_Seed, y=Rel_abund_Root,shape=Soil_div.x, color=Type))+geom_point( size=2, alpha=0.7)+theme_classic(base_size = 15)+xlab("Average ASV Relative abundance in Seed (%)")+ylab("Average ASV Relative abundance \nin Seedling Root (%)")+scale_color_manual(values=color)+ theme(axis.title = element_text(color="black", size=12, face="bold"))+ theme(axis.text = element_text(color="black", size=10, face="bold"))+ theme(legend.text = element_text(colour="black", size = 12, face = "bold"))+ theme(legend.title = element_text(colour="black", size=14, face="bold"))+theme(legend.position = "none")
+
+ITS_cor_Root_Soil2$Type<-ordered(ITS_cor_Root_Soil2$Type, levels=c("< 0.01%: Rare", "0.01<x<1%: Intermediate", "> 1%: Dominant"))
+color= c("red",  "#ffb13e", "#665191")
+p6=ggplot(data=ITS_cor_Root_Soil2, aes(x=Rel_abund_Soil, y=Rel_abund_Root,shape=Soil_div.x, color=Type))+geom_point( size=2, alpha=0.7)+theme_classic(base_size = 15)+xlab("Average ASV Relative abundance in Soil (%)")+ylab("Average ASV Relative abundance \nin Seedling Root (%)")+scale_color_manual(values=color)+ theme(axis.title = element_text(color="black", size=12, face="bold"))+ theme(axis.text = element_text(color="black", size=10, face="bold"))+ theme(legend.text = element_text(colour="black", size = 12, face = "bold"))+ theme(legend.title = element_text(colour="black", size=14, face="bold"))+ geom_abline(intercept = 0)+theme(legend.position = "none")
+
+ITS_cor_Stem_Seed2$Type<-ordered(ITS_cor_Stem_Seed2$Type, levels=c("< 0.01%: Rare", "0.01<x<1%: Intermediate", "> 1%: Dominant"))
+color= c("red",  "#ffb13e", "#665191")
+p7=ggplot(data=ITS_cor_Stem_Seed2, aes(x=Rel_abund_Seed, y=Rel_abund_Stem,shape=Soil_div.x, color=Type))+geom_point( size=2, alpha=0.7)+theme_classic(base_size = 15)+xlab("Average ASV Relative abundance in Seed (%)")+ylab("Average ASV Relative abundance \nin Seedling Stem (%)")+scale_color_manual(values=color)+ theme(axis.title = element_text(color="black", size=12, face="bold"))+ theme(axis.text = element_text(color="black", size=10, face="bold"))+ theme(legend.text = element_text(colour="black", size = 12, face = "bold"))+ theme(legend.title = element_text(colour="black", size=14, face="bold"))+theme(legend.position = "none")
+
+ITS_cor_Stem_Soil2$Type<-ordered(ITS_cor_Stem_Soil2$Type, levels=c("< 0.01%: Rare", "0.01<x<1%: Intermediate", "> 1%: Dominant"))
+color= c("red",  "#ffb13e", "#665191")
+p8=ggplot(data=ITS_cor_Stem_Soil2, aes(x=Rel_abund_Soil, y=Rel_abund_Stem,shape=Soil_div.x, color=Type))+geom_point( size=2, alpha=0.7)+theme_classic(base_size = 15)+xlab("Average ASV Relative abundance in Soil (%)")+ylab("Average ASV Relative abundance \nin Seedling Stem (%)")+scale_color_manual(values=color)+ theme(axis.title = element_text(color="black", size=12, face="bold"))+ theme(axis.text = element_text(color="black", size=10, face="bold"))+ theme(legend.text = element_text(colour="black", size = 10, face = "bold"))+ theme(legend.title = element_text(colour="black", size=14, face="bold"))+ geom_abline(intercept = 0)+theme(legend.position = "none")
+```
+
+```{r warning=FALSE}
+library(gridExtra)
+grid.arrange(p1, p2,p3,p4)
+grid.arrange(p5, p6,p7,p8)
+```
+
