@@ -1,0 +1,1185 @@
+Sample	ASV	Relative_abundance	Prevalence_Compartment	Species	Phylum	Soil_div	Compartment
+ITS-Boston-AF-1	ASV1	14.9263677	Seed	Cladosporium sinuosum	Ascomycota	ns	Seed
+ITS-Boston-AF-2	ASV1	16.86219081	Seed	Cladosporium sinuosum	Ascomycota	ns	Seed
+ITS-Boston-AF-3	ASV1	24.8902177	Seed	Cladosporium sinuosum	Ascomycota	ns	Seed
+ITS-Boston-AF-4	ASV1	14.9972666	Seed	Cladosporium sinuosum	Ascomycota	ns	Seed
+ITS-Boston-AF-5	ASV1	19.98877386	Seed	Cladosporium sinuosum	Ascomycota	ns	Seed
+ITS-Major-AF-1	ASV1	12.5999128	Seed	Cladosporium sinuosum	Ascomycota	ns	Seed
+ITS-Major-AF-2	ASV1	13.17621853	Seed	Cladosporium sinuosum	Ascomycota	ns	Seed
+ITS-Major-AF-3	ASV1	13.10698776	Seed	Cladosporium sinuosum	Ascomycota	ns	Seed
+ITS-Major-AF-4	ASV1	11.78492671	Seed	Cladosporium sinuosum	Ascomycota	ns	Seed
+ITS-Major-AF-5	ASV1	17.97840714	Seed	Cladosporium sinuosum	Ascomycota	ns	Seed
+ITS-AF-2017-Boston-1	ASV1	29.53829852	Seed	Cladosporium sinuosum	Ascomycota	ns	Seed
+ITS-AF-2017-Boston-2	ASV1	32.23973134	Seed	Cladosporium sinuosum	Ascomycota	ns	Seed
+ITS-AF-2017-Boston-3	ASV1	29.10143402	Seed	Cladosporium sinuosum	Ascomycota	ns	Seed
+ITS-AF-2017-Boston-4	ASV1	29.71146169	Seed	Cladosporium sinuosum	Ascomycota	ns	Seed
+ITS-AF-2017-Boston-5	ASV1	29.18983774	Seed	Cladosporium sinuosum	Ascomycota	ns	Seed
+ITS-AF-2017-Major-1	ASV1	27.56342223	Seed	Cladosporium sinuosum	Ascomycota	ns	Seed
+ITS-AF-2017-Major-2	ASV1	30.83127059	Seed	Cladosporium sinuosum	Ascomycota	ns	Seed
+ITS-AF-2017-Major-3	ASV1	29.91529932	Seed	Cladosporium sinuosum	Ascomycota	ns	Seed
+ITS-AF-2017-Major-4	ASV1	28.54210248	Seed	Cladosporium sinuosum	Ascomycota	ns	Seed
+ITS-AF-2017-Major-5	ASV1	29.46840416	Seed	Cladosporium sinuosum	Ascomycota	ns	Seed
+P14B20ATD-E07	ASV1	0	Seed	Cladosporium sinuosum	Ascomycota	High	Root
+P14B20ATU-H01	ASV1	0	Seed	Cladosporium sinuosum	Ascomycota	High	Stem
+P14B20BTD-E09	ASV1	0	Seed	Cladosporium sinuosum	Ascomycota	High	Root
+P14B20BTU-H03	ASV1	0	Seed	Cladosporium sinuosum	Ascomycota	High	Stem
+P14B20CTD-E11	ASV1	0	Seed	Cladosporium sinuosum	Ascomycota	High	Root
+P14B20CTU-H05	ASV1	0	Seed	Cladosporium sinuosum	Ascomycota	High	Stem
+P14B26ATD-G07	ASV1	0	Seed	Cladosporium sinuosum	Ascomycota	Low	Root
+P14B26ATU-B02	ASV1	0	Seed	Cladosporium sinuosum	Ascomycota	Low	Stem
+P14B26BTD-G09	ASV1	0	Seed	Cladosporium sinuosum	Ascomycota	Low	Root
+P14B26BTU-B04	ASV1	0	Seed	Cladosporium sinuosum	Ascomycota	Low	Stem
+P14B26CTD-G11	ASV1	0	Seed	Cladosporium sinuosum	Ascomycota	Low	Root
+P14B26CTU-B06	ASV1	0	Seed	Cladosporium sinuosum	Ascomycota	Low	Stem
+P14B30ATD-F07	ASV1	0	Seed	Cladosporium sinuosum	Ascomycota	High	Root
+P14B30ATU-A02	ASV1	0	Seed	Cladosporium sinuosum	Ascomycota	High	Stem
+P14B30BTD-F09	ASV1	0	Seed	Cladosporium sinuosum	Ascomycota	High	Root
+P14B30BTU-A04	ASV1	0	Seed	Cladosporium sinuosum	Ascomycota	High	Stem
+P14B30CTD-F11	ASV1	0	Seed	Cladosporium sinuosum	Ascomycota	High	Root
+P14B30CTU-A06	ASV1	0	Seed	Cladosporium sinuosum	Ascomycota	High	Stem
+P14B36ATD-H07	ASV1	0	Seed	Cladosporium sinuosum	Ascomycota	Low	Root
+P14B36ATU-C02	ASV1	0	Seed	Cladosporium sinuosum	Ascomycota	Low	Stem
+P14B36BTD-H09	ASV1	0	Seed	Cladosporium sinuosum	Ascomycota	Low	Root
+P14B36BTU-C04	ASV1	0	Seed	Cladosporium sinuosum	Ascomycota	Low	Stem
+P14B36CTD-A12	ASV1	0	Seed	Cladosporium sinuosum	Ascomycota	Low	Root
+P14B36CTU-C06	ASV1	0	Seed	Cladosporium sinuosum	Ascomycota	Low	Stem
+P14M20ATD-A08	ASV1	0	Seed	Cladosporium sinuosum	Ascomycota	High	Root
+P14M20ATU-D02	ASV1	0	Seed	Cladosporium sinuosum	Ascomycota	High	Stem
+P14M20BTD-A10	ASV1	0	Seed	Cladosporium sinuosum	Ascomycota	High	Root
+P14M20BTU-D04	ASV1	0	Seed	Cladosporium sinuosum	Ascomycota	High	Stem
+P14M20CTD-B12	ASV1	0	Seed	Cladosporium sinuosum	Ascomycota	High	Root
+P14M20CTU-D06	ASV1	0	Seed	Cladosporium sinuosum	Ascomycota	High	Stem
+P14M26ATD-C08	ASV1	0	Seed	Cladosporium sinuosum	Ascomycota	Low	Root
+P14M26ATU-F02	ASV1	0	Seed	Cladosporium sinuosum	Ascomycota	Low	Stem
+P14M26BTD-C10	ASV1	0	Seed	Cladosporium sinuosum	Ascomycota	Low	Root
+P14M26BTU-F04	ASV1	0	Seed	Cladosporium sinuosum	Ascomycota	Low	Stem
+P14M26CTD-D12	ASV1	0	Seed	Cladosporium sinuosum	Ascomycota	Low	Root
+P14M26CTU-F06	ASV1	0	Seed	Cladosporium sinuosum	Ascomycota	Low	Stem
+P14M30ATD-B08	ASV1	0	Seed	Cladosporium sinuosum	Ascomycota	High	Root
+P14M30ATU-E02	ASV1	0	Seed	Cladosporium sinuosum	Ascomycota	High	Stem
+P14M30BTD-B10	ASV1	0	Seed	Cladosporium sinuosum	Ascomycota	High	Root
+P14M30BTU-E04	ASV1	0	Seed	Cladosporium sinuosum	Ascomycota	High	Stem
+P14M30CTD-C12	ASV1	0	Seed	Cladosporium sinuosum	Ascomycota	High	Root
+P14M30CTU-E06	ASV1	0	Seed	Cladosporium sinuosum	Ascomycota	High	Stem
+P14M36ATD-D08	ASV1	0	Seed	Cladosporium sinuosum	Ascomycota	Low	Root
+P14M36ATU-G02	ASV1	0	Seed	Cladosporium sinuosum	Ascomycota	Low	Stem
+P14M36BTD-D10	ASV1	0	Seed	Cladosporium sinuosum	Ascomycota	Low	Root
+P14M36BTU-G04	ASV1	0	Seed	Cladosporium sinuosum	Ascomycota	Low	Stem
+P14M36CTD-E12	ASV1	0	Seed	Cladosporium sinuosum	Ascomycota	Low	Root
+P14M36CTU-G06	ASV1	0	Seed	Cladosporium sinuosum	Ascomycota	Low	Stem
+ITS1-D0A	ASV1	0	Seed	Cladosporium sinuosum	Ascomycota	High	Soil
+ITS1-D0B	ASV1	0.004637359	Seed	Cladosporium sinuosum	Ascomycota	High	Soil
+ITS1-D0C	ASV1	0	Seed	Cladosporium sinuosum	Ascomycota	High	Soil
+ITS1-D6A	ASV1	0.02186053	Seed	Cladosporium sinuosum	Ascomycota	Low	Soil
+ITS1-D6B	ASV1	0.009837402	Seed	Cladosporium sinuosum	Ascomycota	Low	Soil
+ITS1-D6C	ASV1	0.156201187	Seed	Cladosporium sinuosum	Ascomycota	Low	Soil
+ITS-Boston-AF-1	ASV11	3.678283468	Seed	Alternaria infectoria	Ascomycota	ns	Seed
+ITS-Boston-AF-2	ASV11	2.537102473	Seed	Alternaria infectoria	Ascomycota	ns	Seed
+ITS-Boston-AF-3	ASV11	4.073624218	Seed	Alternaria infectoria	Ascomycota	ns	Seed
+ITS-Boston-AF-4	ASV11	2.873109397	Seed	Alternaria infectoria	Ascomycota	ns	Seed
+ITS-Boston-AF-5	ASV11	3.579892728	Seed	Alternaria infectoria	Ascomycota	ns	Seed
+ITS-Major-AF-1	ASV11	4.432495277	Seed	Alternaria infectoria	Ascomycota	ns	Seed
+ITS-Major-AF-2	ASV11	5.187849109	Seed	Alternaria infectoria	Ascomycota	ns	Seed
+ITS-Major-AF-3	ASV11	4.531297978	Seed	Alternaria infectoria	Ascomycota	ns	Seed
+ITS-Major-AF-4	ASV11	3.943442729	Seed	Alternaria infectoria	Ascomycota	ns	Seed
+ITS-Major-AF-5	ASV11	3.982162416	Seed	Alternaria infectoria	Ascomycota	ns	Seed
+ITS-AF-2017-Boston-1	ASV11	5.937026945	Seed	Alternaria infectoria	Ascomycota	ns	Seed
+ITS-AF-2017-Boston-2	ASV11	6.268836649	Seed	Alternaria infectoria	Ascomycota	ns	Seed
+ITS-AF-2017-Boston-3	ASV11	5.99921063	Seed	Alternaria infectoria	Ascomycota	ns	Seed
+ITS-AF-2017-Boston-4	ASV11	6.183750447	Seed	Alternaria infectoria	Ascomycota	ns	Seed
+ITS-AF-2017-Boston-5	ASV11	6.027652929	Seed	Alternaria infectoria	Ascomycota	ns	Seed
+ITS-AF-2017-Major-1	ASV11	7.088568592	Seed	Alternaria infectoria	Ascomycota	ns	Seed
+ITS-AF-2017-Major-2	ASV11	6.352146616	Seed	Alternaria infectoria	Ascomycota	ns	Seed
+ITS-AF-2017-Major-3	ASV11	6.582375165	Seed	Alternaria infectoria	Ascomycota	ns	Seed
+ITS-AF-2017-Major-4	ASV11	6.72740425	Seed	Alternaria infectoria	Ascomycota	ns	Seed
+ITS-AF-2017-Major-5	ASV11	6.540154691	Seed	Alternaria infectoria	Ascomycota	ns	Seed
+P14B20ATD-E07	ASV11	0	Seed	Alternaria infectoria	Ascomycota	High	Root
+P14B20ATU-H01	ASV11	0	Seed	Alternaria infectoria	Ascomycota	High	Stem
+P14B20BTD-E09	ASV11	0	Seed	Alternaria infectoria	Ascomycota	High	Root
+P14B20BTU-H03	ASV11	0	Seed	Alternaria infectoria	Ascomycota	High	Stem
+P14B20CTD-E11	ASV11	0	Seed	Alternaria infectoria	Ascomycota	High	Root
+P14B20CTU-H05	ASV11	0	Seed	Alternaria infectoria	Ascomycota	High	Stem
+P14B26ATD-G07	ASV11	0	Seed	Alternaria infectoria	Ascomycota	Low	Root
+P14B26ATU-B02	ASV11	0	Seed	Alternaria infectoria	Ascomycota	Low	Stem
+P14B26BTD-G09	ASV11	0	Seed	Alternaria infectoria	Ascomycota	Low	Root
+P14B26BTU-B04	ASV11	0	Seed	Alternaria infectoria	Ascomycota	Low	Stem
+P14B26CTD-G11	ASV11	0	Seed	Alternaria infectoria	Ascomycota	Low	Root
+P14B26CTU-B06	ASV11	0	Seed	Alternaria infectoria	Ascomycota	Low	Stem
+P14B30ATD-F07	ASV11	0	Seed	Alternaria infectoria	Ascomycota	High	Root
+P14B30ATU-A02	ASV11	0	Seed	Alternaria infectoria	Ascomycota	High	Stem
+P14B30BTD-F09	ASV11	0	Seed	Alternaria infectoria	Ascomycota	High	Root
+P14B30BTU-A04	ASV11	0	Seed	Alternaria infectoria	Ascomycota	High	Stem
+P14B30CTD-F11	ASV11	0	Seed	Alternaria infectoria	Ascomycota	High	Root
+P14B30CTU-A06	ASV11	0	Seed	Alternaria infectoria	Ascomycota	High	Stem
+P14B36ATD-H07	ASV11	0	Seed	Alternaria infectoria	Ascomycota	Low	Root
+P14B36ATU-C02	ASV11	0	Seed	Alternaria infectoria	Ascomycota	Low	Stem
+P14B36BTD-H09	ASV11	0	Seed	Alternaria infectoria	Ascomycota	Low	Root
+P14B36BTU-C04	ASV11	0	Seed	Alternaria infectoria	Ascomycota	Low	Stem
+P14B36CTD-A12	ASV11	0	Seed	Alternaria infectoria	Ascomycota	Low	Root
+P14B36CTU-C06	ASV11	0	Seed	Alternaria infectoria	Ascomycota	Low	Stem
+P14M20ATD-A08	ASV11	0	Seed	Alternaria infectoria	Ascomycota	High	Root
+P14M20ATU-D02	ASV11	0	Seed	Alternaria infectoria	Ascomycota	High	Stem
+P14M20BTD-A10	ASV11	0	Seed	Alternaria infectoria	Ascomycota	High	Root
+P14M20BTU-D04	ASV11	0	Seed	Alternaria infectoria	Ascomycota	High	Stem
+P14M20CTD-B12	ASV11	0	Seed	Alternaria infectoria	Ascomycota	High	Root
+P14M20CTU-D06	ASV11	0	Seed	Alternaria infectoria	Ascomycota	High	Stem
+P14M26ATD-C08	ASV11	0	Seed	Alternaria infectoria	Ascomycota	Low	Root
+P14M26ATU-F02	ASV11	0	Seed	Alternaria infectoria	Ascomycota	Low	Stem
+P14M26BTD-C10	ASV11	0	Seed	Alternaria infectoria	Ascomycota	Low	Root
+P14M26BTU-F04	ASV11	0	Seed	Alternaria infectoria	Ascomycota	Low	Stem
+P14M26CTD-D12	ASV11	0	Seed	Alternaria infectoria	Ascomycota	Low	Root
+P14M26CTU-F06	ASV11	0	Seed	Alternaria infectoria	Ascomycota	Low	Stem
+P14M30ATD-B08	ASV11	0	Seed	Alternaria infectoria	Ascomycota	High	Root
+P14M30ATU-E02	ASV11	0	Seed	Alternaria infectoria	Ascomycota	High	Stem
+P14M30BTD-B10	ASV11	0	Seed	Alternaria infectoria	Ascomycota	High	Root
+P14M30BTU-E04	ASV11	0	Seed	Alternaria infectoria	Ascomycota	High	Stem
+P14M30CTD-C12	ASV11	0	Seed	Alternaria infectoria	Ascomycota	High	Root
+P14M30CTU-E06	ASV11	0	Seed	Alternaria infectoria	Ascomycota	High	Stem
+P14M36ATD-D08	ASV11	0	Seed	Alternaria infectoria	Ascomycota	Low	Root
+P14M36ATU-G02	ASV11	0	Seed	Alternaria infectoria	Ascomycota	Low	Stem
+P14M36BTD-D10	ASV11	0	Seed	Alternaria infectoria	Ascomycota	Low	Root
+P14M36BTU-G04	ASV11	0	Seed	Alternaria infectoria	Ascomycota	Low	Stem
+P14M36CTD-E12	ASV11	0	Seed	Alternaria infectoria	Ascomycota	Low	Root
+P14M36CTU-G06	ASV11	0.774280424	Seed	Alternaria infectoria	Ascomycota	Low	Stem
+ITS1-D0A	ASV11	0	Seed	Alternaria infectoria	Ascomycota	High	Soil
+ITS1-D0B	ASV11	0	Seed	Alternaria infectoria	Ascomycota	High	Soil
+ITS1-D0C	ASV11	0	Seed	Alternaria infectoria	Ascomycota	High	Soil
+ITS1-D6A	ASV11	0	Seed	Alternaria infectoria	Ascomycota	Low	Soil
+ITS1-D6B	ASV11	0	Seed	Alternaria infectoria	Ascomycota	Low	Soil
+ITS1-D6C	ASV11	0.019525148	Seed	Alternaria infectoria	Ascomycota	Low	Soil
+ITS-Boston-AF-1	ASV16	10.49510229	Seed	Unclassified Sclerotiniaceae	Ascomycota	ns	Seed
+ITS-Boston-AF-2	ASV16	9.314487633	Seed	Unclassified Sclerotiniaceae	Ascomycota	ns	Seed
+ITS-Boston-AF-3	ASV16	8.698495749	Seed	Unclassified Sclerotiniaceae	Ascomycota	ns	Seed
+ITS-Boston-AF-4	ASV16	7.926866306	Seed	Unclassified Sclerotiniaceae	Ascomycota	ns	Seed
+ITS-Boston-AF-5	ASV16	11.35087938	Seed	Unclassified Sclerotiniaceae	Ascomycota	ns	Seed
+ITS-Major-AF-1	ASV16	4.214503706	Seed	Unclassified Sclerotiniaceae	Ascomycota	ns	Seed
+ITS-Major-AF-2	ASV16	7.506312648	Seed	Unclassified Sclerotiniaceae	Ascomycota	ns	Seed
+ITS-Major-AF-3	ASV16	3.456595166	Seed	Unclassified Sclerotiniaceae	Ascomycota	ns	Seed
+ITS-Major-AF-4	ASV16	12.32974445	Seed	Unclassified Sclerotiniaceae	Ascomycota	ns	Seed
+ITS-Major-AF-5	ASV16	20.25504616	Seed	Unclassified Sclerotiniaceae	Ascomycota	ns	Seed
+ITS-AF-2017-Boston-1	ASV16	2.388737511	Seed	Unclassified Sclerotiniaceae	Ascomycota	ns	Seed
+ITS-AF-2017-Boston-2	ASV16	2.008094377	Seed	Unclassified Sclerotiniaceae	Ascomycota	ns	Seed
+ITS-AF-2017-Boston-3	ASV16	2.854887515	Seed	Unclassified Sclerotiniaceae	Ascomycota	ns	Seed
+ITS-AF-2017-Boston-4	ASV16	2.596294155	Seed	Unclassified Sclerotiniaceae	Ascomycota	ns	Seed
+ITS-AF-2017-Boston-5	ASV16	2.670069323	Seed	Unclassified Sclerotiniaceae	Ascomycota	ns	Seed
+ITS-AF-2017-Major-1	ASV16	0.785716731	Seed	Unclassified Sclerotiniaceae	Ascomycota	ns	Seed
+ITS-AF-2017-Major-2	ASV16	0.780289494	Seed	Unclassified Sclerotiniaceae	Ascomycota	ns	Seed
+ITS-AF-2017-Major-3	ASV16	1.217998554	Seed	Unclassified Sclerotiniaceae	Ascomycota	ns	Seed
+ITS-AF-2017-Major-4	ASV16	1.045963753	Seed	Unclassified Sclerotiniaceae	Ascomycota	ns	Seed
+ITS-AF-2017-Major-5	ASV16	0.785730572	Seed	Unclassified Sclerotiniaceae	Ascomycota	ns	Seed
+P14B20ATD-E07	ASV16	0	Seed	Unclassified Sclerotiniaceae	Ascomycota	High	Root
+P14B20ATU-H01	ASV16	0	Seed	Unclassified Sclerotiniaceae	Ascomycota	High	Stem
+P14B20BTD-E09	ASV16	0	Seed	Unclassified Sclerotiniaceae	Ascomycota	High	Root
+P14B20BTU-H03	ASV16	0	Seed	Unclassified Sclerotiniaceae	Ascomycota	High	Stem
+P14B20CTD-E11	ASV16	0	Seed	Unclassified Sclerotiniaceae	Ascomycota	High	Root
+P14B20CTU-H05	ASV16	0	Seed	Unclassified Sclerotiniaceae	Ascomycota	High	Stem
+P14B26ATD-G07	ASV16	0	Seed	Unclassified Sclerotiniaceae	Ascomycota	Low	Root
+P14B26ATU-B02	ASV16	0	Seed	Unclassified Sclerotiniaceae	Ascomycota	Low	Stem
+P14B26BTD-G09	ASV16	0	Seed	Unclassified Sclerotiniaceae	Ascomycota	Low	Root
+P14B26BTU-B04	ASV16	0	Seed	Unclassified Sclerotiniaceae	Ascomycota	Low	Stem
+P14B26CTD-G11	ASV16	0	Seed	Unclassified Sclerotiniaceae	Ascomycota	Low	Root
+P14B26CTU-B06	ASV16	0	Seed	Unclassified Sclerotiniaceae	Ascomycota	Low	Stem
+P14B30ATD-F07	ASV16	0	Seed	Unclassified Sclerotiniaceae	Ascomycota	High	Root
+P14B30ATU-A02	ASV16	0	Seed	Unclassified Sclerotiniaceae	Ascomycota	High	Stem
+P14B30BTD-F09	ASV16	0	Seed	Unclassified Sclerotiniaceae	Ascomycota	High	Root
+P14B30BTU-A04	ASV16	0	Seed	Unclassified Sclerotiniaceae	Ascomycota	High	Stem
+P14B30CTD-F11	ASV16	0	Seed	Unclassified Sclerotiniaceae	Ascomycota	High	Root
+P14B30CTU-A06	ASV16	0	Seed	Unclassified Sclerotiniaceae	Ascomycota	High	Stem
+P14B36ATD-H07	ASV16	0	Seed	Unclassified Sclerotiniaceae	Ascomycota	Low	Root
+P14B36ATU-C02	ASV16	0	Seed	Unclassified Sclerotiniaceae	Ascomycota	Low	Stem
+P14B36BTD-H09	ASV16	0	Seed	Unclassified Sclerotiniaceae	Ascomycota	Low	Root
+P14B36BTU-C04	ASV16	0	Seed	Unclassified Sclerotiniaceae	Ascomycota	Low	Stem
+P14B36CTD-A12	ASV16	0	Seed	Unclassified Sclerotiniaceae	Ascomycota	Low	Root
+P14B36CTU-C06	ASV16	0	Seed	Unclassified Sclerotiniaceae	Ascomycota	Low	Stem
+P14M20ATD-A08	ASV16	0	Seed	Unclassified Sclerotiniaceae	Ascomycota	High	Root
+P14M20ATU-D02	ASV16	0	Seed	Unclassified Sclerotiniaceae	Ascomycota	High	Stem
+P14M20BTD-A10	ASV16	0	Seed	Unclassified Sclerotiniaceae	Ascomycota	High	Root
+P14M20BTU-D04	ASV16	0	Seed	Unclassified Sclerotiniaceae	Ascomycota	High	Stem
+P14M20CTD-B12	ASV16	0	Seed	Unclassified Sclerotiniaceae	Ascomycota	High	Root
+P14M20CTU-D06	ASV16	0	Seed	Unclassified Sclerotiniaceae	Ascomycota	High	Stem
+P14M26ATD-C08	ASV16	0	Seed	Unclassified Sclerotiniaceae	Ascomycota	Low	Root
+P14M26ATU-F02	ASV16	0	Seed	Unclassified Sclerotiniaceae	Ascomycota	Low	Stem
+P14M26BTD-C10	ASV16	0	Seed	Unclassified Sclerotiniaceae	Ascomycota	Low	Root
+P14M26BTU-F04	ASV16	0	Seed	Unclassified Sclerotiniaceae	Ascomycota	Low	Stem
+P14M26CTD-D12	ASV16	0	Seed	Unclassified Sclerotiniaceae	Ascomycota	Low	Root
+P14M26CTU-F06	ASV16	0	Seed	Unclassified Sclerotiniaceae	Ascomycota	Low	Stem
+P14M30ATD-B08	ASV16	0	Seed	Unclassified Sclerotiniaceae	Ascomycota	High	Root
+P14M30ATU-E02	ASV16	0	Seed	Unclassified Sclerotiniaceae	Ascomycota	High	Stem
+P14M30BTD-B10	ASV16	0	Seed	Unclassified Sclerotiniaceae	Ascomycota	High	Root
+P14M30BTU-E04	ASV16	0	Seed	Unclassified Sclerotiniaceae	Ascomycota	High	Stem
+P14M30CTD-C12	ASV16	0	Seed	Unclassified Sclerotiniaceae	Ascomycota	High	Root
+P14M30CTU-E06	ASV16	0	Seed	Unclassified Sclerotiniaceae	Ascomycota	High	Stem
+P14M36ATD-D08	ASV16	0	Seed	Unclassified Sclerotiniaceae	Ascomycota	Low	Root
+P14M36ATU-G02	ASV16	0	Seed	Unclassified Sclerotiniaceae	Ascomycota	Low	Stem
+P14M36BTD-D10	ASV16	0	Seed	Unclassified Sclerotiniaceae	Ascomycota	Low	Root
+P14M36BTU-G04	ASV16	0	Seed	Unclassified Sclerotiniaceae	Ascomycota	Low	Stem
+P14M36CTD-E12	ASV16	0	Seed	Unclassified Sclerotiniaceae	Ascomycota	Low	Root
+P14M36CTU-G06	ASV16	0	Seed	Unclassified Sclerotiniaceae	Ascomycota	Low	Stem
+ITS1-D0A	ASV16	0	Seed	Unclassified Sclerotiniaceae	Ascomycota	High	Soil
+ITS1-D0B	ASV16	0.002318679	Seed	Unclassified Sclerotiniaceae	Ascomycota	High	Soil
+ITS1-D0C	ASV16	0	Seed	Unclassified Sclerotiniaceae	Ascomycota	High	Soil
+ITS1-D6A	ASV16	0	Seed	Unclassified Sclerotiniaceae	Ascomycota	Low	Soil
+ITS1-D6B	ASV16	0	Seed	Unclassified Sclerotiniaceae	Ascomycota	Low	Soil
+ITS1-D6C	ASV16	0	Seed	Unclassified Sclerotiniaceae	Ascomycota	Low	Soil
+ITS-Boston-AF-1	ASV18	0	Root & Stem	Clonostachys rosea	Ascomycota	ns	Seed
+ITS-Boston-AF-2	ASV18	0	Root & Stem	Clonostachys rosea	Ascomycota	ns	Seed
+ITS-Boston-AF-3	ASV18	0	Root & Stem	Clonostachys rosea	Ascomycota	ns	Seed
+ITS-Boston-AF-4	ASV18	0	Root & Stem	Clonostachys rosea	Ascomycota	ns	Seed
+ITS-Boston-AF-5	ASV18	0	Root & Stem	Clonostachys rosea	Ascomycota	ns	Seed
+ITS-Major-AF-1	ASV18	0	Root & Stem	Clonostachys rosea	Ascomycota	ns	Seed
+ITS-Major-AF-2	ASV18	0	Root & Stem	Clonostachys rosea	Ascomycota	ns	Seed
+ITS-Major-AF-3	ASV18	0	Root & Stem	Clonostachys rosea	Ascomycota	ns	Seed
+ITS-Major-AF-4	ASV18	0	Root & Stem	Clonostachys rosea	Ascomycota	ns	Seed
+ITS-Major-AF-5	ASV18	0	Root & Stem	Clonostachys rosea	Ascomycota	ns	Seed
+ITS-AF-2017-Boston-1	ASV18	0	Root & Stem	Clonostachys rosea	Ascomycota	ns	Seed
+ITS-AF-2017-Boston-2	ASV18	0	Root & Stem	Clonostachys rosea	Ascomycota	ns	Seed
+ITS-AF-2017-Boston-3	ASV18	0	Root & Stem	Clonostachys rosea	Ascomycota	ns	Seed
+ITS-AF-2017-Boston-4	ASV18	0	Root & Stem	Clonostachys rosea	Ascomycota	ns	Seed
+ITS-AF-2017-Boston-5	ASV18	0	Root & Stem	Clonostachys rosea	Ascomycota	ns	Seed
+ITS-AF-2017-Major-1	ASV18	0	Root & Stem	Clonostachys rosea	Ascomycota	ns	Seed
+ITS-AF-2017-Major-2	ASV18	0	Root & Stem	Clonostachys rosea	Ascomycota	ns	Seed
+ITS-AF-2017-Major-3	ASV18	0	Root & Stem	Clonostachys rosea	Ascomycota	ns	Seed
+ITS-AF-2017-Major-4	ASV18	0	Root & Stem	Clonostachys rosea	Ascomycota	ns	Seed
+ITS-AF-2017-Major-5	ASV18	0	Root & Stem	Clonostachys rosea	Ascomycota	ns	Seed
+P14B20ATD-E07	ASV18	36.19167718	Root & Stem	Clonostachys rosea	Ascomycota	High	Root
+P14B20ATU-H01	ASV18	13.82113821	Root & Stem	Clonostachys rosea	Ascomycota	High	Stem
+P14B20BTD-E09	ASV18	6.308535077	Root & Stem	Clonostachys rosea	Ascomycota	High	Root
+P14B20BTU-H03	ASV18	6.96006204	Root & Stem	Clonostachys rosea	Ascomycota	High	Stem
+P14B20CTD-E11	ASV18	4.656523744	Root & Stem	Clonostachys rosea	Ascomycota	High	Root
+P14B20CTU-H05	ASV18	8.990913439	Root & Stem	Clonostachys rosea	Ascomycota	High	Stem
+P14B26ATD-G07	ASV18	5.989911728	Root & Stem	Clonostachys rosea	Ascomycota	Low	Root
+P14B26ATU-B02	ASV18	5.33877551	Root & Stem	Clonostachys rosea	Ascomycota	Low	Stem
+P14B26BTD-G09	ASV18	0	Root & Stem	Clonostachys rosea	Ascomycota	Low	Root
+P14B26BTU-B04	ASV18	0	Root & Stem	Clonostachys rosea	Ascomycota	Low	Stem
+P14B26CTD-G11	ASV18	0	Root & Stem	Clonostachys rosea	Ascomycota	Low	Root
+P14B26CTU-B06	ASV18	0	Root & Stem	Clonostachys rosea	Ascomycota	Low	Stem
+P14B30ATD-F07	ASV18	7.222739981	Root & Stem	Clonostachys rosea	Ascomycota	High	Root
+P14B30ATU-A02	ASV18	6.625479335	Root & Stem	Clonostachys rosea	Ascomycota	High	Stem
+P14B30BTD-F09	ASV18	1.879699248	Root & Stem	Clonostachys rosea	Ascomycota	High	Root
+P14B30BTU-A04	ASV18	3.829296424	Root & Stem	Clonostachys rosea	Ascomycota	High	Stem
+P14B30CTD-F11	ASV18	1.172190784	Root & Stem	Clonostachys rosea	Ascomycota	High	Root
+P14B30CTU-A06	ASV18	4.831404127	Root & Stem	Clonostachys rosea	Ascomycota	High	Stem
+P14B36ATD-H07	ASV18	7.057602491	Root & Stem	Clonostachys rosea	Ascomycota	Low	Root
+P14B36ATU-C02	ASV18	16.20871496	Root & Stem	Clonostachys rosea	Ascomycota	Low	Stem
+P14B36BTD-H09	ASV18	0	Root & Stem	Clonostachys rosea	Ascomycota	Low	Root
+P14B36BTU-C04	ASV18	0	Root & Stem	Clonostachys rosea	Ascomycota	Low	Stem
+P14B36CTD-A12	ASV18	0	Root & Stem	Clonostachys rosea	Ascomycota	Low	Root
+P14B36CTU-C06	ASV18	0	Root & Stem	Clonostachys rosea	Ascomycota	Low	Stem
+P14M20ATD-A08	ASV18	15.20244461	Root & Stem	Clonostachys rosea	Ascomycota	High	Root
+P14M20ATU-D02	ASV18	18.49466693	Root & Stem	Clonostachys rosea	Ascomycota	High	Stem
+P14M20BTD-A10	ASV18	1.250977326	Root & Stem	Clonostachys rosea	Ascomycota	High	Root
+P14M20BTU-D04	ASV18	5.562671546	Root & Stem	Clonostachys rosea	Ascomycota	High	Stem
+P14M20CTD-B12	ASV18	8.363471971	Root & Stem	Clonostachys rosea	Ascomycota	High	Root
+P14M20CTU-D06	ASV18	5.511551155	Root & Stem	Clonostachys rosea	Ascomycota	High	Stem
+P14M26ATD-C08	ASV18	3.103307472	Root & Stem	Clonostachys rosea	Ascomycota	Low	Root
+P14M26ATU-F02	ASV18	3.548989642	Root & Stem	Clonostachys rosea	Ascomycota	Low	Stem
+P14M26BTD-C10	ASV18	0	Root & Stem	Clonostachys rosea	Ascomycota	Low	Root
+P14M26BTU-F04	ASV18	0	Root & Stem	Clonostachys rosea	Ascomycota	Low	Stem
+P14M26CTD-D12	ASV18	0	Root & Stem	Clonostachys rosea	Ascomycota	Low	Root
+P14M26CTU-F06	ASV18	0	Root & Stem	Clonostachys rosea	Ascomycota	Low	Stem
+P14M30ATD-B08	ASV18	7.632508834	Root & Stem	Clonostachys rosea	Ascomycota	High	Root
+P14M30ATU-E02	ASV18	16.03206413	Root & Stem	Clonostachys rosea	Ascomycota	High	Stem
+P14M30BTD-B10	ASV18	8.227571116	Root & Stem	Clonostachys rosea	Ascomycota	High	Root
+P14M30BTU-E04	ASV18	7.593984962	Root & Stem	Clonostachys rosea	Ascomycota	High	Stem
+P14M30CTD-C12	ASV18	7.412882788	Root & Stem	Clonostachys rosea	Ascomycota	High	Root
+P14M30CTU-E06	ASV18	7.829880044	Root & Stem	Clonostachys rosea	Ascomycota	High	Stem
+P14M36ATD-D08	ASV18	1.063829787	Root & Stem	Clonostachys rosea	Ascomycota	Low	Root
+P14M36ATU-G02	ASV18	9.17888563	Root & Stem	Clonostachys rosea	Ascomycota	Low	Stem
+P14M36BTD-D10	ASV18	0	Root & Stem	Clonostachys rosea	Ascomycota	Low	Root
+P14M36BTU-G04	ASV18	0	Root & Stem	Clonostachys rosea	Ascomycota	Low	Stem
+P14M36CTD-E12	ASV18	0	Root & Stem	Clonostachys rosea	Ascomycota	Low	Root
+P14M36CTU-G06	ASV18	0	Root & Stem	Clonostachys rosea	Ascomycota	Low	Stem
+ITS1-D0A	ASV18	1.568149662	Root & Stem	Clonostachys rosea	Ascomycota	High	Soil
+ITS1-D0B	ASV18	0.088109813	Root & Stem	Clonostachys rosea	Ascomycota	High	Soil
+ITS1-D0C	ASV18	0.130390689	Root & Stem	Clonostachys rosea	Ascomycota	High	Soil
+ITS1-D6A	ASV18	0.158985671	Root & Stem	Clonostachys rosea	Ascomycota	Low	Soil
+ITS1-D6B	ASV18	0	Root & Stem	Clonostachys rosea	Ascomycota	Low	Soil
+ITS1-D6C	ASV18	0	Root & Stem	Clonostachys rosea	Ascomycota	Low	Soil
+ITS-Boston-AF-1	ASV2	0	Root & Stem	Unclassified Nectriaceae	Ascomycota	ns	Seed
+ITS-Boston-AF-2	ASV2	0	Root & Stem	Unclassified Nectriaceae	Ascomycota	ns	Seed
+ITS-Boston-AF-3	ASV2	0	Root & Stem	Unclassified Nectriaceae	Ascomycota	ns	Seed
+ITS-Boston-AF-4	ASV2	0	Root & Stem	Unclassified Nectriaceae	Ascomycota	ns	Seed
+ITS-Boston-AF-5	ASV2	0	Root & Stem	Unclassified Nectriaceae	Ascomycota	ns	Seed
+ITS-Major-AF-1	ASV2	0	Root & Stem	Unclassified Nectriaceae	Ascomycota	ns	Seed
+ITS-Major-AF-2	ASV2	0	Root & Stem	Unclassified Nectriaceae	Ascomycota	ns	Seed
+ITS-Major-AF-3	ASV2	0	Root & Stem	Unclassified Nectriaceae	Ascomycota	ns	Seed
+ITS-Major-AF-4	ASV2	0	Root & Stem	Unclassified Nectriaceae	Ascomycota	ns	Seed
+ITS-Major-AF-5	ASV2	0	Root & Stem	Unclassified Nectriaceae	Ascomycota	ns	Seed
+ITS-AF-2017-Boston-1	ASV2	0	Root & Stem	Unclassified Nectriaceae	Ascomycota	ns	Seed
+ITS-AF-2017-Boston-2	ASV2	0	Root & Stem	Unclassified Nectriaceae	Ascomycota	ns	Seed
+ITS-AF-2017-Boston-3	ASV2	0	Root & Stem	Unclassified Nectriaceae	Ascomycota	ns	Seed
+ITS-AF-2017-Boston-4	ASV2	0	Root & Stem	Unclassified Nectriaceae	Ascomycota	ns	Seed
+ITS-AF-2017-Boston-5	ASV2	0	Root & Stem	Unclassified Nectriaceae	Ascomycota	ns	Seed
+ITS-AF-2017-Major-1	ASV2	0	Root & Stem	Unclassified Nectriaceae	Ascomycota	ns	Seed
+ITS-AF-2017-Major-2	ASV2	0	Root & Stem	Unclassified Nectriaceae	Ascomycota	ns	Seed
+ITS-AF-2017-Major-3	ASV2	0	Root & Stem	Unclassified Nectriaceae	Ascomycota	ns	Seed
+ITS-AF-2017-Major-4	ASV2	0	Root & Stem	Unclassified Nectriaceae	Ascomycota	ns	Seed
+ITS-AF-2017-Major-5	ASV2	0	Root & Stem	Unclassified Nectriaceae	Ascomycota	ns	Seed
+P14B20ATD-E07	ASV2	0	Root & Stem	Unclassified Nectriaceae	Ascomycota	High	Root
+P14B20ATU-H01	ASV2	67.07317073	Root & Stem	Unclassified Nectriaceae	Ascomycota	High	Stem
+P14B20BTD-E09	ASV2	81.25110444	Root & Stem	Unclassified Nectriaceae	Ascomycota	High	Root
+P14B20BTU-H03	ASV2	82.72586274	Root & Stem	Unclassified Nectriaceae	Ascomycota	High	Stem
+P14B20CTD-E11	ASV2	56.27017059	Root & Stem	Unclassified Nectriaceae	Ascomycota	High	Root
+P14B20CTU-H05	ASV2	74.10329986	Root & Stem	Unclassified Nectriaceae	Ascomycota	High	Stem
+P14B26ATD-G07	ASV2	85.90794451	Root & Stem	Unclassified Nectriaceae	Ascomycota	Low	Root
+P14B26ATU-B02	ASV2	92.63673469	Root & Stem	Unclassified Nectriaceae	Ascomycota	Low	Stem
+P14B26BTD-G09	ASV2	0	Root & Stem	Unclassified Nectriaceae	Ascomycota	Low	Root
+P14B26BTU-B04	ASV2	0	Root & Stem	Unclassified Nectriaceae	Ascomycota	Low	Stem
+P14B26CTD-G11	ASV2	0	Root & Stem	Unclassified Nectriaceae	Ascomycota	Low	Root
+P14B26CTU-B06	ASV2	0	Root & Stem	Unclassified Nectriaceae	Ascomycota	Low	Stem
+P14B30ATD-F07	ASV2	52.42311277	Root & Stem	Unclassified Nectriaceae	Ascomycota	High	Root
+P14B30ATU-A02	ASV2	47.93353217	Root & Stem	Unclassified Nectriaceae	Ascomycota	High	Stem
+P14B30BTD-F09	ASV2	49.14559125	Root & Stem	Unclassified Nectriaceae	Ascomycota	High	Root
+P14B30BTU-A04	ASV2	0	Root & Stem	Unclassified Nectriaceae	Ascomycota	High	Stem
+P14B30CTD-F11	ASV2	24.49474535	Root & Stem	Unclassified Nectriaceae	Ascomycota	High	Root
+P14B30CTU-A06	ASV2	77.75541017	Root & Stem	Unclassified Nectriaceae	Ascomycota	High	Stem
+P14B36ATD-H07	ASV2	76.02490919	Root & Stem	Unclassified Nectriaceae	Ascomycota	Low	Root
+P14B36ATU-C02	ASV2	83.23619206	Root & Stem	Unclassified Nectriaceae	Ascomycota	Low	Stem
+P14B36BTD-H09	ASV2	0	Root & Stem	Unclassified Nectriaceae	Ascomycota	Low	Root
+P14B36BTU-C04	ASV2	0	Root & Stem	Unclassified Nectriaceae	Ascomycota	Low	Stem
+P14B36CTD-A12	ASV2	0	Root & Stem	Unclassified Nectriaceae	Ascomycota	Low	Root
+P14B36CTU-C06	ASV2	0	Root & Stem	Unclassified Nectriaceae	Ascomycota	Low	Stem
+P14M20ATD-A08	ASV2	16.31016043	Root & Stem	Unclassified Nectriaceae	Ascomycota	High	Root
+P14M20ATU-D02	ASV2	0	Root & Stem	Unclassified Nectriaceae	Ascomycota	High	Stem
+P14M20BTD-A10	ASV2	0	Root & Stem	Unclassified Nectriaceae	Ascomycota	High	Root
+P14M20BTU-D04	ASV2	83.31198536	Root & Stem	Unclassified Nectriaceae	Ascomycota	High	Stem
+P14M20CTD-B12	ASV2	55.04068716	Root & Stem	Unclassified Nectriaceae	Ascomycota	High	Root
+P14M20CTU-D06	ASV2	77.22772277	Root & Stem	Unclassified Nectriaceae	Ascomycota	High	Stem
+P14M26ATD-C08	ASV2	59.57533687	Root & Stem	Unclassified Nectriaceae	Ascomycota	Low	Root
+P14M26ATU-F02	ASV2	95.38121922	Root & Stem	Unclassified Nectriaceae	Ascomycota	Low	Stem
+P14M26BTD-C10	ASV2	0	Root & Stem	Unclassified Nectriaceae	Ascomycota	Low	Root
+P14M26BTU-F04	ASV2	0	Root & Stem	Unclassified Nectriaceae	Ascomycota	Low	Stem
+P14M26CTD-D12	ASV2	0	Root & Stem	Unclassified Nectriaceae	Ascomycota	Low	Root
+P14M26CTU-F06	ASV2	0	Root & Stem	Unclassified Nectriaceae	Ascomycota	Low	Stem
+P14M30ATD-B08	ASV2	8.409893993	Root & Stem	Unclassified Nectriaceae	Ascomycota	High	Root
+P14M30ATU-E02	ASV2	39.38989089	Root & Stem	Unclassified Nectriaceae	Ascomycota	High	Stem
+P14M30BTD-B10	ASV2	45.73304158	Root & Stem	Unclassified Nectriaceae	Ascomycota	High	Root
+P14M30BTU-E04	ASV2	68.45864662	Root & Stem	Unclassified Nectriaceae	Ascomycota	High	Stem
+P14M30CTD-C12	ASV2	39.3875396	Root & Stem	Unclassified Nectriaceae	Ascomycota	High	Root
+P14M30CTU-E06	ASV2	75.85605234	Root & Stem	Unclassified Nectriaceae	Ascomycota	High	Stem
+P14M36ATD-D08	ASV2	11.37835338	Root & Stem	Unclassified Nectriaceae	Ascomycota	Low	Root
+P14M36ATU-G02	ASV2	82.14076246	Root & Stem	Unclassified Nectriaceae	Ascomycota	Low	Stem
+P14M36BTD-D10	ASV2	0	Root & Stem	Unclassified Nectriaceae	Ascomycota	Low	Root
+P14M36BTU-G04	ASV2	0	Root & Stem	Unclassified Nectriaceae	Ascomycota	Low	Stem
+P14M36CTD-E12	ASV2	0	Root & Stem	Unclassified Nectriaceae	Ascomycota	Low	Root
+P14M36CTU-G06	ASV2	0	Root & Stem	Unclassified Nectriaceae	Ascomycota	Low	Stem
+ITS1-D0A	ASV2	4.393963213	Root & Stem	Unclassified Nectriaceae	Ascomycota	High	Soil
+ITS1-D0B	ASV2	0	Root & Stem	Unclassified Nectriaceae	Ascomycota	High	Soil
+ITS1-D0C	ASV2	0.334830412	Root & Stem	Unclassified Nectriaceae	Ascomycota	High	Soil
+ITS1-D6A	ASV2	1.901866094	Root & Stem	Unclassified Nectriaceae	Ascomycota	Low	Soil
+ITS1-D6B	ASV2	0	Root & Stem	Unclassified Nectriaceae	Ascomycota	Low	Soil
+ITS1-D6C	ASV2	0	Root & Stem	Unclassified Nectriaceae	Ascomycota	Low	Soil
+ITS-Boston-AF-1	ASV23	0	Soil	Trichoderma atroviride	Ascomycota	ns	Seed
+ITS-Boston-AF-2	ASV23	0	Soil	Trichoderma atroviride	Ascomycota	ns	Seed
+ITS-Boston-AF-3	ASV23	0	Soil	Trichoderma atroviride	Ascomycota	ns	Seed
+ITS-Boston-AF-4	ASV23	0	Soil	Trichoderma atroviride	Ascomycota	ns	Seed
+ITS-Boston-AF-5	ASV23	0	Soil	Trichoderma atroviride	Ascomycota	ns	Seed
+ITS-Major-AF-1	ASV23	0	Soil	Trichoderma atroviride	Ascomycota	ns	Seed
+ITS-Major-AF-2	ASV23	0	Soil	Trichoderma atroviride	Ascomycota	ns	Seed
+ITS-Major-AF-3	ASV23	0	Soil	Trichoderma atroviride	Ascomycota	ns	Seed
+ITS-Major-AF-4	ASV23	0	Soil	Trichoderma atroviride	Ascomycota	ns	Seed
+ITS-Major-AF-5	ASV23	0	Soil	Trichoderma atroviride	Ascomycota	ns	Seed
+ITS-AF-2017-Boston-1	ASV23	0	Soil	Trichoderma atroviride	Ascomycota	ns	Seed
+ITS-AF-2017-Boston-2	ASV23	0	Soil	Trichoderma atroviride	Ascomycota	ns	Seed
+ITS-AF-2017-Boston-3	ASV23	0	Soil	Trichoderma atroviride	Ascomycota	ns	Seed
+ITS-AF-2017-Boston-4	ASV23	0	Soil	Trichoderma atroviride	Ascomycota	ns	Seed
+ITS-AF-2017-Boston-5	ASV23	0	Soil	Trichoderma atroviride	Ascomycota	ns	Seed
+ITS-AF-2017-Major-1	ASV23	0	Soil	Trichoderma atroviride	Ascomycota	ns	Seed
+ITS-AF-2017-Major-2	ASV23	0	Soil	Trichoderma atroviride	Ascomycota	ns	Seed
+ITS-AF-2017-Major-3	ASV23	0	Soil	Trichoderma atroviride	Ascomycota	ns	Seed
+ITS-AF-2017-Major-4	ASV23	0	Soil	Trichoderma atroviride	Ascomycota	ns	Seed
+ITS-AF-2017-Major-5	ASV23	0	Soil	Trichoderma atroviride	Ascomycota	ns	Seed
+P14B20ATD-E07	ASV23	0	Soil	Trichoderma atroviride	Ascomycota	High	Root
+P14B20ATU-H01	ASV23	0	Soil	Trichoderma atroviride	Ascomycota	High	Stem
+P14B20BTD-E09	ASV23	0	Soil	Trichoderma atroviride	Ascomycota	High	Root
+P14B20BTU-H03	ASV23	0	Soil	Trichoderma atroviride	Ascomycota	High	Stem
+P14B20CTD-E11	ASV23	0	Soil	Trichoderma atroviride	Ascomycota	High	Root
+P14B20CTU-H05	ASV23	0	Soil	Trichoderma atroviride	Ascomycota	High	Stem
+P14B26ATD-G07	ASV23	0.25220681	Soil	Trichoderma atroviride	Ascomycota	Low	Root
+P14B26ATU-B02	ASV23	0	Soil	Trichoderma atroviride	Ascomycota	Low	Stem
+P14B26BTD-G09	ASV23	0	Soil	Trichoderma atroviride	Ascomycota	Low	Root
+P14B26BTU-B04	ASV23	0	Soil	Trichoderma atroviride	Ascomycota	Low	Stem
+P14B26CTD-G11	ASV23	0	Soil	Trichoderma atroviride	Ascomycota	Low	Root
+P14B26CTU-B06	ASV23	0	Soil	Trichoderma atroviride	Ascomycota	Low	Stem
+P14B30ATD-F07	ASV23	0	Soil	Trichoderma atroviride	Ascomycota	High	Root
+P14B30ATU-A02	ASV23	0	Soil	Trichoderma atroviride	Ascomycota	High	Stem
+P14B30BTD-F09	ASV23	0	Soil	Trichoderma atroviride	Ascomycota	High	Root
+P14B30BTU-A04	ASV23	0	Soil	Trichoderma atroviride	Ascomycota	High	Stem
+P14B30CTD-F11	ASV23	0	Soil	Trichoderma atroviride	Ascomycota	High	Root
+P14B30CTU-A06	ASV23	0	Soil	Trichoderma atroviride	Ascomycota	High	Stem
+P14B36ATD-H07	ASV23	0.224874589	Soil	Trichoderma atroviride	Ascomycota	Low	Root
+P14B36ATU-C02	ASV23	0	Soil	Trichoderma atroviride	Ascomycota	Low	Stem
+P14B36BTD-H09	ASV23	0	Soil	Trichoderma atroviride	Ascomycota	Low	Root
+P14B36BTU-C04	ASV23	0	Soil	Trichoderma atroviride	Ascomycota	Low	Stem
+P14B36CTD-A12	ASV23	0	Soil	Trichoderma atroviride	Ascomycota	Low	Root
+P14B36CTU-C06	ASV23	0	Soil	Trichoderma atroviride	Ascomycota	Low	Stem
+P14M20ATD-A08	ASV23	0.305576776	Soil	Trichoderma atroviride	Ascomycota	High	Root
+P14M20ATU-D02	ASV23	0	Soil	Trichoderma atroviride	Ascomycota	High	Stem
+P14M20BTD-A10	ASV23	0.840500391	Soil	Trichoderma atroviride	Ascomycota	High	Root
+P14M20BTU-D04	ASV23	0	Soil	Trichoderma atroviride	Ascomycota	High	Stem
+P14M20CTD-B12	ASV23	0	Soil	Trichoderma atroviride	Ascomycota	High	Root
+P14M20CTU-D06	ASV23	0	Soil	Trichoderma atroviride	Ascomycota	High	Stem
+P14M26ATD-C08	ASV23	0.53082891	Soil	Trichoderma atroviride	Ascomycota	Low	Root
+P14M26ATU-F02	ASV23	0	Soil	Trichoderma atroviride	Ascomycota	Low	Stem
+P14M26BTD-C10	ASV23	0	Soil	Trichoderma atroviride	Ascomycota	Low	Root
+P14M26BTU-F04	ASV23	0	Soil	Trichoderma atroviride	Ascomycota	Low	Stem
+P14M26CTD-D12	ASV23	0	Soil	Trichoderma atroviride	Ascomycota	Low	Root
+P14M26CTU-F06	ASV23	0	Soil	Trichoderma atroviride	Ascomycota	Low	Stem
+P14M30ATD-B08	ASV23	0	Soil	Trichoderma atroviride	Ascomycota	High	Root
+P14M30ATU-E02	ASV23	0	Soil	Trichoderma atroviride	Ascomycota	High	Stem
+P14M30BTD-B10	ASV23	0	Soil	Trichoderma atroviride	Ascomycota	High	Root
+P14M30BTU-E04	ASV23	0	Soil	Trichoderma atroviride	Ascomycota	High	Stem
+P14M30CTD-C12	ASV23	0	Soil	Trichoderma atroviride	Ascomycota	High	Root
+P14M30CTU-E06	ASV23	0	Soil	Trichoderma atroviride	Ascomycota	High	Stem
+P14M36ATD-D08	ASV23	0	Soil	Trichoderma atroviride	Ascomycota	Low	Root
+P14M36ATU-G02	ASV23	0	Soil	Trichoderma atroviride	Ascomycota	Low	Stem
+P14M36BTD-D10	ASV23	0	Soil	Trichoderma atroviride	Ascomycota	Low	Root
+P14M36BTU-G04	ASV23	0	Soil	Trichoderma atroviride	Ascomycota	Low	Stem
+P14M36CTD-E12	ASV23	0	Soil	Trichoderma atroviride	Ascomycota	Low	Root
+P14M36CTU-G06	ASV23	0	Soil	Trichoderma atroviride	Ascomycota	Low	Stem
+ITS1-D0A	ASV23	0.707435938	Soil	Trichoderma atroviride	Ascomycota	High	Soil
+ITS1-D0B	ASV23	0.060285661	Soil	Trichoderma atroviride	Ascomycota	High	Soil
+ITS1-D0C	ASV23	0.157756636	Soil	Trichoderma atroviride	Ascomycota	High	Soil
+ITS1-D6A	ASV23	32.49667124	Soil	Trichoderma atroviride	Ascomycota	Low	Soil
+ITS1-D6B	ASV23	0	Soil	Trichoderma atroviride	Ascomycota	Low	Soil
+ITS1-D6C	ASV23	0.062480475	Soil	Trichoderma atroviride	Ascomycota	Low	Soil
+ITS-Boston-AF-1	ASV29	0	Root & Stem	Fusicolla merismoides	Ascomycota	ns	Seed
+ITS-Boston-AF-2	ASV29	0	Root & Stem	Fusicolla merismoides	Ascomycota	ns	Seed
+ITS-Boston-AF-3	ASV29	0	Root & Stem	Fusicolla merismoides	Ascomycota	ns	Seed
+ITS-Boston-AF-4	ASV29	0	Root & Stem	Fusicolla merismoides	Ascomycota	ns	Seed
+ITS-Boston-AF-5	ASV29	0	Root & Stem	Fusicolla merismoides	Ascomycota	ns	Seed
+ITS-Major-AF-1	ASV29	0	Root & Stem	Fusicolla merismoides	Ascomycota	ns	Seed
+ITS-Major-AF-2	ASV29	0	Root & Stem	Fusicolla merismoides	Ascomycota	ns	Seed
+ITS-Major-AF-3	ASV29	0	Root & Stem	Fusicolla merismoides	Ascomycota	ns	Seed
+ITS-Major-AF-4	ASV29	0	Root & Stem	Fusicolla merismoides	Ascomycota	ns	Seed
+ITS-Major-AF-5	ASV29	0	Root & Stem	Fusicolla merismoides	Ascomycota	ns	Seed
+ITS-AF-2017-Boston-1	ASV29	0	Root & Stem	Fusicolla merismoides	Ascomycota	ns	Seed
+ITS-AF-2017-Boston-2	ASV29	0	Root & Stem	Fusicolla merismoides	Ascomycota	ns	Seed
+ITS-AF-2017-Boston-3	ASV29	0	Root & Stem	Fusicolla merismoides	Ascomycota	ns	Seed
+ITS-AF-2017-Boston-4	ASV29	0	Root & Stem	Fusicolla merismoides	Ascomycota	ns	Seed
+ITS-AF-2017-Boston-5	ASV29	0	Root & Stem	Fusicolla merismoides	Ascomycota	ns	Seed
+ITS-AF-2017-Major-1	ASV29	0	Root & Stem	Fusicolla merismoides	Ascomycota	ns	Seed
+ITS-AF-2017-Major-2	ASV29	0	Root & Stem	Fusicolla merismoides	Ascomycota	ns	Seed
+ITS-AF-2017-Major-3	ASV29	0	Root & Stem	Fusicolla merismoides	Ascomycota	ns	Seed
+ITS-AF-2017-Major-4	ASV29	0	Root & Stem	Fusicolla merismoides	Ascomycota	ns	Seed
+ITS-AF-2017-Major-5	ASV29	0	Root & Stem	Fusicolla merismoides	Ascomycota	ns	Seed
+P14B20ATD-E07	ASV29	7.62925599	Root & Stem	Fusicolla merismoides	Ascomycota	High	Root
+P14B20ATU-H01	ASV29	3.963414634	Root & Stem	Fusicolla merismoides	Ascomycota	High	Stem
+P14B20BTD-E09	ASV29	0.512458031	Root & Stem	Fusicolla merismoides	Ascomycota	High	Root
+P14B20BTU-H03	ASV29	1.37650252	Root & Stem	Fusicolla merismoides	Ascomycota	High	Stem
+P14B20CTD-E11	ASV29	3.019824804	Root & Stem	Fusicolla merismoides	Ascomycota	High	Root
+P14B20CTU-H05	ASV29	4.423720708	Root & Stem	Fusicolla merismoides	Ascomycota	High	Stem
+P14B26ATD-G07	ASV29	0	Root & Stem	Fusicolla merismoides	Ascomycota	Low	Root
+P14B26ATU-B02	ASV29	0	Root & Stem	Fusicolla merismoides	Ascomycota	Low	Stem
+P14B26BTD-G09	ASV29	0	Root & Stem	Fusicolla merismoides	Ascomycota	Low	Root
+P14B26BTU-B04	ASV29	0	Root & Stem	Fusicolla merismoides	Ascomycota	Low	Stem
+P14B26CTD-G11	ASV29	0	Root & Stem	Fusicolla merismoides	Ascomycota	Low	Root
+P14B26CTU-B06	ASV29	2.007808143	Root & Stem	Fusicolla merismoides	Ascomycota	Low	Stem
+P14B30ATD-F07	ASV29	6.150978565	Root & Stem	Fusicolla merismoides	Ascomycota	High	Root
+P14B30ATU-A02	ASV29	6.220707286	Root & Stem	Fusicolla merismoides	Ascomycota	High	Stem
+P14B30BTD-F09	ASV29	1.606288448	Root & Stem	Fusicolla merismoides	Ascomycota	High	Root
+P14B30BTU-A04	ASV29	3.852364475	Root & Stem	Fusicolla merismoides	Ascomycota	High	Stem
+P14B30CTD-F11	ASV29	0.404203719	Root & Stem	Fusicolla merismoides	Ascomycota	High	Root
+P14B30CTU-A06	ASV29	4.3029693	Root & Stem	Fusicolla merismoides	Ascomycota	High	Stem
+P14B36ATD-H07	ASV29	0	Root & Stem	Fusicolla merismoides	Ascomycota	Low	Root
+P14B36ATU-C02	ASV29	0	Root & Stem	Fusicolla merismoides	Ascomycota	Low	Stem
+P14B36BTD-H09	ASV29	0	Root & Stem	Fusicolla merismoides	Ascomycota	Low	Root
+P14B36BTU-C04	ASV29	0	Root & Stem	Fusicolla merismoides	Ascomycota	Low	Stem
+P14B36CTD-A12	ASV29	0	Root & Stem	Fusicolla merismoides	Ascomycota	Low	Root
+P14B36CTU-C06	ASV29	2.003535651	Root & Stem	Fusicolla merismoides	Ascomycota	Low	Stem
+P14M20ATD-A08	ASV29	2.444614209	Root & Stem	Fusicolla merismoides	Ascomycota	High	Root
+P14M20ATU-D02	ASV29	2.213725096	Root & Stem	Fusicolla merismoides	Ascomycota	High	Stem
+P14M20BTD-A10	ASV29	0.605942142	Root & Stem	Fusicolla merismoides	Ascomycota	High	Root
+P14M20BTU-D04	ASV29	2.506861848	Root & Stem	Fusicolla merismoides	Ascomycota	High	Stem
+P14M20CTD-B12	ASV29	5.922242315	Root & Stem	Fusicolla merismoides	Ascomycota	High	Root
+P14M20CTU-D06	ASV29	4.174917492	Root & Stem	Fusicolla merismoides	Ascomycota	High	Stem
+P14M26ATD-C08	ASV29	0	Root & Stem	Fusicolla merismoides	Ascomycota	Low	Root
+P14M26ATU-F02	ASV29	0	Root & Stem	Fusicolla merismoides	Ascomycota	Low	Stem
+P14M26BTD-C10	ASV29	0	Root & Stem	Fusicolla merismoides	Ascomycota	Low	Root
+P14M26BTU-F04	ASV29	0	Root & Stem	Fusicolla merismoides	Ascomycota	Low	Stem
+P14M26CTD-D12	ASV29	0.164383562	Root & Stem	Fusicolla merismoides	Ascomycota	Low	Root
+P14M26CTU-F06	ASV29	10.37398374	Root & Stem	Fusicolla merismoides	Ascomycota	Low	Stem
+P14M30ATD-B08	ASV29	1.201413428	Root & Stem	Fusicolla merismoides	Ascomycota	High	Root
+P14M30ATU-E02	ASV29	5.455355155	Root & Stem	Fusicolla merismoides	Ascomycota	High	Stem
+P14M30BTD-B10	ASV29	3.763676149	Root & Stem	Fusicolla merismoides	Ascomycota	High	Root
+P14M30BTU-E04	ASV29	9.436090226	Root & Stem	Fusicolla merismoides	Ascomycota	High	Stem
+P14M30CTD-C12	ASV29	2.766631468	Root & Stem	Fusicolla merismoides	Ascomycota	High	Root
+P14M30CTU-E06	ASV29	4.53653217	Root & Stem	Fusicolla merismoides	Ascomycota	High	Stem
+P14M36ATD-D08	ASV29	0	Root & Stem	Fusicolla merismoides	Ascomycota	Low	Root
+P14M36ATU-G02	ASV29	0	Root & Stem	Fusicolla merismoides	Ascomycota	Low	Stem
+P14M36BTD-D10	ASV29	0	Root & Stem	Fusicolla merismoides	Ascomycota	Low	Root
+P14M36BTU-G04	ASV29	0	Root & Stem	Fusicolla merismoides	Ascomycota	Low	Stem
+P14M36CTD-E12	ASV29	0.095854301	Root & Stem	Fusicolla merismoides	Ascomycota	Low	Root
+P14M36CTU-G06	ASV29	4.426864164	Root & Stem	Fusicolla merismoides	Ascomycota	Low	Stem
+ITS1-D0A	ASV29	1.391290678	Root & Stem	Fusicolla merismoides	Ascomycota	High	Soil
+ITS1-D0B	ASV29	0.046373586	Root & Stem	Fusicolla merismoides	Ascomycota	High	Soil
+ITS1-D0C	ASV29	0.655172969	Root & Stem	Fusicolla merismoides	Ascomycota	High	Soil
+ITS1-D6A	ASV29	0	Root & Stem	Fusicolla merismoides	Ascomycota	Low	Soil
+ITS1-D6B	ASV29	0	Root & Stem	Fusicolla merismoides	Ascomycota	Low	Soil
+ITS1-D6C	ASV29	2.128241175	Root & Stem	Fusicolla merismoides	Ascomycota	Low	Soil
+ITS-Boston-AF-1	ASV3	33.19784101	Seed	Alternaria infectoria	Ascomycota	ns	Seed
+ITS-Boston-AF-2	ASV3	33.22261484	Seed	Alternaria infectoria	Ascomycota	ns	Seed
+ITS-Boston-AF-3	ASV3	19.31234233	Seed	Alternaria infectoria	Ascomycota	ns	Seed
+ITS-Boston-AF-4	ASV3	28.86472696	Seed	Alternaria infectoria	Ascomycota	ns	Seed
+ITS-Boston-AF-5	ASV3	25.15903705	Seed	Alternaria infectoria	Ascomycota	ns	Seed
+ITS-Major-AF-1	ASV3	29.35619823	Seed	Alternaria infectoria	Ascomycota	ns	Seed
+ITS-Major-AF-2	ASV3	27.77565231	Seed	Alternaria infectoria	Ascomycota	ns	Seed
+ITS-Major-AF-3	ASV3	24.95503794	Seed	Alternaria infectoria	Ascomycota	ns	Seed
+ITS-Major-AF-4	ASV3	21.13763134	Seed	Alternaria infectoria	Ascomycota	ns	Seed
+ITS-Major-AF-5	ASV3	18.79987482	Seed	Alternaria infectoria	Ascomycota	ns	Seed
+ITS-AF-2017-Boston-1	ASV3	24.29003936	Seed	Alternaria infectoria	Ascomycota	ns	Seed
+ITS-AF-2017-Boston-2	ASV3	24.57935073	Seed	Alternaria infectoria	Ascomycota	ns	Seed
+ITS-AF-2017-Boston-3	ASV3	25.22036574	Seed	Alternaria infectoria	Ascomycota	ns	Seed
+ITS-AF-2017-Boston-4	ASV3	24.50923708	Seed	Alternaria infectoria	Ascomycota	ns	Seed
+ITS-AF-2017-Boston-5	ASV3	23.48784947	Seed	Alternaria infectoria	Ascomycota	ns	Seed
+ITS-AF-2017-Major-1	ASV3	26.85131295	Seed	Alternaria infectoria	Ascomycota	ns	Seed
+ITS-AF-2017-Major-2	ASV3	23.15951675	Seed	Alternaria infectoria	Ascomycota	ns	Seed
+ITS-AF-2017-Major-3	ASV3	24.58229333	Seed	Alternaria infectoria	Ascomycota	ns	Seed
+ITS-AF-2017-Major-4	ASV3	25.58798803	Seed	Alternaria infectoria	Ascomycota	ns	Seed
+ITS-AF-2017-Major-5	ASV3	25.01710016	Seed	Alternaria infectoria	Ascomycota	ns	Seed
+P14B20ATD-E07	ASV3	0	Seed	Alternaria infectoria	Ascomycota	High	Root
+P14B20ATU-H01	ASV3	0	Seed	Alternaria infectoria	Ascomycota	High	Stem
+P14B20BTD-E09	ASV3	0	Seed	Alternaria infectoria	Ascomycota	High	Root
+P14B20BTU-H03	ASV3	0	Seed	Alternaria infectoria	Ascomycota	High	Stem
+P14B20CTD-E11	ASV3	0	Seed	Alternaria infectoria	Ascomycota	High	Root
+P14B20CTU-H05	ASV3	0	Seed	Alternaria infectoria	Ascomycota	High	Stem
+P14B26ATD-G07	ASV3	0	Seed	Alternaria infectoria	Ascomycota	Low	Root
+P14B26ATU-B02	ASV3	0	Seed	Alternaria infectoria	Ascomycota	Low	Stem
+P14B26BTD-G09	ASV3	0	Seed	Alternaria infectoria	Ascomycota	Low	Root
+P14B26BTU-B04	ASV3	0	Seed	Alternaria infectoria	Ascomycota	Low	Stem
+P14B26CTD-G11	ASV3	0	Seed	Alternaria infectoria	Ascomycota	Low	Root
+P14B26CTU-B06	ASV3	0	Seed	Alternaria infectoria	Ascomycota	Low	Stem
+P14B30ATD-F07	ASV3	0	Seed	Alternaria infectoria	Ascomycota	High	Root
+P14B30ATU-A02	ASV3	0	Seed	Alternaria infectoria	Ascomycota	High	Stem
+P14B30BTD-F09	ASV3	0	Seed	Alternaria infectoria	Ascomycota	High	Root
+P14B30BTU-A04	ASV3	0	Seed	Alternaria infectoria	Ascomycota	High	Stem
+P14B30CTD-F11	ASV3	0	Seed	Alternaria infectoria	Ascomycota	High	Root
+P14B30CTU-A06	ASV3	0	Seed	Alternaria infectoria	Ascomycota	High	Stem
+P14B36ATD-H07	ASV3	0	Seed	Alternaria infectoria	Ascomycota	Low	Root
+P14B36ATU-C02	ASV3	0.111018596	Seed	Alternaria infectoria	Ascomycota	Low	Stem
+P14B36BTD-H09	ASV3	0	Seed	Alternaria infectoria	Ascomycota	Low	Root
+P14B36BTU-C04	ASV3	0	Seed	Alternaria infectoria	Ascomycota	Low	Stem
+P14B36CTD-A12	ASV3	0	Seed	Alternaria infectoria	Ascomycota	Low	Root
+P14B36CTU-C06	ASV3	1.873895109	Seed	Alternaria infectoria	Ascomycota	Low	Stem
+P14M20ATD-A08	ASV3	0	Seed	Alternaria infectoria	Ascomycota	High	Root
+P14M20ATU-D02	ASV3	0	Seed	Alternaria infectoria	Ascomycota	High	Stem
+P14M20BTD-A10	ASV3	0	Seed	Alternaria infectoria	Ascomycota	High	Root
+P14M20BTU-D04	ASV3	0	Seed	Alternaria infectoria	Ascomycota	High	Stem
+P14M20CTD-B12	ASV3	0	Seed	Alternaria infectoria	Ascomycota	High	Root
+P14M20CTU-D06	ASV3	0	Seed	Alternaria infectoria	Ascomycota	High	Stem
+P14M26ATD-C08	ASV3	0	Seed	Alternaria infectoria	Ascomycota	Low	Root
+P14M26ATU-F02	ASV3	0	Seed	Alternaria infectoria	Ascomycota	Low	Stem
+P14M26BTD-C10	ASV3	0	Seed	Alternaria infectoria	Ascomycota	Low	Root
+P14M26BTU-F04	ASV3	0	Seed	Alternaria infectoria	Ascomycota	Low	Stem
+P14M26CTD-D12	ASV3	0	Seed	Alternaria infectoria	Ascomycota	Low	Root
+P14M26CTU-F06	ASV3	0	Seed	Alternaria infectoria	Ascomycota	Low	Stem
+P14M30ATD-B08	ASV3	0	Seed	Alternaria infectoria	Ascomycota	High	Root
+P14M30ATU-E02	ASV3	0	Seed	Alternaria infectoria	Ascomycota	High	Stem
+P14M30BTD-B10	ASV3	0.962800875	Seed	Alternaria infectoria	Ascomycota	High	Root
+P14M30BTU-E04	ASV3	0	Seed	Alternaria infectoria	Ascomycota	High	Stem
+P14M30CTD-C12	ASV3	0	Seed	Alternaria infectoria	Ascomycota	High	Root
+P14M30CTU-E06	ASV3	0	Seed	Alternaria infectoria	Ascomycota	High	Stem
+P14M36ATD-D08	ASV3	0	Seed	Alternaria infectoria	Ascomycota	Low	Root
+P14M36ATU-G02	ASV3	0.879765396	Seed	Alternaria infectoria	Ascomycota	Low	Stem
+P14M36BTD-D10	ASV3	0	Seed	Alternaria infectoria	Ascomycota	Low	Root
+P14M36BTU-G04	ASV3	0	Seed	Alternaria infectoria	Ascomycota	Low	Stem
+P14M36CTD-E12	ASV3	0	Seed	Alternaria infectoria	Ascomycota	Low	Root
+P14M36CTU-G06	ASV3	3.181282612	Seed	Alternaria infectoria	Ascomycota	Low	Stem
+ITS1-D0A	ASV3	0	Seed	Alternaria infectoria	Ascomycota	High	Soil
+ITS1-D0B	ASV3	0	Seed	Alternaria infectoria	Ascomycota	High	Soil
+ITS1-D0C	ASV3	0	Seed	Alternaria infectoria	Ascomycota	High	Soil
+ITS1-D6A	ASV3	0	Seed	Alternaria infectoria	Ascomycota	Low	Soil
+ITS1-D6B	ASV3	0	Seed	Alternaria infectoria	Ascomycota	Low	Soil
+ITS1-D6C	ASV3	0	Seed	Alternaria infectoria	Ascomycota	Low	Soil
+ITS-Boston-AF-1	ASV32	0	Soil & Root	Metarhizium marquandii	Ascomycota	ns	Seed
+ITS-Boston-AF-2	ASV32	0	Soil & Root	Metarhizium marquandii	Ascomycota	ns	Seed
+ITS-Boston-AF-3	ASV32	0	Soil & Root	Metarhizium marquandii	Ascomycota	ns	Seed
+ITS-Boston-AF-4	ASV32	0	Soil & Root	Metarhizium marquandii	Ascomycota	ns	Seed
+ITS-Boston-AF-5	ASV32	0	Soil & Root	Metarhizium marquandii	Ascomycota	ns	Seed
+ITS-Major-AF-1	ASV32	0	Soil & Root	Metarhizium marquandii	Ascomycota	ns	Seed
+ITS-Major-AF-2	ASV32	0	Soil & Root	Metarhizium marquandii	Ascomycota	ns	Seed
+ITS-Major-AF-3	ASV32	0	Soil & Root	Metarhizium marquandii	Ascomycota	ns	Seed
+ITS-Major-AF-4	ASV32	0	Soil & Root	Metarhizium marquandii	Ascomycota	ns	Seed
+ITS-Major-AF-5	ASV32	0	Soil & Root	Metarhizium marquandii	Ascomycota	ns	Seed
+ITS-AF-2017-Boston-1	ASV32	0	Soil & Root	Metarhizium marquandii	Ascomycota	ns	Seed
+ITS-AF-2017-Boston-2	ASV32	0	Soil & Root	Metarhizium marquandii	Ascomycota	ns	Seed
+ITS-AF-2017-Boston-3	ASV32	0	Soil & Root	Metarhizium marquandii	Ascomycota	ns	Seed
+ITS-AF-2017-Boston-4	ASV32	0	Soil & Root	Metarhizium marquandii	Ascomycota	ns	Seed
+ITS-AF-2017-Boston-5	ASV32	0	Soil & Root	Metarhizium marquandii	Ascomycota	ns	Seed
+ITS-AF-2017-Major-1	ASV32	0	Soil & Root	Metarhizium marquandii	Ascomycota	ns	Seed
+ITS-AF-2017-Major-2	ASV32	0	Soil & Root	Metarhizium marquandii	Ascomycota	ns	Seed
+ITS-AF-2017-Major-3	ASV32	0	Soil & Root	Metarhizium marquandii	Ascomycota	ns	Seed
+ITS-AF-2017-Major-4	ASV32	0	Soil & Root	Metarhizium marquandii	Ascomycota	ns	Seed
+ITS-AF-2017-Major-5	ASV32	0	Soil & Root	Metarhizium marquandii	Ascomycota	ns	Seed
+P14B20ATD-E07	ASV32	0.126103405	Soil & Root	Metarhizium marquandii	Ascomycota	High	Root
+P14B20ATU-H01	ASV32	0	Soil & Root	Metarhizium marquandii	Ascomycota	High	Stem
+P14B20BTD-E09	ASV32	0.176709666	Soil & Root	Metarhizium marquandii	Ascomycota	High	Root
+P14B20BTU-H03	ASV32	0	Soil & Root	Metarhizium marquandii	Ascomycota	High	Stem
+P14B20CTD-E11	ASV32	0.161364684	Soil & Root	Metarhizium marquandii	Ascomycota	High	Root
+P14B20CTU-H05	ASV32	0	Soil & Root	Metarhizium marquandii	Ascomycota	High	Stem
+P14B26ATD-G07	ASV32	2.427490542	Soil & Root	Metarhizium marquandii	Ascomycota	Low	Root
+P14B26ATU-B02	ASV32	0.685714286	Soil & Root	Metarhizium marquandii	Ascomycota	Low	Stem
+P14B26BTD-G09	ASV32	0	Soil & Root	Metarhizium marquandii	Ascomycota	Low	Root
+P14B26BTU-B04	ASV32	0	Soil & Root	Metarhizium marquandii	Ascomycota	Low	Stem
+P14B26CTD-G11	ASV32	0	Soil & Root	Metarhizium marquandii	Ascomycota	Low	Root
+P14B26CTU-B06	ASV32	1.327384272	Soil & Root	Metarhizium marquandii	Ascomycota	Low	Stem
+P14B30ATD-F07	ASV32	0.279589935	Soil & Root	Metarhizium marquandii	Ascomycota	High	Root
+P14B30ATU-A02	ASV32	0.085215168	Soil & Root	Metarhizium marquandii	Ascomycota	High	Stem
+P14B30BTD-F09	ASV32	0.10252905	Soil & Root	Metarhizium marquandii	Ascomycota	High	Root
+P14B30BTU-A04	ASV32	0	Soil & Root	Metarhizium marquandii	Ascomycota	High	Stem
+P14B30CTD-F11	ASV32	0	Soil & Root	Metarhizium marquandii	Ascomycota	High	Root
+P14B30CTU-A06	ASV32	0	Soil & Root	Metarhizium marquandii	Ascomycota	High	Stem
+P14B36ATD-H07	ASV32	3.667185608	Soil & Root	Metarhizium marquandii	Ascomycota	Low	Root
+P14B36ATU-C02	ASV32	0	Soil & Root	Metarhizium marquandii	Ascomycota	Low	Stem
+P14B36BTD-H09	ASV32	0	Soil & Root	Metarhizium marquandii	Ascomycota	Low	Root
+P14B36BTU-C04	ASV32	0	Soil & Root	Metarhizium marquandii	Ascomycota	Low	Stem
+P14B36CTD-A12	ASV32	0	Soil & Root	Metarhizium marquandii	Ascomycota	Low	Root
+P14B36CTU-C06	ASV32	0.919269299	Soil & Root	Metarhizium marquandii	Ascomycota	Low	Stem
+P14M20ATD-A08	ASV32	0.267379679	Soil & Root	Metarhizium marquandii	Ascomycota	High	Root
+P14M20ATU-D02	ASV32	0	Soil & Root	Metarhizium marquandii	Ascomycota	High	Stem
+P14M20BTD-A10	ASV32	0	Soil & Root	Metarhizium marquandii	Ascomycota	High	Root
+P14M20BTU-D04	ASV32	0	Soil & Root	Metarhizium marquandii	Ascomycota	High	Stem
+P14M20CTD-B12	ASV32	0.610307414	Soil & Root	Metarhizium marquandii	Ascomycota	High	Root
+P14M20CTU-D06	ASV32	0.165016502	Soil & Root	Metarhizium marquandii	Ascomycota	High	Stem
+P14M26ATD-C08	ASV32	1.306655778	Soil & Root	Metarhizium marquandii	Ascomycota	Low	Root
+P14M26ATU-F02	ASV32	0.135846493	Soil & Root	Metarhizium marquandii	Ascomycota	Low	Stem
+P14M26BTD-C10	ASV32	0	Soil & Root	Metarhizium marquandii	Ascomycota	Low	Root
+P14M26BTU-F04	ASV32	0	Soil & Root	Metarhizium marquandii	Ascomycota	Low	Stem
+P14M26CTD-D12	ASV32	0	Soil & Root	Metarhizium marquandii	Ascomycota	Low	Root
+P14M26CTU-F06	ASV32	0.422764228	Soil & Root	Metarhizium marquandii	Ascomycota	Low	Stem
+P14M30ATD-B08	ASV32	0.141342756	Soil & Root	Metarhizium marquandii	Ascomycota	High	Root
+P14M30ATU-E02	ASV32	0	Soil & Root	Metarhizium marquandii	Ascomycota	High	Stem
+P14M30BTD-B10	ASV32	0.393873085	Soil & Root	Metarhizium marquandii	Ascomycota	High	Root
+P14M30BTU-E04	ASV32	0	Soil & Root	Metarhizium marquandii	Ascomycota	High	Stem
+P14M30CTD-C12	ASV32	0.401267159	Soil & Root	Metarhizium marquandii	Ascomycota	High	Root
+P14M30CTU-E06	ASV32	0.065430752	Soil & Root	Metarhizium marquandii	Ascomycota	High	Stem
+P14M36ATD-D08	ASV32	0.647548566	Soil & Root	Metarhizium marquandii	Ascomycota	Low	Root
+P14M36ATU-G02	ASV32	0.73313783	Soil & Root	Metarhizium marquandii	Ascomycota	Low	Stem
+P14M36BTD-D10	ASV32	0	Soil & Root	Metarhizium marquandii	Ascomycota	Low	Root
+P14M36BTU-G04	ASV32	0	Soil & Root	Metarhizium marquandii	Ascomycota	Low	Stem
+P14M36CTD-E12	ASV32	0.095854301	Soil & Root	Metarhizium marquandii	Ascomycota	Low	Root
+P14M36CTU-G06	ASV32	0.201986198	Soil & Root	Metarhizium marquandii	Ascomycota	Low	Stem
+ITS1-D0A	ASV32	1.570114762	Soil & Root	Metarhizium marquandii	Ascomycota	High	Soil
+ITS1-D0B	ASV32	0.122890002	Soil & Root	Metarhizium marquandii	Ascomycota	High	Soil
+ITS1-D0C	ASV32	0.152927351	Soil & Root	Metarhizium marquandii	Ascomycota	High	Soil
+ITS1-D6A	ASV32	0.649853932	Soil & Root	Metarhizium marquandii	Ascomycota	Low	Soil
+ITS1-D6B	ASV32	0	Soil & Root	Metarhizium marquandii	Ascomycota	Low	Soil
+ITS1-D6C	ASV32	7.872539831	Soil & Root	Metarhizium marquandii	Ascomycota	Low	Soil
+ITS-Boston-AF-1	ASV4	0	Root	Peziza ostracoderma-3	Ascomycota	ns	Seed
+ITS-Boston-AF-2	ASV4	0	Root	Peziza ostracoderma-3	Ascomycota	ns	Seed
+ITS-Boston-AF-3	ASV4	0	Root	Peziza ostracoderma-3	Ascomycota	ns	Seed
+ITS-Boston-AF-4	ASV4	0	Root	Peziza ostracoderma-3	Ascomycota	ns	Seed
+ITS-Boston-AF-5	ASV4	0	Root	Peziza ostracoderma-3	Ascomycota	ns	Seed
+ITS-Major-AF-1	ASV4	0	Root	Peziza ostracoderma-3	Ascomycota	ns	Seed
+ITS-Major-AF-2	ASV4	0	Root	Peziza ostracoderma-3	Ascomycota	ns	Seed
+ITS-Major-AF-3	ASV4	0	Root	Peziza ostracoderma-3	Ascomycota	ns	Seed
+ITS-Major-AF-4	ASV4	0	Root	Peziza ostracoderma-3	Ascomycota	ns	Seed
+ITS-Major-AF-5	ASV4	0	Root	Peziza ostracoderma-3	Ascomycota	ns	Seed
+ITS-AF-2017-Boston-1	ASV4	0	Root	Peziza ostracoderma-3	Ascomycota	ns	Seed
+ITS-AF-2017-Boston-2	ASV4	0	Root	Peziza ostracoderma-3	Ascomycota	ns	Seed
+ITS-AF-2017-Boston-3	ASV4	0	Root	Peziza ostracoderma-3	Ascomycota	ns	Seed
+ITS-AF-2017-Boston-4	ASV4	0	Root	Peziza ostracoderma-3	Ascomycota	ns	Seed
+ITS-AF-2017-Boston-5	ASV4	0	Root	Peziza ostracoderma-3	Ascomycota	ns	Seed
+ITS-AF-2017-Major-1	ASV4	0	Root	Peziza ostracoderma-3	Ascomycota	ns	Seed
+ITS-AF-2017-Major-2	ASV4	0	Root	Peziza ostracoderma-3	Ascomycota	ns	Seed
+ITS-AF-2017-Major-3	ASV4	0	Root	Peziza ostracoderma-3	Ascomycota	ns	Seed
+ITS-AF-2017-Major-4	ASV4	0	Root	Peziza ostracoderma-3	Ascomycota	ns	Seed
+ITS-AF-2017-Major-5	ASV4	0	Root	Peziza ostracoderma-3	Ascomycota	ns	Seed
+P14B20ATD-E07	ASV4	0	Root	Peziza ostracoderma-3	Ascomycota	High	Root
+P14B20ATU-H01	ASV4	0	Root	Peziza ostracoderma-3	Ascomycota	High	Stem
+P14B20BTD-E09	ASV4	0	Root	Peziza ostracoderma-3	Ascomycota	High	Root
+P14B20BTU-H03	ASV4	0	Root	Peziza ostracoderma-3	Ascomycota	High	Stem
+P14B20CTD-E11	ASV4	0.161364684	Root	Peziza ostracoderma-3	Ascomycota	High	Root
+P14B20CTU-H05	ASV4	0	Root	Peziza ostracoderma-3	Ascomycota	High	Stem
+P14B26ATD-G07	ASV4	0.220680958	Root	Peziza ostracoderma-3	Ascomycota	Low	Root
+P14B26ATU-B02	ASV4	0	Root	Peziza ostracoderma-3	Ascomycota	Low	Stem
+P14B26BTD-G09	ASV4	88.32512315	Root	Peziza ostracoderma-3	Ascomycota	Low	Root
+P14B26BTU-B04	ASV4	37.21295108	Root	Peziza ostracoderma-3	Ascomycota	Low	Stem
+P14B26CTD-G11	ASV4	99.17855599	Root	Peziza ostracoderma-3	Ascomycota	Low	Root
+P14B26CTU-B06	ASV4	93.57501394	Root	Peziza ostracoderma-3	Ascomycota	Low	Stem
+P14B30ATD-F07	ASV4	0	Root	Peziza ostracoderma-3	Ascomycota	High	Root
+P14B30ATU-A02	ASV4	0	Root	Peziza ostracoderma-3	Ascomycota	High	Stem
+P14B30BTD-F09	ASV4	1.110731374	Root	Peziza ostracoderma-3	Ascomycota	High	Root
+P14B30BTU-A04	ASV4	0	Root	Peziza ostracoderma-3	Ascomycota	High	Stem
+P14B30CTD-F11	ASV4	0	Root	Peziza ostracoderma-3	Ascomycota	High	Root
+P14B30CTU-A06	ASV4	0	Root	Peziza ostracoderma-3	Ascomycota	High	Stem
+P14B36ATD-H07	ASV4	0.034596091	Root	Peziza ostracoderma-3	Ascomycota	Low	Root
+P14B36ATU-C02	ASV4	0	Root	Peziza ostracoderma-3	Ascomycota	Low	Stem
+P14B36BTD-H09	ASV4	72.86172896	Root	Peziza ostracoderma-3	Ascomycota	Low	Root
+P14B36BTU-C04	ASV4	39.80919341	Root	Peziza ostracoderma-3	Ascomycota	Low	Stem
+P14B36CTD-A12	ASV4	97.65784114	Root	Peziza ostracoderma-3	Ascomycota	Low	Root
+P14B36CTU-C06	ASV4	91.26694166	Root	Peziza ostracoderma-3	Ascomycota	Low	Stem
+P14M20ATD-A08	ASV4	17.53246753	Root	Peziza ostracoderma-3	Ascomycota	High	Root
+P14M20ATU-D02	ASV4	0.140873415	Root	Peziza ostracoderma-3	Ascomycota	High	Stem
+P14M20BTD-A10	ASV4	0.918686474	Root	Peziza ostracoderma-3	Ascomycota	High	Root
+P14M20BTU-D04	ASV4	0	Root	Peziza ostracoderma-3	Ascomycota	High	Stem
+P14M20CTD-B12	ASV4	0	Root	Peziza ostracoderma-3	Ascomycota	High	Root
+P14M20CTU-D06	ASV4	0	Root	Peziza ostracoderma-3	Ascomycota	High	Stem
+P14M26ATD-C08	ASV4	1.592486729	Root	Peziza ostracoderma-3	Ascomycota	Low	Root
+P14M26ATU-F02	ASV4	0	Root	Peziza ostracoderma-3	Ascomycota	Low	Stem
+P14M26BTD-C10	ASV4	95.21886154	Root	Peziza ostracoderma-3	Ascomycota	Low	Root
+P14M26BTU-F04	ASV4	34.11694688	Root	Peziza ostracoderma-3	Ascomycota	Low	Stem
+P14M26CTD-D12	ASV4	97.30136986	Root	Peziza ostracoderma-3	Ascomycota	Low	Root
+P14M26CTU-F06	ASV4	88.03252033	Root	Peziza ostracoderma-3	Ascomycota	Low	Stem
+P14M30ATD-B08	ASV4	6.007067138	Root	Peziza ostracoderma-3	Ascomycota	High	Root
+P14M30ATU-E02	ASV4	0.044533511	Root	Peziza ostracoderma-3	Ascomycota	High	Stem
+P14M30BTD-B10	ASV4	0	Root	Peziza ostracoderma-3	Ascomycota	High	Root
+P14M30BTU-E04	ASV4	0	Root	Peziza ostracoderma-3	Ascomycota	High	Stem
+P14M30CTD-C12	ASV4	0.063357973	Root	Peziza ostracoderma-3	Ascomycota	High	Root
+P14M30CTU-E06	ASV4	0	Root	Peziza ostracoderma-3	Ascomycota	High	Stem
+P14M36ATD-D08	ASV4	84.73635523	Root	Peziza ostracoderma-3	Ascomycota	Low	Root
+P14M36ATU-G02	ASV4	6.026392962	Root	Peziza ostracoderma-3	Ascomycota	Low	Stem
+P14M36BTD-D10	ASV4	91.83906406	Root	Peziza ostracoderma-3	Ascomycota	Low	Root
+P14M36BTU-G04	ASV4	39.29844574	Root	Peziza ostracoderma-3	Ascomycota	Low	Stem
+P14M36CTD-E12	ASV4	97.05248023	Root	Peziza ostracoderma-3	Ascomycota	Low	Root
+P14M36CTU-G06	ASV4	86.16394546	Root	Peziza ostracoderma-3	Ascomycota	Low	Stem
+ITS1-D0A	ASV4	0	Root	Peziza ostracoderma-3	Ascomycota	High	Soil
+ITS1-D0B	ASV4	0.009274717	Root	Peziza ostracoderma-3	Ascomycota	High	Soil
+ITS1-D0C	ASV4	0	Root	Peziza ostracoderma-3	Ascomycota	High	Soil
+ITS1-D6A	ASV4	0	Root	Peziza ostracoderma-3	Ascomycota	Low	Soil
+ITS1-D6B	ASV4	0.251556417	Root	Peziza ostracoderma-3	Ascomycota	Low	Soil
+ITS1-D6C	ASV4	1.487816307	Root	Peziza ostracoderma-3	Ascomycota	Low	Soil
+ITS-Boston-AF-1	ASV40	0	Stem	Fusicolla aquaeductuum	Ascomycota	ns	Seed
+ITS-Boston-AF-2	ASV40	0	Stem	Fusicolla aquaeductuum	Ascomycota	ns	Seed
+ITS-Boston-AF-3	ASV40	0	Stem	Fusicolla aquaeductuum	Ascomycota	ns	Seed
+ITS-Boston-AF-4	ASV40	0	Stem	Fusicolla aquaeductuum	Ascomycota	ns	Seed
+ITS-Boston-AF-5	ASV40	0	Stem	Fusicolla aquaeductuum	Ascomycota	ns	Seed
+ITS-Major-AF-1	ASV40	0	Stem	Fusicolla aquaeductuum	Ascomycota	ns	Seed
+ITS-Major-AF-2	ASV40	0	Stem	Fusicolla aquaeductuum	Ascomycota	ns	Seed
+ITS-Major-AF-3	ASV40	0	Stem	Fusicolla aquaeductuum	Ascomycota	ns	Seed
+ITS-Major-AF-4	ASV40	0	Stem	Fusicolla aquaeductuum	Ascomycota	ns	Seed
+ITS-Major-AF-5	ASV40	0	Stem	Fusicolla aquaeductuum	Ascomycota	ns	Seed
+ITS-AF-2017-Boston-1	ASV40	0	Stem	Fusicolla aquaeductuum	Ascomycota	ns	Seed
+ITS-AF-2017-Boston-2	ASV40	0	Stem	Fusicolla aquaeductuum	Ascomycota	ns	Seed
+ITS-AF-2017-Boston-3	ASV40	0	Stem	Fusicolla aquaeductuum	Ascomycota	ns	Seed
+ITS-AF-2017-Boston-4	ASV40	0	Stem	Fusicolla aquaeductuum	Ascomycota	ns	Seed
+ITS-AF-2017-Boston-5	ASV40	0	Stem	Fusicolla aquaeductuum	Ascomycota	ns	Seed
+ITS-AF-2017-Major-1	ASV40	0	Stem	Fusicolla aquaeductuum	Ascomycota	ns	Seed
+ITS-AF-2017-Major-2	ASV40	0	Stem	Fusicolla aquaeductuum	Ascomycota	ns	Seed
+ITS-AF-2017-Major-3	ASV40	0	Stem	Fusicolla aquaeductuum	Ascomycota	ns	Seed
+ITS-AF-2017-Major-4	ASV40	0	Stem	Fusicolla aquaeductuum	Ascomycota	ns	Seed
+ITS-AF-2017-Major-5	ASV40	0	Stem	Fusicolla aquaeductuum	Ascomycota	ns	Seed
+P14B20ATD-E07	ASV40	3.720050441	Stem	Fusicolla aquaeductuum	Ascomycota	High	Root
+P14B20ATU-H01	ASV40	7.859078591	Stem	Fusicolla aquaeductuum	Ascomycota	High	Stem
+P14B20BTD-E09	ASV40	0.636154798	Stem	Fusicolla aquaeductuum	Ascomycota	High	Root
+P14B20BTU-H03	ASV40	0.620395502	Stem	Fusicolla aquaeductuum	Ascomycota	High	Stem
+P14B20CTD-E11	ASV40	2.627939142	Stem	Fusicolla aquaeductuum	Ascomycota	High	Root
+P14B20CTU-H05	ASV40	0.836920134	Stem	Fusicolla aquaeductuum	Ascomycota	High	Stem
+P14B26ATD-G07	ASV40	0	Stem	Fusicolla aquaeductuum	Ascomycota	Low	Root
+P14B26ATU-B02	ASV40	0	Stem	Fusicolla aquaeductuum	Ascomycota	Low	Stem
+P14B26BTD-G09	ASV40	0	Stem	Fusicolla aquaeductuum	Ascomycota	Low	Root
+P14B26BTU-B04	ASV40	0	Stem	Fusicolla aquaeductuum	Ascomycota	Low	Stem
+P14B26CTD-G11	ASV40	0	Stem	Fusicolla aquaeductuum	Ascomycota	Low	Root
+P14B26CTU-B06	ASV40	0	Stem	Fusicolla aquaeductuum	Ascomycota	Low	Stem
+P14B30ATD-F07	ASV40	5.824790308	Stem	Fusicolla aquaeductuum	Ascomycota	High	Root
+P14B30ATU-A02	ASV40	6.625479335	Stem	Fusicolla aquaeductuum	Ascomycota	High	Stem
+P14B30BTD-F09	ASV40	1.076555024	Stem	Fusicolla aquaeductuum	Ascomycota	High	Root
+P14B30BTU-A04	ASV40	6.136101499	Stem	Fusicolla aquaeductuum	Ascomycota	High	Stem
+P14B30CTD-F11	ASV40	1.535974131	Stem	Fusicolla aquaeductuum	Ascomycota	High	Root
+P14B30CTU-A06	ASV40	1.836940111	Stem	Fusicolla aquaeductuum	Ascomycota	High	Stem
+P14B36ATD-H07	ASV40	0	Stem	Fusicolla aquaeductuum	Ascomycota	Low	Root
+P14B36ATU-C02	ASV40	0	Stem	Fusicolla aquaeductuum	Ascomycota	Low	Stem
+P14B36BTD-H09	ASV40	0	Stem	Fusicolla aquaeductuum	Ascomycota	Low	Root
+P14B36BTU-C04	ASV40	0	Stem	Fusicolla aquaeductuum	Ascomycota	Low	Stem
+P14B36CTD-A12	ASV40	0	Stem	Fusicolla aquaeductuum	Ascomycota	Low	Root
+P14B36CTU-C06	ASV40	0	Stem	Fusicolla aquaeductuum	Ascomycota	Low	Stem
+P14M20ATD-A08	ASV40	3.170359053	Stem	Fusicolla aquaeductuum	Ascomycota	High	Root
+P14M20ATU-D02	ASV40	2.777218756	Stem	Fusicolla aquaeductuum	Ascomycota	High	Stem
+P14M20BTD-A10	ASV40	0.586395622	Stem	Fusicolla aquaeductuum	Ascomycota	High	Root
+P14M20BTU-D04	ASV40	2.433668801	Stem	Fusicolla aquaeductuum	Ascomycota	High	Stem
+P14M20CTD-B12	ASV40	1.33363472	Stem	Fusicolla aquaeductuum	Ascomycota	High	Root
+P14M20CTU-D06	ASV40	0.693069307	Stem	Fusicolla aquaeductuum	Ascomycota	High	Stem
+P14M26ATD-C08	ASV40	0	Stem	Fusicolla aquaeductuum	Ascomycota	Low	Root
+P14M26ATU-F02	ASV40	0	Stem	Fusicolla aquaeductuum	Ascomycota	Low	Stem
+P14M26BTD-C10	ASV40	0	Stem	Fusicolla aquaeductuum	Ascomycota	Low	Root
+P14M26BTU-F04	ASV40	0	Stem	Fusicolla aquaeductuum	Ascomycota	Low	Stem
+P14M26CTD-D12	ASV40	0	Stem	Fusicolla aquaeductuum	Ascomycota	Low	Root
+P14M26CTU-F06	ASV40	0	Stem	Fusicolla aquaeductuum	Ascomycota	Low	Stem
+P14M30ATD-B08	ASV40	1.060070671	Stem	Fusicolla aquaeductuum	Ascomycota	High	Root
+P14M30ATU-E02	ASV40	6.101091071	Stem	Fusicolla aquaeductuum	Ascomycota	High	Stem
+P14M30BTD-B10	ASV40	1.400437637	Stem	Fusicolla aquaeductuum	Ascomycota	High	Root
+P14M30BTU-E04	ASV40	2.293233083	Stem	Fusicolla aquaeductuum	Ascomycota	High	Stem
+P14M30CTD-C12	ASV40	0	Stem	Fusicolla aquaeductuum	Ascomycota	High	Root
+P14M30CTU-E06	ASV40	4.27480916	Stem	Fusicolla aquaeductuum	Ascomycota	High	Stem
+P14M36ATD-D08	ASV40	0	Stem	Fusicolla aquaeductuum	Ascomycota	Low	Root
+P14M36ATU-G02	ASV40	0	Stem	Fusicolla aquaeductuum	Ascomycota	Low	Stem
+P14M36BTD-D10	ASV40	0	Stem	Fusicolla aquaeductuum	Ascomycota	Low	Root
+P14M36BTU-G04	ASV40	0	Stem	Fusicolla aquaeductuum	Ascomycota	Low	Stem
+P14M36CTD-E12	ASV40	0	Stem	Fusicolla aquaeductuum	Ascomycota	Low	Root
+P14M36CTU-G06	ASV40	0	Stem	Fusicolla aquaeductuum	Ascomycota	Low	Stem
+ITS1-D0A	ASV40	0	Stem	Fusicolla aquaeductuum	Ascomycota	High	Soil
+ITS1-D0B	ASV40	0	Stem	Fusicolla aquaeductuum	Ascomycota	High	Soil
+ITS1-D0C	ASV40	0.033804993	Stem	Fusicolla aquaeductuum	Ascomycota	High	Soil
+ITS1-D6A	ASV40	0	Stem	Fusicolla aquaeductuum	Ascomycota	Low	Soil
+ITS1-D6B	ASV40	0	Stem	Fusicolla aquaeductuum	Ascomycota	Low	Soil
+ITS1-D6C	ASV40	0	Stem	Fusicolla aquaeductuum	Ascomycota	Low	Soil
+ITS-Boston-AF-1	ASV47	0	Stem	Acremonium curvulum	Ascomycota	ns	Seed
+ITS-Boston-AF-2	ASV47	0	Stem	Acremonium curvulum	Ascomycota	ns	Seed
+ITS-Boston-AF-3	ASV47	0	Stem	Acremonium curvulum	Ascomycota	ns	Seed
+ITS-Boston-AF-4	ASV47	0	Stem	Acremonium curvulum	Ascomycota	ns	Seed
+ITS-Boston-AF-5	ASV47	0	Stem	Acremonium curvulum	Ascomycota	ns	Seed
+ITS-Major-AF-1	ASV47	0	Stem	Acremonium curvulum	Ascomycota	ns	Seed
+ITS-Major-AF-2	ASV47	0	Stem	Acremonium curvulum	Ascomycota	ns	Seed
+ITS-Major-AF-3	ASV47	0	Stem	Acremonium curvulum	Ascomycota	ns	Seed
+ITS-Major-AF-4	ASV47	0	Stem	Acremonium curvulum	Ascomycota	ns	Seed
+ITS-Major-AF-5	ASV47	0	Stem	Acremonium curvulum	Ascomycota	ns	Seed
+ITS-AF-2017-Boston-1	ASV47	0	Stem	Acremonium curvulum	Ascomycota	ns	Seed
+ITS-AF-2017-Boston-2	ASV47	0	Stem	Acremonium curvulum	Ascomycota	ns	Seed
+ITS-AF-2017-Boston-3	ASV47	0	Stem	Acremonium curvulum	Ascomycota	ns	Seed
+ITS-AF-2017-Boston-4	ASV47	0	Stem	Acremonium curvulum	Ascomycota	ns	Seed
+ITS-AF-2017-Boston-5	ASV47	0	Stem	Acremonium curvulum	Ascomycota	ns	Seed
+ITS-AF-2017-Major-1	ASV47	0	Stem	Acremonium curvulum	Ascomycota	ns	Seed
+ITS-AF-2017-Major-2	ASV47	0	Stem	Acremonium curvulum	Ascomycota	ns	Seed
+ITS-AF-2017-Major-3	ASV47	0	Stem	Acremonium curvulum	Ascomycota	ns	Seed
+ITS-AF-2017-Major-4	ASV47	0	Stem	Acremonium curvulum	Ascomycota	ns	Seed
+ITS-AF-2017-Major-5	ASV47	0	Stem	Acremonium curvulum	Ascomycota	ns	Seed
+P14B20ATD-E07	ASV47	0.630517024	Stem	Acremonium curvulum	Ascomycota	High	Root
+P14B20ATU-H01	ASV47	0.203252033	Stem	Acremonium curvulum	Ascomycota	High	Stem
+P14B20BTD-E09	ASV47	0.600812864	Stem	Acremonium curvulum	Ascomycota	High	Root
+P14B20BTU-H03	ASV47	0.736719659	Stem	Acremonium curvulum	Ascomycota	High	Stem
+P14B20CTD-E11	ASV47	0.391885662	Stem	Acremonium curvulum	Ascomycota	High	Root
+P14B20CTU-H05	ASV47	0.191296031	Stem	Acremonium curvulum	Ascomycota	High	Stem
+P14B26ATD-G07	ASV47	0	Stem	Acremonium curvulum	Ascomycota	Low	Root
+P14B26ATU-B02	ASV47	0	Stem	Acremonium curvulum	Ascomycota	Low	Stem
+P14B26BTD-G09	ASV47	0	Stem	Acremonium curvulum	Ascomycota	Low	Root
+P14B26BTU-B04	ASV47	0	Stem	Acremonium curvulum	Ascomycota	Low	Stem
+P14B26CTD-G11	ASV47	0	Stem	Acremonium curvulum	Ascomycota	Low	Root
+P14B26CTU-B06	ASV47	0	Stem	Acremonium curvulum	Ascomycota	Low	Stem
+P14B30ATD-F07	ASV47	3.21528425	Stem	Acremonium curvulum	Ascomycota	High	Root
+P14B30ATU-A02	ASV47	0.660417554	Stem	Acremonium curvulum	Ascomycota	High	Stem
+P14B30BTD-F09	ASV47	1.076555024	Stem	Acremonium curvulum	Ascomycota	High	Root
+P14B30BTU-A04	ASV47	0.069204152	Stem	Acremonium curvulum	Ascomycota	High	Stem
+P14B30CTD-F11	ASV47	0.565885206	Stem	Acremonium curvulum	Ascomycota	High	Root
+P14B30CTU-A06	ASV47	0.176144942	Stem	Acremonium curvulum	Ascomycota	High	Stem
+P14B36ATD-H07	ASV47	0.622729632	Stem	Acremonium curvulum	Ascomycota	Low	Root
+P14B36ATU-C02	ASV47	0	Stem	Acremonium curvulum	Ascomycota	Low	Stem
+P14B36BTD-H09	ASV47	0	Stem	Acremonium curvulum	Ascomycota	Low	Root
+P14B36BTU-C04	ASV47	0	Stem	Acremonium curvulum	Ascomycota	Low	Stem
+P14B36CTD-A12	ASV47	0	Stem	Acremonium curvulum	Ascomycota	Low	Root
+P14B36CTU-C06	ASV47	0	Stem	Acremonium curvulum	Ascomycota	Low	Stem
+P14M20ATD-A08	ASV47	1.566080978	Stem	Acremonium curvulum	Ascomycota	High	Root
+P14M20ATU-D02	ASV47	0.22137251	Stem	Acremonium curvulum	Ascomycota	High	Stem
+P14M20BTD-A10	ASV47	0.332290852	Stem	Acremonium curvulum	Ascomycota	High	Root
+P14M20BTU-D04	ASV47	0.164684355	Stem	Acremonium curvulum	Ascomycota	High	Stem
+P14M20CTD-B12	ASV47	0.384267631	Stem	Acremonium curvulum	Ascomycota	High	Root
+P14M20CTU-D06	ASV47	0.726072607	Stem	Acremonium curvulum	Ascomycota	High	Stem
+P14M26ATD-C08	ASV47	0	Stem	Acremonium curvulum	Ascomycota	Low	Root
+P14M26ATU-F02	ASV47	0	Stem	Acremonium curvulum	Ascomycota	Low	Stem
+P14M26BTD-C10	ASV47	0	Stem	Acremonium curvulum	Ascomycota	Low	Root
+P14M26BTU-F04	ASV47	0	Stem	Acremonium curvulum	Ascomycota	Low	Stem
+P14M26CTD-D12	ASV47	0	Stem	Acremonium curvulum	Ascomycota	Low	Root
+P14M26CTU-F06	ASV47	0	Stem	Acremonium curvulum	Ascomycota	Low	Stem
+P14M30ATD-B08	ASV47	1.413427562	Stem	Acremonium curvulum	Ascomycota	High	Root
+P14M30ATU-E02	ASV47	0.556668893	Stem	Acremonium curvulum	Ascomycota	High	Stem
+P14M30BTD-B10	ASV47	2.363238512	Stem	Acremonium curvulum	Ascomycota	High	Root
+P14M30BTU-E04	ASV47	1.428571429	Stem	Acremonium curvulum	Ascomycota	High	Stem
+P14M30CTD-C12	ASV47	0.295670539	Stem	Acremonium curvulum	Ascomycota	High	Root
+P14M30CTU-E06	ASV47	0.697928026	Stem	Acremonium curvulum	Ascomycota	High	Stem
+P14M36ATD-D08	ASV47	0.046253469	Stem	Acremonium curvulum	Ascomycota	Low	Root
+P14M36ATU-G02	ASV47	0.073313783	Stem	Acremonium curvulum	Ascomycota	Low	Stem
+P14M36BTD-D10	ASV47	0	Stem	Acremonium curvulum	Ascomycota	Low	Root
+P14M36BTU-G04	ASV47	0	Stem	Acremonium curvulum	Ascomycota	Low	Stem
+P14M36CTD-E12	ASV47	0	Stem	Acremonium curvulum	Ascomycota	Low	Root
+P14M36CTU-G06	ASV47	0	Stem	Acremonium curvulum	Ascomycota	Low	Stem
+ITS1-D0A	ASV47	1.556359063	Stem	Acremonium curvulum	Ascomycota	High	Soil
+ITS1-D0B	ASV47	0.071879058	Stem	Acremonium curvulum	Ascomycota	High	Soil
+ITS1-D0C	ASV47	0.062780702	Stem	Acremonium curvulum	Ascomycota	High	Soil
+ITS1-D6A	ASV47	0.017885888	Stem	Acremonium curvulum	Ascomycota	Low	Soil
+ITS1-D6B	ASV47	0	Stem	Acremonium curvulum	Ascomycota	Low	Soil
+ITS1-D6C	ASV47	0	Stem	Acremonium curvulum	Ascomycota	Low	Soil
+ITS-Boston-AF-1	ASV6	0	Soil	Mortierella elongata	Zygomycota	ns	Seed
+ITS-Boston-AF-2	ASV6	0	Soil	Mortierella elongata	Zygomycota	ns	Seed
+ITS-Boston-AF-3	ASV6	0	Soil	Mortierella elongata	Zygomycota	ns	Seed
+ITS-Boston-AF-4	ASV6	0	Soil	Mortierella elongata	Zygomycota	ns	Seed
+ITS-Boston-AF-5	ASV6	0	Soil	Mortierella elongata	Zygomycota	ns	Seed
+ITS-Major-AF-1	ASV6	0	Soil	Mortierella elongata	Zygomycota	ns	Seed
+ITS-Major-AF-2	ASV6	0	Soil	Mortierella elongata	Zygomycota	ns	Seed
+ITS-Major-AF-3	ASV6	0	Soil	Mortierella elongata	Zygomycota	ns	Seed
+ITS-Major-AF-4	ASV6	0	Soil	Mortierella elongata	Zygomycota	ns	Seed
+ITS-Major-AF-5	ASV6	0	Soil	Mortierella elongata	Zygomycota	ns	Seed
+ITS-AF-2017-Boston-1	ASV6	0	Soil	Mortierella elongata	Zygomycota	ns	Seed
+ITS-AF-2017-Boston-2	ASV6	0	Soil	Mortierella elongata	Zygomycota	ns	Seed
+ITS-AF-2017-Boston-3	ASV6	0	Soil	Mortierella elongata	Zygomycota	ns	Seed
+ITS-AF-2017-Boston-4	ASV6	0	Soil	Mortierella elongata	Zygomycota	ns	Seed
+ITS-AF-2017-Boston-5	ASV6	0	Soil	Mortierella elongata	Zygomycota	ns	Seed
+ITS-AF-2017-Major-1	ASV6	0	Soil	Mortierella elongata	Zygomycota	ns	Seed
+ITS-AF-2017-Major-2	ASV6	0	Soil	Mortierella elongata	Zygomycota	ns	Seed
+ITS-AF-2017-Major-3	ASV6	0	Soil	Mortierella elongata	Zygomycota	ns	Seed
+ITS-AF-2017-Major-4	ASV6	0	Soil	Mortierella elongata	Zygomycota	ns	Seed
+ITS-AF-2017-Major-5	ASV6	0	Soil	Mortierella elongata	Zygomycota	ns	Seed
+P14B20ATD-E07	ASV6	2.711223203	Soil	Mortierella elongata	Zygomycota	High	Root
+P14B20ATU-H01	ASV6	0	Soil	Mortierella elongata	Zygomycota	High	Stem
+P14B20BTD-E09	ASV6	2.085174059	Soil	Mortierella elongata	Zygomycota	High	Root
+P14B20BTU-H03	ASV6	0.659170221	Soil	Mortierella elongata	Zygomycota	High	Stem
+P14B20CTD-E11	ASV6	4.910096819	Soil	Mortierella elongata	Zygomycota	High	Root
+P14B20CTU-H05	ASV6	1.410808226	Soil	Mortierella elongata	Zygomycota	High	Stem
+P14B26ATD-G07	ASV6	0	Soil	Mortierella elongata	Zygomycota	Low	Root
+P14B26ATU-B02	ASV6	0	Soil	Mortierella elongata	Zygomycota	Low	Stem
+P14B26BTD-G09	ASV6	0	Soil	Mortierella elongata	Zygomycota	Low	Root
+P14B26BTU-B04	ASV6	0	Soil	Mortierella elongata	Zygomycota	Low	Stem
+P14B26CTD-G11	ASV6	0	Soil	Mortierella elongata	Zygomycota	Low	Root
+P14B26CTU-B06	ASV6	0	Soil	Mortierella elongata	Zygomycota	Low	Stem
+P14B30ATD-F07	ASV6	1.817334576	Soil	Mortierella elongata	Zygomycota	High	Root
+P14B30ATU-A02	ASV6	0	Soil	Mortierella elongata	Zygomycota	High	Stem
+P14B30BTD-F09	ASV6	2.682843472	Soil	Mortierella elongata	Zygomycota	High	Root
+P14B30BTU-A04	ASV6	0.784313725	Soil	Mortierella elongata	Zygomycota	High	Stem
+P14B30CTD-F11	ASV6	0	Soil	Mortierella elongata	Zygomycota	High	Root
+P14B30CTU-A06	ASV6	2.214393558	Soil	Mortierella elongata	Zygomycota	High	Stem
+P14B36ATD-H07	ASV6	0	Soil	Mortierella elongata	Zygomycota	Low	Root
+P14B36ATU-C02	ASV6	0	Soil	Mortierella elongata	Zygomycota	Low	Stem
+P14B36BTD-H09	ASV6	0	Soil	Mortierella elongata	Zygomycota	Low	Root
+P14B36BTU-C04	ASV6	0	Soil	Mortierella elongata	Zygomycota	Low	Stem
+P14B36CTD-A12	ASV6	0	Soil	Mortierella elongata	Zygomycota	Low	Root
+P14B36CTU-C06	ASV6	0	Soil	Mortierella elongata	Zygomycota	Low	Stem
+P14M20ATD-A08	ASV6	0.76394194	Soil	Mortierella elongata	Zygomycota	High	Root
+P14M20ATU-D02	ASV6	0	Soil	Mortierella elongata	Zygomycota	High	Stem
+P14M20BTD-A10	ASV6	1.583268178	Soil	Mortierella elongata	Zygomycota	High	Root
+P14M20BTU-D04	ASV6	1.006404392	Soil	Mortierella elongata	Zygomycota	High	Stem
+P14M20CTD-B12	ASV6	3.45840868	Soil	Mortierella elongata	Zygomycota	High	Root
+P14M20CTU-D06	ASV6	1.96369637	Soil	Mortierella elongata	Zygomycota	High	Stem
+P14M26ATD-C08	ASV6	0	Soil	Mortierella elongata	Zygomycota	Low	Root
+P14M26ATU-F02	ASV6	0	Soil	Mortierella elongata	Zygomycota	Low	Stem
+P14M26BTD-C10	ASV6	0	Soil	Mortierella elongata	Zygomycota	Low	Root
+P14M26BTU-F04	ASV6	0	Soil	Mortierella elongata	Zygomycota	Low	Stem
+P14M26CTD-D12	ASV6	0	Soil	Mortierella elongata	Zygomycota	Low	Root
+P14M26CTU-F06	ASV6	0	Soil	Mortierella elongata	Zygomycota	Low	Stem
+P14M30ATD-B08	ASV6	0.494699647	Soil	Mortierella elongata	Zygomycota	High	Root
+P14M30ATU-E02	ASV6	0	Soil	Mortierella elongata	Zygomycota	High	Stem
+P14M30BTD-B10	ASV6	7.002188184	Soil	Mortierella elongata	Zygomycota	High	Root
+P14M30BTU-E04	ASV6	0.639097744	Soil	Mortierella elongata	Zygomycota	High	Stem
+P14M30CTD-C12	ASV6	5.364308342	Soil	Mortierella elongata	Zygomycota	High	Root
+P14M30CTU-E06	ASV6	0.850599782	Soil	Mortierella elongata	Zygomycota	High	Stem
+P14M36ATD-D08	ASV6	0	Soil	Mortierella elongata	Zygomycota	Low	Root
+P14M36ATU-G02	ASV6	0	Soil	Mortierella elongata	Zygomycota	Low	Stem
+P14M36BTD-D10	ASV6	0	Soil	Mortierella elongata	Zygomycota	Low	Root
+P14M36BTU-G04	ASV6	0	Soil	Mortierella elongata	Zygomycota	Low	Stem
+P14M36CTD-E12	ASV6	0	Soil	Mortierella elongata	Zygomycota	Low	Root
+P14M36CTU-G06	ASV6	0	Soil	Mortierella elongata	Zygomycota	Low	Stem
+ITS1-D0A	ASV6	20.94010376	Soil	Mortierella elongata	Zygomycota	High	Soil
+ITS1-D0B	ASV6	63.58861992	Soil	Mortierella elongata	Zygomycota	High	Soil
+ITS1-D0C	ASV6	63.2909966	Soil	Mortierella elongata	Zygomycota	High	Soil
+ITS1-D6A	ASV6	0	Soil	Mortierella elongata	Zygomycota	Low	Soil
+ITS1-D6B	ASV6	0	Soil	Mortierella elongata	Zygomycota	Low	Soil
+ITS1-D6C	ASV6	0.058575445	Soil	Mortierella elongata	Zygomycota	Low	Soil
+ITS-Boston-AF-1	ASV7	3.245152262	Seed	Cladosporium delicatulum	Ascomycota	ns	Seed
+ITS-Boston-AF-2	ASV7	3.215547703	Seed	Cladosporium delicatulum	Ascomycota	ns	Seed
+ITS-Boston-AF-3	ASV7	4.423993273	Seed	Cladosporium delicatulum	Ascomycota	ns	Seed
+ITS-Boston-AF-4	ASV7	3.923950677	Seed	Cladosporium delicatulum	Ascomycota	ns	Seed
+ITS-Boston-AF-5	ASV7	3.723337907	Seed	Cladosporium delicatulum	Ascomycota	ns	Seed
+ITS-Major-AF-1	ASV7	4.873322676	Seed	Cladosporium delicatulum	Ascomycota	ns	Seed
+ITS-Major-AF-2	ASV7	4.996556737	Seed	Cladosporium delicatulum	Ascomycota	ns	Seed
+ITS-Major-AF-3	ASV7	4.487432557	Seed	Cladosporium delicatulum	Ascomycota	ns	Seed
+ITS-Major-AF-4	ASV7	4.695810092	Seed	Cladosporium delicatulum	Ascomycota	ns	Seed
+ITS-Major-AF-5	ASV7	6.470035988	Seed	Cladosporium delicatulum	Ascomycota	ns	Seed
+ITS-AF-2017-Boston-1	ASV7	17.73236452	Seed	Cladosporium delicatulum	Ascomycota	ns	Seed
+ITS-AF-2017-Boston-2	ASV7	18.15379316	Seed	Cladosporium delicatulum	Ascomycota	ns	Seed
+ITS-AF-2017-Boston-3	ASV7	15.76108407	Seed	Cladosporium delicatulum	Ascomycota	ns	Seed
+ITS-AF-2017-Boston-4	ASV7	17.99647587	Seed	Cladosporium delicatulum	Ascomycota	ns	Seed
+ITS-AF-2017-Boston-5	ASV7	18.54193647	Seed	Cladosporium delicatulum	Ascomycota	ns	Seed
+ITS-AF-2017-Major-1	ASV7	17.3097333	Seed	Cladosporium delicatulum	Ascomycota	ns	Seed
+ITS-AF-2017-Major-2	ASV7	19.71050604	Seed	Cladosporium delicatulum	Ascomycota	ns	Seed
+ITS-AF-2017-Major-3	ASV7	17.31931203	Seed	Cladosporium delicatulum	Ascomycota	ns	Seed
+ITS-AF-2017-Major-4	ASV7	18.43242292	Seed	Cladosporium delicatulum	Ascomycota	ns	Seed
+ITS-AF-2017-Major-5	ASV7	19.28196854	Seed	Cladosporium delicatulum	Ascomycota	ns	Seed
+P14B20ATD-E07	ASV7	0	Seed	Cladosporium delicatulum	Ascomycota	High	Root
+P14B20ATU-H01	ASV7	0	Seed	Cladosporium delicatulum	Ascomycota	High	Stem
+P14B20BTD-E09	ASV7	0	Seed	Cladosporium delicatulum	Ascomycota	High	Root
+P14B20BTU-H03	ASV7	0	Seed	Cladosporium delicatulum	Ascomycota	High	Stem
+P14B20CTD-E11	ASV7	0	Seed	Cladosporium delicatulum	Ascomycota	High	Root
+P14B20CTU-H05	ASV7	0	Seed	Cladosporium delicatulum	Ascomycota	High	Stem
+P14B26ATD-G07	ASV7	0	Seed	Cladosporium delicatulum	Ascomycota	Low	Root
+P14B26ATU-B02	ASV7	0	Seed	Cladosporium delicatulum	Ascomycota	Low	Stem
+P14B26BTD-G09	ASV7	0	Seed	Cladosporium delicatulum	Ascomycota	Low	Root
+P14B26BTU-B04	ASV7	0	Seed	Cladosporium delicatulum	Ascomycota	Low	Stem
+P14B26CTD-G11	ASV7	0	Seed	Cladosporium delicatulum	Ascomycota	Low	Root
+P14B26CTU-B06	ASV7	0	Seed	Cladosporium delicatulum	Ascomycota	Low	Stem
+P14B30ATD-F07	ASV7	0	Seed	Cladosporium delicatulum	Ascomycota	High	Root
+P14B30ATU-A02	ASV7	0	Seed	Cladosporium delicatulum	Ascomycota	High	Stem
+P14B30BTD-F09	ASV7	0	Seed	Cladosporium delicatulum	Ascomycota	High	Root
+P14B30BTU-A04	ASV7	0	Seed	Cladosporium delicatulum	Ascomycota	High	Stem
+P14B30CTD-F11	ASV7	0	Seed	Cladosporium delicatulum	Ascomycota	High	Root
+P14B30CTU-A06	ASV7	0	Seed	Cladosporium delicatulum	Ascomycota	High	Stem
+P14B36ATD-H07	ASV7	0.034596091	Seed	Cladosporium delicatulum	Ascomycota	Low	Root
+P14B36ATU-C02	ASV7	0	Seed	Cladosporium delicatulum	Ascomycota	Low	Stem
+P14B36BTD-H09	ASV7	0	Seed	Cladosporium delicatulum	Ascomycota	Low	Root
+P14B36BTU-C04	ASV7	0	Seed	Cladosporium delicatulum	Ascomycota	Low	Stem
+P14B36CTD-A12	ASV7	0	Seed	Cladosporium delicatulum	Ascomycota	Low	Root
+P14B36CTU-C06	ASV7	0.235710077	Seed	Cladosporium delicatulum	Ascomycota	Low	Stem
+P14M20ATD-A08	ASV7	0	Seed	Cladosporium delicatulum	Ascomycota	High	Root
+P14M20ATU-D02	ASV7	0	Seed	Cladosporium delicatulum	Ascomycota	High	Stem
+P14M20BTD-A10	ASV7	0	Seed	Cladosporium delicatulum	Ascomycota	High	Root
+P14M20BTU-D04	ASV7	0	Seed	Cladosporium delicatulum	Ascomycota	High	Stem
+P14M20CTD-B12	ASV7	0	Seed	Cladosporium delicatulum	Ascomycota	High	Root
+P14M20CTU-D06	ASV7	0	Seed	Cladosporium delicatulum	Ascomycota	High	Stem
+P14M26ATD-C08	ASV7	0	Seed	Cladosporium delicatulum	Ascomycota	Low	Root
+P14M26ATU-F02	ASV7	0	Seed	Cladosporium delicatulum	Ascomycota	Low	Stem
+P14M26BTD-C10	ASV7	0	Seed	Cladosporium delicatulum	Ascomycota	Low	Root
+P14M26BTU-F04	ASV7	0	Seed	Cladosporium delicatulum	Ascomycota	Low	Stem
+P14M26CTD-D12	ASV7	0	Seed	Cladosporium delicatulum	Ascomycota	Low	Root
+P14M26CTU-F06	ASV7	0	Seed	Cladosporium delicatulum	Ascomycota	Low	Stem
+P14M30ATD-B08	ASV7	0	Seed	Cladosporium delicatulum	Ascomycota	High	Root
+P14M30ATU-E02	ASV7	0	Seed	Cladosporium delicatulum	Ascomycota	High	Stem
+P14M30BTD-B10	ASV7	0.56892779	Seed	Cladosporium delicatulum	Ascomycota	High	Root
+P14M30BTU-E04	ASV7	0	Seed	Cladosporium delicatulum	Ascomycota	High	Stem
+P14M30CTD-C12	ASV7	0	Seed	Cladosporium delicatulum	Ascomycota	High	Root
+P14M30CTU-E06	ASV7	0	Seed	Cladosporium delicatulum	Ascomycota	High	Stem
+P14M36ATD-D08	ASV7	0.069380204	Seed	Cladosporium delicatulum	Ascomycota	Low	Root
+P14M36ATU-G02	ASV7	0.117302053	Seed	Cladosporium delicatulum	Ascomycota	Low	Stem
+P14M36BTD-D10	ASV7	0	Seed	Cladosporium delicatulum	Ascomycota	Low	Root
+P14M36BTU-G04	ASV7	0	Seed	Cladosporium delicatulum	Ascomycota	Low	Stem
+P14M36CTD-E12	ASV7	0	Seed	Cladosporium delicatulum	Ascomycota	Low	Root
+P14M36CTU-G06	ASV7	0	Seed	Cladosporium delicatulum	Ascomycota	Low	Stem
+ITS1-D0A	ASV7	0	Seed	Cladosporium delicatulum	Ascomycota	High	Soil
+ITS1-D0B	ASV7	0.016230755	Seed	Cladosporium delicatulum	Ascomycota	High	Soil
+ITS1-D0C	ASV7	0.004829285	Seed	Cladosporium delicatulum	Ascomycota	High	Soil
+ITS1-D6A	ASV7	0	Seed	Cladosporium delicatulum	Ascomycota	Low	Soil
+ITS1-D6B	ASV7	0	Seed	Cladosporium delicatulum	Ascomycota	Low	Soil
+ITS1-D6C	ASV7	0.472508591	Seed	Cladosporium delicatulum	Ascomycota	Low	Soil
+ITS-Boston-AF-1	ASV75	0	Soil	Unclassified Tremellales	Basidiomycota	ns	Seed
+ITS-Boston-AF-2	ASV75	0	Soil	Unclassified Tremellales	Basidiomycota	ns	Seed
+ITS-Boston-AF-3	ASV75	0	Soil	Unclassified Tremellales	Basidiomycota	ns	Seed
+ITS-Boston-AF-4	ASV75	0	Soil	Unclassified Tremellales	Basidiomycota	ns	Seed
+ITS-Boston-AF-5	ASV75	0	Soil	Unclassified Tremellales	Basidiomycota	ns	Seed
+ITS-Major-AF-1	ASV75	0	Soil	Unclassified Tremellales	Basidiomycota	ns	Seed
+ITS-Major-AF-2	ASV75	0	Soil	Unclassified Tremellales	Basidiomycota	ns	Seed
+ITS-Major-AF-3	ASV75	0	Soil	Unclassified Tremellales	Basidiomycota	ns	Seed
+ITS-Major-AF-4	ASV75	0	Soil	Unclassified Tremellales	Basidiomycota	ns	Seed
+ITS-Major-AF-5	ASV75	0	Soil	Unclassified Tremellales	Basidiomycota	ns	Seed
+ITS-AF-2017-Boston-1	ASV75	0	Soil	Unclassified Tremellales	Basidiomycota	ns	Seed
+ITS-AF-2017-Boston-2	ASV75	0	Soil	Unclassified Tremellales	Basidiomycota	ns	Seed
+ITS-AF-2017-Boston-3	ASV75	0	Soil	Unclassified Tremellales	Basidiomycota	ns	Seed
+ITS-AF-2017-Boston-4	ASV75	0	Soil	Unclassified Tremellales	Basidiomycota	ns	Seed
+ITS-AF-2017-Boston-5	ASV75	0	Soil	Unclassified Tremellales	Basidiomycota	ns	Seed
+ITS-AF-2017-Major-1	ASV75	0	Soil	Unclassified Tremellales	Basidiomycota	ns	Seed
+ITS-AF-2017-Major-2	ASV75	0	Soil	Unclassified Tremellales	Basidiomycota	ns	Seed
+ITS-AF-2017-Major-3	ASV75	0	Soil	Unclassified Tremellales	Basidiomycota	ns	Seed
+ITS-AF-2017-Major-4	ASV75	0	Soil	Unclassified Tremellales	Basidiomycota	ns	Seed
+ITS-AF-2017-Major-5	ASV75	0	Soil	Unclassified Tremellales	Basidiomycota	ns	Seed
+P14B20ATD-E07	ASV75	0	Soil	Unclassified Tremellales	Basidiomycota	High	Root
+P14B20ATU-H01	ASV75	0	Soil	Unclassified Tremellales	Basidiomycota	High	Stem
+P14B20BTD-E09	ASV75	0	Soil	Unclassified Tremellales	Basidiomycota	High	Root
+P14B20BTU-H03	ASV75	0	Soil	Unclassified Tremellales	Basidiomycota	High	Stem
+P14B20CTD-E11	ASV75	0	Soil	Unclassified Tremellales	Basidiomycota	High	Root
+P14B20CTU-H05	ASV75	0	Soil	Unclassified Tremellales	Basidiomycota	High	Stem
+P14B26ATD-G07	ASV75	0	Soil	Unclassified Tremellales	Basidiomycota	Low	Root
+P14B26ATU-B02	ASV75	0	Soil	Unclassified Tremellales	Basidiomycota	Low	Stem
+P14B26BTD-G09	ASV75	0	Soil	Unclassified Tremellales	Basidiomycota	Low	Root
+P14B26BTU-B04	ASV75	0	Soil	Unclassified Tremellales	Basidiomycota	Low	Stem
+P14B26CTD-G11	ASV75	0	Soil	Unclassified Tremellales	Basidiomycota	Low	Root
+P14B26CTU-B06	ASV75	0	Soil	Unclassified Tremellales	Basidiomycota	Low	Stem
+P14B30ATD-F07	ASV75	0	Soil	Unclassified Tremellales	Basidiomycota	High	Root
+P14B30ATU-A02	ASV75	0	Soil	Unclassified Tremellales	Basidiomycota	High	Stem
+P14B30BTD-F09	ASV75	0	Soil	Unclassified Tremellales	Basidiomycota	High	Root
+P14B30BTU-A04	ASV75	0	Soil	Unclassified Tremellales	Basidiomycota	High	Stem
+P14B30CTD-F11	ASV75	0	Soil	Unclassified Tremellales	Basidiomycota	High	Root
+P14B30CTU-A06	ASV75	0	Soil	Unclassified Tremellales	Basidiomycota	High	Stem
+P14B36ATD-H07	ASV75	0	Soil	Unclassified Tremellales	Basidiomycota	Low	Root
+P14B36ATU-C02	ASV75	0	Soil	Unclassified Tremellales	Basidiomycota	Low	Stem
+P14B36BTD-H09	ASV75	0	Soil	Unclassified Tremellales	Basidiomycota	Low	Root
+P14B36BTU-C04	ASV75	0	Soil	Unclassified Tremellales	Basidiomycota	Low	Stem
+P14B36CTD-A12	ASV75	0	Soil	Unclassified Tremellales	Basidiomycota	Low	Root
+P14B36CTU-C06	ASV75	0	Soil	Unclassified Tremellales	Basidiomycota	Low	Stem
+P14M20ATD-A08	ASV75	0	Soil	Unclassified Tremellales	Basidiomycota	High	Root
+P14M20ATU-D02	ASV75	0	Soil	Unclassified Tremellales	Basidiomycota	High	Stem
+P14M20BTD-A10	ASV75	0	Soil	Unclassified Tremellales	Basidiomycota	High	Root
+P14M20BTU-D04	ASV75	0	Soil	Unclassified Tremellales	Basidiomycota	High	Stem
+P14M20CTD-B12	ASV75	0	Soil	Unclassified Tremellales	Basidiomycota	High	Root
+P14M20CTU-D06	ASV75	0	Soil	Unclassified Tremellales	Basidiomycota	High	Stem
+P14M26ATD-C08	ASV75	0	Soil	Unclassified Tremellales	Basidiomycota	Low	Root
+P14M26ATU-F02	ASV75	0	Soil	Unclassified Tremellales	Basidiomycota	Low	Stem
+P14M26BTD-C10	ASV75	0	Soil	Unclassified Tremellales	Basidiomycota	Low	Root
+P14M26BTU-F04	ASV75	0	Soil	Unclassified Tremellales	Basidiomycota	Low	Stem
+P14M26CTD-D12	ASV75	0	Soil	Unclassified Tremellales	Basidiomycota	Low	Root
+P14M26CTU-F06	ASV75	0	Soil	Unclassified Tremellales	Basidiomycota	Low	Stem
+P14M30ATD-B08	ASV75	0.070671378	Soil	Unclassified Tremellales	Basidiomycota	High	Root
+P14M30ATU-E02	ASV75	0	Soil	Unclassified Tremellales	Basidiomycota	High	Stem
+P14M30BTD-B10	ASV75	0.087527352	Soil	Unclassified Tremellales	Basidiomycota	High	Root
+P14M30BTU-E04	ASV75	0	Soil	Unclassified Tremellales	Basidiomycota	High	Stem
+P14M30CTD-C12	ASV75	0	Soil	Unclassified Tremellales	Basidiomycota	High	Root
+P14M30CTU-E06	ASV75	0	Soil	Unclassified Tremellales	Basidiomycota	High	Stem
+P14M36ATD-D08	ASV75	0	Soil	Unclassified Tremellales	Basidiomycota	Low	Root
+P14M36ATU-G02	ASV75	0	Soil	Unclassified Tremellales	Basidiomycota	Low	Stem
+P14M36BTD-D10	ASV75	0	Soil	Unclassified Tremellales	Basidiomycota	Low	Root
+P14M36BTU-G04	ASV75	0	Soil	Unclassified Tremellales	Basidiomycota	Low	Stem
+P14M36CTD-E12	ASV75	0	Soil	Unclassified Tremellales	Basidiomycota	Low	Root
+P14M36CTU-G06	ASV75	0	Soil	Unclassified Tremellales	Basidiomycota	Low	Stem
+ITS1-D0A	ASV75	1.232117592	Soil	Unclassified Tremellales	Basidiomycota	High	Soil
+ITS1-D0B	ASV75	0.102021888	Soil	Unclassified Tremellales	Basidiomycota	High	Soil
+ITS1-D0C	ASV75	0.210878769	Soil	Unclassified Tremellales	Basidiomycota	High	Soil
+ITS1-D6A	ASV75	0	Soil	Unclassified Tremellales	Basidiomycota	Low	Soil
+ITS1-D6B	ASV75	0.009837402	Soil	Unclassified Tremellales	Basidiomycota	Low	Soil
+ITS1-D6C	ASV75	0.355357701	Soil	Unclassified Tremellales	Basidiomycota	Low	Soil
+ITS-Boston-AF-1	ASV202	0	Soil	Exophiala	Ascomycota	ns	Seed
+ITS-Boston-AF-2	ASV202	0	Soil	Exophiala	Ascomycota	ns	Seed
+ITS-Boston-AF-3	ASV202	0	Soil	Exophiala	Ascomycota	ns	Seed
+ITS-Boston-AF-4	ASV202	0	Soil	Exophiala	Ascomycota	ns	Seed
+ITS-Boston-AF-5	ASV202	0	Soil	Exophiala	Ascomycota	ns	Seed
+ITS-Major-AF-1	ASV202	0	Soil	Exophiala	Ascomycota	ns	Seed
+ITS-Major-AF-2	ASV202	0	Soil	Exophiala	Ascomycota	ns	Seed
+ITS-Major-AF-3	ASV202	0	Soil	Exophiala	Ascomycota	ns	Seed
+ITS-Major-AF-4	ASV202	0	Soil	Exophiala	Ascomycota	ns	Seed
+ITS-Major-AF-5	ASV202	0	Soil	Exophiala	Ascomycota	ns	Seed
+ITS-AF-2017-Boston-1	ASV202	0	Soil	Exophiala	Ascomycota	ns	Seed
+ITS-AF-2017-Boston-2	ASV202	0	Soil	Exophiala	Ascomycota	ns	Seed
+ITS-AF-2017-Boston-3	ASV202	0	Soil	Exophiala	Ascomycota	ns	Seed
+ITS-AF-2017-Boston-4	ASV202	0	Soil	Exophiala	Ascomycota	ns	Seed
+ITS-AF-2017-Boston-5	ASV202	0	Soil	Exophiala	Ascomycota	ns	Seed
+ITS-AF-2017-Major-1	ASV202	0	Soil	Exophiala	Ascomycota	ns	Seed
+ITS-AF-2017-Major-2	ASV202	0	Soil	Exophiala	Ascomycota	ns	Seed
+ITS-AF-2017-Major-3	ASV202	0	Soil	Exophiala	Ascomycota	ns	Seed
+ITS-AF-2017-Major-4	ASV202	0	Soil	Exophiala	Ascomycota	ns	Seed
+ITS-AF-2017-Major-5	ASV202	0	Soil	Exophiala	Ascomycota	ns	Seed
+P14B20ATD-E07	ASV202	0	Soil	Exophiala	Ascomycota	High	Root
+P14B20ATU-H01	ASV202	0	Soil	Exophiala	Ascomycota	High	Stem
+P14B20BTD-E09	ASV202	0	Soil	Exophiala	Ascomycota	High	Root
+P14B20BTU-H03	ASV202	0	Soil	Exophiala	Ascomycota	High	Stem
+P14B20CTD-E11	ASV202	0	Soil	Exophiala	Ascomycota	High	Root
+P14B20CTU-H05	ASV202	0	Soil	Exophiala	Ascomycota	High	Stem
+P14B26ATD-G07	ASV202	0	Soil	Exophiala	Ascomycota	Low	Root
+P14B26ATU-B02	ASV202	0	Soil	Exophiala	Ascomycota	Low	Stem
+P14B26BTD-G09	ASV202	0	Soil	Exophiala	Ascomycota	Low	Root
+P14B26BTU-B04	ASV202	0	Soil	Exophiala	Ascomycota	Low	Stem
+P14B26CTD-G11	ASV202	0	Soil	Exophiala	Ascomycota	Low	Root
+P14B26CTU-B06	ASV202	0	Soil	Exophiala	Ascomycota	Low	Stem
+P14B30ATD-F07	ASV202	0	Soil	Exophiala	Ascomycota	High	Root
+P14B30ATU-A02	ASV202	0	Soil	Exophiala	Ascomycota	High	Stem
+P14B30BTD-F09	ASV202	0	Soil	Exophiala	Ascomycota	High	Root
+P14B30BTU-A04	ASV202	0	Soil	Exophiala	Ascomycota	High	Stem
+P14B30CTD-F11	ASV202	0	Soil	Exophiala	Ascomycota	High	Root
+P14B30CTU-A06	ASV202	0	Soil	Exophiala	Ascomycota	High	Stem
+P14B36ATD-H07	ASV202	0	Soil	Exophiala	Ascomycota	Low	Root
+P14B36ATU-C02	ASV202	0	Soil	Exophiala	Ascomycota	Low	Stem
+P14B36BTD-H09	ASV202	0	Soil	Exophiala	Ascomycota	Low	Root
+P14B36BTU-C04	ASV202	0	Soil	Exophiala	Ascomycota	Low	Stem
+P14B36CTD-A12	ASV202	0	Soil	Exophiala	Ascomycota	Low	Root
+P14B36CTU-C06	ASV202	0	Soil	Exophiala	Ascomycota	Low	Stem
+P14M20ATD-A08	ASV202	0	Soil	Exophiala	Ascomycota	High	Root
+P14M20ATU-D02	ASV202	0	Soil	Exophiala	Ascomycota	High	Stem
+P14M20BTD-A10	ASV202	0	Soil	Exophiala	Ascomycota	High	Root
+P14M20BTU-D04	ASV202	0	Soil	Exophiala	Ascomycota	High	Stem
+P14M20CTD-B12	ASV202	0	Soil	Exophiala	Ascomycota	High	Root
+P14M20CTU-D06	ASV202	0	Soil	Exophiala	Ascomycota	High	Stem
+P14M26ATD-C08	ASV202	0	Soil	Exophiala	Ascomycota	Low	Root
+P14M26ATU-F02	ASV202	0	Soil	Exophiala	Ascomycota	Low	Stem
+P14M26BTD-C10	ASV202	0	Soil	Exophiala	Ascomycota	Low	Root
+P14M26BTU-F04	ASV202	0	Soil	Exophiala	Ascomycota	Low	Stem
+P14M26CTD-D12	ASV202	0	Soil	Exophiala	Ascomycota	Low	Root
+P14M26CTU-F06	ASV202	0	Soil	Exophiala	Ascomycota	Low	Stem
+P14M30ATD-B08	ASV202	0	Soil	Exophiala	Ascomycota	High	Root
+P14M30ATU-E02	ASV202	0	Soil	Exophiala	Ascomycota	High	Stem
+P14M30BTD-B10	ASV202	0	Soil	Exophiala	Ascomycota	High	Root
+P14M30BTU-E04	ASV202	0	Soil	Exophiala	Ascomycota	High	Stem
+P14M30CTD-C12	ASV202	0	Soil	Exophiala	Ascomycota	High	Root
+P14M30CTU-E06	ASV202	0	Soil	Exophiala	Ascomycota	High	Stem
+P14M36ATD-D08	ASV202	0	Soil	Exophiala	Ascomycota	Low	Root
+P14M36ATU-G02	ASV202	0	Soil	Exophiala	Ascomycota	Low	Stem
+P14M36BTD-D10	ASV202	0	Soil	Exophiala	Ascomycota	Low	Root
+P14M36BTU-G04	ASV202	0	Soil	Exophiala	Ascomycota	Low	Stem
+P14M36CTD-E12	ASV202	0	Soil	Exophiala	Ascomycota	Low	Root
+P14M36CTU-G06	ASV202	0	Soil	Exophiala	Ascomycota	Low	Stem
+ITS1-D0A	ASV202	0.172928785	Soil	Exophiala	Ascomycota	High	Soil
+ITS1-D0B	ASV202	0.052170284	Soil	Exophiala	Ascomycota	High	Soil
+ITS1-D0C	ASV202	0.017707378	Soil	Exophiala	Ascomycota	High	Soil
+ITS1-D6A	ASV202	0	Soil	Exophiala	Ascomycota	Low	Soil
+ITS1-D6B	ASV202	0.030917549	Soil	Exophiala	Ascomycota	Low	Soil
+ITS1-D6C	ASV202	0.050765386	Soil	Exophiala	Ascomycota	Low	Soil

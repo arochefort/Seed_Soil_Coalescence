@@ -1,0 +1,1013 @@
+All	ASV	GxY	Soil_div	Rel_abund_Soil	Compartment	Combined	Combined2	Type
+HighSoil-ndSoil	ASV2	nd	High	1.576264542	Soil	ASV2_nd	ASV2_High	> 1%: Dominant
+LowSoil-ndSoil	ASV5	nd	Low	30.48001836	Soil	ASV5_nd	ASV5_Low	> 1%: Dominant
+HighSoil-ndSoil	ASV6	nd	High	49.27324009	Soil	ASV6_nd	ASV6_High	> 1%: Dominant
+HighSoil-ndSoil	ASV8	nd	High	13.35286002	Soil	ASV8_nd	ASV8_High	> 1%: Dominant
+LowSoil-ndSoil	ASV8	nd	Low	20.68933537	Soil	ASV8_nd	ASV8_Low	> 1%: Dominant
+LowSoil-ndSoil	ASV17	nd	Low	23.83109445	Soil	ASV17_nd	ASV17_Low	> 1%: Dominant
+LowSoil-ndSoil	ASV23	nd	Low	10.85305057	Soil	ASV23_nd	ASV23_Low	> 1%: Dominant
+HighSoil-ndSoil	ASV26	nd	High	7.358304623	Soil	ASV26_nd	ASV26_High	> 1%: Dominant
+HighSoil-ndSoil	ASV28	nd	High	5.412485031	Soil	ASV28_nd	ASV28_High	> 1%: Dominant
+HighSoil-ndSoil	ASV30	nd	High	1.915856851	Soil	ASV30_nd	ASV30_High	> 1%: Dominant
+LowSoil-ndSoil	ASV32	nd	Low	2.840797921	Soil	ASV32_nd	ASV32_Low	> 1%: Dominant
+HighSoil-ndSoil	ASV35	nd	High	1.625223971	Soil	ASV35_nd	ASV35_High	> 1%: Dominant
+LowSoil-ndSoil	ASV37	nd	Low	2.096771927	Soil	ASV37_nd	ASV37_Low	> 1%: Dominant
+HighSoil-ndSoil	ASV38	nd	High	1.989908546	Soil	ASV38_nd	ASV38_High	> 1%: Dominant
+HighSoil-ndSoil	ASV46	nd	High	1.484990665	Soil	ASV46_nd	ASV46_High	> 1%: Dominant
+HighSoil-ndSoil	ASV50	nd	High	1.55570403	Soil	ASV50_nd	ASV50_High	> 1%: Dominant
+HighSoil-ndSoil	ASV51	nd	High	1.500681235	Soil	ASV51_nd	ASV51_High	> 1%: Dominant
+LowSoil-ndSoil	ASV79	nd	Low	1.103821722	Soil	ASV79_nd	ASV79_Low	> 1%: Dominant
+HighSoil-ndSoil	ASV1	nd	High	0.001545786	Soil	ASV1_nd	ASV1_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV1	nd	Low	0.06263304	Soil	ASV1_nd	ASV1_Low	0.01<x<1%: Intermediate
+LowSoil-ndSoil	ASV2	nd	Low	0.633955365	Soil	ASV2_nd	ASV2_Low	0.01<x<1%: Intermediate
+HighSoil-ndSoil	ASV3	nd	High	0	Soil	ASV3_nd	ASV3_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV3	nd	Low	0	Soil	ASV3_nd	ASV3_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV4	nd	High	0.003091572	Soil	ASV4_nd	ASV4_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV4	nd	Low	0.579790908	Soil	ASV4_nd	ASV4_Low	0.01<x<1%: Intermediate
+HighSoil-ndSoil	ASV5	nd	High	0	Soil	ASV5_nd	ASV5_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV6	nd	Low	0.019525148	Soil	ASV6_nd	ASV6_Low	0.01<x<1%: Intermediate
+HighSoil-ndSoil	ASV7	nd	High	0.007020013	Soil	ASV7_nd	ASV7_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV7	nd	Low	0.157502864	Soil	ASV7_nd	ASV7_Low	0.01<x<1%: Intermediate
+HighSoil-ndSoil	ASV9	nd	High	0	Soil	ASV9_nd	ASV9_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV9	nd	Low	0	Soil	ASV9_nd	ASV9_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV11	nd	High	0	Soil	ASV11_nd	ASV11_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV11	nd	Low	0.006508383	Soil	ASV11_nd	ASV11_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV12	nd	High	0	Soil	ASV12_nd	ASV12_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV12	nd	Low	0	Soil	ASV12_nd	ASV12_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV13	nd	High	0.56962221	Soil	ASV13_nd	ASV13_High	0.01<x<1%: Intermediate
+LowSoil-ndSoil	ASV13	nd	Low	0	Soil	ASV13_nd	ASV13_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV14	nd	High	0	Soil	ASV14_nd	ASV14_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV14	nd	Low	0	Soil	ASV14_nd	ASV14_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV16	nd	High	0.000772893	Soil	ASV16_nd	ASV16_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV16	nd	Low	0	Soil	ASV16_nd	ASV16_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV17	nd	High	0.276675239	Soil	ASV17_nd	ASV17_High	0.01<x<1%: Intermediate
+HighSoil-ndSoil	ASV18	nd	High	0.595550055	Soil	ASV18_nd	ASV18_High	0.01<x<1%: Intermediate
+LowSoil-ndSoil	ASV18	nd	Low	0.052995224	Soil	ASV18_nd	ASV18_Low	0.01<x<1%: Intermediate
+HighSoil-ndSoil	ASV19	nd	High	0	Soil	ASV19_nd	ASV19_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV19	nd	Low	0	Soil	ASV19_nd	ASV19_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV20	nd	High	0	Soil	ASV20_nd	ASV20_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV20	nd	Low	0	Soil	ASV20_nd	ASV20_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV21	nd	High	0	Soil	ASV21_nd	ASV21_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV21	nd	Low	0	Soil	ASV21_nd	ASV21_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV22	nd	High	0	Soil	ASV22_nd	ASV22_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV22	nd	Low	0	Soil	ASV22_nd	ASV22_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV23	nd	High	0.308492745	Soil	ASV23_nd	ASV23_High	0.01<x<1%: Intermediate
+HighSoil-ndSoil	ASV24	nd	High	0	Soil	ASV24_nd	ASV24_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV24	nd	Low	0	Soil	ASV24_nd	ASV24_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV25	nd	High	0	Soil	ASV25_nd	ASV25_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV25	nd	Low	0	Soil	ASV25_nd	ASV25_Low	< 0.01%: Rare
+LowSoil-ndSoil	ASV26	nd	Low	0.565061574	Soil	ASV26_nd	ASV26_Low	0.01<x<1%: Intermediate
+HighSoil-ndSoil	ASV27	nd	High	0	Soil	ASV27_nd	ASV27_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV27	nd	Low	0	Soil	ASV27_nd	ASV27_Low	< 0.01%: Rare
+LowSoil-ndSoil	ASV28	nd	Low	0	Soil	ASV28_nd	ASV28_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV29	nd	High	0.697612411	Soil	ASV29_nd	ASV29_High	0.01<x<1%: Intermediate
+LowSoil-ndSoil	ASV29	nd	Low	0.709413725	Soil	ASV29_nd	ASV29_Low	0.01<x<1%: Intermediate
+LowSoil-ndSoil	ASV30	nd	Low	0	Soil	ASV30_nd	ASV30_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV31	nd	High	0	Soil	ASV31_nd	ASV31_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV31	nd	Low	0	Soil	ASV31_nd	ASV31_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV32	nd	High	0.615310705	Soil	ASV32_nd	ASV32_High	0.01<x<1%: Intermediate
+HighSoil-ndSoil	ASV33	nd	High	0	Soil	ASV33_nd	ASV33_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV33	nd	Low	0	Soil	ASV33_nd	ASV33_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV34	nd	High	0.136191278	Soil	ASV34_nd	ASV34_High	0.01<x<1%: Intermediate
+LowSoil-ndSoil	ASV34	nd	Low	0	Soil	ASV34_nd	ASV34_Low	< 0.01%: Rare
+LowSoil-ndSoil	ASV35	nd	Low	0	Soil	ASV35_nd	ASV35_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV36	nd	High	0.001609762	Soil	ASV36_nd	ASV36_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV36	nd	Low	0	Soil	ASV36_nd	ASV36_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV37	nd	High	0	Soil	ASV37_nd	ASV37_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV38	nd	Low	0.013016766	Soil	ASV38_nd	ASV38_Low	0.01<x<1%: Intermediate
+HighSoil-ndSoil	ASV39	nd	High	0	Soil	ASV39_nd	ASV39_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV39	nd	Low	0.013116536	Soil	ASV39_nd	ASV39_Low	0.01<x<1%: Intermediate
+HighSoil-ndSoil	ASV40	nd	High	0.011268331	Soil	ASV40_nd	ASV40_High	0.01<x<1%: Intermediate
+LowSoil-ndSoil	ASV40	nd	Low	0	Soil	ASV40_nd	ASV40_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV41	nd	High	0	Soil	ASV41_nd	ASV41_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV41	nd	Low	0	Soil	ASV41_nd	ASV41_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV42	nd	High	0	Soil	ASV42_nd	ASV42_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV42	nd	Low	0	Soil	ASV42_nd	ASV42_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV43	nd	High	0	Soil	ASV43_nd	ASV43_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV43	nd	Low	0	Soil	ASV43_nd	ASV43_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV45	nd	High	0	Soil	ASV45_nd	ASV45_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV45	nd	Low	0	Soil	ASV45_nd	ASV45_Low	< 0.01%: Rare
+LowSoil-ndSoil	ASV46	nd	Low	0	Soil	ASV46_nd	ASV46_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV47	nd	High	0.563672941	Soil	ASV47_nd	ASV47_High	0.01<x<1%: Intermediate
+LowSoil-ndSoil	ASV47	nd	Low	0.005961963	Soil	ASV47_nd	ASV47_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV48	nd	High	0	Soil	ASV48_nd	ASV48_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV48	nd	Low	0.007495163	Soil	ASV48_nd	ASV48_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV49	nd	High	0.245665655	Soil	ASV49_nd	ASV49_High	0.01<x<1%: Intermediate
+LowSoil-ndSoil	ASV49	nd	Low	0	Soil	ASV49_nd	ASV49_Low	< 0.01%: Rare
+LowSoil-ndSoil	ASV50	nd	Low	0	Soil	ASV50_nd	ASV50_Low	< 0.01%: Rare
+LowSoil-ndSoil	ASV51	nd	Low	0	Soil	ASV51_nd	ASV51_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV52	nd	High	0.708964584	Soil	ASV52_nd	ASV52_High	0.01<x<1%: Intermediate
+LowSoil-ndSoil	ASV52	nd	Low	0	Soil	ASV52_nd	ASV52_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV53	nd	High	0	Soil	ASV53_nd	ASV53_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV53	nd	Low	0	Soil	ASV53_nd	ASV53_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV54	nd	High	0	Soil	ASV54_nd	ASV54_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV54	nd	Low	0	Soil	ASV54_nd	ASV54_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV55	nd	High	0.006956038	Soil	ASV55_nd	ASV55_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV55	nd	Low	0	Soil	ASV55_nd	ASV55_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV57	nd	High	0.609189301	Soil	ASV57_nd	ASV57_High	0.01<x<1%: Intermediate
+LowSoil-ndSoil	ASV57	nd	Low	0	Soil	ASV57_nd	ASV57_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV58	nd	High	0	Soil	ASV58_nd	ASV58_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV58	nd	Low	0	Soil	ASV58_nd	ASV58_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV59	nd	High	0.014473535	Soil	ASV59_nd	ASV59_High	0.01<x<1%: Intermediate
+LowSoil-ndSoil	ASV59	nd	Low	0	Soil	ASV59_nd	ASV59_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV60	nd	High	0	Soil	ASV60_nd	ASV60_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV60	nd	Low	0	Soil	ASV60_nd	ASV60_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV61	nd	High	0	Soil	ASV61_nd	ASV61_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV61	nd	Low	0	Soil	ASV61_nd	ASV61_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV62	nd	High	0.061573128	Soil	ASV62_nd	ASV62_High	0.01<x<1%: Intermediate
+LowSoil-ndSoil	ASV62	nd	Low	0	Soil	ASV62_nd	ASV62_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV63	nd	High	0.009170466	Soil	ASV63_nd	ASV63_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV63	nd	Low	0	Soil	ASV63_nd	ASV63_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV64	nd	High	0	Soil	ASV64_nd	ASV64_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV64	nd	Low	0	Soil	ASV64_nd	ASV64_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV65	nd	High	0	Soil	ASV65_nd	ASV65_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV65	nd	Low	0	Soil	ASV65_nd	ASV65_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV66	nd	High	0	Soil	ASV66_nd	ASV66_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV66	nd	Low	0	Soil	ASV66_nd	ASV66_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV67	nd	High	0.0019651	Soil	ASV67_nd	ASV67_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV67	nd	Low	0	Soil	ASV67_nd	ASV67_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV68	nd	High	0	Soil	ASV68_nd	ASV68_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV68	nd	Low	0	Soil	ASV68_nd	ASV68_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV69	nd	High	0	Soil	ASV69_nd	ASV69_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV69	nd	Low	0	Soil	ASV69_nd	ASV69_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV70	nd	High	0	Soil	ASV70_nd	ASV70_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV70	nd	Low	0	Soil	ASV70_nd	ASV70_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV71	nd	High	0.600173167	Soil	ASV71_nd	ASV71_High	0.01<x<1%: Intermediate
+LowSoil-ndSoil	ASV71	nd	Low	0.042955326	Soil	ASV71_nd	ASV71_Low	0.01<x<1%: Intermediate
+HighSoil-ndSoil	ASV72	nd	High	0.002318679	Soil	ASV72_nd	ASV72_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV72	nd	Low	0	Soil	ASV72_nd	ASV72_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV73	nd	High	0	Soil	ASV73_nd	ASV73_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV73	nd	Low	0	Soil	ASV73_nd	ASV73_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV74	nd	High	0	Soil	ASV74_nd	ASV74_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV74	nd	Low	0	Soil	ASV74_nd	ASV74_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV75	nd	High	0.515006083	Soil	ASV75_nd	ASV75_High	0.01<x<1%: Intermediate
+LowSoil-ndSoil	ASV75	nd	Low	0.121731701	Soil	ASV75_nd	ASV75_Low	0.01<x<1%: Intermediate
+HighSoil-ndSoil	ASV76	nd	High	0	Soil	ASV76_nd	ASV76_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV76	nd	Low	0	Soil	ASV76_nd	ASV76_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV77	nd	High	0	Soil	ASV77_nd	ASV77_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV77	nd	Low	0	Soil	ASV77_nd	ASV77_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV78	nd	High	0	Soil	ASV78_nd	ASV78_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV78	nd	Low	0	Soil	ASV78_nd	ASV78_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV79	nd	High	0	Soil	ASV79_nd	ASV79_High	< 0.01%: Rare
+HighSoil-ndSoil	ASV82	nd	High	0.556123251	Soil	ASV82_nd	ASV82_High	0.01<x<1%: Intermediate
+LowSoil-ndSoil	ASV82	nd	Low	0	Soil	ASV82_nd	ASV82_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV83	nd	High	0	Soil	ASV83_nd	ASV83_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV83	nd	Low	0	Soil	ASV83_nd	ASV83_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV84	nd	High	0	Soil	ASV84_nd	ASV84_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV84	nd	Low	0	Soil	ASV84_nd	ASV84_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV85	nd	High	0	Soil	ASV85_nd	ASV85_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV85	nd	Low	0	Soil	ASV85_nd	ASV85_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV86	nd	High	0	Soil	ASV86_nd	ASV86_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV86	nd	Low	0	Soil	ASV86_nd	ASV86_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV87	nd	High	0.528611853	Soil	ASV87_nd	ASV87_High	0.01<x<1%: Intermediate
+LowSoil-ndSoil	ASV87	nd	Low	0	Soil	ASV87_nd	ASV87_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV88	nd	High	0	Soil	ASV88_nd	ASV88_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV88	nd	Low	0	Soil	ASV88_nd	ASV88_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV90	nd	High	0	Soil	ASV90_nd	ASV90_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV90	nd	Low	0	Soil	ASV90_nd	ASV90_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV91	nd	High	0.395632763	Soil	ASV91_nd	ASV91_High	0.01<x<1%: Intermediate
+LowSoil-ndSoil	ASV91	nd	Low	0	Soil	ASV91_nd	ASV91_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV92	nd	High	0.298084064	Soil	ASV92_nd	ASV92_High	0.01<x<1%: Intermediate
+LowSoil-ndSoil	ASV92	nd	Low	0	Soil	ASV92_nd	ASV92_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV93	nd	High	0.467693759	Soil	ASV93_nd	ASV93_High	0.01<x<1%: Intermediate
+LowSoil-ndSoil	ASV93	nd	Low	0	Soil	ASV93_nd	ASV93_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV94	nd	High	0	Soil	ASV94_nd	ASV94_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV94	nd	Low	0	Soil	ASV94_nd	ASV94_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV95	nd	High	0.207896298	Soil	ASV95_nd	ASV95_High	0.01<x<1%: Intermediate
+LowSoil-ndSoil	ASV95	nd	Low	0	Soil	ASV95_nd	ASV95_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV96	nd	High	0.071555004	Soil	ASV96_nd	ASV96_High	0.01<x<1%: Intermediate
+LowSoil-ndSoil	ASV96	nd	Low	0	Soil	ASV96_nd	ASV96_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV97	nd	High	0	Soil	ASV97_nd	ASV97_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV97	nd	Low	0	Soil	ASV97_nd	ASV97_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV98	nd	High	0	Soil	ASV98_nd	ASV98_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV98	nd	Low	0	Soil	ASV98_nd	ASV98_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV99	nd	High	0	Soil	ASV99_nd	ASV99_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV99	nd	Low	0	Soil	ASV99_nd	ASV99_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV100	nd	High	0	Soil	ASV100_nd	ASV100_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV100	nd	Low	0	Soil	ASV100_nd	ASV100_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV101	nd	High	0	Soil	ASV101_nd	ASV101_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV101	nd	Low	0	Soil	ASV101_nd	ASV101_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV102	nd	High	0	Soil	ASV102_nd	ASV102_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV102	nd	Low	0	Soil	ASV102_nd	ASV102_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV103	nd	High	0	Soil	ASV103_nd	ASV103_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV103	nd	Low	0	Soil	ASV103_nd	ASV103_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV104	nd	High	0.25322469	Soil	ASV104_nd	ASV104_High	0.01<x<1%: Intermediate
+LowSoil-ndSoil	ASV104	nd	Low	0	Soil	ASV104_nd	ASV104_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV105	nd	High	0	Soil	ASV105_nd	ASV105_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV105	nd	Low	0	Soil	ASV105_nd	ASV105_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV106	nd	High	0	Soil	ASV106_nd	ASV106_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV106	nd	Low	0	Soil	ASV106_nd	ASV106_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV107	nd	High	0.352407902	Soil	ASV107_nd	ASV107_High	0.01<x<1%: Intermediate
+LowSoil-ndSoil	ASV107	nd	Low	0	Soil	ASV107_nd	ASV107_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV108	nd	High	0.21248853	Soil	ASV108_nd	ASV108_High	0.01<x<1%: Intermediate
+LowSoil-ndSoil	ASV108	nd	Low	0.067737066	Soil	ASV108_nd	ASV108_Low	0.01<x<1%: Intermediate
+HighSoil-ndSoil	ASV109	nd	High	0	Soil	ASV109_nd	ASV109_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV109	nd	Low	0	Soil	ASV109_nd	ASV109_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV110	nd	High	0.0039302	Soil	ASV110_nd	ASV110_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV110	nd	Low	0	Soil	ASV110_nd	ASV110_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV111	nd	High	0	Soil	ASV111_nd	ASV111_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV111	nd	Low	0	Soil	ASV111_nd	ASV111_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV112	nd	High	0	Soil	ASV112_nd	ASV112_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV112	nd	Low	0.530904049	Soil	ASV112_nd	ASV112_Low	0.01<x<1%: Intermediate
+HighSoil-ndSoil	ASV113	nd	High	0.278099876	Soil	ASV113_nd	ASV113_High	0.01<x<1%: Intermediate
+LowSoil-ndSoil	ASV113	nd	Low	0	Soil	ASV113_nd	ASV113_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV114	nd	High	0	Soil	ASV114_nd	ASV114_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV114	nd	Low	0	Soil	ASV114_nd	ASV114_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV115	nd	High	0	Soil	ASV115_nd	ASV115_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV115	nd	Low	0	Soil	ASV115_nd	ASV115_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV116	nd	High	0	Soil	ASV116_nd	ASV116_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV116	nd	Low	0	Soil	ASV116_nd	ASV116_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV117	nd	High	0	Soil	ASV117_nd	ASV117_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV117	nd	Low	0	Soil	ASV117_nd	ASV117_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV118	nd	High	0.082534193	Soil	ASV118_nd	ASV118_High	0.01<x<1%: Intermediate
+LowSoil-ndSoil	ASV118	nd	Low	0	Soil	ASV118_nd	ASV118_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV120	nd	High	0.196837378	Soil	ASV120_nd	ASV120_High	0.01<x<1%: Intermediate
+LowSoil-ndSoil	ASV120	nd	Low	0	Soil	ASV120_nd	ASV120_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV121	nd	High	0	Soil	ASV121_nd	ASV121_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV121	nd	Low	0	Soil	ASV121_nd	ASV121_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV123	nd	High	0	Soil	ASV123_nd	ASV123_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV123	nd	Low	0	Soil	ASV123_nd	ASV123_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV124	nd	High	0.176954193	Soil	ASV124_nd	ASV124_High	0.01<x<1%: Intermediate
+LowSoil-ndSoil	ASV124	nd	Low	0.091117359	Soil	ASV124_nd	ASV124_Low	0.01<x<1%: Intermediate
+HighSoil-ndSoil	ASV125	nd	High	0	Soil	ASV125_nd	ASV125_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV125	nd	Low	0	Soil	ASV125_nd	ASV125_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV126	nd	High	0.203278198	Soil	ASV126_nd	ASV126_High	0.01<x<1%: Intermediate
+LowSoil-ndSoil	ASV126	nd	Low	0	Soil	ASV126_nd	ASV126_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV127	nd	High	0	Soil	ASV127_nd	ASV127_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV127	nd	Low	0	Soil	ASV127_nd	ASV127_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV129	nd	High	0	Soil	ASV129_nd	ASV129_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV129	nd	Low	0	Soil	ASV129_nd	ASV129_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV130	nd	High	0	Soil	ASV130_nd	ASV130_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV130	nd	Low	0	Soil	ASV130_nd	ASV130_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV131	nd	High	0	Soil	ASV131_nd	ASV131_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV131	nd	Low	0	Soil	ASV131_nd	ASV131_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV132	nd	High	0	Soil	ASV132_nd	ASV132_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV132	nd	Low	0	Soil	ASV132_nd	ASV132_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV133	nd	High	0.161747776	Soil	ASV133_nd	ASV133_High	0.01<x<1%: Intermediate
+LowSoil-ndSoil	ASV133	nd	Low	0	Soil	ASV133_nd	ASV133_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV134	nd	High	0	Soil	ASV134_nd	ASV134_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV134	nd	Low	0	Soil	ASV134_nd	ASV134_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV135	nd	High	0	Soil	ASV135_nd	ASV135_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV135	nd	Low	0	Soil	ASV135_nd	ASV135_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV136	nd	High	0	Soil	ASV136_nd	ASV136_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV136	nd	Low	0.081978348	Soil	ASV136_nd	ASV136_Low	0.01<x<1%: Intermediate
+HighSoil-ndSoil	ASV140	nd	High	0	Soil	ASV140_nd	ASV140_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV140	nd	Low	0	Soil	ASV140_nd	ASV140_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV141	nd	High	0.018995965	Soil	ASV141_nd	ASV141_High	0.01<x<1%: Intermediate
+LowSoil-ndSoil	ASV141	nd	Low	0.02186053	Soil	ASV141_nd	ASV141_Low	0.01<x<1%: Intermediate
+HighSoil-ndSoil	ASV142	nd	High	0.216816014	Soil	ASV142_nd	ASV142_High	0.01<x<1%: Intermediate
+LowSoil-ndSoil	ASV142	nd	Low	0	Soil	ASV142_nd	ASV142_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV143	nd	High	0	Soil	ASV143_nd	ASV143_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV143	nd	Low	0	Soil	ASV143_nd	ASV143_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV144	nd	High	0	Soil	ASV144_nd	ASV144_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV144	nd	Low	0	Soil	ASV144_nd	ASV144_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV146	nd	High	0.020306032	Soil	ASV146_nd	ASV146_High	0.01<x<1%: Intermediate
+LowSoil-ndSoil	ASV146	nd	Low	0	Soil	ASV146_nd	ASV146_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV148	nd	High	0	Soil	ASV148_nd	ASV148_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV148	nd	Low	0	Soil	ASV148_nd	ASV148_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV149	nd	High	0	Soil	ASV149_nd	ASV149_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV149	nd	Low	0	Soil	ASV149_nd	ASV149_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV150	nd	High	0	Soil	ASV150_nd	ASV150_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV150	nd	Low	0	Soil	ASV150_nd	ASV150_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV151	nd	High	0	Soil	ASV151_nd	ASV151_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV151	nd	Low	0	Soil	ASV151_nd	ASV151_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV152	nd	High	0	Soil	ASV152_nd	ASV152_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV152	nd	Low	0	Soil	ASV152_nd	ASV152_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV153	nd	High	0	Soil	ASV153_nd	ASV153_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV153	nd	Low	0.156998351	Soil	ASV153_nd	ASV153_Low	0.01<x<1%: Intermediate
+HighSoil-ndSoil	ASV154	nd	High	0	Soil	ASV154_nd	ASV154_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV154	nd	Low	0	Soil	ASV154_nd	ASV154_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV155	nd	High	0.16609965	Soil	ASV155_nd	ASV155_High	0.01<x<1%: Intermediate
+LowSoil-ndSoil	ASV155	nd	Low	0.002810686	Soil	ASV155_nd	ASV155_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV156	nd	High	0	Soil	ASV156_nd	ASV156_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV156	nd	Low	0	Soil	ASV156_nd	ASV156_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV158	nd	High	0	Soil	ASV158_nd	ASV158_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV158	nd	Low	0	Soil	ASV158_nd	ASV158_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV159	nd	High	0	Soil	ASV159_nd	ASV159_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV159	nd	Low	0	Soil	ASV159_nd	ASV159_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV160	nd	High	0	Soil	ASV160_nd	ASV160_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV160	nd	Low	0	Soil	ASV160_nd	ASV160_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV161	nd	High	0	Soil	ASV161_nd	ASV161_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV161	nd	Low	0	Soil	ASV161_nd	ASV161_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV162	nd	High	0	Soil	ASV162_nd	ASV162_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV162	nd	Low	0	Soil	ASV162_nd	ASV162_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV163	nd	High	0.15393282	Soil	ASV163_nd	ASV163_High	0.01<x<1%: Intermediate
+LowSoil-ndSoil	ASV163	nd	Low	0	Soil	ASV163_nd	ASV163_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV164	nd	High	0.024156888	Soil	ASV164_nd	ASV164_High	0.01<x<1%: Intermediate
+LowSoil-ndSoil	ASV164	nd	Low	0	Soil	ASV164_nd	ASV164_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV166	nd	High	0	Soil	ASV166_nd	ASV166_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV166	nd	Low	0	Soil	ASV166_nd	ASV166_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV167	nd	High	0	Soil	ASV167_nd	ASV167_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV167	nd	Low	0	Soil	ASV167_nd	ASV167_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV168	nd	High	0	Soil	ASV168_nd	ASV168_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV168	nd	Low	0	Soil	ASV168_nd	ASV168_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV170	nd	High	0.029483657	Soil	ASV170_nd	ASV170_High	0.01<x<1%: Intermediate
+LowSoil-ndSoil	ASV170	nd	Low	0	Soil	ASV170_nd	ASV170_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV171	nd	High	0	Soil	ASV171_nd	ASV171_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV171	nd	Low	0.035602026	Soil	ASV171_nd	ASV171_Low	0.01<x<1%: Intermediate
+HighSoil-ndSoil	ASV172	nd	High	0	Soil	ASV172_nd	ASV172_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV172	nd	Low	0	Soil	ASV172_nd	ASV172_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV174	nd	High	0	Soil	ASV174_nd	ASV174_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV174	nd	Low	0	Soil	ASV174_nd	ASV174_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV175	nd	High	0.004250912	Soil	ASV175_nd	ASV175_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV175	nd	Low	0.273451848	Soil	ASV175_nd	ASV175_Low	0.01<x<1%: Intermediate
+HighSoil-ndSoil	ASV176	nd	High	0	Soil	ASV176_nd	ASV176_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV176	nd	Low	0	Soil	ASV176_nd	ASV176_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV177	nd	High	0	Soil	ASV177_nd	ASV177_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV177	nd	Low	0	Soil	ASV177_nd	ASV177_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV178	nd	High	0	Soil	ASV178_nd	ASV178_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV178	nd	Low	0	Soil	ASV178_nd	ASV178_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV179	nd	High	0	Soil	ASV179_nd	ASV179_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV179	nd	Low	0	Soil	ASV179_nd	ASV179_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV180	nd	High	0	Soil	ASV180_nd	ASV180_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV180	nd	Low	0	Soil	ASV180_nd	ASV180_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV181	nd	High	0	Soil	ASV181_nd	ASV181_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV181	nd	Low	0	Soil	ASV181_nd	ASV181_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV182	nd	High	0.08733692	Soil	ASV182_nd	ASV182_High	0.01<x<1%: Intermediate
+LowSoil-ndSoil	ASV182	nd	Low	0	Soil	ASV182_nd	ASV182_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV183	nd	High	0	Soil	ASV183_nd	ASV183_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV183	nd	Low	0	Soil	ASV183_nd	ASV183_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV185	nd	High	0	Soil	ASV185_nd	ASV185_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV185	nd	Low	0	Soil	ASV185_nd	ASV185_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV189	nd	High	0	Soil	ASV189_nd	ASV189_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV189	nd	Low	0	Soil	ASV189_nd	ASV189_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV190	nd	High	0	Soil	ASV190_nd	ASV190_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV190	nd	Low	0	Soil	ASV190_nd	ASV190_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV191	nd	High	0.102376318	Soil	ASV191_nd	ASV191_High	0.01<x<1%: Intermediate
+LowSoil-ndSoil	ASV191	nd	Low	0	Soil	ASV191_nd	ASV191_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV192	nd	High	0	Soil	ASV192_nd	ASV192_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV192	nd	Low	0	Soil	ASV192_nd	ASV192_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV193	nd	High	0	Soil	ASV193_nd	ASV193_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV193	nd	Low	0	Soil	ASV193_nd	ASV193_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV195	nd	High	0.118617963	Soil	ASV195_nd	ASV195_High	0.01<x<1%: Intermediate
+LowSoil-ndSoil	ASV195	nd	Low	0	Soil	ASV195_nd	ASV195_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV196	nd	High	0	Soil	ASV196_nd	ASV196_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV196	nd	Low	0	Soil	ASV196_nd	ASV196_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV197	nd	High	0	Soil	ASV197_nd	ASV197_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV197	nd	Low	0.125201216	Soil	ASV197_nd	ASV197_Low	0.01<x<1%: Intermediate
+HighSoil-ndSoil	ASV198	nd	High	0	Soil	ASV198_nd	ASV198_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV198	nd	Low	0	Soil	ASV198_nd	ASV198_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV199	nd	High	0	Soil	ASV199_nd	ASV199_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV199	nd	Low	0	Soil	ASV199_nd	ASV199_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV200	nd	High	0	Soil	ASV200_nd	ASV200_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV200	nd	Low	0	Soil	ASV200_nd	ASV200_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV201	nd	High	0	Soil	ASV201_nd	ASV201_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV201	nd	Low	0	Soil	ASV201_nd	ASV201_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV202	nd	High	0.080935482	Soil	ASV202_nd	ASV202_High	0.01<x<1%: Intermediate
+LowSoil-ndSoil	ASV202	nd	Low	0.027227645	Soil	ASV202_nd	ASV202_Low	0.01<x<1%: Intermediate
+HighSoil-ndSoil	ASV203	nd	High	0	Soil	ASV203_nd	ASV203_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV203	nd	Low	0	Soil	ASV203_nd	ASV203_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV205	nd	High	0	Soil	ASV205_nd	ASV205_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV205	nd	Low	0	Soil	ASV205_nd	ASV205_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV206	nd	High	0.011135566	Soil	ASV206_nd	ASV206_High	0.01<x<1%: Intermediate
+LowSoil-ndSoil	ASV206	nd	Low	0.135312788	Soil	ASV206_nd	ASV206_Low	0.01<x<1%: Intermediate
+HighSoil-ndSoil	ASV207	nd	High	0.073659194	Soil	ASV207_nd	ASV207_High	0.01<x<1%: Intermediate
+LowSoil-ndSoil	ASV207	nd	Low	0.048162033	Soil	ASV207_nd	ASV207_Low	0.01<x<1%: Intermediate
+HighSoil-ndSoil	ASV208	nd	High	0.006569591	Soil	ASV208_nd	ASV208_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV208	nd	Low	0.161466236	Soil	ASV208_nd	ASV208_Low	0.01<x<1%: Intermediate
+HighSoil-ndSoil	ASV209	nd	High	0	Soil	ASV209_nd	ASV209_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV209	nd	Low	0	Soil	ASV209_nd	ASV209_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV210	nd	High	0	Soil	ASV210_nd	ASV210_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV210	nd	Low	0	Soil	ASV210_nd	ASV210_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV212	nd	High	0	Soil	ASV212_nd	ASV212_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV212	nd	Low	0	Soil	ASV212_nd	ASV212_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV214	nd	High	0	Soil	ASV214_nd	ASV214_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV214	nd	Low	0	Soil	ASV214_nd	ASV214_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV216	nd	High	0	Soil	ASV216_nd	ASV216_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV216	nd	Low	0	Soil	ASV216_nd	ASV216_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV217	nd	High	0	Soil	ASV217_nd	ASV217_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV217	nd	Low	0	Soil	ASV217_nd	ASV217_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV219	nd	High	0.004401639	Soil	ASV219_nd	ASV219_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV219	nd	Low	0.144221087	Soil	ASV219_nd	ASV219_Low	0.01<x<1%: Intermediate
+HighSoil-ndSoil	ASV222	nd	High	0	Soil	ASV222_nd	ASV222_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV222	nd	Low	0	Soil	ASV222_nd	ASV222_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV225	nd	High	0	Soil	ASV225_nd	ASV225_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV225	nd	Low	0	Soil	ASV225_nd	ASV225_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV226	nd	High	0	Soil	ASV226_nd	ASV226_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV226	nd	Low	0	Soil	ASV226_nd	ASV226_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV227	nd	High	0.07113347	Soil	ASV227_nd	ASV227_High	0.01<x<1%: Intermediate
+LowSoil-ndSoil	ASV227	nd	Low	0	Soil	ASV227_nd	ASV227_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV228	nd	High	0	Soil	ASV228_nd	ASV228_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV228	nd	Low	0.191346454	Soil	ASV228_nd	ASV228_Low	0.01<x<1%: Intermediate
+HighSoil-ndSoil	ASV229	nd	High	0.074096718	Soil	ASV229_nd	ASV229_High	0.01<x<1%: Intermediate
+LowSoil-ndSoil	ASV229	nd	Low	0	Soil	ASV229_nd	ASV229_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV230	nd	High	0	Soil	ASV230_nd	ASV230_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV230	nd	Low	0	Soil	ASV230_nd	ASV230_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV231	nd	High	0	Soil	ASV231_nd	ASV231_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV231	nd	Low	0	Soil	ASV231_nd	ASV231_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV232	nd	High	0	Soil	ASV232_nd	ASV232_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV232	nd	Low	0	Soil	ASV232_nd	ASV232_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV233	nd	High	0	Soil	ASV233_nd	ASV233_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV233	nd	Low	0	Soil	ASV233_nd	ASV233_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV234	nd	High	0	Soil	ASV234_nd	ASV234_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV234	nd	Low	0	Soil	ASV234_nd	ASV234_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV235	nd	High	0	Soil	ASV235_nd	ASV235_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV235	nd	Low	0	Soil	ASV235_nd	ASV235_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV236	nd	High	0	Soil	ASV236_nd	ASV236_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV236	nd	Low	0	Soil	ASV236_nd	ASV236_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV238	nd	High	0	Soil	ASV238_nd	ASV238_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV238	nd	Low	0	Soil	ASV238_nd	ASV238_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV239	nd	High	0	Soil	ASV239_nd	ASV239_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV239	nd	Low	0	Soil	ASV239_nd	ASV239_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV240	nd	High	0.062691642	Soil	ASV240_nd	ASV240_High	0.01<x<1%: Intermediate
+LowSoil-ndSoil	ASV240	nd	Low	0	Soil	ASV240_nd	ASV240_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV241	nd	High	0	Soil	ASV241_nd	ASV241_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV241	nd	Low	0	Soil	ASV241_nd	ASV241_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV242	nd	High	0	Soil	ASV242_nd	ASV242_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV242	nd	Low	0	Soil	ASV242_nd	ASV242_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV244	nd	High	0	Soil	ASV244_nd	ASV244_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV244	nd	Low	0	Soil	ASV244_nd	ASV244_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV246	nd	High	0	Soil	ASV246_nd	ASV246_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV246	nd	Low	0	Soil	ASV246_nd	ASV246_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV249	nd	High	0	Soil	ASV249_nd	ASV249_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV249	nd	Low	0	Soil	ASV249_nd	ASV249_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV250	nd	High	0	Soil	ASV250_nd	ASV250_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV250	nd	Low	0	Soil	ASV250_nd	ASV250_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV251	nd	High	0	Soil	ASV251_nd	ASV251_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV251	nd	Low	0	Soil	ASV251_nd	ASV251_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV252	nd	High	0	Soil	ASV252_nd	ASV252_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV252	nd	Low	0	Soil	ASV252_nd	ASV252_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV253	nd	High	0	Soil	ASV253_nd	ASV253_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV253	nd	Low	0	Soil	ASV253_nd	ASV253_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV254	nd	High	0	Soil	ASV254_nd	ASV254_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV254	nd	Low	0	Soil	ASV254_nd	ASV254_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV255	nd	High	0	Soil	ASV255_nd	ASV255_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV255	nd	Low	0	Soil	ASV255_nd	ASV255_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV256	nd	High	0	Soil	ASV256_nd	ASV256_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV256	nd	Low	0	Soil	ASV256_nd	ASV256_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV257	nd	High	0	Soil	ASV257_nd	ASV257_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV257	nd	Low	0	Soil	ASV257_nd	ASV257_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV258	nd	High	0.068040813	Soil	ASV258_nd	ASV258_High	0.01<x<1%: Intermediate
+LowSoil-ndSoil	ASV258	nd	Low	0	Soil	ASV258_nd	ASV258_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV259	nd	High	0	Soil	ASV259_nd	ASV259_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV259	nd	Low	0	Soil	ASV259_nd	ASV259_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV260	nd	High	0	Soil	ASV260_nd	ASV260_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV260	nd	Low	0	Soil	ASV260_nd	ASV260_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV261	nd	High	0	Soil	ASV261_nd	ASV261_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV261	nd	Low	0.147089451	Soil	ASV261_nd	ASV261_Low	0.01<x<1%: Intermediate
+HighSoil-ndSoil	ASV262	nd	High	0	Soil	ASV262_nd	ASV262_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV262	nd	Low	0	Soil	ASV262_nd	ASV262_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV263	nd	High	0	Soil	ASV263_nd	ASV263_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV263	nd	Low	0	Soil	ASV263_nd	ASV263_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV264	nd	High	0	Soil	ASV264_nd	ASV264_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV264	nd	Low	0.052466143	Soil	ASV264_nd	ASV264_Low	0.01<x<1%: Intermediate
+HighSoil-ndSoil	ASV265	nd	High	0	Soil	ASV265_nd	ASV265_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV265	nd	Low	0	Soil	ASV265_nd	ASV265_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV266	nd	High	0	Soil	ASV266_nd	ASV266_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV266	nd	Low	0	Soil	ASV266_nd	ASV266_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV268	nd	High	0.012863773	Soil	ASV268_nd	ASV268_High	0.01<x<1%: Intermediate
+LowSoil-ndSoil	ASV268	nd	Low	0	Soil	ASV268_nd	ASV268_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV270	nd	High	0	Soil	ASV270_nd	ASV270_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV270	nd	Low	0	Soil	ASV270_nd	ASV270_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV273	nd	High	0	Soil	ASV273_nd	ASV273_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV273	nd	Low	0	Soil	ASV273_nd	ASV273_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV274	nd	High	0	Soil	ASV274_nd	ASV274_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV274	nd	Low	0	Soil	ASV274_nd	ASV274_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV275	nd	High	0	Soil	ASV275_nd	ASV275_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV275	nd	Low	0	Soil	ASV275_nd	ASV275_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV277	nd	High	0	Soil	ASV277_nd	ASV277_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV277	nd	Low	0	Soil	ASV277_nd	ASV277_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV281	nd	High	0.062751726	Soil	ASV281_nd	ASV281_High	0.01<x<1%: Intermediate
+LowSoil-ndSoil	ASV281	nd	Low	0	Soil	ASV281_nd	ASV281_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV282	nd	High	0	Soil	ASV282_nd	ASV282_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV282	nd	Low	0	Soil	ASV282_nd	ASV282_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV283	nd	High	0	Soil	ASV283_nd	ASV283_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV283	nd	Low	0.12484991	Soil	ASV283_nd	ASV283_Low	0.01<x<1%: Intermediate
+HighSoil-ndSoil	ASV284	nd	High	0	Soil	ASV284_nd	ASV284_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV284	nd	Low	0	Soil	ASV284_nd	ASV284_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV285	nd	High	0.004585233	Soil	ASV285_nd	ASV285_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV285	nd	Low	0.097829179	Soil	ASV285_nd	ASV285_Low	0.01<x<1%: Intermediate
+HighSoil-ndSoil	ASV287	nd	High	0	Soil	ASV287_nd	ASV287_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV287	nd	Low	0	Soil	ASV287_nd	ASV287_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV288	nd	High	0	Soil	ASV288_nd	ASV288_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV288	nd	Low	0	Soil	ASV288_nd	ASV288_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV289	nd	High	0	Soil	ASV289_nd	ASV289_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV289	nd	Low	0	Soil	ASV289_nd	ASV289_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV290	nd	High	0	Soil	ASV290_nd	ASV290_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV290	nd	Low	0	Soil	ASV290_nd	ASV290_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV291	nd	High	0	Soil	ASV291_nd	ASV291_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV291	nd	Low	0	Soil	ASV291_nd	ASV291_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV294	nd	High	0	Soil	ASV294_nd	ASV294_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV294	nd	Low	0	Soil	ASV294_nd	ASV294_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV296	nd	High	0	Soil	ASV296_nd	ASV296_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV296	nd	Low	0.12496095	Soil	ASV296_nd	ASV296_Low	0.01<x<1%: Intermediate
+HighSoil-ndSoil	ASV297	nd	High	0	Soil	ASV297_nd	ASV297_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV297	nd	Low	0	Soil	ASV297_nd	ASV297_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV298	nd	High	0	Soil	ASV298_nd	ASV298_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV298	nd	Low	0	Soil	ASV298_nd	ASV298_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV300	nd	High	0	Soil	ASV300_nd	ASV300_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV300	nd	Low	0	Soil	ASV300_nd	ASV300_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV301	nd	High	0	Soil	ASV301_nd	ASV301_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV301	nd	Low	0.057688435	Soil	ASV301_nd	ASV301_Low	0.01<x<1%: Intermediate
+HighSoil-ndSoil	ASV303	nd	High	0	Soil	ASV303_nd	ASV303_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV303	nd	Low	0	Soil	ASV303_nd	ASV303_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV304	nd	High	0	Soil	ASV304_nd	ASV304_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV304	nd	Low	0	Soil	ASV304_nd	ASV304_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV312	nd	High	0	Soil	ASV312_nd	ASV312_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV312	nd	Low	0	Soil	ASV312_nd	ASV312_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV313	nd	High	0	Soil	ASV313_nd	ASV313_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV313	nd	Low	0	Soil	ASV313_nd	ASV313_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV315	nd	High	0	Soil	ASV315_nd	ASV315_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV315	nd	Low	0	Soil	ASV315_nd	ASV315_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV316	nd	High	0	Soil	ASV316_nd	ASV316_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV316	nd	Low	0	Soil	ASV316_nd	ASV316_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV318	nd	High	0	Soil	ASV318_nd	ASV318_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV318	nd	Low	0	Soil	ASV318_nd	ASV318_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV319	nd	High	0	Soil	ASV319_nd	ASV319_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV319	nd	Low	0	Soil	ASV319_nd	ASV319_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV323	nd	High	0.001932233	Soil	ASV323_nd	ASV323_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV323	nd	Low	0.101530772	Soil	ASV323_nd	ASV323_Low	0.01<x<1%: Intermediate
+HighSoil-ndSoil	ASV324	nd	High	0	Soil	ASV324_nd	ASV324_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV324	nd	Low	0	Soil	ASV324_nd	ASV324_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV325	nd	High	0.003219523	Soil	ASV325_nd	ASV325_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV325	nd	Low	0.093174292	Soil	ASV325_nd	ASV325_Low	0.01<x<1%: Intermediate
+HighSoil-ndSoil	ASV326	nd	High	0	Soil	ASV326_nd	ASV326_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV326	nd	Low	0	Soil	ASV326_nd	ASV326_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV327	nd	High	0	Soil	ASV327_nd	ASV327_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV327	nd	Low	0	Soil	ASV327_nd	ASV327_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV328	nd	High	0	Soil	ASV328_nd	ASV328_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV328	nd	Low	0	Soil	ASV328_nd	ASV328_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV329	nd	High	0	Soil	ASV329_nd	ASV329_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV329	nd	Low	0	Soil	ASV329_nd	ASV329_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV330	nd	High	0	Soil	ASV330_nd	ASV330_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV330	nd	Low	0	Soil	ASV330_nd	ASV330_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV331	nd	High	0	Soil	ASV331_nd	ASV331_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV331	nd	Low	0	Soil	ASV331_nd	ASV331_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV332	nd	High	0	Soil	ASV332_nd	ASV332_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV332	nd	Low	0	Soil	ASV332_nd	ASV332_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV334	nd	High	0	Soil	ASV334_nd	ASV334_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV334	nd	Low	0	Soil	ASV334_nd	ASV334_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV336	nd	High	0	Soil	ASV336_nd	ASV336_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV336	nd	Low	0	Soil	ASV336_nd	ASV336_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV337	nd	High	0	Soil	ASV337_nd	ASV337_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV337	nd	Low	0	Soil	ASV337_nd	ASV337_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV339	nd	High	0.029369938	Soil	ASV339_nd	ASV339_High	0.01<x<1%: Intermediate
+LowSoil-ndSoil	ASV339	nd	Low	0	Soil	ASV339_nd	ASV339_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV340	nd	High	0	Soil	ASV340_nd	ASV340_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV340	nd	Low	0	Soil	ASV340_nd	ASV340_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV343	nd	High	0.003864465	Soil	ASV343_nd	ASV343_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV343	nd	Low	0.029938561	Soil	ASV343_nd	ASV343_Low	0.01<x<1%: Intermediate
+HighSoil-ndSoil	ASV346	nd	High	0	Soil	ASV346_nd	ASV346_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV346	nd	Low	0	Soil	ASV346_nd	ASV346_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV348	nd	High	0	Soil	ASV348_nd	ASV348_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV348	nd	Low	0	Soil	ASV348_nd	ASV348_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV349	nd	High	0	Soil	ASV349_nd	ASV349_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV349	nd	Low	0	Soil	ASV349_nd	ASV349_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV350	nd	High	0	Soil	ASV350_nd	ASV350_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV350	nd	Low	0	Soil	ASV350_nd	ASV350_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV352	nd	High	0	Soil	ASV352_nd	ASV352_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV352	nd	Low	0.092419036	Soil	ASV352_nd	ASV352_Low	0.01<x<1%: Intermediate
+HighSoil-ndSoil	ASV354	nd	High	0	Soil	ASV354_nd	ASV354_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV354	nd	Low	0	Soil	ASV354_nd	ASV354_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV355	nd	High	0	Soil	ASV355_nd	ASV355_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV355	nd	Low	0	Soil	ASV355_nd	ASV355_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV356	nd	High	0	Soil	ASV356_nd	ASV356_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV356	nd	Low	0	Soil	ASV356_nd	ASV356_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV357	nd	High	0	Soil	ASV357_nd	ASV357_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV357	nd	Low	0	Soil	ASV357_nd	ASV357_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV358	nd	High	0	Soil	ASV358_nd	ASV358_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV358	nd	Low	0	Soil	ASV358_nd	ASV358_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV359	nd	High	0	Soil	ASV359_nd	ASV359_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV359	nd	Low	0.064350369	Soil	ASV359_nd	ASV359_Low	0.01<x<1%: Intermediate
+HighSoil-ndSoil	ASV360	nd	High	0	Soil	ASV360_nd	ASV360_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV360	nd	Low	0	Soil	ASV360_nd	ASV360_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV362	nd	High	0	Soil	ASV362_nd	ASV362_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV362	nd	Low	0	Soil	ASV362_nd	ASV362_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV363	nd	High	0	Soil	ASV363_nd	ASV363_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV363	nd	Low	0	Soil	ASV363_nd	ASV363_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV364	nd	High	0	Soil	ASV364_nd	ASV364_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV364	nd	Low	0	Soil	ASV364_nd	ASV364_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV365	nd	High	0.010195157	Soil	ASV365_nd	ASV365_High	0.01<x<1%: Intermediate
+LowSoil-ndSoil	ASV365	nd	Low	0.059877122	Soil	ASV365_nd	ASV365_Low	0.01<x<1%: Intermediate
+HighSoil-ndSoil	ASV366	nd	High	0	Soil	ASV366_nd	ASV366_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV366	nd	Low	0.084608976	Soil	ASV366_nd	ASV366_Low	0.01<x<1%: Intermediate
+HighSoil-ndSoil	ASV367	nd	High	0	Soil	ASV367_nd	ASV367_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV367	nd	Low	0	Soil	ASV367_nd	ASV367_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV368	nd	High	0	Soil	ASV368_nd	ASV368_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV368	nd	Low	0	Soil	ASV368_nd	ASV368_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV369	nd	High	0	Soil	ASV369_nd	ASV369_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV369	nd	Low	0	Soil	ASV369_nd	ASV369_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV371	nd	High	0	Soil	ASV371_nd	ASV371_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV371	nd	Low	0.078307927	Soil	ASV371_nd	ASV371_Low	0.01<x<1%: Intermediate
+HighSoil-ndSoil	ASV372	nd	High	0	Soil	ASV372_nd	ASV372_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV372	nd	Low	0	Soil	ASV372_nd	ASV372_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV374	nd	High	0	Soil	ASV374_nd	ASV374_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV374	nd	Low	0	Soil	ASV374_nd	ASV374_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV375	nd	High	0	Soil	ASV375_nd	ASV375_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV375	nd	Low	0	Soil	ASV375_nd	ASV375_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV376	nd	High	0	Soil	ASV376_nd	ASV376_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV376	nd	Low	0	Soil	ASV376_nd	ASV376_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV377	nd	High	0.023959686	Soil	ASV377_nd	ASV377_High	0.01<x<1%: Intermediate
+LowSoil-ndSoil	ASV377	nd	Low	0	Soil	ASV377_nd	ASV377_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV378	nd	High	0	Soil	ASV378_nd	ASV378_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV378	nd	Low	0.080703947	Soil	ASV378_nd	ASV378_Low	0.01<x<1%: Intermediate
+HighSoil-ndSoil	ASV379	nd	High	0	Soil	ASV379_nd	ASV379_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV379	nd	Low	0.080703947	Soil	ASV379_nd	ASV379_Low	0.01<x<1%: Intermediate
+HighSoil-ndSoil	ASV381	nd	High	0	Soil	ASV381_nd	ASV381_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV381	nd	Low	0.07940227	Soil	ASV381_nd	ASV381_Low	0.01<x<1%: Intermediate
+HighSoil-ndSoil	ASV383	nd	High	0	Soil	ASV383_nd	ASV383_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV383	nd	Low	0	Soil	ASV383_nd	ASV383_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV384	nd	High	0	Soil	ASV384_nd	ASV384_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV384	nd	Low	0.078100594	Soil	ASV384_nd	ASV384_Low	0.01<x<1%: Intermediate
+HighSoil-ndSoil	ASV386	nd	High	0	Soil	ASV386_nd	ASV386_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV386	nd	Low	0	Soil	ASV386_nd	ASV386_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV387	nd	High	0	Soil	ASV387_nd	ASV387_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV387	nd	Low	0	Soil	ASV387_nd	ASV387_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV388	nd	High	0	Soil	ASV388_nd	ASV388_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV388	nd	Low	0	Soil	ASV388_nd	ASV388_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV389	nd	High	0	Soil	ASV389_nd	ASV389_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV389	nd	Low	0	Soil	ASV389_nd	ASV389_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV390	nd	High	0	Soil	ASV390_nd	ASV390_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV390	nd	Low	0	Soil	ASV390_nd	ASV390_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV391	nd	High	0	Soil	ASV391_nd	ASV391_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV391	nd	Low	0.027169967	Soil	ASV391_nd	ASV391_Low	0.01<x<1%: Intermediate
+HighSoil-ndSoil	ASV393	nd	High	0	Soil	ASV393_nd	ASV393_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV393	nd	Low	0	Soil	ASV393_nd	ASV393_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV394	nd	High	0	Soil	ASV394_nd	ASV394_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV394	nd	Low	0	Soil	ASV394_nd	ASV394_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV395	nd	High	0	Soil	ASV395_nd	ASV395_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV395	nd	Low	0	Soil	ASV395_nd	ASV395_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV397	nd	High	0	Soil	ASV397_nd	ASV397_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV397	nd	Low	0	Soil	ASV397_nd	ASV397_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV400	nd	High	0	Soil	ASV400_nd	ASV400_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV400	nd	Low	0	Soil	ASV400_nd	ASV400_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV401	nd	High	0	Soil	ASV401_nd	ASV401_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV401	nd	Low	0	Soil	ASV401_nd	ASV401_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV402	nd	High	0	Soil	ASV402_nd	ASV402_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV402	nd	Low	0	Soil	ASV402_nd	ASV402_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV406	nd	High	0	Soil	ASV406_nd	ASV406_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV406	nd	Low	0.068988858	Soil	ASV406_nd	ASV406_Low	0.01<x<1%: Intermediate
+HighSoil-ndSoil	ASV407	nd	High	0	Soil	ASV407_nd	ASV407_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV407	nd	Low	0.068988858	Soil	ASV407_nd	ASV407_Low	0.01<x<1%: Intermediate
+HighSoil-ndSoil	ASV408	nd	High	0	Soil	ASV408_nd	ASV408_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV408	nd	Low	0	Soil	ASV408_nd	ASV408_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV409	nd	High	0	Soil	ASV409_nd	ASV409_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV409	nd	Low	0	Soil	ASV409_nd	ASV409_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV410	nd	High	0	Soil	ASV410_nd	ASV410_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV410	nd	Low	0	Soil	ASV410_nd	ASV410_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV411	nd	High	0	Soil	ASV411_nd	ASV411_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV411	nd	Low	0	Soil	ASV411_nd	ASV411_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV412	nd	High	0	Soil	ASV412_nd	ASV412_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV412	nd	Low	0	Soil	ASV412_nd	ASV412_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV414	nd	High	0	Soil	ASV414_nd	ASV414_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV414	nd	Low	0	Soil	ASV414_nd	ASV414_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV416	nd	High	0.0019651	Soil	ASV416_nd	ASV416_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV416	nd	Low	0.022017042	Soil	ASV416_nd	ASV416_Low	0.01<x<1%: Intermediate
+HighSoil-ndSoil	ASV420	nd	High	0	Soil	ASV420_nd	ASV420_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV420	nd	Low	0	Soil	ASV420_nd	ASV420_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV421	nd	High	0	Soil	ASV421_nd	ASV421_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV421	nd	Low	0	Soil	ASV421_nd	ASV421_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV422	nd	High	0	Soil	ASV422_nd	ASV422_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV422	nd	Low	0	Soil	ASV422_nd	ASV422_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV424	nd	High	0	Soil	ASV424_nd	ASV424_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV424	nd	Low	0	Soil	ASV424_nd	ASV424_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV425	nd	High	0.011135566	Soil	ASV425_nd	ASV425_High	0.01<x<1%: Intermediate
+LowSoil-ndSoil	ASV425	nd	Low	0	Soil	ASV425_nd	ASV425_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV426	nd	High	0	Soil	ASV426_nd	ASV426_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV426	nd	Low	0	Soil	ASV426_nd	ASV426_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV427	nd	High	0	Soil	ASV427_nd	ASV427_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV427	nd	Low	0.058575445	Soil	ASV427_nd	ASV427_Low	0.01<x<1%: Intermediate
+HighSoil-ndSoil	ASV428	nd	High	0	Soil	ASV428_nd	ASV428_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV428	nd	Low	0.058575445	Soil	ASV428_nd	ASV428_Low	0.01<x<1%: Intermediate
+HighSoil-ndSoil	ASV431	nd	High	0	Soil	ASV431_nd	ASV431_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV431	nd	Low	0.020611699	Soil	ASV431_nd	ASV431_Low	0.01<x<1%: Intermediate
+HighSoil-ndSoil	ASV433	nd	High	0	Soil	ASV433_nd	ASV433_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV433	nd	Low	0	Soil	ASV433_nd	ASV433_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV434	nd	High	0	Soil	ASV434_nd	ASV434_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV434	nd	Low	0	Soil	ASV434_nd	ASV434_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV437	nd	High	0	Soil	ASV437_nd	ASV437_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV437	nd	Low	0.050972719	Soil	ASV437_nd	ASV437_Low	0.01<x<1%: Intermediate
+HighSoil-ndSoil	ASV440	nd	High	0.025546298	Soil	ASV440_nd	ASV440_High	0.01<x<1%: Intermediate
+LowSoil-ndSoil	ASV440	nd	Low	0	Soil	ASV440_nd	ASV440_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV441	nd	High	0	Soil	ASV441_nd	ASV441_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV441	nd	Low	0.054670415	Soil	ASV441_nd	ASV441_Low	0.01<x<1%: Intermediate
+HighSoil-ndSoil	ASV442	nd	High	0	Soil	ASV442_nd	ASV442_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV442	nd	Low	0	Soil	ASV442_nd	ASV442_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV444	nd	High	0	Soil	ASV444_nd	ASV444_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV444	nd	Low	0	Soil	ASV444_nd	ASV444_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV445	nd	High	0.016611552	Soil	ASV445_nd	ASV445_High	0.01<x<1%: Intermediate
+LowSoil-ndSoil	ASV445	nd	Low	0	Soil	ASV445_nd	ASV445_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV446	nd	High	0	Soil	ASV446_nd	ASV446_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV446	nd	Low	0.053368739	Soil	ASV446_nd	ASV446_Low	0.01<x<1%: Intermediate
+HighSoil-ndSoil	ASV448	nd	High	0	Soil	ASV448_nd	ASV448_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV448	nd	Low	0	Soil	ASV448_nd	ASV448_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV449	nd	High	0	Soil	ASV449_nd	ASV449_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV449	nd	Low	0	Soil	ASV449_nd	ASV449_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV450	nd	High	0.026201331	Soil	ASV450_nd	ASV450_High	0.01<x<1%: Intermediate
+LowSoil-ndSoil	ASV450	nd	Low	0	Soil	ASV450_nd	ASV450_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV451	nd	High	0	Soil	ASV451_nd	ASV451_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV451	nd	Low	0	Soil	ASV451_nd	ASV451_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV453	nd	High	0.015071415	Soil	ASV453_nd	ASV453_High	0.01<x<1%: Intermediate
+LowSoil-ndSoil	ASV453	nd	Low	0	Soil	ASV453_nd	ASV453_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV454	nd	High	0	Soil	ASV454_nd	ASV454_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV454	nd	Low	0	Soil	ASV454_nd	ASV454_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV456	nd	High	0	Soil	ASV456_nd	ASV456_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV456	nd	Low	0.049463709	Soil	ASV456_nd	ASV456_Low	0.01<x<1%: Intermediate
+HighSoil-ndSoil	ASV457	nd	High	0	Soil	ASV457_nd	ASV457_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV457	nd	Low	0	Soil	ASV457_nd	ASV457_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV458	nd	High	0	Soil	ASV458_nd	ASV458_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV458	nd	Low	0	Soil	ASV458_nd	ASV458_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV459	nd	High	0	Soil	ASV459_nd	ASV459_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV459	nd	Low	0	Soil	ASV459_nd	ASV459_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV461	nd	High	0	Soil	ASV461_nd	ASV461_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV461	nd	Low	0	Soil	ASV461_nd	ASV461_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV462	nd	High	0	Soil	ASV462_nd	ASV462_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV462	nd	Low	0	Soil	ASV462_nd	ASV462_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV463	nd	High	0.003478019	Soil	ASV463_nd	ASV463_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV463	nd	Low	0.024731855	Soil	ASV463_nd	ASV463_Low	0.01<x<1%: Intermediate
+HighSoil-ndSoil	ASV464	nd	High	0.013912076	Soil	ASV464_nd	ASV464_High	0.01<x<1%: Intermediate
+LowSoil-ndSoil	ASV464	nd	Low	0	Soil	ASV464_nd	ASV464_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV465	nd	High	0	Soil	ASV465_nd	ASV465_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV465	nd	Low	0.025196406	Soil	ASV465_nd	ASV465_Low	0.01<x<1%: Intermediate
+HighSoil-ndSoil	ASV466	nd	High	0	Soil	ASV466_nd	ASV466_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV466	nd	Low	0	Soil	ASV466_nd	ASV466_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV467	nd	High	0	Soil	ASV467_nd	ASV467_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV467	nd	Low	0.01639567	Soil	ASV467_nd	ASV467_Low	0.01<x<1%: Intermediate
+HighSoil-ndSoil	ASV468	nd	High	0	Soil	ASV468_nd	ASV468_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV468	nd	Low	0.04555868	Soil	ASV468_nd	ASV468_Low	0.01<x<1%: Intermediate
+HighSoil-ndSoil	ASV469	nd	High	0	Soil	ASV469_nd	ASV469_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV469	nd	Low	0	Soil	ASV469_nd	ASV469_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV470	nd	High	0	Soil	ASV470_nd	ASV470_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV470	nd	Low	0	Soil	ASV470_nd	ASV470_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV473	nd	High	0.011790599	Soil	ASV473_nd	ASV473_High	0.01<x<1%: Intermediate
+LowSoil-ndSoil	ASV473	nd	Low	0	Soil	ASV473_nd	ASV473_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV474	nd	High	0	Soil	ASV474_nd	ASV474_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV474	nd	Low	0.007026716	Soil	ASV474_nd	ASV474_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV475	nd	High	0	Soil	ASV475_nd	ASV475_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV475	nd	Low	0	Soil	ASV475_nd	ASV475_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV476	nd	High	0	Soil	ASV476_nd	ASV476_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV476	nd	Low	0	Soil	ASV476_nd	ASV476_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV477	nd	High	0.003091572	Soil	ASV477_nd	ASV477_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV477	nd	Low	0	Soil	ASV477_nd	ASV477_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV478	nd	High	0.01039085	Soil	ASV478_nd	ASV478_High	0.01<x<1%: Intermediate
+LowSoil-ndSoil	ASV478	nd	Low	0.009111736	Soil	ASV478_nd	ASV478_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV479	nd	High	0	Soil	ASV479_nd	ASV479_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV479	nd	Low	0.015458774	Soil	ASV479_nd	ASV479_Low	0.01<x<1%: Intermediate
+HighSoil-ndSoil	ASV480	nd	High	0	Soil	ASV480_nd	ASV480_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV480	nd	Low	0.042955326	Soil	ASV480_nd	ASV480_Low	0.01<x<1%: Intermediate
+HighSoil-ndSoil	ASV481	nd	High	0	Soil	ASV481_nd	ASV481_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV481	nd	Low	0	Soil	ASV481_nd	ASV481_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV482	nd	High	0	Soil	ASV482_nd	ASV482_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV482	nd	Low	0	Soil	ASV482_nd	ASV482_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV483	nd	High	0	Soil	ASV483_nd	ASV483_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV483	nd	Low	0	Soil	ASV483_nd	ASV483_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV485	nd	High	0	Soil	ASV485_nd	ASV485_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV485	nd	Low	0.023637511	Soil	ASV485_nd	ASV485_Low	0.01<x<1%: Intermediate
+HighSoil-ndSoil	ASV486	nd	High	0.020961065	Soil	ASV486_nd	ASV486_High	0.01<x<1%: Intermediate
+LowSoil-ndSoil	ASV486	nd	Low	0	Soil	ASV486_nd	ASV486_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV487	nd	High	0	Soil	ASV487_nd	ASV487_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV487	nd	Low	0.014990327	Soil	ASV487_nd	ASV487_Low	0.01<x<1%: Intermediate
+HighSoil-ndSoil	ASV488	nd	High	0	Soil	ASV488_nd	ASV488_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV488	nd	Low	0.014990327	Soil	ASV488_nd	ASV488_Low	0.01<x<1%: Intermediate
+HighSoil-ndSoil	ASV489	nd	High	0	Soil	ASV489_nd	ASV489_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV489	nd	Low	0	Soil	ASV489_nd	ASV489_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV490	nd	High	0	Soil	ASV490_nd	ASV490_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV490	nd	Low	0	Soil	ASV490_nd	ASV490_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV492	nd	High	0	Soil	ASV492_nd	ASV492_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV492	nd	Low	0.040351973	Soil	ASV492_nd	ASV492_Low	0.01<x<1%: Intermediate
+HighSoil-ndSoil	ASV493	nd	High	0	Soil	ASV493_nd	ASV493_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV493	nd	Low	0	Soil	ASV493_nd	ASV493_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV497	nd	High	0.019650998	Soil	ASV497_nd	ASV497_High	0.01<x<1%: Intermediate
+LowSoil-ndSoil	ASV497	nd	Low	0	Soil	ASV497_nd	ASV497_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV499	nd	High	0	Soil	ASV499_nd	ASV499_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV499	nd	Low	0	Soil	ASV499_nd	ASV499_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV500	nd	High	0	Soil	ASV500_nd	ASV500_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV500	nd	Low	0.010774297	Soil	ASV500_nd	ASV500_Low	0.01<x<1%: Intermediate
+HighSoil-ndSoil	ASV501	nd	High	0	Soil	ASV501_nd	ASV501_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV501	nd	Low	0.03774862	Soil	ASV501_nd	ASV501_Low	0.01<x<1%: Intermediate
+HighSoil-ndSoil	ASV502	nd	High	0	Soil	ASV502_nd	ASV502_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV502	nd	Low	0	Soil	ASV502_nd	ASV502_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV503	nd	High	0	Soil	ASV503_nd	ASV503_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV503	nd	Low	0	Soil	ASV503_nd	ASV503_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV507	nd	High	0.005023805	Soil	ASV507_nd	ASV507_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV507	nd	Low	0.005621372	Soil	ASV507_nd	ASV507_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV508	nd	High	0.004250912	Soil	ASV508_nd	ASV508_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV508	nd	Low	0.022128502	Soil	ASV508_nd	ASV508_Low	0.01<x<1%: Intermediate
+HighSoil-ndSoil	ASV509	nd	High	0	Soil	ASV509_nd	ASV509_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV509	nd	Low	0	Soil	ASV509_nd	ASV509_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV510	nd	High	0	Soil	ASV510_nd	ASV510_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV510	nd	Low	0	Soil	ASV510_nd	ASV510_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV511	nd	High	0	Soil	ASV511_nd	ASV511_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV511	nd	Low	0	Soil	ASV511_nd	ASV511_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV514	nd	High	0	Soil	ASV514_nd	ASV514_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV514	nd	Low	0.031240237	Soil	ASV514_nd	ASV514_Low	0.01<x<1%: Intermediate
+HighSoil-ndSoil	ASV515	nd	High	0	Soil	ASV515_nd	ASV515_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV515	nd	Low	0	Soil	ASV515_nd	ASV515_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV516	nd	High	0	Soil	ASV516_nd	ASV516_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV516	nd	Low	0	Soil	ASV516_nd	ASV516_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV517	nd	High	0	Soil	ASV517_nd	ASV517_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV517	nd	Low	0	Soil	ASV517_nd	ASV517_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV520	nd	High	0.003478019	Soil	ASV520_nd	ASV520_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV520	nd	Low	0.022128502	Soil	ASV520_nd	ASV520_Low	0.01<x<1%: Intermediate
+HighSoil-ndSoil	ASV521	nd	High	0	Soil	ASV521_nd	ASV521_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV521	nd	Low	0.01217964	Soil	ASV521_nd	ASV521_Low	0.01<x<1%: Intermediate
+HighSoil-ndSoil	ASV522	nd	High	0	Soil	ASV522_nd	ASV522_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV522	nd	Low	0.033843591	Soil	ASV522_nd	ASV522_Low	0.01<x<1%: Intermediate
+HighSoil-ndSoil	ASV523	nd	High	0	Soil	ASV523_nd	ASV523_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV523	nd	Low	0	Soil	ASV523_nd	ASV523_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV524	nd	High	0	Soil	ASV524_nd	ASV524_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV524	nd	Low	0	Soil	ASV524_nd	ASV524_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV528	nd	High	0.016375832	Soil	ASV528_nd	ASV528_High	0.01<x<1%: Intermediate
+LowSoil-ndSoil	ASV528	nd	Low	0	Soil	ASV528_nd	ASV528_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV529	nd	High	0.009661164	Soil	ASV529_nd	ASV529_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV529	nd	Low	0	Soil	ASV529_nd	ASV529_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV530	nd	High	0	Soil	ASV530_nd	ASV530_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV530	nd	Low	0.011711193	Soil	ASV530_nd	ASV530_Low	0.01<x<1%: Intermediate
+HighSoil-ndSoil	ASV531	nd	High	0	Soil	ASV531_nd	ASV531_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV531	nd	Low	0.032541914	Soil	ASV531_nd	ASV531_Low	0.01<x<1%: Intermediate
+HighSoil-ndSoil	ASV532	nd	High	0	Soil	ASV532_nd	ASV532_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV532	nd	Low	0	Soil	ASV532_nd	ASV532_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV533	nd	High	0	Soil	ASV533_nd	ASV533_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV533	nd	Low	0	Soil	ASV533_nd	ASV533_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV535	nd	High	0	Soil	ASV535_nd	ASV535_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV535	nd	Low	0	Soil	ASV535_nd	ASV535_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV539	nd	High	0.015720799	Soil	ASV539_nd	ASV539_High	0.01<x<1%: Intermediate
+LowSoil-ndSoil	ASV539	nd	Low	0	Soil	ASV539_nd	ASV539_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV540	nd	High	0.009274717	Soil	ASV540_nd	ASV540_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV540	nd	Low	0	Soil	ASV540_nd	ASV540_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV541	nd	High	0	Soil	ASV541_nd	ASV541_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV541	nd	Low	0.011242745	Soil	ASV541_nd	ASV541_Low	0.01<x<1%: Intermediate
+HighSoil-ndSoil	ASV542	nd	High	0	Soil	ASV542_nd	ASV542_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV542	nd	Low	0	Soil	ASV542_nd	ASV542_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV543	nd	High	0	Soil	ASV543_nd	ASV543_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV543	nd	Low	0	Soil	ASV543_nd	ASV543_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV544	nd	High	0	Soil	ASV544_nd	ASV544_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV544	nd	Low	0	Soil	ASV544_nd	ASV544_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV545	nd	High	0	Soil	ASV545_nd	ASV545_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV545	nd	Low	0	Soil	ASV545_nd	ASV545_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV549	nd	High	0.005895299	Soil	ASV549_nd	ASV549_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV549	nd	Low	0	Soil	ASV549_nd	ASV549_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV550	nd	High	0.012341506	Soil	ASV550_nd	ASV550_High	0.01<x<1%: Intermediate
+LowSoil-ndSoil	ASV550	nd	Low	0	Soil	ASV550_nd	ASV550_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV551	nd	High	0	Soil	ASV551_nd	ASV551_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV551	nd	Low	0.029938561	Soil	ASV551_nd	ASV551_Low	0.01<x<1%: Intermediate
+HighSoil-ndSoil	ASV552	nd	High	0	Soil	ASV552_nd	ASV552_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV552	nd	Low	0	Soil	ASV552_nd	ASV552_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV556	nd	High	0	Soil	ASV556_nd	ASV556_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV556	nd	Low	0.01030585	Soil	ASV556_nd	ASV556_Low	0.01<x<1%: Intermediate
+HighSoil-ndSoil	ASV557	nd	High	0	Soil	ASV557_nd	ASV557_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV557	nd	Low	0.028636884	Soil	ASV557_nd	ASV557_Low	0.01<x<1%: Intermediate
+HighSoil-ndSoil	ASV558	nd	High	0	Soil	ASV558_nd	ASV558_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV558	nd	Low	0	Soil	ASV558_nd	ASV558_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV560	nd	High	0	Soil	ASV560_nd	ASV560_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV560	nd	Low	0	Soil	ASV560_nd	ASV560_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV562	nd	High	0.005895299	Soil	ASV562_nd	ASV562_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV562	nd	Low	0.007173313	Soil	ASV562_nd	ASV562_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV563	nd	High	0	Soil	ASV563_nd	ASV563_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV563	nd	Low	0.027335208	Soil	ASV563_nd	ASV563_Low	0.01<x<1%: Intermediate
+HighSoil-ndSoil	ASV564	nd	High	0	Soil	ASV564_nd	ASV564_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV564	nd	Low	0.027335208	Soil	ASV564_nd	ASV564_Low	0.01<x<1%: Intermediate
+HighSoil-ndSoil	ASV565	nd	High	0	Soil	ASV565_nd	ASV565_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV565	nd	Low	0	Soil	ASV565_nd	ASV565_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV569	nd	High	0.013100666	Soil	ASV569_nd	ASV569_High	0.01<x<1%: Intermediate
+LowSoil-ndSoil	ASV569	nd	Low	0	Soil	ASV569_nd	ASV569_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV570	nd	High	0.013100666	Soil	ASV570_nd	ASV570_High	0.01<x<1%: Intermediate
+LowSoil-ndSoil	ASV570	nd	Low	0	Soil	ASV570_nd	ASV570_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV571	nd	High	0.013100666	Soil	ASV571_nd	ASV571_High	0.01<x<1%: Intermediate
+LowSoil-ndSoil	ASV571	nd	Low	0	Soil	ASV571_nd	ASV571_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV572	nd	High	0.010951972	Soil	ASV572_nd	ASV572_High	0.01<x<1%: Intermediate
+LowSoil-ndSoil	ASV572	nd	Low	0	Soil	ASV572_nd	ASV572_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV573	nd	High	0	Soil	ASV573_nd	ASV573_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV573	nd	Low	0.026033531	Soil	ASV573_nd	ASV573_Low	0.01<x<1%: Intermediate
+HighSoil-ndSoil	ASV574	nd	High	0	Soil	ASV574_nd	ASV574_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV574	nd	Low	0	Soil	ASV574_nd	ASV574_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV576	nd	High	0	Soil	ASV576_nd	ASV576_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV576	nd	Low	0	Soil	ASV576_nd	ASV576_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV577	nd	High	0	Soil	ASV577_nd	ASV577_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV577	nd	Low	0	Soil	ASV577_nd	ASV577_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV578	nd	High	0	Soil	ASV578_nd	ASV578_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV578	nd	Low	0	Soil	ASV578_nd	ASV578_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV579	nd	High	0	Soil	ASV579_nd	ASV579_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV579	nd	Low	0	Soil	ASV579_nd	ASV579_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV580	nd	High	0	Soil	ASV580_nd	ASV580_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV580	nd	Low	0	Soil	ASV580_nd	ASV580_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV584	nd	High	0	Soil	ASV584_nd	ASV584_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV584	nd	Low	0.020097263	Soil	ASV584_nd	ASV584_Low	0.01<x<1%: Intermediate
+HighSoil-ndSoil	ASV585	nd	High	0	Soil	ASV585_nd	ASV585_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV585	nd	Low	0	Soil	ASV585_nd	ASV585_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV586	nd	High	0	Soil	ASV586_nd	ASV586_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV586	nd	Low	0	Soil	ASV586_nd	ASV586_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV592	nd	High	0	Soil	ASV592_nd	ASV592_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV592	nd	Low	0.007963611	Soil	ASV592_nd	ASV592_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV593	nd	High	0	Soil	ASV593_nd	ASV593_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV593	nd	Low	0.007963611	Soil	ASV593_nd	ASV593_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV594	nd	High	0	Soil	ASV594_nd	ASV594_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV594	nd	Low	0.007963611	Soil	ASV594_nd	ASV594_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV595	nd	High	0	Soil	ASV595_nd	ASV595_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV595	nd	Low	0	Soil	ASV595_nd	ASV595_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV596	nd	High	0	Soil	ASV596_nd	ASV596_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV596	nd	Low	0	Soil	ASV596_nd	ASV596_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV597	nd	High	0	Soil	ASV597_nd	ASV597_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV597	nd	Low	0	Soil	ASV597_nd	ASV597_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV598	nd	High	0	Soil	ASV598_nd	ASV598_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV598	nd	Low	0	Soil	ASV598_nd	ASV598_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV600	nd	High	0	Soil	ASV600_nd	ASV600_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV600	nd	Low	0	Soil	ASV600_nd	ASV600_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV604	nd	High	0.010480532	Soil	ASV604_nd	ASV604_High	0.01<x<1%: Intermediate
+LowSoil-ndSoil	ASV604	nd	Low	0	Soil	ASV604_nd	ASV604_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV605	nd	High	0	Soil	ASV605_nd	ASV605_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV605	nd	Low	0.007495163	Soil	ASV605_nd	ASV605_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV606	nd	High	0	Soil	ASV606_nd	ASV606_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV606	nd	Low	0.007495163	Soil	ASV606_nd	ASV606_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV607	nd	High	0	Soil	ASV607_nd	ASV607_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV607	nd	Low	0.020826825	Soil	ASV607_nd	ASV607_Low	0.01<x<1%: Intermediate
+HighSoil-ndSoil	ASV609	nd	High	0	Soil	ASV609_nd	ASV609_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV609	nd	Low	0	Soil	ASV609_nd	ASV609_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV613	nd	High	0.003219523	Soil	ASV613_nd	ASV613_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV613	nd	Low	0	Soil	ASV613_nd	ASV613_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV614	nd	High	0.002620133	Soil	ASV614_nd	ASV614_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV614	nd	Low	0.006819382	Soil	ASV614_nd	ASV614_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV615	nd	High	0	Soil	ASV615_nd	ASV615_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV615	nd	Low	0.007026716	Soil	ASV615_nd	ASV615_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV616	nd	High	0	Soil	ASV616_nd	ASV616_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV616	nd	Low	0.019525148	Soil	ASV616_nd	ASV616_Low	0.01<x<1%: Intermediate
+HighSoil-ndSoil	ASV617	nd	High	0	Soil	ASV617_nd	ASV617_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV617	nd	Low	0.019525148	Soil	ASV617_nd	ASV617_Low	0.01<x<1%: Intermediate
+HighSoil-ndSoil	ASV618	nd	High	0	Soil	ASV618_nd	ASV618_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV618	nd	Low	0	Soil	ASV618_nd	ASV618_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV619	nd	High	0	Soil	ASV619_nd	ASV619_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV619	nd	Low	0	Soil	ASV619_nd	ASV619_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV620	nd	High	0	Soil	ASV620_nd	ASV620_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV620	nd	Low	0	Soil	ASV620_nd	ASV620_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV621	nd	High	0	Soil	ASV621_nd	ASV621_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV621	nd	Low	0	Soil	ASV621_nd	ASV621_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV622	nd	High	0	Soil	ASV622_nd	ASV622_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV622	nd	Low	0	Soil	ASV622_nd	ASV622_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV626	nd	High	0.009170466	Soil	ASV626_nd	ASV626_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV626	nd	Low	0	Soil	ASV626_nd	ASV626_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV627	nd	High	0	Soil	ASV627_nd	ASV627_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV627	nd	Low	0	Soil	ASV627_nd	ASV627_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV628	nd	High	0	Soil	ASV628_nd	ASV628_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV628	nd	Low	0	Soil	ASV628_nd	ASV628_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV629	nd	High	0	Soil	ASV629_nd	ASV629_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV629	nd	Low	0	Soil	ASV629_nd	ASV629_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV630	nd	High	0	Soil	ASV630_nd	ASV630_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV630	nd	Low	0	Soil	ASV630_nd	ASV630_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV631	nd	High	0	Soil	ASV631_nd	ASV631_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV631	nd	Low	0	Soil	ASV631_nd	ASV631_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV632	nd	High	0	Soil	ASV632_nd	ASV632_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV632	nd	Low	0	Soil	ASV632_nd	ASV632_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV633	nd	High	0	Soil	ASV633_nd	ASV633_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV633	nd	Low	0	Soil	ASV633_nd	ASV633_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV634	nd	High	0	Soil	ASV634_nd	ASV634_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV634	nd	Low	0	Soil	ASV634_nd	ASV634_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV637	nd	High	0	Soil	ASV637_nd	ASV637_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV637	nd	Low	0	Soil	ASV637_nd	ASV637_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV639	nd	High	0.003275166	Soil	ASV639_nd	ASV639_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV639	nd	Low	0.010413412	Soil	ASV639_nd	ASV639_Low	0.01<x<1%: Intermediate
+HighSoil-ndSoil	ASV640	nd	High	0.005023805	Soil	ASV640_nd	ASV640_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV640	nd	Low	0	Soil	ASV640_nd	ASV640_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV641	nd	High	0.006975634	Soil	ASV641_nd	ASV641_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV641	nd	Low	0	Soil	ASV641_nd	ASV641_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV642	nd	High	0	Soil	ASV642_nd	ASV642_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV642	nd	Low	0.00608982	Soil	ASV642_nd	ASV642_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV643	nd	High	0	Soil	ASV643_nd	ASV643_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV643	nd	Low	0.00608982	Soil	ASV643_nd	ASV643_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV644	nd	High	0	Soil	ASV644_nd	ASV644_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV644	nd	Low	0.016921795	Soil	ASV644_nd	ASV644_Low	0.01<x<1%: Intermediate
+HighSoil-ndSoil	ASV645	nd	High	0	Soil	ASV645_nd	ASV645_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV645	nd	Low	0.016921795	Soil	ASV645_nd	ASV645_Low	0.01<x<1%: Intermediate
+HighSoil-ndSoil	ASV646	nd	High	0	Soil	ASV646_nd	ASV646_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV646	nd	Low	0.016921795	Soil	ASV646_nd	ASV646_Low	0.01<x<1%: Intermediate
+HighSoil-ndSoil	ASV647	nd	High	0	Soil	ASV647_nd	ASV647_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV647	nd	Low	0	Soil	ASV647_nd	ASV647_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV650	nd	High	0	Soil	ASV650_nd	ASV650_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV650	nd	Low	0	Soil	ASV650_nd	ASV650_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV651	nd	High	0	Soil	ASV651_nd	ASV651_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV651	nd	Low	0	Soil	ASV651_nd	ASV651_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV657	nd	High	0.007860399	Soil	ASV657_nd	ASV657_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV657	nd	Low	0	Soil	ASV657_nd	ASV657_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV658	nd	High	0.006786052	Soil	ASV658_nd	ASV658_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV658	nd	Low	0	Soil	ASV658_nd	ASV658_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV659	nd	High	0	Soil	ASV659_nd	ASV659_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV659	nd	Low	0.005621372	Soil	ASV659_nd	ASV659_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV660	nd	High	0	Soil	ASV660_nd	ASV660_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV660	nd	Low	0.015620119	Soil	ASV660_nd	ASV660_Low	0.01<x<1%: Intermediate
+HighSoil-ndSoil	ASV661	nd	High	0	Soil	ASV661_nd	ASV661_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV661	nd	Low	0.015620119	Soil	ASV661_nd	ASV661_Low	0.01<x<1%: Intermediate
+HighSoil-ndSoil	ASV662	nd	High	0	Soil	ASV662_nd	ASV662_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV662	nd	Low	0.015620119	Soil	ASV662_nd	ASV662_Low	0.01<x<1%: Intermediate
+HighSoil-ndSoil	ASV663	nd	High	0	Soil	ASV663_nd	ASV663_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV663	nd	Low	0	Soil	ASV663_nd	ASV663_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV664	nd	High	0	Soil	ASV664_nd	ASV664_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV664	nd	Low	0	Soil	ASV664_nd	ASV664_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV667	nd	High	0	Soil	ASV667_nd	ASV667_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV667	nd	Low	0	Soil	ASV667_nd	ASV667_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV669	nd	High	0	Soil	ASV669_nd	ASV669_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV669	nd	Low	0	Soil	ASV669_nd	ASV669_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV675	nd	High	0.007205366	Soil	ASV675_nd	ASV675_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV675	nd	Low	0	Soil	ASV675_nd	ASV675_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV676	nd	High	0.006613136	Soil	ASV676_nd	ASV676_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV676	nd	Low	0	Soil	ASV676_nd	ASV676_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV677	nd	High	0.004250912	Soil	ASV677_nd	ASV677_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV677	nd	Low	0	Soil	ASV677_nd	ASV677_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV678	nd	High	0.004250912	Soil	ASV678_nd	ASV678_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV678	nd	Low	0	Soil	ASV678_nd	ASV678_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV679	nd	High	0	Soil	ASV679_nd	ASV679_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV679	nd	Low	0.005152925	Soil	ASV679_nd	ASV679_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV680	nd	High	0	Soil	ASV680_nd	ASV680_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV680	nd	Low	0.005152925	Soil	ASV680_nd	ASV680_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV681	nd	High	0	Soil	ASV681_nd	ASV681_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV681	nd	Low	0.005152925	Soil	ASV681_nd	ASV681_Low	< 0.01%: Rare
+HighSoil-ndSoil	ASV682	nd	High	0	Soil	ASV682_nd	ASV682_High	< 0.01%: Rare
+LowSoil-ndSoil	ASV682	nd	Low	0.014318442	Soil	ASV682_nd	ASV682_Low	0.01<x<1%: Intermediate

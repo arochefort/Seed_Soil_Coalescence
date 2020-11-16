@@ -1,0 +1,1208 @@
+Sample	ASV	Prevalence_Compartment	Relative_abundance	Compartment	Species	Phylum	Soil_div
+gyrB-Boston-AF-1	ASV400	Seed	0.092621179	Seed	Sphingobium yanoikuyae	Proteobacteria	ns
+gyrB-Boston-AF-2	ASV400	Seed	1.251340722	Seed	Sphingobium yanoikuyae	Proteobacteria	ns
+gyrB-Boston-AF-3	ASV400	Seed	0.754400671	Seed	Sphingobium yanoikuyae	Proteobacteria	ns
+gyrB-Boston-AF-4	ASV400	Seed	0	Seed	Sphingobium yanoikuyae	Proteobacteria	ns
+gyrB-Boston-AF-5	ASV400	Seed	0.066115702	Seed	Sphingobium yanoikuyae	Proteobacteria	ns
+gyrB-Major-AF-1	ASV400	Seed	1.289398281	Seed	Sphingobium yanoikuyae	Proteobacteria	ns
+gyrB-Major-AF-3	ASV400	Seed	0.418060201	Seed	Sphingobium yanoikuyae	Proteobacteria	ns
+gyrB-AF-2017-Boston-1	ASV400	Seed	0.155560715	Seed	Sphingobium yanoikuyae	Proteobacteria	ns
+gyrB-AF-2017-Boston-2	ASV400	Seed	0.088132128	Seed	Sphingobium yanoikuyae	Proteobacteria	ns
+gyrB-AF-2017-Boston-3	ASV400	Seed	0.512214342	Seed	Sphingobium yanoikuyae	Proteobacteria	ns
+gyrB-AF-2017-Boston-4	ASV400	Seed	0.079407619	Seed	Sphingobium yanoikuyae	Proteobacteria	ns
+gyrB-AF-2017-Boston-5	ASV400	Seed	0.04582274	Seed	Sphingobium yanoikuyae	Proteobacteria	ns
+gyrB-AF-2017-Major-1	ASV400	Seed	0.104901774	Seed	Sphingobium yanoikuyae	Proteobacteria	ns
+gyrB-AF-2017-Major-2	ASV400	Seed	0.094441678	Seed	Sphingobium yanoikuyae	Proteobacteria	ns
+gyrB-AF-2017-Major-3	ASV400	Seed	0.156511611	Seed	Sphingobium yanoikuyae	Proteobacteria	ns
+gyrB-AF-2017-Major-4	ASV400	Seed	0.149319766	Seed	Sphingobium yanoikuyae	Proteobacteria	ns
+gyrB-AF-2017-Major-5	ASV400	Seed	0.229525713	Seed	Sphingobium yanoikuyae	Proteobacteria	ns
+P14B20ATD-E07	ASV400	Seed	0	Root	Sphingobium yanoikuyae	Proteobacteria	High
+P14B20ATU-H01	ASV400	Seed	0	Stem	Sphingobium yanoikuyae	Proteobacteria	High
+P14B20BTD-E09	ASV400	Seed	0	Root	Sphingobium yanoikuyae	Proteobacteria	High
+P14B20BTU-H03	ASV400	Seed	0	Stem	Sphingobium yanoikuyae	Proteobacteria	High
+P14B20CTD-E11	ASV400	Seed	0	Root	Sphingobium yanoikuyae	Proteobacteria	High
+P14B20CTU-H05	ASV400	Seed	0	Stem	Sphingobium yanoikuyae	Proteobacteria	High
+P14B26ATD-G07	ASV400	Seed	0	Root	Sphingobium yanoikuyae	Proteobacteria	Low
+P14B26ATU-B02	ASV400	Seed	0	Stem	Sphingobium yanoikuyae	Proteobacteria	Low
+P14B26BTD-G09	ASV400	Seed	0	Root	Sphingobium yanoikuyae	Proteobacteria	Low
+P14B26BTU-B04	ASV400	Seed	0	Stem	Sphingobium yanoikuyae	Proteobacteria	Low
+P14B26CTD-G11	ASV400	Seed	0	Root	Sphingobium yanoikuyae	Proteobacteria	Low
+P14B26CTU-B06	ASV400	Seed	0	Stem	Sphingobium yanoikuyae	Proteobacteria	Low
+P14B30ATD-F07	ASV400	Seed	0	Root	Sphingobium yanoikuyae	Proteobacteria	High
+P14B30ATU-A02	ASV400	Seed	0	Stem	Sphingobium yanoikuyae	Proteobacteria	High
+P14B30BTD-F09	ASV400	Seed	0	Root	Sphingobium yanoikuyae	Proteobacteria	High
+P14B30BTU-A04	ASV400	Seed	0	Stem	Sphingobium yanoikuyae	Proteobacteria	High
+P14B30CTD-F11	ASV400	Seed	0	Root	Sphingobium yanoikuyae	Proteobacteria	High
+P14B30CTU-A06	ASV400	Seed	0	Stem	Sphingobium yanoikuyae	Proteobacteria	High
+P14B36ATD-H07	ASV400	Seed	0	Root	Sphingobium yanoikuyae	Proteobacteria	Low
+P14B36ATU-C02	ASV400	Seed	0	Stem	Sphingobium yanoikuyae	Proteobacteria	Low
+P14B36BTD-H09	ASV400	Seed	0	Root	Sphingobium yanoikuyae	Proteobacteria	Low
+P14B36BTU-C04	ASV400	Seed	0	Stem	Sphingobium yanoikuyae	Proteobacteria	Low
+P14B36CTD-A12	ASV400	Seed	0	Root	Sphingobium yanoikuyae	Proteobacteria	Low
+P14B36CTU-C06	ASV400	Seed	0	Stem	Sphingobium yanoikuyae	Proteobacteria	Low
+P14M20ATD-A08	ASV400	Seed	0	Root	Sphingobium yanoikuyae	Proteobacteria	High
+P14M20ATU-D02	ASV400	Seed	0	Stem	Sphingobium yanoikuyae	Proteobacteria	High
+P14M20BTD-A10	ASV400	Seed	0	Root	Sphingobium yanoikuyae	Proteobacteria	High
+P14M20BTU-D04	ASV400	Seed	0	Stem	Sphingobium yanoikuyae	Proteobacteria	High
+P14M20CTD-B12	ASV400	Seed	0	Root	Sphingobium yanoikuyae	Proteobacteria	High
+P14M20CTU-D06	ASV400	Seed	0	Stem	Sphingobium yanoikuyae	Proteobacteria	High
+P14M26ATD-C08	ASV400	Seed	0	Root	Sphingobium yanoikuyae	Proteobacteria	Low
+P14M26ATU-F02	ASV400	Seed	0	Stem	Sphingobium yanoikuyae	Proteobacteria	Low
+P14M26BTD-C10	ASV400	Seed	0	Root	Sphingobium yanoikuyae	Proteobacteria	Low
+P14M26BTU-F04	ASV400	Seed	0	Stem	Sphingobium yanoikuyae	Proteobacteria	Low
+P14M26CTD-D12	ASV400	Seed	0	Root	Sphingobium yanoikuyae	Proteobacteria	Low
+P14M26CTU-F06	ASV400	Seed	0	Stem	Sphingobium yanoikuyae	Proteobacteria	Low
+P14M30ATD-B08	ASV400	Seed	0	Root	Sphingobium yanoikuyae	Proteobacteria	High
+P14M30ATU-E02	ASV400	Seed	0	Stem	Sphingobium yanoikuyae	Proteobacteria	High
+P14M30BTD-B10	ASV400	Seed	0	Root	Sphingobium yanoikuyae	Proteobacteria	High
+P14M30BTU-E04	ASV400	Seed	0	Stem	Sphingobium yanoikuyae	Proteobacteria	High
+P14M30CTD-C12	ASV400	Seed	0	Root	Sphingobium yanoikuyae	Proteobacteria	High
+P14M30CTU-E06	ASV400	Seed	0	Stem	Sphingobium yanoikuyae	Proteobacteria	High
+P14M36ATD-D08	ASV400	Seed	0	Root	Sphingobium yanoikuyae	Proteobacteria	Low
+P14M36ATU-G02	ASV400	Seed	0	Stem	Sphingobium yanoikuyae	Proteobacteria	Low
+P14M36BTD-D10	ASV400	Seed	0	Root	Sphingobium yanoikuyae	Proteobacteria	Low
+P14M36BTU-G04	ASV400	Seed	0	Stem	Sphingobium yanoikuyae	Proteobacteria	Low
+P14M36CTD-E12	ASV400	Seed	0	Root	Sphingobium yanoikuyae	Proteobacteria	Low
+P14M36CTU-G06	ASV400	Seed	0	Stem	Sphingobium yanoikuyae	Proteobacteria	Low
+gyrB-D0A	ASV400	Seed	0	Soil	Sphingobium yanoikuyae	Proteobacteria	High
+gyrB-D0B	ASV400	Seed	0	Soil	Sphingobium yanoikuyae	Proteobacteria	High
+gyrB-D0C	ASV400	Seed	0	Soil	Sphingobium yanoikuyae	Proteobacteria	High
+gyrB-D6A	ASV400	Seed	0	Soil	Sphingobium yanoikuyae	Proteobacteria	Low
+gyrB-D6B	ASV400	Seed	0	Soil	Sphingobium yanoikuyae	Proteobacteria	Low
+gyrB-D6C	ASV400	Seed	0	Soil	Sphingobium yanoikuyae	Proteobacteria	Low
+gyrB-Boston-AF-1	ASV4	Soil	0	Seed	Massilia-1	Proteobacteria	ns
+gyrB-Boston-AF-2	ASV4	Soil	0	Seed	Massilia-1	Proteobacteria	ns
+gyrB-Boston-AF-3	ASV4	Soil	0	Seed	Massilia-1	Proteobacteria	ns
+gyrB-Boston-AF-4	ASV4	Soil	0	Seed	Massilia-1	Proteobacteria	ns
+gyrB-Boston-AF-5	ASV4	Soil	0	Seed	Massilia-1	Proteobacteria	ns
+gyrB-Major-AF-1	ASV4	Soil	0	Seed	Massilia-1	Proteobacteria	ns
+gyrB-Major-AF-3	ASV4	Soil	0	Seed	Massilia-1	Proteobacteria	ns
+gyrB-AF-2017-Boston-1	ASV4	Soil	0	Seed	Massilia-1	Proteobacteria	ns
+gyrB-AF-2017-Boston-2	ASV4	Soil	0	Seed	Massilia-1	Proteobacteria	ns
+gyrB-AF-2017-Boston-3	ASV4	Soil	0	Seed	Massilia-1	Proteobacteria	ns
+gyrB-AF-2017-Boston-4	ASV4	Soil	0	Seed	Massilia-1	Proteobacteria	ns
+gyrB-AF-2017-Boston-5	ASV4	Soil	0	Seed	Massilia-1	Proteobacteria	ns
+gyrB-AF-2017-Major-1	ASV4	Soil	0	Seed	Massilia-1	Proteobacteria	ns
+gyrB-AF-2017-Major-2	ASV4	Soil	0	Seed	Massilia-1	Proteobacteria	ns
+gyrB-AF-2017-Major-3	ASV4	Soil	0	Seed	Massilia-1	Proteobacteria	ns
+gyrB-AF-2017-Major-4	ASV4	Soil	0	Seed	Massilia-1	Proteobacteria	ns
+gyrB-AF-2017-Major-5	ASV4	Soil	0	Seed	Massilia-1	Proteobacteria	ns
+P14B20ATD-E07	ASV4	Soil	2.007444829	Root	Massilia-1	Proteobacteria	High
+P14B20ATU-H01	ASV4	Soil	0.704225352	Stem	Massilia-1	Proteobacteria	High
+P14B20BTD-E09	ASV4	Soil	1.742599202	Root	Massilia-1	Proteobacteria	High
+P14B20BTU-H03	ASV4	Soil	0.838574423	Stem	Massilia-1	Proteobacteria	High
+P14B20CTD-E11	ASV4	Soil	1.243048741	Root	Massilia-1	Proteobacteria	High
+P14B20CTU-H05	ASV4	Soil	0.391428382	Stem	Massilia-1	Proteobacteria	High
+P14B26ATD-G07	ASV4	Soil	0	Root	Massilia-1	Proteobacteria	Low
+P14B26ATU-B02	ASV4	Soil	0	Stem	Massilia-1	Proteobacteria	Low
+P14B26BTD-G09	ASV4	Soil	0.438459129	Root	Massilia-1	Proteobacteria	Low
+P14B26BTU-B04	ASV4	Soil	0.163228966	Stem	Massilia-1	Proteobacteria	Low
+P14B26CTD-G11	ASV4	Soil	8.45012366	Root	Massilia-1	Proteobacteria	Low
+P14B26CTU-B06	ASV4	Soil	2.271572683	Stem	Massilia-1	Proteobacteria	Low
+P14B30ATD-F07	ASV4	Soil	1.594507806	Root	Massilia-1	Proteobacteria	High
+P14B30ATU-A02	ASV4	Soil	1.28435299	Stem	Massilia-1	Proteobacteria	High
+P14B30BTD-F09	ASV4	Soil	2.121486854	Root	Massilia-1	Proteobacteria	High
+P14B30BTU-A04	ASV4	Soil	1.521469627	Stem	Massilia-1	Proteobacteria	High
+P14B30CTD-F11	ASV4	Soil	2.905891762	Root	Massilia-1	Proteobacteria	High
+P14B30CTU-A06	ASV4	Soil	0.393939394	Stem	Massilia-1	Proteobacteria	High
+P14B36ATD-H07	ASV4	Soil	0	Root	Massilia-1	Proteobacteria	Low
+P14B36ATU-C02	ASV4	Soil	0	Stem	Massilia-1	Proteobacteria	Low
+P14B36BTD-H09	ASV4	Soil	0.146145415	Root	Massilia-1	Proteobacteria	Low
+P14B36BTU-C04	ASV4	Soil	0	Stem	Massilia-1	Proteobacteria	Low
+P14B36CTD-A12	ASV4	Soil	6.867822562	Root	Massilia-1	Proteobacteria	Low
+P14B36CTU-C06	ASV4	Soil	1.1476265	Stem	Massilia-1	Proteobacteria	Low
+P14M20ATD-A08	ASV4	Soil	1.289802499	Root	Massilia-1	Proteobacteria	High
+P14M20ATU-D02	ASV4	Soil	0.654537386	Stem	Massilia-1	Proteobacteria	High
+P14M20BTD-A10	ASV4	Soil	1.123966942	Root	Massilia-1	Proteobacteria	High
+P14M20BTU-D04	ASV4	Soil	0.674132869	Stem	Massilia-1	Proteobacteria	High
+P14M20CTD-B12	ASV4	Soil	1.124661247	Root	Massilia-1	Proteobacteria	High
+P14M20CTU-D06	ASV4	Soil	0.26604168	Stem	Massilia-1	Proteobacteria	High
+P14M26ATD-C08	ASV4	Soil	0	Root	Massilia-1	Proteobacteria	Low
+P14M26ATU-F02	ASV4	Soil	0	Stem	Massilia-1	Proteobacteria	Low
+P14M26BTD-C10	ASV4	Soil	0.206689215	Root	Massilia-1	Proteobacteria	Low
+P14M26BTU-F04	ASV4	Soil	0	Stem	Massilia-1	Proteobacteria	Low
+P14M26CTD-D12	ASV4	Soil	4.856601732	Root	Massilia-1	Proteobacteria	Low
+P14M26CTU-F06	ASV4	Soil	1.867584076	Stem	Massilia-1	Proteobacteria	Low
+P14M30ATD-B08	ASV4	Soil	1.461159982	Root	Massilia-1	Proteobacteria	High
+P14M30ATU-E02	ASV4	Soil	0	Stem	Massilia-1	Proteobacteria	High
+P14M30BTD-B10	ASV4	Soil	1.060020054	Root	Massilia-1	Proteobacteria	High
+P14M30BTU-E04	ASV4	Soil	0.39309893	Stem	Massilia-1	Proteobacteria	High
+P14M30CTD-C12	ASV4	Soil	1.170330539	Root	Massilia-1	Proteobacteria	High
+P14M30CTU-E06	ASV4	Soil	1.423972263	Stem	Massilia-1	Proteobacteria	High
+P14M36ATD-D08	ASV4	Soil	0	Root	Massilia-1	Proteobacteria	Low
+P14M36ATU-G02	ASV4	Soil	0	Stem	Massilia-1	Proteobacteria	Low
+P14M36BTD-D10	ASV4	Soil	0	Root	Massilia-1	Proteobacteria	Low
+P14M36BTU-G04	ASV4	Soil	0	Stem	Massilia-1	Proteobacteria	Low
+P14M36CTD-E12	ASV4	Soil	4.416	Root	Massilia-1	Proteobacteria	Low
+P14M36CTU-G06	ASV4	Soil	0.957943925	Stem	Massilia-1	Proteobacteria	Low
+gyrB-D0A	ASV4	Soil	7.911891007	Soil	Massilia-1	Proteobacteria	High
+gyrB-D0B	ASV4	Soil	11.43411728	Soil	Massilia-1	Proteobacteria	High
+gyrB-D0C	ASV4	Soil	7.981156239	Soil	Massilia-1	Proteobacteria	High
+gyrB-D6A	ASV4	Soil	0.148268227	Soil	Massilia-1	Proteobacteria	Low
+gyrB-D6B	ASV4	Soil	0.447851523	Soil	Massilia-1	Proteobacteria	Low
+gyrB-D6C	ASV4	Soil	14.37873033	Soil	Massilia-1	Proteobacteria	Low
+gyrB-Boston-AF-1	ASV5	Root & Stem	0	Seed	Fictibacillus arsenicus	Firmicutes	ns
+gyrB-Boston-AF-2	ASV5	Root & Stem	0	Seed	Fictibacillus arsenicus	Firmicutes	ns
+gyrB-Boston-AF-3	ASV5	Root & Stem	0	Seed	Fictibacillus arsenicus	Firmicutes	ns
+gyrB-Boston-AF-4	ASV5	Root & Stem	0	Seed	Fictibacillus arsenicus	Firmicutes	ns
+gyrB-Boston-AF-5	ASV5	Root & Stem	0	Seed	Fictibacillus arsenicus	Firmicutes	ns
+gyrB-Major-AF-1	ASV5	Root & Stem	0	Seed	Fictibacillus arsenicus	Firmicutes	ns
+gyrB-Major-AF-3	ASV5	Root & Stem	0	Seed	Fictibacillus arsenicus	Firmicutes	ns
+gyrB-AF-2017-Boston-1	ASV5	Root & Stem	0	Seed	Fictibacillus arsenicus	Firmicutes	ns
+gyrB-AF-2017-Boston-2	ASV5	Root & Stem	0	Seed	Fictibacillus arsenicus	Firmicutes	ns
+gyrB-AF-2017-Boston-3	ASV5	Root & Stem	0	Seed	Fictibacillus arsenicus	Firmicutes	ns
+gyrB-AF-2017-Boston-4	ASV5	Root & Stem	0	Seed	Fictibacillus arsenicus	Firmicutes	ns
+gyrB-AF-2017-Boston-5	ASV5	Root & Stem	0	Seed	Fictibacillus arsenicus	Firmicutes	ns
+gyrB-AF-2017-Major-1	ASV5	Root & Stem	0	Seed	Fictibacillus arsenicus	Firmicutes	ns
+gyrB-AF-2017-Major-2	ASV5	Root & Stem	0	Seed	Fictibacillus arsenicus	Firmicutes	ns
+gyrB-AF-2017-Major-3	ASV5	Root & Stem	0	Seed	Fictibacillus arsenicus	Firmicutes	ns
+gyrB-AF-2017-Major-4	ASV5	Root & Stem	0	Seed	Fictibacillus arsenicus	Firmicutes	ns
+gyrB-AF-2017-Major-5	ASV5	Root & Stem	0	Seed	Fictibacillus arsenicus	Firmicutes	ns
+P14B20ATD-E07	ASV5	Root & Stem	0.558362138	Root	Fictibacillus arsenicus	Firmicutes	High
+P14B20ATU-H01	ASV5	Root & Stem	0.478873239	Stem	Fictibacillus arsenicus	Firmicutes	High
+P14B20BTD-E09	ASV5	Root & Stem	0.440898593	Root	Fictibacillus arsenicus	Firmicutes	High
+P14B20BTU-H03	ASV5	Root & Stem	0.652224552	Stem	Fictibacillus arsenicus	Firmicutes	High
+P14B20CTD-E11	ASV5	Root & Stem	0.457965325	Root	Fictibacillus arsenicus	Firmicutes	High
+P14B20CTU-H05	ASV5	Root & Stem	0.776222384	Stem	Fictibacillus arsenicus	Firmicutes	High
+P14B26ATD-G07	ASV5	Root & Stem	1.955900667	Root	Fictibacillus arsenicus	Firmicutes	Low
+P14B26ATU-B02	ASV5	Root & Stem	3.983337672	Stem	Fictibacillus arsenicus	Firmicutes	Low
+P14B26BTD-G09	ASV5	Root & Stem	1.816473536	Root	Fictibacillus arsenicus	Firmicutes	Low
+P14B26BTU-B04	ASV5	Root & Stem	4.347826087	Stem	Fictibacillus arsenicus	Firmicutes	Low
+P14B26CTD-G11	ASV5	Root & Stem	0.467161308	Root	Fictibacillus arsenicus	Firmicutes	Low
+P14B26CTU-B06	ASV5	Root & Stem	0.522534291	Stem	Fictibacillus arsenicus	Firmicutes	Low
+P14B30ATD-F07	ASV5	Root & Stem	0.50935666	Root	Fictibacillus arsenicus	Firmicutes	High
+P14B30ATU-A02	ASV5	Root & Stem	0.24858445	Stem	Fictibacillus arsenicus	Firmicutes	High
+P14B30BTD-F09	ASV5	Root & Stem	0.707162285	Root	Fictibacillus arsenicus	Firmicutes	High
+P14B30BTU-A04	ASV5	Root & Stem	0.473346106	Stem	Fictibacillus arsenicus	Firmicutes	High
+P14B30CTD-F11	ASV5	Root & Stem	0.346574247	Root	Fictibacillus arsenicus	Firmicutes	High
+P14B30CTU-A06	ASV5	Root & Stem	0.704545455	Stem	Fictibacillus arsenicus	Firmicutes	High
+P14B36ATD-H07	ASV5	Root & Stem	3.304113284	Root	Fictibacillus arsenicus	Firmicutes	Low
+P14B36ATU-C02	ASV5	Root & Stem	5.189054161	Stem	Fictibacillus arsenicus	Firmicutes	Low
+P14B36BTD-H09	ASV5	Root & Stem	3.129947631	Root	Fictibacillus arsenicus	Firmicutes	Low
+P14B36BTU-C04	ASV5	Root & Stem	3.059768064	Stem	Fictibacillus arsenicus	Firmicutes	Low
+P14B36CTD-A12	ASV5	Root & Stem	0.990767845	Root	Fictibacillus arsenicus	Firmicutes	Low
+P14B36CTU-C06	ASV5	Root & Stem	1.086767519	Stem	Fictibacillus arsenicus	Firmicutes	Low
+P14M20ATD-A08	ASV5	Root & Stem	0.403063281	Root	Fictibacillus arsenicus	Firmicutes	High
+P14M20ATU-D02	ASV5	Root & Stem	0.477035722	Stem	Fictibacillus arsenicus	Firmicutes	High
+P14M20BTD-A10	ASV5	Root & Stem	0.347107438	Root	Fictibacillus arsenicus	Firmicutes	High
+P14M20BTU-D04	ASV5	Root & Stem	0.54365554	Stem	Fictibacillus arsenicus	Firmicutes	High
+P14M20CTD-B12	ASV5	Root & Stem	0.596205962	Root	Fictibacillus arsenicus	Firmicutes	High
+P14M20CTU-D06	ASV5	Root & Stem	0.291378983	Stem	Fictibacillus arsenicus	Firmicutes	High
+P14M26ATD-C08	ASV5	Root & Stem	3.453785644	Root	Fictibacillus arsenicus	Firmicutes	Low
+P14M26ATU-F02	ASV5	Root & Stem	5.36327609	Stem	Fictibacillus arsenicus	Firmicutes	Low
+P14M26BTD-C10	ASV5	Root & Stem	1.390454716	Root	Fictibacillus arsenicus	Firmicutes	Low
+P14M26BTU-F04	ASV5	Root & Stem	1.695671575	Stem	Fictibacillus arsenicus	Firmicutes	Low
+P14M26CTD-D12	ASV5	Root & Stem	0.716991342	Root	Fictibacillus arsenicus	Firmicutes	Low
+P14M26CTU-F06	ASV5	Root & Stem	1.57270238	Stem	Fictibacillus arsenicus	Firmicutes	Low
+P14M30ATD-B08	ASV5	Root & Stem	0.641121217	Root	Fictibacillus arsenicus	Firmicutes	High
+P14M30ATU-E02	ASV5	Root & Stem	0.658978583	Stem	Fictibacillus arsenicus	Firmicutes	High
+P14M30BTD-B10	ASV5	Root & Stem	0.42973786	Root	Fictibacillus arsenicus	Firmicutes	High
+P14M30BTU-E04	ASV5	Root & Stem	0.622406639	Stem	Fictibacillus arsenicus	Firmicutes	High
+P14M30CTD-C12	ASV5	Root & Stem	0.58516527	Root	Fictibacillus arsenicus	Firmicutes	High
+P14M30CTU-E06	ASV5	Root & Stem	0.866765726	Stem	Fictibacillus arsenicus	Firmicutes	High
+P14M36ATD-D08	ASV5	Root & Stem	3.442325943	Root	Fictibacillus arsenicus	Firmicutes	Low
+P14M36ATU-G02	ASV5	Root & Stem	3.528028224	Stem	Fictibacillus arsenicus	Firmicutes	Low
+P14M36BTD-D10	ASV5	Root & Stem	2.854051129	Root	Fictibacillus arsenicus	Firmicutes	Low
+P14M36BTU-G04	ASV5	Root & Stem	2.815746309	Stem	Fictibacillus arsenicus	Firmicutes	Low
+P14M36CTD-E12	ASV5	Root & Stem	0.88	Root	Fictibacillus arsenicus	Firmicutes	Low
+P14M36CTU-G06	ASV5	Root & Stem	1.267523364	Stem	Fictibacillus arsenicus	Firmicutes	Low
+gyrB-D0A	ASV5	Root & Stem	0.021625629	Soil	Fictibacillus arsenicus	Firmicutes	High
+gyrB-D0B	ASV5	Root & Stem	0.029341398	Soil	Fictibacillus arsenicus	Firmicutes	High
+gyrB-D0C	ASV5	Root & Stem	0.029729235	Soil	Fictibacillus arsenicus	Firmicutes	High
+gyrB-D6A	ASV5	Root & Stem	0.059307291	Soil	Fictibacillus arsenicus	Firmicutes	Low
+gyrB-D6B	ASV5	Root & Stem	0.048416381	Soil	Fictibacillus arsenicus	Firmicutes	Low
+gyrB-D6C	ASV5	Root & Stem	0.019730676	Soil	Fictibacillus arsenicus	Firmicutes	Low
+gyrB-Boston-AF-1	ASV22	Root & Stem	0	Seed	Devosia	Proteobacteria	ns
+gyrB-Boston-AF-2	ASV22	Root & Stem	0	Seed	Devosia	Proteobacteria	ns
+gyrB-Boston-AF-3	ASV22	Root & Stem	0	Seed	Devosia	Proteobacteria	ns
+gyrB-Boston-AF-4	ASV22	Root & Stem	0	Seed	Devosia	Proteobacteria	ns
+gyrB-Boston-AF-5	ASV22	Root & Stem	0	Seed	Devosia	Proteobacteria	ns
+gyrB-Major-AF-1	ASV22	Root & Stem	0	Seed	Devosia	Proteobacteria	ns
+gyrB-Major-AF-3	ASV22	Root & Stem	0	Seed	Devosia	Proteobacteria	ns
+gyrB-AF-2017-Boston-1	ASV22	Root & Stem	0	Seed	Devosia	Proteobacteria	ns
+gyrB-AF-2017-Boston-2	ASV22	Root & Stem	0	Seed	Devosia	Proteobacteria	ns
+gyrB-AF-2017-Boston-3	ASV22	Root & Stem	0	Seed	Devosia	Proteobacteria	ns
+gyrB-AF-2017-Boston-4	ASV22	Root & Stem	0	Seed	Devosia	Proteobacteria	ns
+gyrB-AF-2017-Boston-5	ASV22	Root & Stem	0	Seed	Devosia	Proteobacteria	ns
+gyrB-AF-2017-Major-1	ASV22	Root & Stem	0	Seed	Devosia	Proteobacteria	ns
+gyrB-AF-2017-Major-2	ASV22	Root & Stem	0	Seed	Devosia	Proteobacteria	ns
+gyrB-AF-2017-Major-3	ASV22	Root & Stem	0	Seed	Devosia	Proteobacteria	ns
+gyrB-AF-2017-Major-4	ASV22	Root & Stem	0	Seed	Devosia	Proteobacteria	ns
+gyrB-AF-2017-Major-5	ASV22	Root & Stem	0	Seed	Devosia	Proteobacteria	ns
+P14B20ATD-E07	ASV22	Root & Stem	1.249667642	Root	Devosia	Proteobacteria	High
+P14B20ATU-H01	ASV22	Root & Stem	1.521126761	Stem	Devosia	Proteobacteria	High
+P14B20BTD-E09	ASV22	Root & Stem	1.826579887	Root	Devosia	Proteobacteria	High
+P14B20BTU-H03	ASV22	Root & Stem	0	Stem	Devosia	Proteobacteria	High
+P14B20CTD-E11	ASV22	Root & Stem	1.0958456	Root	Devosia	Proteobacteria	High
+P14B20CTU-H05	ASV22	Root & Stem	0.537384728	Stem	Devosia	Proteobacteria	High
+P14B26ATD-G07	ASV22	Root & Stem	1.743462017	Root	Devosia	Proteobacteria	Low
+P14B26ATU-B02	ASV22	Root & Stem	2.08279094	Stem	Devosia	Proteobacteria	Low
+P14B26BTD-G09	ASV22	Root & Stem	2.004384591	Root	Devosia	Proteobacteria	Low
+P14B26BTU-B04	ASV22	Root & Stem	0.563881882	Stem	Devosia	Proteobacteria	Low
+P14B26CTD-G11	ASV22	Root & Stem	2.734267656	Root	Devosia	Proteobacteria	Low
+P14B26CTU-B06	ASV22	Root & Stem	3.106176065	Stem	Devosia	Proteobacteria	Low
+P14B30ATD-F07	ASV22	Root & Stem	1.26231868	Root	Devosia	Proteobacteria	High
+P14B30ATU-A02	ASV22	Root & Stem	0.93909681	Stem	Devosia	Proteobacteria	High
+P14B30BTD-F09	ASV22	Root & Stem	1.595648232	Root	Devosia	Proteobacteria	High
+P14B30BTU-A04	ASV22	Root & Stem	0.653668432	Stem	Devosia	Proteobacteria	High
+P14B30CTD-F11	ASV22	Root & Stem	0	Root	Devosia	Proteobacteria	High
+P14B30CTU-A06	ASV22	Root & Stem	0	Stem	Devosia	Proteobacteria	High
+P14B36ATD-H07	ASV22	Root & Stem	1.685772084	Root	Devosia	Proteobacteria	Low
+P14B36ATU-C02	ASV22	Root & Stem	1.612353809	Stem	Devosia	Proteobacteria	Low
+P14B36BTD-H09	ASV22	Root & Stem	0.803799781	Root	Devosia	Proteobacteria	Low
+P14B36BTU-C04	ASV22	Root & Stem	0.642283675	Stem	Devosia	Proteobacteria	Low
+P14B36CTD-A12	ASV22	Root & Stem	3.8392254	Root	Devosia	Proteobacteria	Low
+P14B36CTU-C06	ASV22	Root & Stem	4.62528256	Stem	Devosia	Proteobacteria	Low
+P14M20ATD-A08	ASV22	Root & Stem	1.397286041	Root	Devosia	Proteobacteria	High
+P14M20ATU-D02	ASV22	Root & Stem	0.754382072	Stem	Devosia	Proteobacteria	High
+P14M20BTD-A10	ASV22	Root & Stem	1.223140496	Root	Devosia	Proteobacteria	High
+P14M20BTU-D04	ASV22	Root & Stem	0.228335327	Stem	Devosia	Proteobacteria	High
+P14M20CTD-B12	ASV22	Root & Stem	1.070460705	Root	Devosia	Proteobacteria	High
+P14M20CTU-D06	ASV22	Root & Stem	0	Stem	Devosia	Proteobacteria	High
+P14M26ATD-C08	ASV22	Root & Stem	2.458210423	Root	Devosia	Proteobacteria	Low
+P14M26ATU-F02	ASV22	Root & Stem	1.79656539	Stem	Devosia	Proteobacteria	Low
+P14M26BTD-C10	ASV22	Root & Stem	1.74746336	Root	Devosia	Proteobacteria	Low
+P14M26BTU-F04	ASV22	Root & Stem	1.033764688	Stem	Devosia	Proteobacteria	Low
+P14M26CTD-D12	ASV22	Root & Stem	4.193722944	Root	Devosia	Proteobacteria	Low
+P14M26CTU-F06	ASV22	Root & Stem	3.896650986	Stem	Devosia	Proteobacteria	Low
+P14M30ATD-B08	ASV22	Root & Stem	2.087371403	Root	Devosia	Proteobacteria	High
+P14M30ATU-E02	ASV22	Root & Stem	1.70236134	Stem	Devosia	Proteobacteria	High
+P14M30BTD-B10	ASV22	Root & Stem	1.260564389	Root	Devosia	Proteobacteria	High
+P14M30BTU-E04	ASV22	Root & Stem	0.480454248	Stem	Devosia	Proteobacteria	High
+P14M30CTD-C12	ASV22	Root & Stem	1.439190258	Root	Devosia	Proteobacteria	High
+P14M30CTU-E06	ASV22	Root & Stem	0.866765726	Stem	Devosia	Proteobacteria	High
+P14M36ATD-D08	ASV22	Root & Stem	2.570960228	Root	Devosia	Proteobacteria	Low
+P14M36ATU-G02	ASV22	Root & Stem	3.547628381	Stem	Devosia	Proteobacteria	Low
+P14M36BTD-D10	ASV22	Root & Stem	1.812525362	Root	Devosia	Proteobacteria	Low
+P14M36BTU-G04	ASV22	Root & Stem	1.202843084	Stem	Devosia	Proteobacteria	Low
+P14M36CTD-E12	ASV22	Root & Stem	3.456	Root	Devosia	Proteobacteria	Low
+P14M36CTU-G06	ASV22	Root & Stem	4.795560748	Stem	Devosia	Proteobacteria	Low
+gyrB-D0A	ASV22	Root & Stem	0	Soil	Devosia	Proteobacteria	High
+gyrB-D0B	ASV22	Root & Stem	0.185076513	Soil	Devosia	Proteobacteria	High
+gyrB-D0C	ASV22	Root & Stem	0	Soil	Devosia	Proteobacteria	High
+gyrB-D6A	ASV22	Root & Stem	0.448758501	Soil	Devosia	Proteobacteria	Low
+gyrB-D6B	ASV22	Root & Stem	0.248133952	Soil	Devosia	Proteobacteria	Low
+gyrB-D6C	ASV22	Root & Stem	0.347753169	Soil	Devosia	Proteobacteria	Low
+gyrB-Boston-AF-1	ASV30	Root & Stem	0	Seed	Nocardioides-1	Actinobacteria	ns
+gyrB-Boston-AF-2	ASV30	Root & Stem	0	Seed	Nocardioides-1	Actinobacteria	ns
+gyrB-Boston-AF-3	ASV30	Root & Stem	0	Seed	Nocardioides-1	Actinobacteria	ns
+gyrB-Boston-AF-4	ASV30	Root & Stem	0	Seed	Nocardioides-1	Actinobacteria	ns
+gyrB-Boston-AF-5	ASV30	Root & Stem	0	Seed	Nocardioides-1	Actinobacteria	ns
+gyrB-Major-AF-1	ASV30	Root & Stem	0	Seed	Nocardioides-1	Actinobacteria	ns
+gyrB-Major-AF-3	ASV30	Root & Stem	0	Seed	Nocardioides-1	Actinobacteria	ns
+gyrB-AF-2017-Boston-1	ASV30	Root & Stem	0	Seed	Nocardioides-1	Actinobacteria	ns
+gyrB-AF-2017-Boston-2	ASV30	Root & Stem	0	Seed	Nocardioides-1	Actinobacteria	ns
+gyrB-AF-2017-Boston-3	ASV30	Root & Stem	0	Seed	Nocardioides-1	Actinobacteria	ns
+gyrB-AF-2017-Boston-4	ASV30	Root & Stem	0	Seed	Nocardioides-1	Actinobacteria	ns
+gyrB-AF-2017-Boston-5	ASV30	Root & Stem	0	Seed	Nocardioides-1	Actinobacteria	ns
+gyrB-AF-2017-Major-1	ASV30	Root & Stem	0	Seed	Nocardioides-1	Actinobacteria	ns
+gyrB-AF-2017-Major-2	ASV30	Root & Stem	0	Seed	Nocardioides-1	Actinobacteria	ns
+gyrB-AF-2017-Major-3	ASV30	Root & Stem	0	Seed	Nocardioides-1	Actinobacteria	ns
+gyrB-AF-2017-Major-4	ASV30	Root & Stem	0	Seed	Nocardioides-1	Actinobacteria	ns
+gyrB-AF-2017-Major-5	ASV30	Root & Stem	0	Seed	Nocardioides-1	Actinobacteria	ns
+P14B20ATD-E07	ASV30	Root & Stem	3.948417974	Root	Nocardioides-1	Actinobacteria	High
+P14B20ATU-H01	ASV30	Root & Stem	4.225352113	Stem	Nocardioides-1	Actinobacteria	High
+P14B20BTD-E09	ASV30	Root & Stem	1.721604031	Root	Nocardioides-1	Actinobacteria	High
+P14B20BTU-H03	ASV30	Root & Stem	1.933379921	Stem	Nocardioides-1	Actinobacteria	High
+P14B20CTD-E11	ASV30	Root & Stem	0.490677134	Root	Nocardioides-1	Actinobacteria	High
+P14B20CTU-H05	ASV30	Root & Stem	0.583825383	Stem	Nocardioides-1	Actinobacteria	High
+P14B26ATD-G07	ASV30	Root & Stem	0.131858472	Root	Nocardioides-1	Actinobacteria	Low
+P14B26ATU-B02	ASV30	Root & Stem	0.15620932	Stem	Nocardioides-1	Actinobacteria	Low
+P14B26BTD-G09	ASV30	Root & Stem	1.22142186	Root	Nocardioides-1	Actinobacteria	Low
+P14B26BTU-B04	ASV30	Root & Stem	0.801305832	Stem	Nocardioides-1	Actinobacteria	Low
+P14B26CTD-G11	ASV30	Root & Stem	0.123660346	Root	Nocardioides-1	Actinobacteria	Low
+P14B26CTU-B06	ASV30	Root & Stem	0.087089049	Stem	Nocardioides-1	Actinobacteria	Low
+P14B30ATD-F07	ASV30	Root & Stem	2.735023807	Root	Nocardioides-1	Actinobacteria	High
+P14B30ATU-A02	ASV30	Root & Stem	0.966717304	Stem	Nocardioides-1	Actinobacteria	High
+P14B30BTD-F09	ASV30	Root & Stem	1.5593835	Root	Nocardioides-1	Actinobacteria	High
+P14B30BTU-A04	ASV30	Root & Stem	0.946692212	Stem	Nocardioides-1	Actinobacteria	High
+P14B30CTD-F11	ASV30	Root & Stem	1.226339643	Root	Nocardioides-1	Actinobacteria	High
+P14B30CTU-A06	ASV30	Root & Stem	0.416666667	Stem	Nocardioides-1	Actinobacteria	High
+P14B36ATD-H07	ASV30	Root & Stem	0.286581254	Root	Nocardioides-1	Actinobacteria	Low
+P14B36ATU-C02	ASV30	Root & Stem	0.15896446	Stem	Nocardioides-1	Actinobacteria	Low
+P14B36BTD-H09	ASV30	Root & Stem	1.132626964	Root	Nocardioides-1	Actinobacteria	Low
+P14B36BTU-C04	ASV30	Root & Stem	1.034790366	Stem	Nocardioides-1	Actinobacteria	Low
+P14B36CTD-A12	ASV30	Root & Stem	0.202657059	Root	Nocardioides-1	Actinobacteria	Low
+P14B36CTU-C06	ASV30	Root & Stem	0.382542167	Stem	Nocardioides-1	Actinobacteria	Low
+P14M20ATD-A08	ASV30	Root & Stem	1.733172108	Root	Nocardioides-1	Actinobacteria	High
+P14M20ATU-D02	ASV30	Root & Stem	0.931883736	Stem	Nocardioides-1	Actinobacteria	High
+P14M20BTD-A10	ASV30	Root & Stem	0.727272727	Root	Nocardioides-1	Actinobacteria	High
+P14M20BTU-D04	ASV30	Root & Stem	0.358812656	Stem	Nocardioides-1	Actinobacteria	High
+P14M20CTD-B12	ASV30	Root & Stem	0.528455285	Root	Nocardioides-1	Actinobacteria	High
+P14M20CTU-D06	ASV30	Root & Stem	0.183695446	Stem	Nocardioides-1	Actinobacteria	High
+P14M26ATD-C08	ASV30	Root & Stem	0.270403147	Root	Nocardioides-1	Actinobacteria	Low
+P14M26ATU-F02	ASV30	Root & Stem	0	Stem	Nocardioides-1	Actinobacteria	Low
+P14M26BTD-C10	ASV30	Root & Stem	1.512589252	Root	Nocardioides-1	Actinobacteria	Low
+P14M26BTU-F04	ASV30	Root & Stem	0.743715603	Stem	Nocardioides-1	Actinobacteria	Low
+P14M26CTD-D12	ASV30	Root & Stem	0.270562771	Root	Nocardioides-1	Actinobacteria	Low
+P14M26CTU-F06	ASV30	Root & Stem	0.25275574	Stem	Nocardioides-1	Actinobacteria	Low
+P14M30ATD-B08	ASV30	Root & Stem	2.683763232	Root	Nocardioides-1	Actinobacteria	High
+P14M30ATU-E02	ASV30	Root & Stem	2.416254805	Stem	Nocardioides-1	Actinobacteria	High
+P14M30BTD-B10	ASV30	Root & Stem	1.432459533	Root	Nocardioides-1	Actinobacteria	High
+P14M30BTU-E04	ASV30	Root & Stem	1.026424984	Stem	Nocardioides-1	Actinobacteria	High
+P14M30CTD-C12	ASV30	Root & Stem	0.980547209	Root	Nocardioides-1	Actinobacteria	High
+P14M30CTU-E06	ASV30	Root & Stem	0.69341258	Stem	Nocardioides-1	Actinobacteria	High
+P14M36ATD-D08	ASV30	Root & Stem	0.319213183	Root	Nocardioides-1	Actinobacteria	Low
+P14M36ATU-G02	ASV30	Root & Stem	0.196001568	Stem	Nocardioides-1	Actinobacteria	Low
+P14M36BTD-D10	ASV30	Root & Stem	1.717841201	Root	Nocardioides-1	Actinobacteria	Low
+P14M36BTU-G04	ASV30	Root & Stem	0.990978677	Stem	Nocardioides-1	Actinobacteria	Low
+P14M36CTD-E12	ASV30	Root & Stem	0.288	Root	Nocardioides-1	Actinobacteria	Low
+P14M36CTU-G06	ASV30	Root & Stem	0.262850467	Stem	Nocardioides-1	Actinobacteria	Low
+gyrB-D0A	ASV30	Root & Stem	0.778522661	Soil	Nocardioides-1	Actinobacteria	High
+gyrB-D0B	ASV30	Root & Stem	0.06996795	Soil	Nocardioides-1	Actinobacteria	High
+gyrB-D0C	ASV30	Root & Stem	0.089187706	Soil	Nocardioides-1	Actinobacteria	High
+gyrB-D6A	ASV30	Root & Stem	0.043492013	Soil	Nocardioides-1	Actinobacteria	Low
+gyrB-D6B	ASV30	Root & Stem	0.474077063	Soil	Nocardioides-1	Actinobacteria	Low
+gyrB-D6C	ASV30	Root & Stem	0.046860356	Soil	Nocardioides-1	Actinobacteria	Low
+gyrB-Boston-AF-1	ASV36	Root	0	Seed	Afipia	Proteobacteria	ns
+gyrB-Boston-AF-2	ASV36	Root	0	Seed	Afipia	Proteobacteria	ns
+gyrB-Boston-AF-3	ASV36	Root	0	Seed	Afipia	Proteobacteria	ns
+gyrB-Boston-AF-4	ASV36	Root	0	Seed	Afipia	Proteobacteria	ns
+gyrB-Boston-AF-5	ASV36	Root	0	Seed	Afipia	Proteobacteria	ns
+gyrB-Major-AF-1	ASV36	Root	0	Seed	Afipia	Proteobacteria	ns
+gyrB-Major-AF-3	ASV36	Root	0	Seed	Afipia	Proteobacteria	ns
+gyrB-AF-2017-Boston-1	ASV36	Root	0	Seed	Afipia	Proteobacteria	ns
+gyrB-AF-2017-Boston-2	ASV36	Root	0	Seed	Afipia	Proteobacteria	ns
+gyrB-AF-2017-Boston-3	ASV36	Root	0	Seed	Afipia	Proteobacteria	ns
+gyrB-AF-2017-Boston-4	ASV36	Root	0	Seed	Afipia	Proteobacteria	ns
+gyrB-AF-2017-Boston-5	ASV36	Root	0	Seed	Afipia	Proteobacteria	ns
+gyrB-AF-2017-Major-1	ASV36	Root	0	Seed	Afipia	Proteobacteria	ns
+gyrB-AF-2017-Major-2	ASV36	Root	0	Seed	Afipia	Proteobacteria	ns
+gyrB-AF-2017-Major-3	ASV36	Root	0	Seed	Afipia	Proteobacteria	ns
+gyrB-AF-2017-Major-4	ASV36	Root	0	Seed	Afipia	Proteobacteria	ns
+gyrB-AF-2017-Major-5	ASV36	Root	0	Seed	Afipia	Proteobacteria	ns
+P14B20ATD-E07	ASV36	Root	0.678011167	Root	Afipia	Proteobacteria	High
+P14B20ATU-H01	ASV36	Root	0	Stem	Afipia	Proteobacteria	High
+P14B20BTD-E09	ASV36	Root	1.238715096	Root	Afipia	Proteobacteria	High
+P14B20BTU-H03	ASV36	Root	0.256231074	Stem	Afipia	Proteobacteria	High
+P14B20CTD-E11	ASV36	Root	0.932286555	Root	Afipia	Proteobacteria	High
+P14B20CTU-H05	ASV36	Root	0.31181583	Stem	Afipia	Proteobacteria	High
+P14B26ATD-G07	ASV36	Root	4.922716285	Root	Afipia	Proteobacteria	Low
+P14B26ATU-B02	ASV36	Root	1.510023431	Stem	Afipia	Proteobacteria	Low
+P14B26BTD-G09	ASV36	Root	2.47416223	Root	Afipia	Proteobacteria	Low
+P14B26BTU-B04	ASV36	Root	0.09645348	Stem	Afipia	Proteobacteria	Low
+P14B26CTD-G11	ASV36	Root	0	Root	Afipia	Proteobacteria	Low
+P14B26CTU-B06	ASV36	Root	0	Stem	Afipia	Proteobacteria	Low
+P14B30ATD-F07	ASV36	Root	0.620086369	Root	Afipia	Proteobacteria	High
+P14B30ATU-A02	ASV36	Root	0	Stem	Afipia	Proteobacteria	High
+P14B30BTD-F09	ASV36	Root	0.834088849	Root	Afipia	Proteobacteria	High
+P14B30BTU-A04	ASV36	Root	0.326834216	Stem	Afipia	Proteobacteria	High
+P14B30CTD-F11	ASV36	Root	0.933084511	Root	Afipia	Proteobacteria	High
+P14B30CTU-A06	ASV36	Root	0.303030303	Stem	Afipia	Proteobacteria	High
+P14B36ATD-H07	ASV36	Root	4.214430209	Root	Afipia	Proteobacteria	Low
+P14B36ATU-C02	ASV36	Root	1.226297264	Stem	Afipia	Proteobacteria	Low
+P14B36BTD-H09	ASV36	Root	1.461454147	Root	Afipia	Proteobacteria	Low
+P14B36BTU-C04	ASV36	Root	0.133809099	Stem	Afipia	Proteobacteria	Low
+P14B36CTD-A12	ASV36	Root	0	Root	Afipia	Proteobacteria	Low
+P14B36CTU-C06	ASV36	Root	0	Stem	Afipia	Proteobacteria	Low
+P14M20ATD-A08	ASV36	Root	0.84643289	Root	Afipia	Proteobacteria	High
+P14M20ATU-D02	ASV36	Root	0	Stem	Afipia	Proteobacteria	High
+P14M20BTD-A10	ASV36	Root	0.743801653	Root	Afipia	Proteobacteria	High
+P14M20BTU-D04	ASV36	Root	0.065238665	Stem	Afipia	Proteobacteria	High
+P14M20CTD-B12	ASV36	Root	0.921409214	Root	Afipia	Proteobacteria	High
+P14M20CTU-D06	ASV36	Root	0.069677583	Stem	Afipia	Proteobacteria	High
+P14M26ATD-C08	ASV36	Root	5.592428712	Root	Afipia	Proteobacteria	Low
+P14M26ATU-F02	ASV36	Root	1.241743725	Stem	Afipia	Proteobacteria	Low
+P14M26BTD-C10	ASV36	Root	2.602405111	Root	Afipia	Proteobacteria	Low
+P14M26BTU-F04	ASV36	Root	0.215677525	Stem	Afipia	Proteobacteria	Low
+P14M26CTD-D12	ASV36	Root	0	Root	Afipia	Proteobacteria	Low
+P14M26CTU-F06	ASV36	Root	0	Stem	Afipia	Proteobacteria	Low
+P14M30ATD-B08	ASV36	Root	0.998956314	Root	Afipia	Proteobacteria	High
+P14M30ATU-E02	ASV36	Root	0.439319055	Stem	Afipia	Proteobacteria	High
+P14M30BTD-B10	ASV36	Root	0.974072482	Root	Afipia	Proteobacteria	High
+P14M30BTU-E04	ASV36	Root	0	Stem	Afipia	Proteobacteria	High
+P14M30CTD-C12	ASV36	Root	0.759133323	Root	Afipia	Proteobacteria	High
+P14M30CTU-E06	ASV36	Root	0.284794453	Stem	Afipia	Proteobacteria	High
+P14M36ATD-D08	ASV36	Root	4.943490639	Root	Afipia	Proteobacteria	Low
+P14M36ATU-G02	ASV36	Root	2.175617405	Stem	Afipia	Proteobacteria	Low
+P14M36BTD-D10	ASV36	Root	1.798999053	Root	Afipia	Proteobacteria	Low
+P14M36BTU-G04	ASV36	Root	0.321213778	Stem	Afipia	Proteobacteria	Low
+P14M36CTD-E12	ASV36	Root	0	Root	Afipia	Proteobacteria	Low
+P14M36CTU-G06	ASV36	Root	0	Stem	Afipia	Proteobacteria	Low
+gyrB-D0A	ASV36	Root	0.077234391	Soil	Afipia	Proteobacteria	High
+gyrB-D0B	ASV36	Root	0.06771092	Soil	Afipia	Proteobacteria	High
+gyrB-D0C	ASV36	Root	0.082327113	Soil	Afipia	Proteobacteria	High
+gyrB-D6A	ASV36	Root	0.767040962	Soil	Afipia	Proteobacteria	Low
+gyrB-D6B	ASV36	Root	0.072624571	Soil	Afipia	Proteobacteria	Low
+gyrB-D6C	ASV36	Root	0	Soil	Afipia	Proteobacteria	Low
+gyrB-Boston-AF-1	ASV47	Seed	0.540290213	Seed	Sphingomonas-1	Proteobacteria	ns
+gyrB-Boston-AF-2	ASV47	Seed	1.39435109	Seed	Sphingomonas-1	Proteobacteria	ns
+gyrB-Boston-AF-3	ASV47	Seed	5.658005029	Seed	Sphingomonas-1	Proteobacteria	ns
+gyrB-Boston-AF-4	ASV47	Seed	0.197592959	Seed	Sphingomonas-1	Proteobacteria	ns
+gyrB-Boston-AF-5	ASV47	Seed	0.198347107	Seed	Sphingomonas-1	Proteobacteria	ns
+gyrB-Major-AF-1	ASV47	Seed	0	Seed	Sphingomonas-1	Proteobacteria	ns
+gyrB-Major-AF-3	ASV47	Seed	0	Seed	Sphingomonas-1	Proteobacteria	ns
+gyrB-AF-2017-Boston-1	ASV47	Seed	0.429533318	Seed	Sphingomonas-1	Proteobacteria	ns
+gyrB-AF-2017-Boston-2	ASV47	Seed	0.072268345	Seed	Sphingomonas-1	Proteobacteria	ns
+gyrB-AF-2017-Boston-3	ASV47	Seed	0.380877331	Seed	Sphingomonas-1	Proteobacteria	ns
+gyrB-AF-2017-Boston-4	ASV47	Seed	0.019851905	Seed	Sphingomonas-1	Proteobacteria	ns
+gyrB-AF-2017-Boston-5	ASV47	Seed	0.140424526	Seed	Sphingomonas-1	Proteobacteria	ns
+gyrB-AF-2017-Major-1	ASV47	Seed	2.845063259	Seed	Sphingomonas-1	Proteobacteria	ns
+gyrB-AF-2017-Major-2	ASV47	Seed	2.975771417	Seed	Sphingomonas-1	Proteobacteria	ns
+gyrB-AF-2017-Major-3	ASV47	Seed	2.682536216	Seed	Sphingomonas-1	Proteobacteria	ns
+gyrB-AF-2017-Major-4	ASV47	Seed	2.814954098	Seed	Sphingomonas-1	Proteobacteria	ns
+gyrB-AF-2017-Major-5	ASV47	Seed	1.630424029	Seed	Sphingomonas-1	Proteobacteria	ns
+P14B20ATD-E07	ASV47	Seed	0	Root	Sphingomonas-1	Proteobacteria	High
+P14B20ATU-H01	ASV47	Seed	0	Stem	Sphingomonas-1	Proteobacteria	High
+P14B20BTD-E09	ASV47	Seed	0	Root	Sphingomonas-1	Proteobacteria	High
+P14B20BTU-H03	ASV47	Seed	0	Stem	Sphingomonas-1	Proteobacteria	High
+P14B20CTD-E11	ASV47	Seed	0	Root	Sphingomonas-1	Proteobacteria	High
+P14B20CTU-H05	ASV47	Seed	0	Stem	Sphingomonas-1	Proteobacteria	High
+P14B26ATD-G07	ASV47	Seed	0	Root	Sphingomonas-1	Proteobacteria	Low
+P14B26ATU-B02	ASV47	Seed	0	Stem	Sphingomonas-1	Proteobacteria	Low
+P14B26BTD-G09	ASV47	Seed	0	Root	Sphingomonas-1	Proteobacteria	Low
+P14B26BTU-B04	ASV47	Seed	0	Stem	Sphingomonas-1	Proteobacteria	Low
+P14B26CTD-G11	ASV47	Seed	0	Root	Sphingomonas-1	Proteobacteria	Low
+P14B26CTU-B06	ASV47	Seed	0	Stem	Sphingomonas-1	Proteobacteria	Low
+P14B30ATD-F07	ASV47	Seed	0	Root	Sphingomonas-1	Proteobacteria	High
+P14B30ATU-A02	ASV47	Seed	0	Stem	Sphingomonas-1	Proteobacteria	High
+P14B30BTD-F09	ASV47	Seed	0	Root	Sphingomonas-1	Proteobacteria	High
+P14B30BTU-A04	ASV47	Seed	0	Stem	Sphingomonas-1	Proteobacteria	High
+P14B30CTD-F11	ASV47	Seed	0	Root	Sphingomonas-1	Proteobacteria	High
+P14B30CTU-A06	ASV47	Seed	0	Stem	Sphingomonas-1	Proteobacteria	High
+P14B36ATD-H07	ASV47	Seed	0	Root	Sphingomonas-1	Proteobacteria	Low
+P14B36ATU-C02	ASV47	Seed	0	Stem	Sphingomonas-1	Proteobacteria	Low
+P14B36BTD-H09	ASV47	Seed	0	Root	Sphingomonas-1	Proteobacteria	Low
+P14B36BTU-C04	ASV47	Seed	0	Stem	Sphingomonas-1	Proteobacteria	Low
+P14B36CTD-A12	ASV47	Seed	0	Root	Sphingomonas-1	Proteobacteria	Low
+P14B36CTU-C06	ASV47	Seed	0	Stem	Sphingomonas-1	Proteobacteria	Low
+P14M20ATD-A08	ASV47	Seed	0	Root	Sphingomonas-1	Proteobacteria	High
+P14M20ATU-D02	ASV47	Seed	0	Stem	Sphingomonas-1	Proteobacteria	High
+P14M20BTD-A10	ASV47	Seed	0	Root	Sphingomonas-1	Proteobacteria	High
+P14M20BTU-D04	ASV47	Seed	0	Stem	Sphingomonas-1	Proteobacteria	High
+P14M20CTD-B12	ASV47	Seed	0	Root	Sphingomonas-1	Proteobacteria	High
+P14M20CTU-D06	ASV47	Seed	0	Stem	Sphingomonas-1	Proteobacteria	High
+P14M26ATD-C08	ASV47	Seed	0	Root	Sphingomonas-1	Proteobacteria	Low
+P14M26ATU-F02	ASV47	Seed	0	Stem	Sphingomonas-1	Proteobacteria	Low
+P14M26BTD-C10	ASV47	Seed	0	Root	Sphingomonas-1	Proteobacteria	Low
+P14M26BTU-F04	ASV47	Seed	0	Stem	Sphingomonas-1	Proteobacteria	Low
+P14M26CTD-D12	ASV47	Seed	0	Root	Sphingomonas-1	Proteobacteria	Low
+P14M26CTU-F06	ASV47	Seed	0	Stem	Sphingomonas-1	Proteobacteria	Low
+P14M30ATD-B08	ASV47	Seed	0	Root	Sphingomonas-1	Proteobacteria	High
+P14M30ATU-E02	ASV47	Seed	0	Stem	Sphingomonas-1	Proteobacteria	High
+P14M30BTD-B10	ASV47	Seed	0	Root	Sphingomonas-1	Proteobacteria	High
+P14M30BTU-E04	ASV47	Seed	0	Stem	Sphingomonas-1	Proteobacteria	High
+P14M30CTD-C12	ASV47	Seed	0	Root	Sphingomonas-1	Proteobacteria	High
+P14M30CTU-E06	ASV47	Seed	0	Stem	Sphingomonas-1	Proteobacteria	High
+P14M36ATD-D08	ASV47	Seed	0	Root	Sphingomonas-1	Proteobacteria	Low
+P14M36ATU-G02	ASV47	Seed	0	Stem	Sphingomonas-1	Proteobacteria	Low
+P14M36BTD-D10	ASV47	Seed	0	Root	Sphingomonas-1	Proteobacteria	Low
+P14M36BTU-G04	ASV47	Seed	0	Stem	Sphingomonas-1	Proteobacteria	Low
+P14M36CTD-E12	ASV47	Seed	0	Root	Sphingomonas-1	Proteobacteria	Low
+P14M36CTU-G06	ASV47	Seed	0	Stem	Sphingomonas-1	Proteobacteria	Low
+gyrB-D0A	ASV47	Seed	0	Soil	Sphingomonas-1	Proteobacteria	High
+gyrB-D0B	ASV47	Seed	0	Soil	Sphingomonas-1	Proteobacteria	High
+gyrB-D0C	ASV47	Seed	0	Soil	Sphingomonas-1	Proteobacteria	High
+gyrB-D6A	ASV47	Seed	0	Soil	Sphingomonas-1	Proteobacteria	Low
+gyrB-D6B	ASV47	Seed	0	Soil	Sphingomonas-1	Proteobacteria	Low
+gyrB-D6C	ASV47	Seed	0	Soil	Sphingomonas-1	Proteobacteria	Low
+gyrB-Boston-AF-1	ASV55	Stem	0	Seed	Unclassified Bacillaceae-2	Firmicutes	ns
+gyrB-Boston-AF-2	ASV55	Stem	0	Seed	Unclassified Bacillaceae-2	Firmicutes	ns
+gyrB-Boston-AF-3	ASV55	Stem	0	Seed	Unclassified Bacillaceae-2	Firmicutes	ns
+gyrB-Boston-AF-4	ASV55	Stem	0	Seed	Unclassified Bacillaceae-2	Firmicutes	ns
+gyrB-Boston-AF-5	ASV55	Stem	0	Seed	Unclassified Bacillaceae-2	Firmicutes	ns
+gyrB-Major-AF-1	ASV55	Stem	0	Seed	Unclassified Bacillaceae-2	Firmicutes	ns
+gyrB-Major-AF-3	ASV55	Stem	0	Seed	Unclassified Bacillaceae-2	Firmicutes	ns
+gyrB-AF-2017-Boston-1	ASV55	Stem	0	Seed	Unclassified Bacillaceae-2	Firmicutes	ns
+gyrB-AF-2017-Boston-2	ASV55	Stem	0	Seed	Unclassified Bacillaceae-2	Firmicutes	ns
+gyrB-AF-2017-Boston-3	ASV55	Stem	0	Seed	Unclassified Bacillaceae-2	Firmicutes	ns
+gyrB-AF-2017-Boston-4	ASV55	Stem	0	Seed	Unclassified Bacillaceae-2	Firmicutes	ns
+gyrB-AF-2017-Boston-5	ASV55	Stem	0	Seed	Unclassified Bacillaceae-2	Firmicutes	ns
+gyrB-AF-2017-Major-1	ASV55	Stem	0	Seed	Unclassified Bacillaceae-2	Firmicutes	ns
+gyrB-AF-2017-Major-2	ASV55	Stem	0	Seed	Unclassified Bacillaceae-2	Firmicutes	ns
+gyrB-AF-2017-Major-3	ASV55	Stem	0	Seed	Unclassified Bacillaceae-2	Firmicutes	ns
+gyrB-AF-2017-Major-4	ASV55	Stem	0	Seed	Unclassified Bacillaceae-2	Firmicutes	ns
+gyrB-AF-2017-Major-5	ASV55	Stem	0	Seed	Unclassified Bacillaceae-2	Firmicutes	ns
+P14B20ATD-E07	ASV55	Stem	0	Root	Unclassified Bacillaceae-2	Firmicutes	High
+P14B20ATU-H01	ASV55	Stem	0	Stem	Unclassified Bacillaceae-2	Firmicutes	High
+P14B20BTD-E09	ASV55	Stem	0.167961369	Root	Unclassified Bacillaceae-2	Firmicutes	High
+P14B20BTU-H03	ASV55	Stem	0.11646867	Stem	Unclassified Bacillaceae-2	Firmicutes	High
+P14B20CTD-E11	ASV55	Stem	0	Root	Unclassified Bacillaceae-2	Firmicutes	High
+P14B20CTU-H05	ASV55	Stem	0.172493863	Stem	Unclassified Bacillaceae-2	Firmicutes	High
+P14B26ATD-G07	ASV55	Stem	0.527433888	Root	Unclassified Bacillaceae-2	Firmicutes	Low
+P14B26ATU-B02	ASV55	Stem	0.572767508	Stem	Unclassified Bacillaceae-2	Firmicutes	Low
+P14B26BTD-G09	ASV55	Stem	0.391481365	Root	Unclassified Bacillaceae-2	Firmicutes	Low
+P14B26BTU-B04	ASV55	Stem	0.638076866	Stem	Unclassified Bacillaceae-2	Firmicutes	Low
+P14B26CTD-G11	ASV55	Stem	0	Root	Unclassified Bacillaceae-2	Firmicutes	Low
+P14B26CTU-B06	ASV55	Stem	0.10160389	Stem	Unclassified Bacillaceae-2	Firmicutes	Low
+P14B30ATD-F07	ASV55	Stem	0	Root	Unclassified Bacillaceae-2	Firmicutes	High
+P14B30ATU-A02	ASV55	Stem	0	Stem	Unclassified Bacillaceae-2	Firmicutes	High
+P14B30BTD-F09	ASV55	Stem	0	Root	Unclassified Bacillaceae-2	Firmicutes	High
+P14B30BTU-A04	ASV55	Stem	0.123971599	Stem	Unclassified Bacillaceae-2	Firmicutes	High
+P14B30CTD-F11	ASV55	Stem	0	Root	Unclassified Bacillaceae-2	Firmicutes	High
+P14B30CTU-A06	ASV55	Stem	0.212121212	Stem	Unclassified Bacillaceae-2	Firmicutes	High
+P14B36ATD-H07	ASV55	Stem	0.488873904	Root	Unclassified Bacillaceae-2	Firmicutes	Low
+P14B36ATU-C02	ASV55	Stem	0.851595322	Stem	Unclassified Bacillaceae-2	Firmicutes	Low
+P14B36BTD-H09	ASV55	Stem	0.621118012	Root	Unclassified Bacillaceae-2	Firmicutes	Low
+P14B36BTU-C04	ASV55	Stem	0.47279215	Stem	Unclassified Bacillaceae-2	Firmicutes	Low
+P14B36CTD-A12	ASV55	Stem	0.202657059	Root	Unclassified Bacillaceae-2	Firmicutes	Low
+P14B36CTU-C06	ASV55	Stem	0.208659364	Stem	Unclassified Bacillaceae-2	Firmicutes	Low
+P14M20ATD-A08	ASV55	Stem	0	Root	Unclassified Bacillaceae-2	Firmicutes	High
+P14M20ATU-D02	ASV55	Stem	0.11093854	Stem	Unclassified Bacillaceae-2	Firmicutes	High
+P14M20BTD-A10	ASV55	Stem	0	Root	Unclassified Bacillaceae-2	Firmicutes	High
+P14M20BTU-D04	ASV55	Stem	0.065238665	Stem	Unclassified Bacillaceae-2	Firmicutes	High
+P14M20CTD-B12	ASV55	Stem	0.067750678	Root	Unclassified Bacillaceae-2	Firmicutes	High
+P14M20CTU-D06	ASV55	Stem	0.057008931	Stem	Unclassified Bacillaceae-2	Firmicutes	High
+P14M26ATD-C08	ASV55	Stem	0.626843658	Root	Unclassified Bacillaceae-2	Firmicutes	Low
+P14M26ATU-F02	ASV55	Stem	1.030383091	Stem	Unclassified Bacillaceae-2	Firmicutes	Low
+P14M26BTD-C10	ASV55	Stem	0.375798572	Root	Unclassified Bacillaceae-2	Firmicutes	Low
+P14M26BTU-F04	ASV55	Stem	0.423917894	Stem	Unclassified Bacillaceae-2	Firmicutes	Low
+P14M26CTD-D12	ASV55	Stem	0.216450216	Root	Unclassified Bacillaceae-2	Firmicutes	Low
+P14M26CTU-F06	ASV55	Stem	0.308923682	Stem	Unclassified Bacillaceae-2	Firmicutes	Low
+P14M30ATD-B08	ASV55	Stem	0.149097957	Root	Unclassified Bacillaceae-2	Firmicutes	High
+P14M30ATU-E02	ASV55	Stem	0	Stem	Unclassified Bacillaceae-2	Firmicutes	High
+P14M30BTD-B10	ASV55	Stem	0	Root	Unclassified Bacillaceae-2	Firmicutes	High
+P14M30BTU-E04	ASV55	Stem	0.141952391	Stem	Unclassified Bacillaceae-2	Firmicutes	High
+P14M30CTD-C12	ASV55	Stem	0	Root	Unclassified Bacillaceae-2	Firmicutes	High
+P14M30CTU-E06	ASV55	Stem	0	Stem	Unclassified Bacillaceae-2	Firmicutes	High
+P14M36ATD-D08	ASV55	Stem	0.526270382	Root	Unclassified Bacillaceae-2	Firmicutes	Low
+P14M36ATU-G02	ASV55	Stem	0.568404547	Stem	Unclassified Bacillaceae-2	Firmicutes	Low
+P14M36BTD-D10	ASV55	Stem	0.486947112	Root	Unclassified Bacillaceae-2	Firmicutes	Low
+P14M36BTU-G04	ASV55	Stem	0.471569163	Stem	Unclassified Bacillaceae-2	Firmicutes	Low
+P14M36CTD-E12	ASV55	Stem	0	Root	Unclassified Bacillaceae-2	Firmicutes	Low
+P14M36CTU-G06	ASV55	Stem	0.210280374	Stem	Unclassified Bacillaceae-2	Firmicutes	Low
+gyrB-D0A	ASV55	Stem	0.015446878	Soil	Unclassified Bacillaceae-2	Firmicutes	High
+gyrB-D0B	ASV55	Stem	0	Soil	Unclassified Bacillaceae-2	Firmicutes	High
+gyrB-D0C	ASV55	Stem	0.01600805	Soil	Unclassified Bacillaceae-2	Firmicutes	High
+gyrB-D6A	ASV55	Stem	0.06721493	Soil	Unclassified Bacillaceae-2	Firmicutes	Low
+gyrB-D6B	ASV55	Stem	0.068589873	Soil	Unclassified Bacillaceae-2	Firmicutes	Low
+gyrB-D6C	ASV55	Stem	0	Soil	Unclassified Bacillaceae-2	Firmicutes	Low
+gyrB-Boston-AF-1	ASV58	Soil	0	Seed	Unclassified Comamonadaceae-3	Proteobacteria	ns
+gyrB-Boston-AF-2	ASV58	Soil	0	Seed	Unclassified Comamonadaceae-3	Proteobacteria	ns
+gyrB-Boston-AF-3	ASV58	Soil	0	Seed	Unclassified Comamonadaceae-3	Proteobacteria	ns
+gyrB-Boston-AF-4	ASV58	Soil	0	Seed	Unclassified Comamonadaceae-3	Proteobacteria	ns
+gyrB-Boston-AF-5	ASV58	Soil	0	Seed	Unclassified Comamonadaceae-3	Proteobacteria	ns
+gyrB-Major-AF-1	ASV58	Soil	0	Seed	Unclassified Comamonadaceae-3	Proteobacteria	ns
+gyrB-Major-AF-3	ASV58	Soil	0	Seed	Unclassified Comamonadaceae-3	Proteobacteria	ns
+gyrB-AF-2017-Boston-1	ASV58	Soil	0	Seed	Unclassified Comamonadaceae-3	Proteobacteria	ns
+gyrB-AF-2017-Boston-2	ASV58	Soil	0	Seed	Unclassified Comamonadaceae-3	Proteobacteria	ns
+gyrB-AF-2017-Boston-3	ASV58	Soil	0	Seed	Unclassified Comamonadaceae-3	Proteobacteria	ns
+gyrB-AF-2017-Boston-4	ASV58	Soil	0	Seed	Unclassified Comamonadaceae-3	Proteobacteria	ns
+gyrB-AF-2017-Boston-5	ASV58	Soil	0	Seed	Unclassified Comamonadaceae-3	Proteobacteria	ns
+gyrB-AF-2017-Major-1	ASV58	Soil	0	Seed	Unclassified Comamonadaceae-3	Proteobacteria	ns
+gyrB-AF-2017-Major-2	ASV58	Soil	0	Seed	Unclassified Comamonadaceae-3	Proteobacteria	ns
+gyrB-AF-2017-Major-3	ASV58	Soil	0	Seed	Unclassified Comamonadaceae-3	Proteobacteria	ns
+gyrB-AF-2017-Major-4	ASV58	Soil	0	Seed	Unclassified Comamonadaceae-3	Proteobacteria	ns
+gyrB-AF-2017-Major-5	ASV58	Soil	0	Seed	Unclassified Comamonadaceae-3	Proteobacteria	ns
+P14B20ATD-E07	ASV58	Soil	0	Root	Unclassified Comamonadaceae-3	Proteobacteria	High
+P14B20ATU-H01	ASV58	Soil	0	Stem	Unclassified Comamonadaceae-3	Proteobacteria	High
+P14B20BTD-E09	ASV58	Soil	0	Root	Unclassified Comamonadaceae-3	Proteobacteria	High
+P14B20BTU-H03	ASV58	Soil	0.395993478	Stem	Unclassified Comamonadaceae-3	Proteobacteria	High
+P14B20CTD-E11	ASV58	Soil	0	Root	Unclassified Comamonadaceae-3	Proteobacteria	High
+P14B20CTU-H05	ASV58	Soil	0.258740795	Stem	Unclassified Comamonadaceae-3	Proteobacteria	High
+P14B26ATD-G07	ASV58	Soil	0	Root	Unclassified Comamonadaceae-3	Proteobacteria	Low
+P14B26ATU-B02	ASV58	Soil	0	Stem	Unclassified Comamonadaceae-3	Proteobacteria	Low
+P14B26BTD-G09	ASV58	Soil	0.579392421	Root	Unclassified Comamonadaceae-3	Proteobacteria	Low
+P14B26BTU-B04	ASV58	Soil	0.393233417	Stem	Unclassified Comamonadaceae-3	Proteobacteria	Low
+P14B26CTD-G11	ASV58	Soil	0	Root	Unclassified Comamonadaceae-3	Proteobacteria	Low
+P14B26CTU-B06	ASV58	Soil	0	Stem	Unclassified Comamonadaceae-3	Proteobacteria	Low
+P14B30ATD-F07	ASV58	Soil	0	Root	Unclassified Comamonadaceae-3	Proteobacteria	High
+P14B30ATU-A02	ASV58	Soil	0	Stem	Unclassified Comamonadaceae-3	Proteobacteria	High
+P14B30BTD-F09	ASV58	Soil	0	Root	Unclassified Comamonadaceae-3	Proteobacteria	High
+P14B30BTU-A04	ASV58	Soil	0	Stem	Unclassified Comamonadaceae-3	Proteobacteria	High
+P14B30CTD-F11	ASV58	Soil	0	Root	Unclassified Comamonadaceae-3	Proteobacteria	High
+P14B30CTU-A06	ASV58	Soil	0.310606061	Stem	Unclassified Comamonadaceae-3	Proteobacteria	High
+P14B36ATD-H07	ASV58	Soil	0	Root	Unclassified Comamonadaceae-3	Proteobacteria	Low
+P14B36ATU-C02	ASV58	Soil	0	Stem	Unclassified Comamonadaceae-3	Proteobacteria	Low
+P14B36BTD-H09	ASV58	Soil	0.353184752	Root	Unclassified Comamonadaceae-3	Proteobacteria	Low
+P14B36BTU-C04	ASV58	Soil	0.330062444	Stem	Unclassified Comamonadaceae-3	Proteobacteria	Low
+P14B36CTD-A12	ASV58	Soil	0.191398334	Root	Unclassified Comamonadaceae-3	Proteobacteria	Low
+P14B36CTU-C06	ASV58	Soil	0	Stem	Unclassified Comamonadaceae-3	Proteobacteria	Low
+P14M20ATD-A08	ASV58	Soil	0	Root	Unclassified Comamonadaceae-3	Proteobacteria	High
+P14M20ATU-D02	ASV58	Soil	0	Stem	Unclassified Comamonadaceae-3	Proteobacteria	High
+P14M20BTD-A10	ASV58	Soil	0	Root	Unclassified Comamonadaceae-3	Proteobacteria	High
+P14M20BTU-D04	ASV58	Soil	0	Stem	Unclassified Comamonadaceae-3	Proteobacteria	High
+P14M20CTD-B12	ASV58	Soil	0	Root	Unclassified Comamonadaceae-3	Proteobacteria	High
+P14M20CTU-D06	ASV58	Soil	0	Stem	Unclassified Comamonadaceae-3	Proteobacteria	High
+P14M26ATD-C08	ASV58	Soil	0.110619469	Root	Unclassified Comamonadaceae-3	Proteobacteria	Low
+P14M26ATU-F02	ASV58	Soil	0	Stem	Unclassified Comamonadaceae-3	Proteobacteria	Low
+P14M26BTD-C10	ASV58	Soil	0.253664036	Root	Unclassified Comamonadaceae-3	Proteobacteria	Low
+P14M26BTU-F04	ASV58	Soil	0.245426149	Stem	Unclassified Comamonadaceae-3	Proteobacteria	Low
+P14M26CTD-D12	ASV58	Soil	0	Root	Unclassified Comamonadaceae-3	Proteobacteria	Low
+P14M26CTU-F06	ASV58	Soil	0	Stem	Unclassified Comamonadaceae-3	Proteobacteria	Low
+P14M30ATD-B08	ASV58	Soil	0	Root	Unclassified Comamonadaceae-3	Proteobacteria	High
+P14M30ATU-E02	ASV58	Soil	0	Stem	Unclassified Comamonadaceae-3	Proteobacteria	High
+P14M30BTD-B10	ASV58	Soil	0	Root	Unclassified Comamonadaceae-3	Proteobacteria	High
+P14M30BTU-E04	ASV58	Soil	0.360340686	Stem	Unclassified Comamonadaceae-3	Proteobacteria	High
+P14M30CTD-C12	ASV58	Soil	0	Root	Unclassified Comamonadaceae-3	Proteobacteria	High
+P14M30CTU-E06	ASV58	Soil	0	Stem	Unclassified Comamonadaceae-3	Proteobacteria	High
+P14M36ATD-D08	ASV58	Soil	0	Root	Unclassified Comamonadaceae-3	Proteobacteria	Low
+P14M36ATU-G02	ASV58	Soil	0	Stem	Unclassified Comamonadaceae-3	Proteobacteria	Low
+P14M36BTD-D10	ASV58	Soil	0.419315569	Root	Unclassified Comamonadaceae-3	Proteobacteria	Low
+P14M36BTU-G04	ASV58	Soil	0.307545107	Stem	Unclassified Comamonadaceae-3	Proteobacteria	Low
+P14M36CTD-E12	ASV58	Soil	0	Root	Unclassified Comamonadaceae-3	Proteobacteria	Low
+P14M36CTU-G06	ASV58	Soil	0	Stem	Unclassified Comamonadaceae-3	Proteobacteria	Low
+gyrB-D0A	ASV58	Soil	0.865025178	Soil	Unclassified Comamonadaceae-3	Proteobacteria	High
+gyrB-D0B	ASV58	Soil	0.916354444	Soil	Unclassified Comamonadaceae-3	Proteobacteria	High
+gyrB-D0C	ASV58	Soil	1.122850348	Soil	Unclassified Comamonadaceae-3	Proteobacteria	High
+gyrB-D6A	ASV58	Soil	1.065554325	Soil	Unclassified Comamonadaceae-3	Proteobacteria	Low
+gyrB-D6B	ASV58	Soil	3.572725439	Soil	Unclassified Comamonadaceae-3	Proteobacteria	Low
+gyrB-D6C	ASV58	Soil	0.406945198	Soil	Unclassified Comamonadaceae-3	Proteobacteria	Low
+gyrB-Boston-AF-1	ASV69	Stem	0	Seed	Bacillus	Firmicutes	ns
+gyrB-Boston-AF-2	ASV69	Stem	0	Seed	Bacillus	Firmicutes	ns
+gyrB-Boston-AF-3	ASV69	Stem	0	Seed	Bacillus	Firmicutes	ns
+gyrB-Boston-AF-4	ASV69	Stem	0	Seed	Bacillus	Firmicutes	ns
+gyrB-Boston-AF-5	ASV69	Stem	0	Seed	Bacillus	Firmicutes	ns
+gyrB-Major-AF-1	ASV69	Stem	0	Seed	Bacillus	Firmicutes	ns
+gyrB-Major-AF-3	ASV69	Stem	0	Seed	Bacillus	Firmicutes	ns
+gyrB-AF-2017-Boston-1	ASV69	Stem	0	Seed	Bacillus	Firmicutes	ns
+gyrB-AF-2017-Boston-2	ASV69	Stem	0	Seed	Bacillus	Firmicutes	ns
+gyrB-AF-2017-Boston-3	ASV69	Stem	0	Seed	Bacillus	Firmicutes	ns
+gyrB-AF-2017-Boston-4	ASV69	Stem	0	Seed	Bacillus	Firmicutes	ns
+gyrB-AF-2017-Boston-5	ASV69	Stem	0	Seed	Bacillus	Firmicutes	ns
+gyrB-AF-2017-Major-1	ASV69	Stem	0	Seed	Bacillus	Firmicutes	ns
+gyrB-AF-2017-Major-2	ASV69	Stem	0	Seed	Bacillus	Firmicutes	ns
+gyrB-AF-2017-Major-3	ASV69	Stem	0	Seed	Bacillus	Firmicutes	ns
+gyrB-AF-2017-Major-4	ASV69	Stem	0	Seed	Bacillus	Firmicutes	ns
+gyrB-AF-2017-Major-5	ASV69	Stem	0	Seed	Bacillus	Firmicutes	ns
+P14B20ATD-E07	ASV69	Stem	0.305769742	Root	Bacillus	Firmicutes	High
+P14B20ATU-H01	ASV69	Stem	0.197183099	Stem	Bacillus	Firmicutes	High
+P14B20BTD-E09	ASV69	Stem	0.230946882	Root	Bacillus	Firmicutes	High
+P14B20BTU-H03	ASV69	Stem	0.163056138	Stem	Bacillus	Firmicutes	High
+P14B20CTD-E11	ASV69	Stem	0	Root	Bacillus	Firmicutes	High
+P14B20CTU-H05	ASV69	Stem	0.086246932	Stem	Bacillus	Firmicutes	High
+P14B26ATD-G07	ASV69	Stem	0.234415061	Root	Bacillus	Firmicutes	Low
+P14B26ATU-B02	ASV69	Stem	0.182244207	Stem	Bacillus	Firmicutes	Low
+P14B26BTD-G09	ASV69	Stem	0.078296273	Root	Bacillus	Firmicutes	Low
+P14B26BTU-B04	ASV69	Stem	0.09645348	Stem	Bacillus	Firmicutes	Low
+P14B26CTD-G11	ASV69	Stem	0	Root	Bacillus	Firmicutes	Low
+P14B26CTU-B06	ASV69	Stem	0.029029683	Stem	Bacillus	Firmicutes	Low
+P14B30ATD-F07	ASV69	Stem	0.321116155	Root	Bacillus	Firmicutes	High
+P14B30ATU-A02	ASV69	Stem	0.276204944	Stem	Bacillus	Firmicutes	High
+P14B30BTD-F09	ASV69	Stem	0.14505893	Root	Bacillus	Firmicutes	High
+P14B30BTU-A04	ASV69	Stem	0.101431308	Stem	Bacillus	Firmicutes	High
+P14B30CTD-F11	ASV69	Stem	0.133297787	Root	Bacillus	Firmicutes	High
+P14B30CTU-A06	ASV69	Stem	0.121212121	Stem	Bacillus	Firmicutes	High
+P14B36ATD-H07	ASV69	Stem	0.261294673	Root	Bacillus	Firmicutes	Low
+P14B36ATU-C02	ASV69	Stem	0.351992733	Stem	Bacillus	Firmicutes	Low
+P14B36BTD-H09	ASV69	Stem	0.097430276	Root	Bacillus	Firmicutes	Low
+P14B36BTU-C04	ASV69	Stem	0.098126673	Stem	Bacillus	Firmicutes	Low
+P14B36CTD-A12	ASV69	Stem	0	Root	Bacillus	Firmicutes	Low
+P14B36CTU-C06	ASV69	Stem	0.060858981	Stem	Bacillus	Firmicutes	Low
+P14M20ATD-A08	ASV69	Stem	0.20153164	Root	Bacillus	Firmicutes	High
+P14M20ATU-D02	ASV69	Stem	0.299534058	Stem	Bacillus	Firmicutes	High
+P14M20BTD-A10	ASV69	Stem	0.049586777	Root	Bacillus	Firmicutes	High
+P14M20BTU-D04	ASV69	Stem	0.184842884	Stem	Bacillus	Firmicutes	High
+P14M20CTD-B12	ASV69	Stem	0.040650407	Root	Bacillus	Firmicutes	High
+P14M20CTU-D06	ASV69	Stem	0.04434028	Stem	Bacillus	Firmicutes	High
+P14M26ATD-C08	ASV69	Stem	0.344149459	Root	Bacillus	Firmicutes	Low
+P14M26ATU-F02	ASV69	Stem	0.554821664	Stem	Bacillus	Firmicutes	Low
+P14M26BTD-C10	ASV69	Stem	0.084554679	Root	Bacillus	Firmicutes	Low
+P14M26BTU-F04	ASV69	Stem	0.11155734	Stem	Bacillus	Firmicutes	Low
+P14M26CTD-D12	ASV69	Stem	0.054112554	Root	Bacillus	Firmicutes	Low
+P14M26CTU-F06	ASV69	Stem	0.035104964	Stem	Bacillus	Firmicutes	Low
+P14M30ATD-B08	ASV69	Stem	0.298195915	Root	Bacillus	Firmicutes	High
+P14M30ATU-E02	ASV69	Stem	0.384404174	Stem	Bacillus	Firmicutes	High
+P14M30BTD-B10	ASV69	Stem	0.157570549	Root	Bacillus	Firmicutes	High
+P14M30BTU-E04	ASV69	Stem	0.283904783	Stem	Bacillus	Firmicutes	High
+P14M30CTD-C12	ASV69	Stem	0	Root	Bacillus	Firmicutes	High
+P14M30CTU-E06	ASV69	Stem	0.160970778	Stem	Bacillus	Firmicutes	High
+P14M36ATD-D08	ASV69	Stem	0.310585799	Root	Bacillus	Firmicutes	Low
+P14M36ATU-G02	ASV69	Stem	0.392003136	Stem	Bacillus	Firmicutes	Low
+P14M36BTD-D10	ASV69	Stem	0.135263087	Root	Bacillus	Firmicutes	Low
+P14M36BTU-G04	ASV69	Stem	0.184527064	Stem	Bacillus	Firmicutes	Low
+P14M36CTD-E12	ASV69	Stem	0.064	Root	Bacillus	Firmicutes	Low
+P14M36CTU-G06	ASV69	Stem	0.064252336	Stem	Bacillus	Firmicutes	Low
+gyrB-D0A	ASV69	Stem	0.308937564	Soil	Bacillus	Firmicutes	High
+gyrB-D0B	ASV69	Stem	0.176048391	Soil	Bacillus	Firmicutes	High
+gyrB-D0C	ASV69	Stem	0.128064398	Soil	Bacillus	Firmicutes	High
+gyrB-D6A	ASV69	Stem	0.367705203	Soil	Bacillus	Firmicutes	Low
+gyrB-D6B	ASV69	Stem	0.137179746	Soil	Bacillus	Firmicutes	Low
+gyrB-D6C	ASV69	Stem	0	Soil	Bacillus	Firmicutes	Low
+gyrB-Boston-AF-1	ASV80	Seed	1.389317691	Seed	Sphingomonas-2	Proteobacteria	ns
+gyrB-Boston-AF-2	ASV80	Seed	4.004290311	Seed	Sphingomonas-2	Proteobacteria	ns
+gyrB-Boston-AF-3	ASV80	Seed	4.777870914	Seed	Sphingomonas-2	Proteobacteria	ns
+gyrB-Boston-AF-4	ASV80	Seed	2.442967487	Seed	Sphingomonas-2	Proteobacteria	ns
+gyrB-Boston-AF-5	ASV80	Seed	0.661157025	Seed	Sphingomonas-2	Proteobacteria	ns
+gyrB-Major-AF-1	ASV80	Seed	0	Seed	Sphingomonas-2	Proteobacteria	ns
+gyrB-Major-AF-3	ASV80	Seed	0	Seed	Sphingomonas-2	Proteobacteria	ns
+gyrB-AF-2017-Boston-1	ASV80	Seed	1.59507778	Seed	Sphingomonas-2	Proteobacteria	ns
+gyrB-AF-2017-Boston-2	ASV80	Seed	0.689193239	Seed	Sphingomonas-2	Proteobacteria	ns
+gyrB-AF-2017-Boston-3	ASV80	Seed	0.987654321	Seed	Sphingomonas-2	Proteobacteria	ns
+gyrB-AF-2017-Boston-4	ASV80	Seed	0.678935144	Seed	Sphingomonas-2	Proteobacteria	ns
+gyrB-AF-2017-Boston-5	ASV80	Seed	0.452314787	Seed	Sphingomonas-2	Proteobacteria	ns
+gyrB-AF-2017-Major-1	ASV80	Seed	0.656430797	Seed	Sphingomonas-2	Proteobacteria	ns
+gyrB-AF-2017-Major-2	ASV80	Seed	0.583821282	Seed	Sphingomonas-2	Proteobacteria	ns
+gyrB-AF-2017-Major-3	ASV80	Seed	0.838975031	Seed	Sphingomonas-2	Proteobacteria	ns
+gyrB-AF-2017-Major-4	ASV80	Seed	0.826789072	Seed	Sphingomonas-2	Proteobacteria	ns
+gyrB-AF-2017-Major-5	ASV80	Seed	0.783553295	Seed	Sphingomonas-2	Proteobacteria	ns
+P14B20ATD-E07	ASV80	Seed	0	Root	Sphingomonas-2	Proteobacteria	High
+P14B20ATU-H01	ASV80	Seed	0	Stem	Sphingomonas-2	Proteobacteria	High
+P14B20BTD-E09	ASV80	Seed	0	Root	Sphingomonas-2	Proteobacteria	High
+P14B20BTU-H03	ASV80	Seed	0	Stem	Sphingomonas-2	Proteobacteria	High
+P14B20CTD-E11	ASV80	Seed	0	Root	Sphingomonas-2	Proteobacteria	High
+P14B20CTU-H05	ASV80	Seed	0	Stem	Sphingomonas-2	Proteobacteria	High
+P14B26ATD-G07	ASV80	Seed	0	Root	Sphingomonas-2	Proteobacteria	Low
+P14B26ATU-B02	ASV80	Seed	0	Stem	Sphingomonas-2	Proteobacteria	Low
+P14B26BTD-G09	ASV80	Seed	0	Root	Sphingomonas-2	Proteobacteria	Low
+P14B26BTU-B04	ASV80	Seed	0	Stem	Sphingomonas-2	Proteobacteria	Low
+P14B26CTD-G11	ASV80	Seed	0	Root	Sphingomonas-2	Proteobacteria	Low
+P14B26CTU-B06	ASV80	Seed	0	Stem	Sphingomonas-2	Proteobacteria	Low
+P14B30ATD-F07	ASV80	Seed	0	Root	Sphingomonas-2	Proteobacteria	High
+P14B30ATU-A02	ASV80	Seed	0	Stem	Sphingomonas-2	Proteobacteria	High
+P14B30BTD-F09	ASV80	Seed	0	Root	Sphingomonas-2	Proteobacteria	High
+P14B30BTU-A04	ASV80	Seed	0	Stem	Sphingomonas-2	Proteobacteria	High
+P14B30CTD-F11	ASV80	Seed	0	Root	Sphingomonas-2	Proteobacteria	High
+P14B30CTU-A06	ASV80	Seed	0	Stem	Sphingomonas-2	Proteobacteria	High
+P14B36ATD-H07	ASV80	Seed	0	Root	Sphingomonas-2	Proteobacteria	Low
+P14B36ATU-C02	ASV80	Seed	0	Stem	Sphingomonas-2	Proteobacteria	Low
+P14B36BTD-H09	ASV80	Seed	0	Root	Sphingomonas-2	Proteobacteria	Low
+P14B36BTU-C04	ASV80	Seed	0	Stem	Sphingomonas-2	Proteobacteria	Low
+P14B36CTD-A12	ASV80	Seed	0	Root	Sphingomonas-2	Proteobacteria	Low
+P14B36CTU-C06	ASV80	Seed	0	Stem	Sphingomonas-2	Proteobacteria	Low
+P14M20ATD-A08	ASV80	Seed	0	Root	Sphingomonas-2	Proteobacteria	High
+P14M20ATU-D02	ASV80	Seed	0	Stem	Sphingomonas-2	Proteobacteria	High
+P14M20BTD-A10	ASV80	Seed	0	Root	Sphingomonas-2	Proteobacteria	High
+P14M20BTU-D04	ASV80	Seed	0	Stem	Sphingomonas-2	Proteobacteria	High
+P14M20CTD-B12	ASV80	Seed	0	Root	Sphingomonas-2	Proteobacteria	High
+P14M20CTU-D06	ASV80	Seed	0	Stem	Sphingomonas-2	Proteobacteria	High
+P14M26ATD-C08	ASV80	Seed	0	Root	Sphingomonas-2	Proteobacteria	Low
+P14M26ATU-F02	ASV80	Seed	0	Stem	Sphingomonas-2	Proteobacteria	Low
+P14M26BTD-C10	ASV80	Seed	0	Root	Sphingomonas-2	Proteobacteria	Low
+P14M26BTU-F04	ASV80	Seed	0	Stem	Sphingomonas-2	Proteobacteria	Low
+P14M26CTD-D12	ASV80	Seed	0	Root	Sphingomonas-2	Proteobacteria	Low
+P14M26CTU-F06	ASV80	Seed	0	Stem	Sphingomonas-2	Proteobacteria	Low
+P14M30ATD-B08	ASV80	Seed	0	Root	Sphingomonas-2	Proteobacteria	High
+P14M30ATU-E02	ASV80	Seed	0	Stem	Sphingomonas-2	Proteobacteria	High
+P14M30BTD-B10	ASV80	Seed	0	Root	Sphingomonas-2	Proteobacteria	High
+P14M30BTU-E04	ASV80	Seed	0	Stem	Sphingomonas-2	Proteobacteria	High
+P14M30CTD-C12	ASV80	Seed	0	Root	Sphingomonas-2	Proteobacteria	High
+P14M30CTU-E06	ASV80	Seed	0	Stem	Sphingomonas-2	Proteobacteria	High
+P14M36ATD-D08	ASV80	Seed	0	Root	Sphingomonas-2	Proteobacteria	Low
+P14M36ATU-G02	ASV80	Seed	0	Stem	Sphingomonas-2	Proteobacteria	Low
+P14M36BTD-D10	ASV80	Seed	0	Root	Sphingomonas-2	Proteobacteria	Low
+P14M36BTU-G04	ASV80	Seed	0	Stem	Sphingomonas-2	Proteobacteria	Low
+P14M36CTD-E12	ASV80	Seed	0	Root	Sphingomonas-2	Proteobacteria	Low
+P14M36CTU-G06	ASV80	Seed	0	Stem	Sphingomonas-2	Proteobacteria	Low
+gyrB-D0A	ASV80	Seed	0	Soil	Sphingomonas-2	Proteobacteria	High
+gyrB-D0B	ASV80	Seed	0	Soil	Sphingomonas-2	Proteobacteria	High
+gyrB-D0C	ASV80	Seed	0	Soil	Sphingomonas-2	Proteobacteria	High
+gyrB-D6A	ASV80	Seed	0	Soil	Sphingomonas-2	Proteobacteria	Low
+gyrB-D6B	ASV80	Seed	0	Soil	Sphingomonas-2	Proteobacteria	Low
+gyrB-D6C	ASV80	Seed	0	Soil	Sphingomonas-2	Proteobacteria	Low
+gyrB-Boston-AF-1	ASV96	Seed	1.466502007	Seed	Frigoribacterium	Actinobacteria	ns
+gyrB-Boston-AF-2	ASV96	Seed	3.825527351	Seed	Frigoribacterium	Actinobacteria	ns
+gyrB-Boston-AF-3	ASV96	Seed	3.813914501	Seed	Frigoribacterium	Actinobacteria	ns
+gyrB-Boston-AF-4	ASV96	Seed	2.33518951	Seed	Frigoribacterium	Actinobacteria	ns
+gyrB-Boston-AF-5	ASV96	Seed	0.561983471	Seed	Frigoribacterium	Actinobacteria	ns
+gyrB-Major-AF-1	ASV96	Seed	0	Seed	Frigoribacterium	Actinobacteria	ns
+gyrB-Major-AF-3	ASV96	Seed	0	Seed	Frigoribacterium	Actinobacteria	ns
+gyrB-AF-2017-Boston-1	ASV96	Seed	0.998374739	Seed	Frigoribacterium	Actinobacteria	ns
+gyrB-AF-2017-Boston-2	ASV96	Seed	0.456524421	Seed	Frigoribacterium	Actinobacteria	ns
+gyrB-AF-2017-Boston-3	ASV96	Seed	0.885211453	Seed	Frigoribacterium	Actinobacteria	ns
+gyrB-AF-2017-Boston-4	ASV96	Seed	0.734520477	Seed	Frigoribacterium	Actinobacteria	ns
+gyrB-AF-2017-Boston-5	ASV96	Seed	0.335540708	Seed	Frigoribacterium	Actinobacteria	ns
+gyrB-AF-2017-Major-1	ASV96	Seed	0.68186153	Seed	Frigoribacterium	Actinobacteria	ns
+gyrB-AF-2017-Major-2	ASV96	Seed	0.803612823	Seed	Frigoribacterium	Actinobacteria	ns
+gyrB-AF-2017-Major-3	ASV96	Seed	0.693382835	Seed	Frigoribacterium	Actinobacteria	ns
+gyrB-AF-2017-Major-4	ASV96	Seed	0.705121115	Seed	Frigoribacterium	Actinobacteria	ns
+gyrB-AF-2017-Major-5	ASV96	Seed	0.763766596	Seed	Frigoribacterium	Actinobacteria	ns
+P14B20ATD-E07	ASV96	Seed	0	Root	Frigoribacterium	Actinobacteria	High
+P14B20ATU-H01	ASV96	Seed	0	Stem	Frigoribacterium	Actinobacteria	High
+P14B20BTD-E09	ASV96	Seed	0	Root	Frigoribacterium	Actinobacteria	High
+P14B20BTU-H03	ASV96	Seed	0	Stem	Frigoribacterium	Actinobacteria	High
+P14B20CTD-E11	ASV96	Seed	0	Root	Frigoribacterium	Actinobacteria	High
+P14B20CTU-H05	ASV96	Seed	0	Stem	Frigoribacterium	Actinobacteria	High
+P14B26ATD-G07	ASV96	Seed	0	Root	Frigoribacterium	Actinobacteria	Low
+P14B26ATU-B02	ASV96	Seed	0	Stem	Frigoribacterium	Actinobacteria	Low
+P14B26BTD-G09	ASV96	Seed	0	Root	Frigoribacterium	Actinobacteria	Low
+P14B26BTU-B04	ASV96	Seed	0	Stem	Frigoribacterium	Actinobacteria	Low
+P14B26CTD-G11	ASV96	Seed	0	Root	Frigoribacterium	Actinobacteria	Low
+P14B26CTU-B06	ASV96	Seed	0	Stem	Frigoribacterium	Actinobacteria	Low
+P14B30ATD-F07	ASV96	Seed	0	Root	Frigoribacterium	Actinobacteria	High
+P14B30ATU-A02	ASV96	Seed	0	Stem	Frigoribacterium	Actinobacteria	High
+P14B30BTD-F09	ASV96	Seed	0	Root	Frigoribacterium	Actinobacteria	High
+P14B30BTU-A04	ASV96	Seed	0	Stem	Frigoribacterium	Actinobacteria	High
+P14B30CTD-F11	ASV96	Seed	0	Root	Frigoribacterium	Actinobacteria	High
+P14B30CTU-A06	ASV96	Seed	0	Stem	Frigoribacterium	Actinobacteria	High
+P14B36ATD-H07	ASV96	Seed	0	Root	Frigoribacterium	Actinobacteria	Low
+P14B36ATU-C02	ASV96	Seed	0	Stem	Frigoribacterium	Actinobacteria	Low
+P14B36BTD-H09	ASV96	Seed	0	Root	Frigoribacterium	Actinobacteria	Low
+P14B36BTU-C04	ASV96	Seed	0	Stem	Frigoribacterium	Actinobacteria	Low
+P14B36CTD-A12	ASV96	Seed	0	Root	Frigoribacterium	Actinobacteria	Low
+P14B36CTU-C06	ASV96	Seed	0	Stem	Frigoribacterium	Actinobacteria	Low
+P14M20ATD-A08	ASV96	Seed	0	Root	Frigoribacterium	Actinobacteria	High
+P14M20ATU-D02	ASV96	Seed	0	Stem	Frigoribacterium	Actinobacteria	High
+P14M20BTD-A10	ASV96	Seed	0	Root	Frigoribacterium	Actinobacteria	High
+P14M20BTU-D04	ASV96	Seed	0	Stem	Frigoribacterium	Actinobacteria	High
+P14M20CTD-B12	ASV96	Seed	0	Root	Frigoribacterium	Actinobacteria	High
+P14M20CTU-D06	ASV96	Seed	0	Stem	Frigoribacterium	Actinobacteria	High
+P14M26ATD-C08	ASV96	Seed	0	Root	Frigoribacterium	Actinobacteria	Low
+P14M26ATU-F02	ASV96	Seed	0	Stem	Frigoribacterium	Actinobacteria	Low
+P14M26BTD-C10	ASV96	Seed	0	Root	Frigoribacterium	Actinobacteria	Low
+P14M26BTU-F04	ASV96	Seed	0	Stem	Frigoribacterium	Actinobacteria	Low
+P14M26CTD-D12	ASV96	Seed	0	Root	Frigoribacterium	Actinobacteria	Low
+P14M26CTU-F06	ASV96	Seed	0	Stem	Frigoribacterium	Actinobacteria	Low
+P14M30ATD-B08	ASV96	Seed	0	Root	Frigoribacterium	Actinobacteria	High
+P14M30ATU-E02	ASV96	Seed	0	Stem	Frigoribacterium	Actinobacteria	High
+P14M30BTD-B10	ASV96	Seed	0	Root	Frigoribacterium	Actinobacteria	High
+P14M30BTU-E04	ASV96	Seed	0	Stem	Frigoribacterium	Actinobacteria	High
+P14M30CTD-C12	ASV96	Seed	0	Root	Frigoribacterium	Actinobacteria	High
+P14M30CTU-E06	ASV96	Seed	0	Stem	Frigoribacterium	Actinobacteria	High
+P14M36ATD-D08	ASV96	Seed	0	Root	Frigoribacterium	Actinobacteria	Low
+P14M36ATU-G02	ASV96	Seed	0	Stem	Frigoribacterium	Actinobacteria	Low
+P14M36BTD-D10	ASV96	Seed	0	Root	Frigoribacterium	Actinobacteria	Low
+P14M36BTU-G04	ASV96	Seed	0	Stem	Frigoribacterium	Actinobacteria	Low
+P14M36CTD-E12	ASV96	Seed	0	Root	Frigoribacterium	Actinobacteria	Low
+P14M36CTU-G06	ASV96	Seed	0	Stem	Frigoribacterium	Actinobacteria	Low
+gyrB-D0A	ASV96	Seed	0	Soil	Frigoribacterium	Actinobacteria	High
+gyrB-D0B	ASV96	Seed	0	Soil	Frigoribacterium	Actinobacteria	High
+gyrB-D0C	ASV96	Seed	0	Soil	Frigoribacterium	Actinobacteria	High
+gyrB-D6A	ASV96	Seed	0	Soil	Frigoribacterium	Actinobacteria	Low
+gyrB-D6B	ASV96	Seed	0	Soil	Frigoribacterium	Actinobacteria	Low
+gyrB-D6C	ASV96	Seed	0	Soil	Frigoribacterium	Actinobacteria	Low
+gyrB-Boston-AF-1	ASV100	Root	0	Seed	Ensifer adhaerens	Proteobacteria	ns
+gyrB-Boston-AF-2	ASV100	Root	0	Seed	Ensifer adhaerens	Proteobacteria	ns
+gyrB-Boston-AF-3	ASV100	Root	0	Seed	Ensifer adhaerens	Proteobacteria	ns
+gyrB-Boston-AF-4	ASV100	Root	0	Seed	Ensifer adhaerens	Proteobacteria	ns
+gyrB-Boston-AF-5	ASV100	Root	0	Seed	Ensifer adhaerens	Proteobacteria	ns
+gyrB-Major-AF-1	ASV100	Root	0	Seed	Ensifer adhaerens	Proteobacteria	ns
+gyrB-Major-AF-3	ASV100	Root	0	Seed	Ensifer adhaerens	Proteobacteria	ns
+gyrB-AF-2017-Boston-1	ASV100	Root	0	Seed	Ensifer adhaerens	Proteobacteria	ns
+gyrB-AF-2017-Boston-2	ASV100	Root	0	Seed	Ensifer adhaerens	Proteobacteria	ns
+gyrB-AF-2017-Boston-3	ASV100	Root	0	Seed	Ensifer adhaerens	Proteobacteria	ns
+gyrB-AF-2017-Boston-4	ASV100	Root	0	Seed	Ensifer adhaerens	Proteobacteria	ns
+gyrB-AF-2017-Boston-5	ASV100	Root	0	Seed	Ensifer adhaerens	Proteobacteria	ns
+gyrB-AF-2017-Major-1	ASV100	Root	0	Seed	Ensifer adhaerens	Proteobacteria	ns
+gyrB-AF-2017-Major-2	ASV100	Root	0	Seed	Ensifer adhaerens	Proteobacteria	ns
+gyrB-AF-2017-Major-3	ASV100	Root	0	Seed	Ensifer adhaerens	Proteobacteria	ns
+gyrB-AF-2017-Major-4	ASV100	Root	0	Seed	Ensifer adhaerens	Proteobacteria	ns
+gyrB-AF-2017-Major-5	ASV100	Root	0	Seed	Ensifer adhaerens	Proteobacteria	ns
+P14B20ATD-E07	ASV100	Root	0.11964903	Root	Ensifer adhaerens	Proteobacteria	High
+P14B20ATU-H01	ASV100	Root	0.14084507	Stem	Ensifer adhaerens	Proteobacteria	High
+P14B20BTD-E09	ASV100	Root	0.167961369	Root	Ensifer adhaerens	Proteobacteria	High
+P14B20BTU-H03	ASV100	Root	0.058234335	Stem	Ensifer adhaerens	Proteobacteria	High
+P14B20CTD-E11	ASV100	Root	0.196270854	Root	Ensifer adhaerens	Proteobacteria	High
+P14B20CTU-H05	ASV100	Root	0.09951569	Stem	Ensifer adhaerens	Proteobacteria	High
+P14B26ATD-G07	ASV100	Root	0.212438649	Root	Ensifer adhaerens	Proteobacteria	Low
+P14B26ATU-B02	ASV100	Root	0.169226764	Stem	Ensifer adhaerens	Proteobacteria	Low
+P14B26BTD-G09	ASV100	Root	1.378014407	Root	Ensifer adhaerens	Proteobacteria	Low
+P14B26BTU-B04	ASV100	Root	0.467428402	Stem	Ensifer adhaerens	Proteobacteria	Low
+P14B26CTD-G11	ASV100	Root	0.590821654	Root	Ensifer adhaerens	Proteobacteria	Low
+P14B26CTU-B06	ASV100	Root	0.195950359	Stem	Ensifer adhaerens	Proteobacteria	Low
+P14B30ATD-F07	ASV100	Root	0.088583767	Root	Ensifer adhaerens	Proteobacteria	High
+P14B30ATU-A02	ASV100	Root	0.055240989	Stem	Ensifer adhaerens	Proteobacteria	High
+P14B30BTD-F09	ASV100	Root	0.217588395	Root	Ensifer adhaerens	Proteobacteria	High
+P14B30BTU-A04	ASV100	Root	0	Stem	Ensifer adhaerens	Proteobacteria	High
+P14B30CTD-F11	ASV100	Root	0	Root	Ensifer adhaerens	Proteobacteria	High
+P14B30CTU-A06	ASV100	Root	0	Stem	Ensifer adhaerens	Proteobacteria	High
+P14B36ATD-H07	ASV100	Root	0.21072151	Root	Ensifer adhaerens	Proteobacteria	Low
+P14B36ATU-C02	ASV100	Root	0.215737482	Stem	Ensifer adhaerens	Proteobacteria	Low
+P14B36BTD-H09	ASV100	Root	1.619778346	Root	Ensifer adhaerens	Proteobacteria	Low
+P14B36BTU-C04	ASV100	Root	0.553077609	Stem	Ensifer adhaerens	Proteobacteria	Low
+P14B36CTD-A12	ASV100	Root	0.585453727	Root	Ensifer adhaerens	Proteobacteria	Low
+P14B36CTU-C06	ASV100	Root	0.269518345	Stem	Ensifer adhaerens	Proteobacteria	Low
+P14M20ATD-A08	ASV100	Root	0.161225312	Root	Ensifer adhaerens	Proteobacteria	High
+P14M20ATU-D02	ASV100	Root	0	Stem	Ensifer adhaerens	Proteobacteria	High
+P14M20BTD-A10	ASV100	Root	0.115702479	Root	Ensifer adhaerens	Proteobacteria	High
+P14M20BTU-D04	ASV100	Root	0	Stem	Ensifer adhaerens	Proteobacteria	High
+P14M20CTD-B12	ASV100	Root	0	Root	Ensifer adhaerens	Proteobacteria	High
+P14M20CTU-D06	ASV100	Root	0	Stem	Ensifer adhaerens	Proteobacteria	High
+P14M26ATD-C08	ASV100	Root	0.147492625	Root	Ensifer adhaerens	Proteobacteria	Low
+P14M26ATU-F02	ASV100	Root	0.250990753	Stem	Ensifer adhaerens	Proteobacteria	Low
+P14M26BTD-C10	ASV100	Root	1.803833145	Root	Ensifer adhaerens	Proteobacteria	Low
+P14M26BTU-F04	ASV100	Root	1.182507809	Stem	Ensifer adhaerens	Proteobacteria	Low
+P14M26CTD-D12	ASV100	Root	0.324675325	Root	Ensifer adhaerens	Proteobacteria	Low
+P14M26CTU-F06	ASV100	Root	0.294881696	Stem	Ensifer adhaerens	Proteobacteria	Low
+P14M30ATD-B08	ASV100	Root	0.178917549	Root	Ensifer adhaerens	Proteobacteria	High
+P14M30ATU-E02	ASV100	Root	0	Stem	Ensifer adhaerens	Proteobacteria	High
+P14M30BTD-B10	ASV100	Root	0.071622977	Root	Ensifer adhaerens	Proteobacteria	High
+P14M30BTU-E04	ASV100	Root	0	Stem	Ensifer adhaerens	Proteobacteria	High
+P14M30CTD-C12	ASV100	Root	0	Root	Ensifer adhaerens	Proteobacteria	High
+P14M30CTU-E06	ASV100	Root	0	Stem	Ensifer adhaerens	Proteobacteria	High
+P14M36ATD-D08	ASV100	Root	0.18117505	Root	Ensifer adhaerens	Proteobacteria	Low
+P14M36ATU-G02	ASV100	Root	0.274402195	Stem	Ensifer adhaerens	Proteobacteria	Low
+P14M36BTD-D10	ASV100	Root	1.771946436	Root	Ensifer adhaerens	Proteobacteria	Low
+P14M36BTU-G04	ASV100	Root	1.353198469	Stem	Ensifer adhaerens	Proteobacteria	Low
+P14M36CTD-E12	ASV100	Root	0.56	Root	Ensifer adhaerens	Proteobacteria	Low
+P14M36CTU-G06	ASV100	Root	0.367990654	Stem	Ensifer adhaerens	Proteobacteria	Low
+gyrB-D0A	ASV100	Root	0	Soil	Ensifer adhaerens	Proteobacteria	High
+gyrB-D0B	ASV100	Root	0.058682797	Soil	Ensifer adhaerens	Proteobacteria	High
+gyrB-D0C	ASV100	Root	0.054884742	Soil	Ensifer adhaerens	Proteobacteria	High
+gyrB-D6A	ASV100	Root	0.12652222	Soil	Ensifer adhaerens	Proteobacteria	Low
+gyrB-D6B	ASV100	Root	0.409521888	Soil	Ensifer adhaerens	Proteobacteria	Low
+gyrB-D6C	ASV100	Root	0.175109752	Soil	Ensifer adhaerens	Proteobacteria	Low
+gyrB-Boston-AF-1	ASV108	Seed	0.910774931	Seed	Sphingomonas-3	Proteobacteria	ns
+gyrB-Boston-AF-2	ASV108	Seed	3.611011798	Seed	Sphingomonas-3	Proteobacteria	ns
+gyrB-Boston-AF-3	ASV108	Seed	0.922045264	Seed	Sphingomonas-3	Proteobacteria	ns
+gyrB-Boston-AF-4	ASV108	Seed	1.508891683	Seed	Sphingomonas-3	Proteobacteria	ns
+gyrB-Boston-AF-5	ASV108	Seed	0.099173554	Seed	Sphingomonas-3	Proteobacteria	ns
+gyrB-Major-AF-1	ASV108	Seed	0	Seed	Sphingomonas-3	Proteobacteria	ns
+gyrB-Major-AF-3	ASV108	Seed	0	Seed	Sphingomonas-3	Proteobacteria	ns
+gyrB-AF-2017-Boston-1	ASV108	Seed	0.499187369	Seed	Sphingomonas-3	Proteobacteria	ns
+gyrB-AF-2017-Boston-2	ASV108	Seed	0.207991821	Seed	Sphingomonas-3	Proteobacteria	ns
+gyrB-AF-2017-Boston-3	ASV108	Seed	0.648804833	Seed	Sphingomonas-3	Proteobacteria	ns
+gyrB-AF-2017-Boston-4	ASV108	Seed	0.420860382	Seed	Sphingomonas-3	Proteobacteria	ns
+gyrB-AF-2017-Boston-5	ASV108	Seed	0.152249749	Seed	Sphingomonas-3	Proteobacteria	ns
+gyrB-AF-2017-Major-1	ASV108	Seed	1.061733104	Seed	Sphingomonas-3	Proteobacteria	ns
+gyrB-AF-2017-Major-2	ASV108	Seed	1.239761664	Seed	Sphingomonas-3	Proteobacteria	ns
+gyrB-AF-2017-Major-3	ASV108	Seed	0.735240591	Seed	Sphingomonas-3	Proteobacteria	ns
+gyrB-AF-2017-Major-4	ASV108	Seed	0.75489437	Seed	Sphingomonas-3	Proteobacteria	ns
+gyrB-AF-2017-Major-5	ASV108	Seed	0.724193197	Seed	Sphingomonas-3	Proteobacteria	ns
+P14B20ATD-E07	ASV108	Seed	0	Root	Sphingomonas-3	Proteobacteria	High
+P14B20ATU-H01	ASV108	Seed	0	Stem	Sphingomonas-3	Proteobacteria	High
+P14B20BTD-E09	ASV108	Seed	0	Root	Sphingomonas-3	Proteobacteria	High
+P14B20BTU-H03	ASV108	Seed	0	Stem	Sphingomonas-3	Proteobacteria	High
+P14B20CTD-E11	ASV108	Seed	0	Root	Sphingomonas-3	Proteobacteria	High
+P14B20CTU-H05	ASV108	Seed	0	Stem	Sphingomonas-3	Proteobacteria	High
+P14B26ATD-G07	ASV108	Seed	0	Root	Sphingomonas-3	Proteobacteria	Low
+P14B26ATU-B02	ASV108	Seed	0	Stem	Sphingomonas-3	Proteobacteria	Low
+P14B26BTD-G09	ASV108	Seed	0	Root	Sphingomonas-3	Proteobacteria	Low
+P14B26BTU-B04	ASV108	Seed	0	Stem	Sphingomonas-3	Proteobacteria	Low
+P14B26CTD-G11	ASV108	Seed	0	Root	Sphingomonas-3	Proteobacteria	Low
+P14B26CTU-B06	ASV108	Seed	0	Stem	Sphingomonas-3	Proteobacteria	Low
+P14B30ATD-F07	ASV108	Seed	0	Root	Sphingomonas-3	Proteobacteria	High
+P14B30ATU-A02	ASV108	Seed	0	Stem	Sphingomonas-3	Proteobacteria	High
+P14B30BTD-F09	ASV108	Seed	0	Root	Sphingomonas-3	Proteobacteria	High
+P14B30BTU-A04	ASV108	Seed	0	Stem	Sphingomonas-3	Proteobacteria	High
+P14B30CTD-F11	ASV108	Seed	0	Root	Sphingomonas-3	Proteobacteria	High
+P14B30CTU-A06	ASV108	Seed	0	Stem	Sphingomonas-3	Proteobacteria	High
+P14B36ATD-H07	ASV108	Seed	0	Root	Sphingomonas-3	Proteobacteria	Low
+P14B36ATU-C02	ASV108	Seed	0	Stem	Sphingomonas-3	Proteobacteria	Low
+P14B36BTD-H09	ASV108	Seed	0	Root	Sphingomonas-3	Proteobacteria	Low
+P14B36BTU-C04	ASV108	Seed	0	Stem	Sphingomonas-3	Proteobacteria	Low
+P14B36CTD-A12	ASV108	Seed	0	Root	Sphingomonas-3	Proteobacteria	Low
+P14B36CTU-C06	ASV108	Seed	0	Stem	Sphingomonas-3	Proteobacteria	Low
+P14M20ATD-A08	ASV108	Seed	0	Root	Sphingomonas-3	Proteobacteria	High
+P14M20ATU-D02	ASV108	Seed	0	Stem	Sphingomonas-3	Proteobacteria	High
+P14M20BTD-A10	ASV108	Seed	0	Root	Sphingomonas-3	Proteobacteria	High
+P14M20BTU-D04	ASV108	Seed	0	Stem	Sphingomonas-3	Proteobacteria	High
+P14M20CTD-B12	ASV108	Seed	0	Root	Sphingomonas-3	Proteobacteria	High
+P14M20CTU-D06	ASV108	Seed	0	Stem	Sphingomonas-3	Proteobacteria	High
+P14M26ATD-C08	ASV108	Seed	0	Root	Sphingomonas-3	Proteobacteria	Low
+P14M26ATU-F02	ASV108	Seed	0	Stem	Sphingomonas-3	Proteobacteria	Low
+P14M26BTD-C10	ASV108	Seed	0	Root	Sphingomonas-3	Proteobacteria	Low
+P14M26BTU-F04	ASV108	Seed	0	Stem	Sphingomonas-3	Proteobacteria	Low
+P14M26CTD-D12	ASV108	Seed	0	Root	Sphingomonas-3	Proteobacteria	Low
+P14M26CTU-F06	ASV108	Seed	0	Stem	Sphingomonas-3	Proteobacteria	Low
+P14M30ATD-B08	ASV108	Seed	0	Root	Sphingomonas-3	Proteobacteria	High
+P14M30ATU-E02	ASV108	Seed	0	Stem	Sphingomonas-3	Proteobacteria	High
+P14M30BTD-B10	ASV108	Seed	0	Root	Sphingomonas-3	Proteobacteria	High
+P14M30BTU-E04	ASV108	Seed	0	Stem	Sphingomonas-3	Proteobacteria	High
+P14M30CTD-C12	ASV108	Seed	0	Root	Sphingomonas-3	Proteobacteria	High
+P14M30CTU-E06	ASV108	Seed	0	Stem	Sphingomonas-3	Proteobacteria	High
+P14M36ATD-D08	ASV108	Seed	0	Root	Sphingomonas-3	Proteobacteria	Low
+P14M36ATU-G02	ASV108	Seed	0	Stem	Sphingomonas-3	Proteobacteria	Low
+P14M36BTD-D10	ASV108	Seed	0	Root	Sphingomonas-3	Proteobacteria	Low
+P14M36BTU-G04	ASV108	Seed	0	Stem	Sphingomonas-3	Proteobacteria	Low
+P14M36CTD-E12	ASV108	Seed	0	Root	Sphingomonas-3	Proteobacteria	Low
+P14M36CTU-G06	ASV108	Seed	0	Stem	Sphingomonas-3	Proteobacteria	Low
+gyrB-D0A	ASV108	Seed	0	Soil	Sphingomonas-3	Proteobacteria	High
+gyrB-D0B	ASV108	Seed	0	Soil	Sphingomonas-3	Proteobacteria	High
+gyrB-D0C	ASV108	Seed	0	Soil	Sphingomonas-3	Proteobacteria	High
+gyrB-D6A	ASV108	Seed	0	Soil	Sphingomonas-3	Proteobacteria	Low
+gyrB-D6B	ASV108	Seed	0	Soil	Sphingomonas-3	Proteobacteria	Low
+gyrB-D6C	ASV108	Seed	0	Soil	Sphingomonas-3	Proteobacteria	Low
+gyrB-Boston-AF-1	ASV196	Soil	0	Seed	Unclassified Xanthomonadaceae-2	Proteobacteria	ns
+gyrB-Boston-AF-2	ASV196	Soil	0	Seed	Unclassified Xanthomonadaceae-2	Proteobacteria	ns
+gyrB-Boston-AF-3	ASV196	Soil	0	Seed	Unclassified Xanthomonadaceae-2	Proteobacteria	ns
+gyrB-Boston-AF-4	ASV196	Soil	0	Seed	Unclassified Xanthomonadaceae-2	Proteobacteria	ns
+gyrB-Boston-AF-5	ASV196	Soil	0	Seed	Unclassified Xanthomonadaceae-2	Proteobacteria	ns
+gyrB-Major-AF-1	ASV196	Soil	0	Seed	Unclassified Xanthomonadaceae-2	Proteobacteria	ns
+gyrB-Major-AF-3	ASV196	Soil	0	Seed	Unclassified Xanthomonadaceae-2	Proteobacteria	ns
+gyrB-AF-2017-Boston-1	ASV196	Soil	0	Seed	Unclassified Xanthomonadaceae-2	Proteobacteria	ns
+gyrB-AF-2017-Boston-2	ASV196	Soil	0	Seed	Unclassified Xanthomonadaceae-2	Proteobacteria	ns
+gyrB-AF-2017-Boston-3	ASV196	Soil	0	Seed	Unclassified Xanthomonadaceae-2	Proteobacteria	ns
+gyrB-AF-2017-Boston-4	ASV196	Soil	0	Seed	Unclassified Xanthomonadaceae-2	Proteobacteria	ns
+gyrB-AF-2017-Boston-5	ASV196	Soil	0	Seed	Unclassified Xanthomonadaceae-2	Proteobacteria	ns
+gyrB-AF-2017-Major-1	ASV196	Soil	0	Seed	Unclassified Xanthomonadaceae-2	Proteobacteria	ns
+gyrB-AF-2017-Major-2	ASV196	Soil	0	Seed	Unclassified Xanthomonadaceae-2	Proteobacteria	ns
+gyrB-AF-2017-Major-3	ASV196	Soil	0	Seed	Unclassified Xanthomonadaceae-2	Proteobacteria	ns
+gyrB-AF-2017-Major-4	ASV196	Soil	0	Seed	Unclassified Xanthomonadaceae-2	Proteobacteria	ns
+gyrB-AF-2017-Major-5	ASV196	Soil	0	Seed	Unclassified Xanthomonadaceae-2	Proteobacteria	ns
+P14B20ATD-E07	ASV196	Soil	0	Root	Unclassified Xanthomonadaceae-2	Proteobacteria	High
+P14B20ATU-H01	ASV196	Soil	0	Stem	Unclassified Xanthomonadaceae-2	Proteobacteria	High
+P14B20BTD-E09	ASV196	Soil	0	Root	Unclassified Xanthomonadaceae-2	Proteobacteria	High
+P14B20BTU-H03	ASV196	Soil	0	Stem	Unclassified Xanthomonadaceae-2	Proteobacteria	High
+P14B20CTD-E11	ASV196	Soil	0	Root	Unclassified Xanthomonadaceae-2	Proteobacteria	High
+P14B20CTU-H05	ASV196	Soil	0	Stem	Unclassified Xanthomonadaceae-2	Proteobacteria	High
+P14B26ATD-G07	ASV196	Soil	0	Root	Unclassified Xanthomonadaceae-2	Proteobacteria	Low
+P14B26ATU-B02	ASV196	Soil	0	Stem	Unclassified Xanthomonadaceae-2	Proteobacteria	Low
+P14B26BTD-G09	ASV196	Soil	0.266207329	Root	Unclassified Xanthomonadaceae-2	Proteobacteria	Low
+P14B26BTU-B04	ASV196	Soil	0.118711975	Stem	Unclassified Xanthomonadaceae-2	Proteobacteria	Low
+P14B26CTD-G11	ASV196	Soil	0	Root	Unclassified Xanthomonadaceae-2	Proteobacteria	Low
+P14B26CTU-B06	ASV196	Soil	0	Stem	Unclassified Xanthomonadaceae-2	Proteobacteria	Low
+P14B30ATD-F07	ASV196	Soil	0	Root	Unclassified Xanthomonadaceae-2	Proteobacteria	High
+P14B30ATU-A02	ASV196	Soil	0	Stem	Unclassified Xanthomonadaceae-2	Proteobacteria	High
+P14B30BTD-F09	ASV196	Soil	0	Root	Unclassified Xanthomonadaceae-2	Proteobacteria	High
+P14B30BTU-A04	ASV196	Soil	0	Stem	Unclassified Xanthomonadaceae-2	Proteobacteria	High
+P14B30CTD-F11	ASV196	Soil	0	Root	Unclassified Xanthomonadaceae-2	Proteobacteria	High
+P14B30CTU-A06	ASV196	Soil	0	Stem	Unclassified Xanthomonadaceae-2	Proteobacteria	High
+P14B36ATD-H07	ASV196	Soil	0.067430883	Root	Unclassified Xanthomonadaceae-2	Proteobacteria	Low
+P14B36ATU-C02	ASV196	Soil	0.045418417	Stem	Unclassified Xanthomonadaceae-2	Proteobacteria	Low
+P14B36BTD-H09	ASV196	Soil	0.231396907	Root	Unclassified Xanthomonadaceae-2	Proteobacteria	Low
+P14B36BTU-C04	ASV196	Soil	0.151650312	Stem	Unclassified Xanthomonadaceae-2	Proteobacteria	Low
+P14B36CTD-A12	ASV196	Soil	0	Root	Unclassified Xanthomonadaceae-2	Proteobacteria	Low
+P14B36CTU-C06	ASV196	Soil	0	Stem	Unclassified Xanthomonadaceae-2	Proteobacteria	Low
+P14M20ATD-A08	ASV196	Soil	0	Root	Unclassified Xanthomonadaceae-2	Proteobacteria	High
+P14M20ATU-D02	ASV196	Soil	0	Stem	Unclassified Xanthomonadaceae-2	Proteobacteria	High
+P14M20BTD-A10	ASV196	Soil	0	Root	Unclassified Xanthomonadaceae-2	Proteobacteria	High
+P14M20BTU-D04	ASV196	Soil	0	Stem	Unclassified Xanthomonadaceae-2	Proteobacteria	High
+P14M20CTD-B12	ASV196	Soil	0	Root	Unclassified Xanthomonadaceae-2	Proteobacteria	High
+P14M20CTU-D06	ASV196	Soil	0	Stem	Unclassified Xanthomonadaceae-2	Proteobacteria	High
+P14M26ATD-C08	ASV196	Soil	0	Root	Unclassified Xanthomonadaceae-2	Proteobacteria	Low
+P14M26ATU-F02	ASV196	Soil	0.079260238	Stem	Unclassified Xanthomonadaceae-2	Proteobacteria	Low
+P14M26BTD-C10	ASV196	Soil	0.281848929	Root	Unclassified Xanthomonadaceae-2	Proteobacteria	Low
+P14M26BTU-F04	ASV196	Soil	0.096683028	Stem	Unclassified Xanthomonadaceae-2	Proteobacteria	Low
+P14M26CTD-D12	ASV196	Soil	0	Root	Unclassified Xanthomonadaceae-2	Proteobacteria	Low
+P14M26CTU-F06	ASV196	Soil	0	Stem	Unclassified Xanthomonadaceae-2	Proteobacteria	Low
+P14M30ATD-B08	ASV196	Soil	0	Root	Unclassified Xanthomonadaceae-2	Proteobacteria	High
+P14M30ATU-E02	ASV196	Soil	0	Stem	Unclassified Xanthomonadaceae-2	Proteobacteria	High
+P14M30BTD-B10	ASV196	Soil	0	Root	Unclassified Xanthomonadaceae-2	Proteobacteria	High
+P14M30BTU-E04	ASV196	Soil	0	Stem	Unclassified Xanthomonadaceae-2	Proteobacteria	High
+P14M30CTD-C12	ASV196	Soil	0	Root	Unclassified Xanthomonadaceae-2	Proteobacteria	High
+P14M30CTU-E06	ASV196	Soil	0	Stem	Unclassified Xanthomonadaceae-2	Proteobacteria	High
+P14M36ATD-D08	ASV196	Soil	0.069019067	Root	Unclassified Xanthomonadaceae-2	Proteobacteria	Low
+P14M36ATU-G02	ASV196	Soil	0	Stem	Unclassified Xanthomonadaceae-2	Proteobacteria	Low
+P14M36BTD-D10	ASV196	Soil	0.297578791	Root	Unclassified Xanthomonadaceae-2	Proteobacteria	Low
+P14M36BTU-G04	ASV196	Soil	0.123018043	Stem	Unclassified Xanthomonadaceae-2	Proteobacteria	Low
+P14M36CTD-E12	ASV196	Soil	0	Root	Unclassified Xanthomonadaceae-2	Proteobacteria	Low
+P14M36CTU-G06	ASV196	Soil	0	Stem	Unclassified Xanthomonadaceae-2	Proteobacteria	Low
+gyrB-D0A	ASV196	Soil	0.284222559	Soil	Unclassified Xanthomonadaceae-2	Proteobacteria	High
+gyrB-D0B	ASV196	Soil	0.099309349	Soil	Unclassified Xanthomonadaceae-2	Proteobacteria	High
+gyrB-D0C	ASV196	Soil	0.162367362	Soil	Unclassified Xanthomonadaceae-2	Proteobacteria	High
+gyrB-D6A	ASV196	Soil	0.537719437	Soil	Unclassified Xanthomonadaceae-2	Proteobacteria	Low
+gyrB-D6B	ASV196	Soil	2.114181965	Soil	Unclassified Xanthomonadaceae-2	Proteobacteria	Low
+gyrB-D6C	ASV196	Soil	0.113451389	Soil	Unclassified Xanthomonadaceae-2	Proteobacteria	Low
+gyrB-Boston-AF-1	ASV92	Soil	0	Seed	Sphingomonas	Proteobacteria	ns
+gyrB-Boston-AF-2	ASV92	Soil	0	Seed	Sphingomonas	Proteobacteria	ns
+gyrB-Boston-AF-3	ASV92	Soil	0	Seed	Sphingomonas	Proteobacteria	ns
+gyrB-Boston-AF-4	ASV92	Soil	0	Seed	Sphingomonas	Proteobacteria	ns
+gyrB-Boston-AF-5	ASV92	Soil	0	Seed	Sphingomonas	Proteobacteria	ns
+gyrB-Major-AF-1	ASV92	Soil	0	Seed	Sphingomonas	Proteobacteria	ns
+gyrB-Major-AF-3	ASV92	Soil	0	Seed	Sphingomonas	Proteobacteria	ns
+gyrB-AF-2017-Boston-1	ASV92	Soil	0	Seed	Sphingomonas	Proteobacteria	ns
+gyrB-AF-2017-Boston-2	ASV92	Soil	0	Seed	Sphingomonas	Proteobacteria	ns
+gyrB-AF-2017-Boston-3	ASV92	Soil	0	Seed	Sphingomonas	Proteobacteria	ns
+gyrB-AF-2017-Boston-4	ASV92	Soil	0	Seed	Sphingomonas	Proteobacteria	ns
+gyrB-AF-2017-Boston-5	ASV92	Soil	0	Seed	Sphingomonas	Proteobacteria	ns
+gyrB-AF-2017-Major-1	ASV92	Soil	0	Seed	Sphingomonas	Proteobacteria	ns
+gyrB-AF-2017-Major-2	ASV92	Soil	0	Seed	Sphingomonas	Proteobacteria	ns
+gyrB-AF-2017-Major-3	ASV92	Soil	0	Seed	Sphingomonas	Proteobacteria	ns
+gyrB-AF-2017-Major-4	ASV92	Soil	0	Seed	Sphingomonas	Proteobacteria	ns
+gyrB-AF-2017-Major-5	ASV92	Soil	0	Seed	Sphingomonas	Proteobacteria	ns
+P14B20ATD-E07	ASV92	Soil	0.877426216	Root	Sphingomonas	Proteobacteria	High
+P14B20ATU-H01	ASV92	Soil	0.309859155	Stem	Sphingomonas	Proteobacteria	High
+P14B20BTD-E09	ASV92	Soil	0.671845476	Root	Sphingomonas	Proteobacteria	High
+P14B20BTU-H03	ASV92	Soil	0.512462148	Stem	Sphingomonas	Proteobacteria	High
+P14B20CTD-E11	ASV92	Soil	0.47432123	Root	Sphingomonas	Proteobacteria	High
+P14B20CTU-H05	ASV92	Soil	0.378159623	Stem	Sphingomonas	Proteobacteria	High
+P14B26ATD-G07	ASV92	Soil	0	Root	Sphingomonas	Proteobacteria	Low
+P14B26ATU-B02	ASV92	Soil	0	Stem	Sphingomonas	Proteobacteria	Low
+P14B26BTD-G09	ASV92	Soil	0	Root	Sphingomonas	Proteobacteria	Low
+P14B26BTU-B04	ASV92	Soil	0	Stem	Sphingomonas	Proteobacteria	Low
+P14B26CTD-G11	ASV92	Soil	0	Root	Sphingomonas	Proteobacteria	Low
+P14B26CTU-B06	ASV92	Soil	0	Stem	Sphingomonas	Proteobacteria	Low
+P14B30ATD-F07	ASV92	Soil	0.841545787	Root	Sphingomonas	Proteobacteria	High
+P14B30ATU-A02	ASV92	Soil	0.220963955	Stem	Sphingomonas	Proteobacteria	High
+P14B30BTD-F09	ASV92	Soil	0.670897552	Root	Sphingomonas	Proteobacteria	High
+P14B30BTU-A04	ASV92	Soil	0.619857996	Stem	Sphingomonas	Proteobacteria	High
+P14B30CTD-F11	ASV92	Soil	0.719808051	Root	Sphingomonas	Proteobacteria	High
+P14B30CTU-A06	ASV92	Soil	0.53030303	Stem	Sphingomonas	Proteobacteria	High
+P14B36ATD-H07	ASV92	Soil	0	Root	Sphingomonas	Proteobacteria	Low
+P14B36ATU-C02	ASV92	Soil	0	Stem	Sphingomonas	Proteobacteria	Low
+P14B36BTD-H09	ASV92	Soil	0	Root	Sphingomonas	Proteobacteria	Low
+P14B36BTU-C04	ASV92	Soil	0	Stem	Sphingomonas	Proteobacteria	Low
+P14B36CTD-A12	ASV92	Soil	0	Root	Sphingomonas	Proteobacteria	Low
+P14B36CTU-C06	ASV92	Soil	0	Stem	Sphingomonas	Proteobacteria	Low
+P14M20ATD-A08	ASV92	Soil	0.49711138	Root	Sphingomonas	Proteobacteria	High
+P14M20ATU-D02	ASV92	Soil	0.366097182	Stem	Sphingomonas	Proteobacteria	High
+P14M20BTD-A10	ASV92	Soil	0.479338843	Root	Sphingomonas	Proteobacteria	High
+P14M20BTU-D04	ASV92	Soil	0.260954659	Stem	Sphingomonas	Proteobacteria	High
+P14M20CTD-B12	ASV92	Soil	0.379403794	Root	Sphingomonas	Proteobacteria	High
+P14M20CTU-D06	ASV92	Soil	0.145689491	Stem	Sphingomonas	Proteobacteria	High
+P14M26ATD-C08	ASV92	Soil	0	Root	Sphingomonas	Proteobacteria	Low
+P14M26ATU-F02	ASV92	Soil	0	Stem	Sphingomonas	Proteobacteria	Low
+P14M26BTD-C10	ASV92	Soil	0	Root	Sphingomonas	Proteobacteria	Low
+P14M26BTU-F04	ASV92	Soil	0	Stem	Sphingomonas	Proteobacteria	Low
+P14M26CTD-D12	ASV92	Soil	0	Root	Sphingomonas	Proteobacteria	Low
+P14M26CTU-F06	ASV92	Soil	0	Stem	Sphingomonas	Proteobacteria	Low
+P14M30ATD-B08	ASV92	Soil	0.7007604	Root	Sphingomonas	Proteobacteria	High
+P14M30ATU-E02	ASV92	Soil	0.823723229	Stem	Sphingomonas	Proteobacteria	High
+P14M30BTD-B10	ASV92	Soil	0.730554362	Root	Sphingomonas	Proteobacteria	High
+P14M30BTU-E04	ASV92	Soil	0.141952391	Stem	Sphingomonas	Proteobacteria	High
+P14M30CTD-C12	ASV92	Soil	0.537719437	Root	Sphingomonas	Proteobacteria	High
+P14M30CTU-E06	ASV92	Soil	0.507677068	Stem	Sphingomonas	Proteobacteria	High
+P14M36ATD-D08	ASV92	Soil	0	Root	Sphingomonas	Proteobacteria	Low
+P14M36ATU-G02	ASV92	Soil	0	Stem	Sphingomonas	Proteobacteria	Low
+P14M36BTD-D10	ASV92	Soil	0	Root	Sphingomonas	Proteobacteria	Low
+P14M36BTU-G04	ASV92	Soil	0	Stem	Sphingomonas	Proteobacteria	Low
+P14M36CTD-E12	ASV92	Soil	0	Root	Sphingomonas	Proteobacteria	Low
+P14M36CTU-G06	ASV92	Soil	0	Stem	Sphingomonas	Proteobacteria	Low
+gyrB-D0A	ASV92	Soil	1.831999753	Soil	Sphingomonas	Proteobacteria	High
+gyrB-D0B	ASV92	Soil	1.049519252	Soil	Sphingomonas	Proteobacteria	High
+gyrB-D0C	ASV92	Soil	1.042810099	Soil	Sphingomonas	Proteobacteria	High
+gyrB-D6A	ASV92	Soil	0.106753124	Soil	Sphingomonas	Proteobacteria	Low
+gyrB-D6B	ASV92	Soil	0.143231793	Soil	Sphingomonas	Proteobacteria	Low
+gyrB-D6C	ASV92	Soil	0.061658363	Soil	Sphingomonas	Proteobacteria	Low
+gyrB-Boston-AF-1	ASV99	Soil	0	Seed	Nitrosospira	Proteobacteria	ns
+gyrB-Boston-AF-2	ASV99	Soil	0	Seed	Nitrosospira	Proteobacteria	ns
+gyrB-Boston-AF-3	ASV99	Soil	0	Seed	Nitrosospira	Proteobacteria	ns
+gyrB-Boston-AF-4	ASV99	Soil	0	Seed	Nitrosospira	Proteobacteria	ns
+gyrB-Boston-AF-5	ASV99	Soil	0	Seed	Nitrosospira	Proteobacteria	ns
+gyrB-Major-AF-1	ASV99	Soil	0	Seed	Nitrosospira	Proteobacteria	ns
+gyrB-Major-AF-3	ASV99	Soil	0	Seed	Nitrosospira	Proteobacteria	ns
+gyrB-AF-2017-Boston-1	ASV99	Soil	0	Seed	Nitrosospira	Proteobacteria	ns
+gyrB-AF-2017-Boston-2	ASV99	Soil	0	Seed	Nitrosospira	Proteobacteria	ns
+gyrB-AF-2017-Boston-3	ASV99	Soil	0	Seed	Nitrosospira	Proteobacteria	ns
+gyrB-AF-2017-Boston-4	ASV99	Soil	0	Seed	Nitrosospira	Proteobacteria	ns
+gyrB-AF-2017-Boston-5	ASV99	Soil	0	Seed	Nitrosospira	Proteobacteria	ns
+gyrB-AF-2017-Major-1	ASV99	Soil	0	Seed	Nitrosospira	Proteobacteria	ns
+gyrB-AF-2017-Major-2	ASV99	Soil	0	Seed	Nitrosospira	Proteobacteria	ns
+gyrB-AF-2017-Major-3	ASV99	Soil	0	Seed	Nitrosospira	Proteobacteria	ns
+gyrB-AF-2017-Major-4	ASV99	Soil	0	Seed	Nitrosospira	Proteobacteria	ns
+gyrB-AF-2017-Major-5	ASV99	Soil	0	Seed	Nitrosospira	Proteobacteria	ns
+P14B20ATD-E07	ASV99	Soil	0.74448285	Root	Nitrosospira	Proteobacteria	High
+P14B20ATU-H01	ASV99	Soil	0.281690141	Stem	Nitrosospira	Proteobacteria	High
+P14B20BTD-E09	ASV99	Soil	0.923787529	Root	Nitrosospira	Proteobacteria	High
+P14B20BTU-H03	ASV99	Soil	0.535755882	Stem	Nitrosospira	Proteobacteria	High
+P14B20CTD-E11	ASV99	Soil	0.310762185	Root	Nitrosospira	Proteobacteria	High
+P14B20CTU-H05	ASV99	Soil	0.165859484	Stem	Nitrosospira	Proteobacteria	High
+P14B26ATD-G07	ASV99	Soil	0	Root	Nitrosospira	Proteobacteria	Low
+P14B26ATU-B02	ASV99	Soil	0	Stem	Nitrosospira	Proteobacteria	Low
+P14B26BTD-G09	ASV99	Soil	0	Root	Nitrosospira	Proteobacteria	Low
+P14B26BTU-B04	ASV99	Soil	0	Stem	Nitrosospira	Proteobacteria	Low
+P14B26CTD-G11	ASV99	Soil	0	Root	Nitrosospira	Proteobacteria	Low
+P14B26CTU-B06	ASV99	Soil	0	Stem	Nitrosospira	Proteobacteria	Low
+P14B30ATD-F07	ASV99	Soil	0.343262097	Root	Nitrosospira	Proteobacteria	High
+P14B30ATU-A02	ASV99	Soil	0.276204944	Stem	Nitrosospira	Proteobacteria	High
+P14B30BTD-F09	ASV99	Soil	0	Root	Nitrosospira	Proteobacteria	High
+P14B30BTU-A04	ASV99	Soil	0	Stem	Nitrosospira	Proteobacteria	High
+P14B30CTD-F11	ASV99	Soil	0.453212477	Root	Nitrosospira	Proteobacteria	High
+P14B30CTU-A06	ASV99	Soil	0.651515152	Stem	Nitrosospira	Proteobacteria	High
+P14B36ATD-H07	ASV99	Soil	0	Root	Nitrosospira	Proteobacteria	Low
+P14B36ATU-C02	ASV99	Soil	0	Stem	Nitrosospira	Proteobacteria	Low
+P14B36BTD-H09	ASV99	Soil	0	Root	Nitrosospira	Proteobacteria	Low
+P14B36BTU-C04	ASV99	Soil	0	Stem	Nitrosospira	Proteobacteria	Low
+P14B36CTD-A12	ASV99	Soil	0	Root	Nitrosospira	Proteobacteria	Low
+P14B36CTU-C06	ASV99	Soil	0	Stem	Nitrosospira	Proteobacteria	Low
+P14M20ATD-A08	ASV99	Soil	0.403063281	Root	Nitrosospira	Proteobacteria	High
+P14M20ATU-D02	ASV99	Soil	0.432660306	Stem	Nitrosospira	Proteobacteria	High
+P14M20BTD-A10	ASV99	Soil	0.314049587	Root	Nitrosospira	Proteobacteria	High
+P14M20BTU-D04	ASV99	Soil	0.521909318	Stem	Nitrosospira	Proteobacteria	High
+P14M20CTD-B12	ASV99	Soil	0	Root	Nitrosospira	Proteobacteria	High
+P14M20CTU-D06	ASV99	Soil	0	Stem	Nitrosospira	Proteobacteria	High
+P14M26ATD-C08	ASV99	Soil	0	Root	Nitrosospira	Proteobacteria	Low
+P14M26ATU-F02	ASV99	Soil	0	Stem	Nitrosospira	Proteobacteria	Low
+P14M26BTD-C10	ASV99	Soil	0	Root	Nitrosospira	Proteobacteria	Low
+P14M26BTU-F04	ASV99	Soil	0	Stem	Nitrosospira	Proteobacteria	Low
+P14M26CTD-D12	ASV99	Soil	0	Root	Nitrosospira	Proteobacteria	Low
+P14M26CTU-F06	ASV99	Soil	0	Stem	Nitrosospira	Proteobacteria	Low
+P14M30ATD-B08	ASV99	Soil	0.387654689	Root	Nitrosospira	Proteobacteria	High
+P14M30ATU-E02	ASV99	Soil	0	Stem	Nitrosospira	Proteobacteria	High
+P14M30BTD-B10	ASV99	Soil	0	Root	Nitrosospira	Proteobacteria	High
+P14M30BTU-E04	ASV99	Soil	0.20746888	Stem	Nitrosospira	Proteobacteria	High
+P14M30CTD-C12	ASV99	Soil	0.332120829	Root	Nitrosospira	Proteobacteria	High
+P14M30CTU-E06	ASV99	Soil	0	Stem	Nitrosospira	Proteobacteria	High
+P14M36ATD-D08	ASV99	Soil	0	Root	Nitrosospira	Proteobacteria	Low
+P14M36ATU-G02	ASV99	Soil	0	Stem	Nitrosospira	Proteobacteria	Low
+P14M36BTD-D10	ASV99	Soil	0	Root	Nitrosospira	Proteobacteria	Low
+P14M36BTU-G04	ASV99	Soil	0	Stem	Nitrosospira	Proteobacteria	Low
+P14M36CTD-E12	ASV99	Soil	0	Root	Nitrosospira	Proteobacteria	Low
+P14M36CTU-G06	ASV99	Soil	0	Stem	Nitrosospira	Proteobacteria	Low
+gyrB-D0A	ASV99	Soil	0.976242701	Soil	Nitrosospira	Proteobacteria	High
+gyrB-D0B	ASV99	Soil	3.272694443	Soil	Nitrosospira	Proteobacteria	High
+gyrB-D0C	ASV99	Soil	0.800402488	Soil	Nitrosospira	Proteobacteria	High
+gyrB-D6A	ASV99	Soil	0.079076388	Soil	Nitrosospira	Proteobacteria	Low
+gyrB-D6B	ASV99	Soil	0.131127698	Soil	Nitrosospira	Proteobacteria	Low
+gyrB-D6C	ASV99	Soil	0.15784541	Soil	Nitrosospira	Proteobacteria	Low

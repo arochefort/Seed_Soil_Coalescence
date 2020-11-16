@@ -1,0 +1,33 @@
+	x_axis	ASV_pool	ASV_seedling	Comb	Seedling_compartment	Soil_div	GxY	ASV_transmitted	Nb_ASV	Pool	Pool_Soil_div	per_unkn	Nb_unkn
+1	Seed_BostonY1	35	2.380952381	Root High	Root	High	BostonY1	2.84090909090909	1	Seed	SeedHigh	31.4213564213564	7
+2	Seed_BostonY2	50	0	Root High	Root	High	BostonY2	0	0	Seed	SeedHigh	27.8372352285396	5
+3	Seed_MajorY1	38	0	Root High	Root	High	MajorY1	0	0	Seed	SeedHigh	34.3862256905735	8
+4	Seed_MajorY2	60	4.347826087	Root High	Root	High	MajorY2	1.67224080267559	1	Seed	SeedHigh	31.6239316239316	8
+5	Seed_BostonY1	35	0	Root Low	Root	Low	BostonY1	0	0	Seed	SeedLow	38.0952380952381	2
+6	Seed_BostonY2	50	5.263157895	Root Low	Root	Low	BostonY2	2	1	Seed	SeedLow	41.2698412698413	3
+7	Seed_MajorY1	38	0	Root Low	Root	Low	MajorY1	0	0	Seed	SeedLow	44.9074074074074	3
+8	Seed_MajorY2	60	10	Root Low	Root	Low	MajorY2	1.67224080267559	1	Seed	SeedLow	41.2698412698413	3
+9	Seed_BostonY1	35	3.703703704	Stem High	Stem	High	BostonY1	2.84090909090909	1	Seed	SeedHigh	29.8611111111111	5
+10	Seed_BostonY2	50	2.702702703	Stem High	Stem	High	BostonY2	2	1	Seed	SeedHigh	29.1101055806938	6
+11	Seed_MajorY1	38	0	Stem High	Stem	High	MajorY1	0	0	Seed	SeedHigh	32.1030821030821	6
+12	Seed_MajorY2	60	0	Stem High	Stem	High	MajorY2	0	0	Seed	SeedHigh	33.5375816993464	7
+13	Seed_BostonY1	35	5.882352941	Stem Low	Stem	Low	BostonY1	2.84090909090909	1	Seed	SeedLow	38.8888888888889	3
+14	Seed_BostonY2	50	16.66666667	Stem Low	Stem	Low	BostonY2	4	2	Seed	SeedLow	16.6666666666667	2
+15	Seed_MajorY1	38	0	Stem Low	Stem	Low	MajorY1	0	0	Seed	SeedLow	20	1
+16	Seed_MajorY2	60	25	Stem Low	Stem	Low	MajorY2	3.34448160535117	2	Seed	SeedLow	28.1481481481481	2
+17	Soil_High	68	54.76190476	Root_BoY1	Root	High	BostonY1	22.0588235294118	15	Soil	SoilHigh	31.4213564213564	7
+18	Soil_Low	50	60	Root_BoY1	Root	Low	BostonY1	8	4	Soil	SoilLow	38.0952380952381	2
+19	Soil_High	68	59.375	Root_BoY2	Root	High	BostonY2	19.1176470588235	13	Soil	SoilHigh	27.8372352285396	5
+20	Soil_Low	50	68.42105263	Root_BoY2	Root	Low	BostonY2	10	5	Soil	SoilLow	41.2698412698413	3
+21	Soil_High	68	48.7804878	Root_MaY1	Root	High	MajorY1	20.5882352941176	14	Soil	SoilHigh	34.3862256905735	8
+22	Soil_Low	50	61.11111111	Root_MaY1	Root	Low	MajorY1	8	4	Soil	SoilLow	44.9074074074074	3
+23	Soil_High	68	52.17391304	Root_MaY2	Root	High	MajorY2	26.4705882352941	18	Soil	SoilHigh	31.6239316239316	8
+24	Soil_Low	50	55	Root_MaY2	Root	Low	MajorY2	10	5	Soil	SoilLow	41.2698412698413	3
+25	Soil_High	68	55.55555556	Stem_BoY1	Stem	High	BostonY1	16.1764705882353	11	Soil	SoilHigh	29.8611111111111	5
+26	Soil_Low	50	52.94117647	Stem_BoY1	Stem	Low	BostonY1	8	4	Soil	SoilLow	38.8888888888889	3
+27	Soil_High	68	51.35135135	Stem_BoY2	Stem	High	BostonY2	19.1176470588235	13	Soil	SoilHigh	29.1101055806938	6
+28	Soil_Low	50	50	Stem_BoY2	Stem	Low	BostonY2	8	4	Soil	SoilLow	16.6666666666667	2
+29	Soil_High	68	52.77777778	Stem_MaY1	Stem	High	MajorY1	17.6470588235294	12	Soil	SoilHigh	32.1030821030821	6
+30	Soil_Low	50	72.72727273	Stem_MaY1	Stem	Low	MajorY1	6	3	Soil	SoilLow	20	1
+31	Soil_High	68	51.42857143	Stem_MaY2	Stem	High	MajorY2	17.6470588235294	12	Soil	SoilHigh	33.5375816993464	7
+32	Soil_Low	50	55	Stem_MaY2	Stem	Low	MajorY2	10	5	Soil	SoilLow	28.1481481481481	2
